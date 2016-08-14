@@ -1,0 +1,1 @@
+Please download Excel SDK from http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9129A28E-D11C-4AC3-AEE3-CBB5496908CF

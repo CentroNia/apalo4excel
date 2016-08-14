@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D21E19E-35FA-49A6-AB1A-5CA57F3ABF68}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Apalo.XlAddin</AssemblyName>
+    <AssemblyOriginatorKeyFile>palodevkey.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Apalo.XlAddin</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Rel12Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Rel12Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Rel12Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Rel12Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WIN64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WIN64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Rel12Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Rel12Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonInterfaces\CommonInterfaces.csproj">
+      <Project>{B3ED5396-0BBB-4B95-A582-D214436B2B74}</Project>
+      <Name>CommonInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\JControls\JControls.csxproj">
+      <Project>{99391889-55A5-4684-9E5E-4D960900DBBD}</Project>
+      <Name>JControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\JParser\JParser.csxproj">
+      <Project>{CE2D1D44-4495-493C-8961-0F4D2C689BAB}</Project>
+      <Name>JParser</Name>
+    </ProjectReference>
+    <Reference Include="Extensibility, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>signed\Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Jedox.Palo.Comm, Version=5.1.0.0, Culture=neutral, processorArchitecture=x86" Condition=" '$(Platform)' == 'x86'">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\molap\client_libraries\$(ConfigurationName)\Win32\Jedox.Palo.Comm.dll</HintPath>
+    </Reference>
+    <Reference Include="Jedox.Palo.Comm_x64" Condition=" '$(Platform)' == 'x64'">
+      <HintPath>..\..\molap\client_libraries\$(ConfigurationName)\x64\Jedox.Palo.Comm_x64.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\External\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\External\office.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>signed\stdole.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <Name>System.ServiceProcess</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Controls\ConnComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\ConnComboBox.designer.cs">
+      <DependentUpon>ConnComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\CubeComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\CubeComboBox.designer.cs">
+      <DependentUpon>CubeComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\TreeViewNoBeep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DimTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InfoBox.Designer.cs">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaloMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaloMessage.Designer.cs">
+      <DependentUpon>PaloMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaloOnline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaloOnline.Designer.cs">
+      <DependentUpon>PaloOnline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PasteElements2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PasteElements2.Designer.cs">
+      <DependentUpon>PasteElements2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubSetEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SubSetEditor.designer.cs">
+      <DependentUpon>SubSetEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\AConstraint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\AConstraint.Designer.cs">
+      <DependentUpon>AConstraint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Connect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\ComInterface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Connections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPasteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPasteView.designer.cs">
+      <DependentUpon>FrmPasteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChooseElements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClearCube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClearCube.Designer.cs">
+      <DependentUpon>ClearCube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConsolidationFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DimExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CubeWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImportWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InformationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InformationDialog.Designer.cs">
+      <DependentUpon>InformationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Modeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaloWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PasteElements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PasteFunction .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RuleEditorAdvanced.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RuleEditorAdvanced.Designer.cs">
+      <DependentUpon>RuleEditorAdvanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RuleEditorKiss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RuleEditorKiss.Designer.cs">
+      <DependentUpon>RuleEditorKiss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchElement.Designer.cs">
+      <DependentUpon>SearchElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\ANamedPar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\ANamedPar.Designer.cs">
+      <DependentUpon>ANamedPar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\ASubSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\ASubSet.Designer.cs">
+      <DependentUpon>ASubSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\CStoredSubsets.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\CStoredSubsets.Designer.cs">
+      <DependentUpon>CStoredSubsets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\CBParameter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\CtrlPreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\CtrlPreview.Designer.cs">
+      <DependentUpon>CtrlPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\FrmSelectFlags.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\FrmSelectFlags.Designer.cs">
+      <DependentUpon>FrmSelectFlags.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\NPrimitive.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Controls\NPrimitive.Designer.cs">
+      <DependentUpon>NPrimitive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownForm.designer.cs">
+      <DependentUpon>DropDownForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownMessageFilter.cs" />
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownPanel.designer.cs">
+      <DependentUpon>DropDownPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownTree.designer.cs">
+      <DependentUpon>DropDownTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownTreePopup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownTreePopup.designer.cs">
+      <DependentUpon>DropDownTreePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\DropDownTree\DropDownWindowHelper.cs" />
+    <Compile Include="Forms\JSubSet\DropDownTree\Events.cs" />
+    <Compile Include="Forms\JSubSet\DropDownTree\IDropDownAware.cs" />
+    <Compile Include="Forms\JSubSet\DropDownTree\UIApiCalls.cs" />
+    <Compile Include="Forms\JSubSet\ExcelFormulaParser\ExcelFormulaParser.cs" />
+    <Compile Include="Forms\JSubSet\ExcelFormulaParser\ParserBase.cs" />
+    <Compile Include="Forms\JSubSet\ExcelFormulaParser\XmlHelper.cs" />
+    <Compile Include="Forms\JSubSet\Filter\FAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FAttribute.Designer.cs">
+      <DependentUpon>FAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FData.Designer.cs">
+      <DependentUpon>FData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FGeneral.Designer.cs">
+      <DependentUpon>FGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FHierarchy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FHierarchy.designer.cs">
+      <DependentUpon>FHierarchy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FPicklist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FPicklist.Designer.cs">
+      <DependentUpon>FPicklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FSort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FSort.Designer.cs">
+      <DependentUpon>FSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\FText.Designer.cs">
+      <DependentUpon>FText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Filter\IFilter.cs" />
+    <Compile Include="Forms\JSubSet\Helper\Common.cs" />
+    <Compile Include="Forms\JSubSet\Primitives\PCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PCombo.Designer.cs">
+      <DependentUpon>PCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PString.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PCube.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PDimensionSlice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PDimensionSlice.Designer.cs">
+      <DependentUpon>PDimensionSlice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PRegEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PRegEx.Designer.cs">
+      <DependentUpon>PRegEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PAttribute.Designer.cs">
+      <DependentUpon>PAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PAlias.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PRadioFlow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\IPrimitive.cs" />
+    <Compile Include="Forms\JSubSet\Primitives\PBool.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PDataPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PDataPicker.Designer.cs">
+      <DependentUpon>PDataPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PInt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\POpPar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\POpPar.Designer.cs">
+      <DependentUpon>POpPar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PRadioPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\JSubSet\Primitives\PPickList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\AttributeHelper.cs" />
+    <Compile Include="Utils\ConnectionsHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Crypto.cs" />
+    <Compile Include="Utils\CsvReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ErrorHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ExcelHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\FileHelper.cs" />
+    <Compile Include="Utils\GeneralConst.cs" />
+    <Compile Include="Utils\ImportCore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ListBoxHelper.cs" />
+    <Compile Include="Utils\OdbcMngr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\PaloCubeReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\PaloSqlReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\PasteUtils.cs" />
+    <Compile Include="Utils\RegUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ResourceInitializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\SubsetHelper.cs" />
+    <Compile Include="Utils\SubsetUtils.cs" />
+    <Compile Include="Utils\TreeHelper.cs" />
+    <Compile Include="Utils\PaloWebClient.cs" />
+    <Compile Include="Utils\WorkbookParser.cs" />
+    <Compile Include="Utils\XmlUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChooseElements.resx">
+      <DependentUpon>ChooseElements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClearCube.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClearCube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConsolidationFactor.resx">
+      <DependentUpon>ConsolidationFactor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CubeWizard.resx">
+      <DependentUpon>CubeWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditValue.resx">
+      <DependentUpon>EditValue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportWizard.resx">
+      <DependentUpon>ExportWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImportWizard.resx">
+      <DependentUpon>ImportWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogOn.resx">
+      <DependentUpon>LogOn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Modeller.resx">
+      <DependentUpon>Modeller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaloMessage.resx">
+      <DependentUpon>PaloMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaloWizard.resx">
+      <DependentUpon>PaloWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteElements.resx">
+      <DependentUpon>PasteElements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteElements2.resx">
+      <DependentUpon>PasteElements2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteFunction .resx">
+      <DependentUpon>PasteFunction .cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchElement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\apply24.png" />
+    <EmbeddedResource Include="Resource\attrib16_filter_on.png" />
+    <EmbeddedResource Include="Resource\cancel24.png" />
+    <EmbeddedResource Include="Resource\connect24.png" />
+    <EmbeddedResource Include="Resource\consolidated.png" />
+    <EmbeddedResource Include="Resource\consolidateElement24.png" />
+    <EmbeddedResource Include="Resource\data16_filter_on.png" />
+    <EmbeddedResource Include="Resource\deleteCube24.png" />
+    <EmbeddedResource Include="Resource\deleteElement24.png" />
+    <EmbeddedResource Include="Resource\Dimesion_delete.png" />
+    <EmbeddedResource Include="Resource\Dimesion_edit.png" />
+    <EmbeddedResource Include="Resource\Dimesion_new.png" />
+    <EmbeddedResource Include="Resource\disconnect24.png" />
+    <EmbeddedResource Include="Resource\down24.png" />
+    <EmbeddedResource Include="Resource\h.ico" />
+    <EmbeddedResource Include="Resource\left24.png" />
+    <EmbeddedResource Include="Resource\newCube24.png" />
+    <EmbeddedResource Include="Resource\newElement24.png" />
+    <EmbeddedResource Include="Resource\numeric.png" />
+    <EmbeddedResource Include="Resource\palo.ico" />
+    <EmbeddedResource Include="Resource\renameElement24.png" />
+    <EmbeddedResource Include="Resource\right24.png" />
+    <EmbeddedResource Include="Resource\string.png" />
+    <EmbeddedResource Include="Resource\Strings.cs-CZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.da-DK.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.et-EE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.he-IL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.hu-HU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.it-IT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\up24.png" />
+    <EmbeddedResource Include="Resource\user16_filter_on.png" />
+    <EmbeddedResource Include="Resource\v.ico" />
+    <EmbeddedResource Include="Resource\wizard.png" />
+    <EmbeddedResource Include="Resource\wizard_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\InformationDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RuleEditorKiss.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RuleEditorKiss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.sr-Cyrl-CS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\togglecube24.png" />
+    <EmbeddedResource Include="Resource\toggleuser24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\palo_about.bmp" />
+    <None Include="palodevkey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\rule_editor24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\DimExportForm.resx">
+      <DependentUpon>DimExportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RuleEditorAdvanced.resx">
+      <DependentUpon>RuleEditorAdvanced.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FrmPasteView.resx">
+      <DependentUpon>FrmPasteView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Controls\AConstraint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AConstraint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Controls\ANamedPar.resx">
+      <DependentUpon>ANamedPar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Controls\ASubSet.resx">
+      <DependentUpon>ASubSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Controls\CStoredSubsets.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CStoredSubsets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Controls\CtrlPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FAttribute.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FGeneral.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FPicklist.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FPicklist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FSort.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FText.resx">
+      <DependentUpon>FText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PAttribute.resx">
+      <DependentUpon>PAttribute.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PAlias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PAlias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PDataPicker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PDataPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PPickList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PPickList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\POpPar.resx">
+      <DependentUpon>POpPar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Strings.pl-PL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\down24_h.png" />
+    <EmbeddedResource Include="Resource\left24_h.png" />
+    <EmbeddedResource Include="Resource\right24_h.png" />
+    <EmbeddedResource Include="Resource\up24_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\databaseSettings1.png" />
+    <EmbeddedResource Include="Resource\databaseSettings2.png" />
+    <EmbeddedResource Include="Resource\Home1.png" />
+    <EmbeddedResource Include="Resource\Home2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\apply24h.png" />
+    <EmbeddedResource Include="Resource\cancel24h.png" />
+    <EmbeddedResource Include="Resource\disconnect24h.png" />
+    <EmbeddedResource Include="Resource\Table1.png" />
+    <EmbeddedResource Include="Resource\Table2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\wizardh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\connect24h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\toggleuser24h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\togglecube24h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\rule_editor24h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\add2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\rename2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\remove2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\edit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PRegEx.resx">
+      <DependentUpon>PRegEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\cubeadd2.png" />
+    <EmbeddedResource Include="Resource\cuberemove2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\Export1.png" />
+    <EmbeddedResource Include="Resource\Export2.png" />
+    <EmbeddedResource Include="Resource\Import1.png" />
+    <EmbeddedResource Include="Resource\Import2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\CollapseAll16x16.png" />
+    <EmbeddedResource Include="Resource\ExpandAll16x16.png" />
+    <EmbeddedResource Include="Resource\ShowHierarchy16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\ShowFlat.png" />
+    <EmbeddedResource Include="Resource\ShowHierarchy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\CollapseAll1.png" />
+    <EmbeddedResource Include="Resource\CollapseAll2.png" />
+    <EmbeddedResource Include="Resource\ExpandAll1.png" />
+    <EmbeddedResource Include="Resource\ExpandAll2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\1_1.png" />
+    <EmbeddedResource Include="Resource\1_2.png" />
+    <EmbeddedResource Include="Resource\2_1.png" />
+    <EmbeddedResource Include="Resource\2_2.png" />
+    <EmbeddedResource Include="Resource\3_1.png" />
+    <EmbeddedResource Include="Resource\3_2.png" />
+    <EmbeddedResource Include="Resource\4_1.png" />
+    <EmbeddedResource Include="Resource\4_2.png" />
+    <EmbeddedResource Include="Resource\5_1.png" />
+    <EmbeddedResource Include="Resource\5_2.png" />
+    <EmbeddedResource Include="Resource\6_1.png" />
+    <EmbeddedResource Include="Resource\6_2.png" />
+    <EmbeddedResource Include="Resource\7_1.png" />
+    <EmbeddedResource Include="Resource\7_2.png" />
+    <EmbeddedResource Include="Resource\8_1.png" />
+    <EmbeddedResource Include="Resource\8_2.png" />
+    <EmbeddedResource Include="Resource\Collapse_All_1.png" />
+    <EmbeddedResource Include="Resource\Collapse_All_2.png" />
+    <EmbeddedResource Include="Resource\Expand_All_1.png" />
+    <EmbeddedResource Include="Resource\Expand_All_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\JSubSet\Controls\FrmSelectFlags.resx">
+      <DependentUpon>FrmSelectFlags.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Filter\FHierarchy.resx">
+      <DependentUpon>FHierarchy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\minus_1.png" />
+    <EmbeddedResource Include="Resource\minus_2.png" />
+    <EmbeddedResource Include="Resource\plus_1.png" />
+    <EmbeddedResource Include="Resource\plus_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\SubSetEditor.resx">
+      <DependentUpon>SubSetEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\DimTemplate.resx">
+      <DependentUpon>DimTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\DropDownTree\DropDownForm.resx">
+      <DependentUpon>DropDownForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\DropDownTree\DropDownPanel.resx">
+      <DependentUpon>DropDownPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\DropDownTree\DropDownTree.resx">
+      <DependentUpon>DropDownTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PCombo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JSubSet\Primitives\PElement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Refresh1.png" />
+    <EmbeddedResource Include="Resource\Refresh2.png" />
+    <EmbeddedResource Include="Resource\Strings.ar-JO.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Controls\ConnComboBox.resx">
+      <DependentUpon>ConnComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\CubeComboBox.resx">
+      <DependentUpon>CubeComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InfoBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaloOnline.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PaloOnline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\list-A-Z-prazno.png" />
+    <EmbeddedResource Include="Resource\list-time-prazno.png" />
+    <EmbeddedResource Include="Resource\list-Z-A-prazno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\blank.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\toggleSystemCubes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\palo_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmptyImage.bmp" />
+    <None Include="Resources\EmptyImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>rem xcopy E:\DEV\Palo\Source50\molap\lib\$(ConfigurationName) $(TargetDir) /D/Y
+if $(PlatformName)==x64 xcopy $(SolutionDir)..\molap\client_libraries\$(ConfigurationName)\x64 $(TargetDir) /D/Y
+if $(PlatformName)==x86 xcopy $(SolutionDir)..\molap\client_libraries\$(ConfigurationName)\Win32 $(TargetDir) /D/Y</PreBuildEvent>
+    <PostBuildEvent>if $(PlatformName)==x64 xcopy $(TargetDir)*.* $(SolutionDir)$(ConfigurationName)\X64 /D/Y
+if $(PlatformName)==x86 xcopy $(TargetDir)*.* $(SolutionDir)$(ConfigurationName)\Win32 /D/Y
+call $(SolutionDir)maketlb.bat	$(PlatformName) $(TargetFileName) $(TargetName)
+copy $(TargetName).tlb $(SolutionDir)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

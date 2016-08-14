@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{8e2154e3-c20a-46d5-9b1e-4eb29c015077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions\Impl">
+      <UniqueIdentifier>{02d8fef1-857d-49d3-ad35-3c87840d260b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a74d0e30-5ec1-455c-a9d7-53f29b7f0040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Impl">
+      <UniqueIdentifier>{dd2a53ab-bf3d-49a9-a74d-419cd92e8b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{88c9a90b-35f7-41c0-b677-fa7fd45012fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{ada4248a-b98e-4cf5-a9bc-cdc5df1dd9ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\libconnectionpool\ConnectionException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libconnectionpool\Exception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libconnectionpool\ConnectionPool.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libconnectionpool\StringUtils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libconnectionpool\config_cp.h" />
+    <ClInclude Include="resource.h">
+      <Filter>Ressourcendateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Exceptions\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionPool.cpp">
+      <Filter>Main\Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libconnectionpool.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

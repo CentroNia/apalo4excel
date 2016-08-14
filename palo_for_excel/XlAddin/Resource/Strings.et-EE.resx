@@ -1,0 +1,2705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>Kontrolli uuendusi</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Lisa alamhulk...</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>Katkesta</value>
+  </data>
+  <data name="btnPaloOnlineOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Kõik</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Tagasi</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Sirvi...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Katkesta</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Tühjenda loend</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;Sulge</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Kõik kokku</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Andmeühenduse stringi lisamiseks kliki siia</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Ühenda</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Kuubi stringi lisamiseks kliki siia</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; Andmebaas</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Kustuta...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>Dimensioonistringi lisamiseks kliki siia.</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Katkesta ühendus</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Kõik lahti</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Lõpeta &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Peida kommentaar</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Aseta horisontaalselt</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Maksimeeri</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Järgmine &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Kontrolli</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Aseta</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>aseta päis</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Värskenda loendit</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Salvesta...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Otsi ja vali</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Vali kõik</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Vali haru</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Vastupidivalik</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Valik maha</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Valitud</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Näita kommentaari</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>Kahanevalt</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>Kasvavalt</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Testi ühendust</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Aseta vertikaalselt</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Tühjenda valitu</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>Tühjenda valitud kuubilõik</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Tühjenda kõik</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>Tühenda kogu kuup (kui midagi oli valitud, siis seda ignoreeritakse ja tühjendatakse kogu kuup)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Sulge</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Salvesta</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Otsi</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Andmebaasi seaded</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Vahemälu seaded</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Vahemälu ei kasutata</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Kasuta vahemälu</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Kasuta vahemälu kuupide jaoks ilma ärireegliteta</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Tühjenda kuup</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Tühjendan kuupi. Palun oota ...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Lisa esimese alamkirjena</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Lisa...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Lisa...</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Lisa</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Lisa samale tasemele</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Tühjenda...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>Konverteeri kuup (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Kopeeri esimese alamkirjena</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Kopeeri elemendid</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Kopeeri samale tasemele</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Kokku</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Omadused</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Kustuta...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Kustuta...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Kustuta...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Eemalda lähte-elementide hulgast</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Muuda...</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Konsolideeri...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Ekspordi...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Ekspordi...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Konsolideerimisfaktor...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Liiguta element algusesse</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Liiguta element lõppu</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Aseta elemendid</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Eemalda hierarhiast</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Nimeta ümber</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Nimeta ümber</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Vali kõik</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>Näita ülemkirjeid</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Jälgimisserver</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Ekspordi...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Käsitle mõõt-dimensioonina (MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Lisa...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Aktiivne</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Kustuta..</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Muuda...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Reeglid...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Liigu alla</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Liigu üles</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Lülita tegevus</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Käsitle ajadimensioonina (MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Nimeta ümber</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Omadused</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Otsi elementi</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo salvestab muutusi...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Dimensioonid</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Täituvus (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Identifikaator</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Lahtrite arv</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Dimensioonide arv</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Täidetud lahtrite arv</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Staatus</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Kuubi info</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Tüüp</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Kustuta alamhulk...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Atribuudikuup</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>C elementide arv</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Elemendid</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Identifikaator</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Max sügavus</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Max aste</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Max tase</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>N elementide arv</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Elementide arv</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>S elementide arv</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Dimensiooni info</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Tüüp</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Ringviite viga!
+Üks konsolideeritud elementidest juba sisaldab jooksvat elementi.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Elementide asetamine ebaõnnestus.
+Vea asukoht:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Elementide asetamise viga</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Viga serveriühenduses!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Element &lt;%1&gt; ei ole unikaalne!
+Määra eesliite ja kooloni abil elemendi dimensioon: nt. Kuud:Jaanuar</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Kuup %1 on andmebaasis %2 juba olemas!
+Anna sellele kuubile teistsugune nimi.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Kuubi nimetus on tühi!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>Kuubi nimi sisaldab mittelubatud tärke!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Ühtegi dimensiooni pole valitud!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Andmed puuduvad</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>Selle nimega andmebaas on juba olemas!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Andmebaasi nimi sisaldab mittelubatud tärke!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>Dimensioon on juba olemas!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Dimensiooni nimi on tühi!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>Dimensiooni nimi sisaldab mittelubatud tärke!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Element on juba olemas!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Elemendi nimi sisaldab mittelubatud tärke!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>faili %1 ei leitud.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>ebapiisavad kasutajaõigused</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Sisselogimise viga: Valed kasutajaandmed!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Viga XLL faili laadimisel!
+Võimalik põhjus: XLL faili on liigutatud või kustutatud (Otsiti: "%1"). Kaalu Add-in-i taasinstalleerimist. Kui XLL faili ei laadita, siis osa selle Add-in-i võimalustest ei tööta.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Viga PALO Add-in-i käivitamisel: Excel-i kommunikatsiooniviga!
+Osa selle Add-in-i võimalustest ei tööta. Proovi uuesti installeerimist.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Viga PALO Add-in-i käivitamisel:
+Ei saanud käivitada lokaalset PALO serverteenust!
+Teenus on arvatavasti välja lülitatud. Käivita teenus ja proovi disainer uuesti avada.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Viga PALO Add-in-i käivitamisel:
+Viga lokaalse PALO serveri teenusega suhtlemisel! PALO server pole installeeritud või see ei toimi.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Viga PALO Add-in-i käivitamisel:
+Add-in-i käivitamiseks pole piisavalt kasutajaõigusi!
+Osa selle Add-in-i võimalustest ei tööta. Proovi Add-in-i re-installeerimist.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Viga lugemisel andmebaasist:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Viga uue serveri registreerimisel!
+Kontrolli andmeühenduse sätteid.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>Lahtris B1 puudub valem</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Kasutajanimi ei tohi sisaldada @-märki.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Sisestatud nimi sisaldab tärke, mis ei võivad Excelis probleeme tekitada (',", jms). Palo server ja muud klientrakendused kui Excel tõenäoliselt toimivad.
+Kas jätkame?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Excel-i ühilduvushoiatus</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Faili kirjutamine oli edukas</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Sisesta siia uus reegel</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>Andmebaasi loomine õnnestus.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>Andmebaasi kustutamine õnnestus.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Serveri registreerimine õnnestus.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Serveri registreeringu eemaldamine õnnestus.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Test oli edukas!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Õnnitlused! Palo for Excel installeerimine õnnestus.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Excel ja Palo: Avatud lähtekoodiga ärianalüüs eelarvestamiseks, analüüsiks ja aruandluseks</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>Programmist</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo sisselogimine ja põhjalikum käsiraamat</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Sulge</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Ava Exceli fail Palo demorakendusega</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Ava "Palo for Excel: Esimesed sammud"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Registreeri Palo koolitusele</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Näita seda dialoogi Exceli startimisel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Ava Excel koos ühe näidisrakendusega</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Meie näidisjuhend annab kiire ülevaate Palo võimalustest.</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Loo MyPalo kasutajakonto või osale meie Palo koolitustel.</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Või alusta kohe Palo kasutamist avades menüü "Palo"</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>Funktsionaalsus "Aseta vaade" aitab luua demoandmebaaside andmete põhjal vaateid. "Modelleerija" võimaldab disainida olemasolevaid  ja luua uusi andmebaase.</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Atribuudid</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Elemendid</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Alamhulgad</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Kasutatavad dimensiooid:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Tärkide arv:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Fikseeritud laius:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Muuda kasutajaõigusi</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Näita topeltklikiga elementide valijat</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Kuva kordaja vasakul</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Astmesus</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Näita atribuudivälju</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Näita hierarhiat</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>koos päisega</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Voldi päised</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Peida nullid</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>Peida arvutatud nullid</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Tekstifailid (*.txt)|*.txt|Komaeraldajaga (CSV) failid (*.csv)|*.csv|Kõik failid (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>See abimees aitab uue kuubi loomisel.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Nimi:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Kuubid:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Dimensioonid:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Sisesta väärtus stringina. Excel-i piirangust tulenevalt on näha ainult esimesed 255 tärki. Palo salvestab piiramatu arvu tärke lahtri kohta. Piiranguks on süsteemi ressursid.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Sisesta väärtus stringina.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Elemendid:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Konsolideeritud elemendid:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Vali CSV formaadis sihtfail ja selle struktuur:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Vali sihtfail (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Ekspordi ka reeglipõhised lahtrite väärtused</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Kordaja</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>pärast lõpetamist tühjenda kirjutatud lahtrid esimeses reas</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>See abimees aitab seadistada andmeallika andmete sirvimiseks aktiivse töölehe esimese rea abil.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Vali andmeallikas</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Tekstifail (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC päring</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Kuup</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Värskendan kuva lõpetamisel</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Sisemine tsükkel (suurenda A1 kuni veani B1-s)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>Selles etapis määratakse imporditav tekstifail.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Vali allikfail (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>Selles etapis määratakse imporditsükli ODBC päring</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Vali ODBC allikas (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Sisesta SQL-päring</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Järgmise kirje vaatamiseks vajuta Järgmine. Kõikide kirjete sirvimiseks vajuta Lõpeta.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Päring</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Eira tühje lahtreid</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Ainult baaselemendid</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Salvesta kasutajaandmed</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Uus...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Uus dimensioon</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Uus element</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>reavahetus</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Tühik</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Koma</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Kümnenderaldaja</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Semikoolon</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Kasutaja määratud</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Vali toiming nimekirjast...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Kõik elemendid</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Valitud dimensioonid:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL päringufailid (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Muuda...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Uus...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Kontrolli uuendusi...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Vali CSV sihtfail, eraldaja ja hierarhia formaat:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Vali hierarhia formaat</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-formaat (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Pea-alam-seos ühes reas</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Vali eraldaja</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Dimensiooni nimi:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Vali dimensiooni nimi ja mall:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Uue reegli muutmiseks kliki siia</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Kommentaar</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Reeglite nimekiri</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>Reeglis on viga. Serveri teade:</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Alamhulga elemendid:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Mall:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>"MyPalo Community"-s registreerimiseks kliki siia</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>Salasõna</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>Milleks registreeruda "MyPalo Community"-s?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>Kasutajanimi</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Laadi Palo for Excel Community versioon</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Võrdle Community ja Premium versioone</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Jätka</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Küsi pakkumine Premium versiooni kohta</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Või kasuta 100% avatud lähtekoodil põhinevat Palo Community versiooni. Allalaadimiseks vajuta nupule</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Võrdle Community ja Premium versiooni erinevusi</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>Litsents aegub %1 päeva pärast.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium litsents aegunud!</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Kontakteeru Jedox-iga Premium versiooni pakkumise saamiseks</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>Kohaliku PALO serveriteenuse staatus on nüüd</value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>&amp;Programmist...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Määra taastamise algpunkt</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Salvesta</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>Andmete &amp;import...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Modelleerija...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Palo &amp;abimees...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Aseta &amp;elemendid...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Aseta an&amp;dmefunktsioon...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Aseta &amp;alamhulk...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>Aseta &amp;vaade...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Taastus</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Salvesta &amp;hetkvaade...</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>SVSWizard</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Mine üks samm tagasi</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Aktiveeri vahemälu</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Elemente kokku: %1
+N elementide arv: %2
+S elementide arv: %3
+C elementide arv: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Identifikaator:			%1
+Nimi:			%2
+Dimensioonide arv:			%3
+Dimensioonid:			%4
+Lahtrite arv:			%5
+Täidetud liht- ja stringilahtrite arv:			%6
+Staatus:			%7
+Tüüp:			%8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Element %1 eemaldati puust %2 aga seda kasutatakse teistes struktuurides mistõttu
+seda ei kuvata soovitud sihtkohas.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>Valitud vaade sisaldab rohkem kui %1 (=%3) lahtrit. Kas piirame vaate (soovitavalt) %2-le lahtrile?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>Tööleht kuhu andmeid üritati asetada sisaldab liidetud lahtreid.
+Eemalda need lahtrid enne aseta-funktsioonide kasutamist.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>Kuubi valik tühjendati.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>Kuup tühjendati täielikult.</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>See toiming võib kesta kaua. Palun oota.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>Kuup puudub!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>vale elemendi tüüp</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Element puudub!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Vale argument!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Vale formaat!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Andmetüüpide mittevastavus! Stringi numbrilahtrisse sisestada ei saa.</value>
+  </data>
+  <data name="PaloOnlineAdvancedHelp" xml:space="preserve">
+    <value>MyPalo</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>Esimesed Sammud Palo-ga</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>Sisene...</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>Välju</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Muuda Palo töölehte...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publitseeri...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web-i abimees</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Lehekülje valija</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Veerupealdised</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Reapealdised</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Andmed</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Vihje: Elementide valimiseks topeltkliki dimensioonil</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Aseta vaade</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Mittetühjade lahtrite otsing. Palun oota...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>Vaikimisi Palo Web andmeühendus on määramata. Vaikimisi andmeühenduse määramiseks kasuta Palo Web abimeest</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>Andmeühendus puudub</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>Andmeühenduste haldus</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>Vali andmeühendus</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>Andmeühendus</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>Vaikimisi</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>Muuda andmeühendust</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>See abimees aitab lisada, eemaldada ja muuta andmeühendusi Palo Web serveritega</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>Uus andmeühendus</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>Eemalda andmeühendus</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>Andmeühenduste haldus</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>See samm aitab muuta olemasoleva andmeühenduse parameetreid</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>Salasõna</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>Salavihje</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>Kasutajanimi</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web-i abimees</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Kas väljume salvestamata?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>See tegevus võib kustutada %1 lahtrit, mis võib kesta kaua.
+Kas jätkame ?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Kas kustutame serverist andmebaasi %1? Oled kindel?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Kustuta andmebaas</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>See toiming võib olla ajakulukas.
+Kas jätkame?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Kas eemaldame serveri %1 registreeringu? Oled kindel?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Eemalda serveri registreering</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Kas kustutame kõik olemasolevad reeglid enne importi?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Reegel/reeglid kustutatakse. Oled kindel?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Kehtivus:</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Konsolideeritud elemendid</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Baaselemendid</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Kõik elemendid</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Muuda alamhulga nime...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Reegel</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Uuendatud</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Ülal</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>Sisselülitatuna valib hierarhia filter kõik elemendid, mis paiknevad ülalpool dimensiooni referentselementi. Hierarhiafiltri vaikimisi käitumine allpool.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Aktiveeri see filter</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Lisa</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Lisa uus alamhulk</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>Esimene aliase väli</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Vali aliase liik millele tahad (teksti või järjestuse) filtrit rakenadada. Kui aliase väli on tühi, rakenduvad filtrid elemendi nimedele.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Teine aliase väli</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Vali teine aliase väli millele tahad rakendada (teksti või järjestuse) filtrit. Kui see aliase väli on tühi, rakenduvad filtrid esimesele aliase väljale ja kui too on samuti tühi, rakendub filter elemendi nimetustele.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>KÕIK ELEMENDID</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>Näita elemente juhul kui lõike kõik elemendid vastavad tingimusele</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Kõik elemendid</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorteerib nimekirja kõik elemendid</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>JA</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>SUVALINE ELEMENT</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>Näitab elemente, kui lõike suvaline element vastab tingimusele</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuut</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Atribuutide põhised loendid</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Näiteks:
+    -  "&gt;0"
+    -  "&lt;=1000"
+    -  "&lt;&gt;10"
+    -  "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Atribuudifiltrid</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>Atribuut-Filter loendid</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Aktiveerib eelvaate auto-värskenduse</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Järgmine kord ära näita</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Pane tähele, et andmefiltri valimisel on auto-värskendus välja lülitatud.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>ELEMENTIDE KESKMINE</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>Näitab elemente juhul kui lõike keskmine vastab kriteeriumile</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>TAGASI</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>Lisab valikloendi elemendid nimekirja lõppu</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Ainult baaselemendid</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorteerib ainult baaselemente</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Toimimine</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Allpool</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Näita ainult hierarhias referentselemendist allpool olevaid elemente</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>Aliaseti</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>Sordib loendi aliase järgi</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuuditi</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Sordib loendi atribuutide järgi</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>Definitsiooniti</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>Sordib loendi modelleerija definitsiooniloendi järgi</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>Elemenditi</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>Sordib loendi elemendi nime järgi</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>Väärtuseti</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>Sordib loendi väärtuse järgi</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[Kõik elemendid]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Kriteerium:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>Vali kriteerium</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Valitud elemendid:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Sulge</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Sulge alamhulkade haldur</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>Andmeühendus</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Konsolideeritud</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Näita ainult konsolideeritud elementi</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Ainult konsolideeritud elemendid</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sordi ainult konsolideeritud elemendid</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>Kopeeri</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Kopeeri koopiapuhvrisse</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Kriteerium</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA pikk tekst</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Vali kuup:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Definitsioon</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION pikk tekst</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Kustuta salvestatud alamhulk</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Sügavus</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>Hierarhia kõige ülemine tase saab numbri 0, sealt järgmine 1 jne</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Kirjeldus</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Detailid</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Dimensioon</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Dimensiooni sisu</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>Dimensioon</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Muuda</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Muuda alamhulga nime</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Filtreeri elemendid hierarhiliselt</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Viita dimensiooni hierarhia elemendile.</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Välistav</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Määrab, kas valitud element välistatakse tulemusest.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Laiendatud</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED pikk tekst</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuut</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>Andmed</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Üldine</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Hierarhia</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Valikloend</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Järjesta</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Lame</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>Kuvab pidevloendi</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Valem-alamhulk</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>EESMINE</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>Lisab valikloendi elemendid loendi algusesse</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Üldine</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Globaalsed alamhulgad</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>Üldine</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Tase</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Pööra</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Filtreeri elemendid tüübiti</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Filtreeri elemendid tüübiti.</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Peida Var1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Peida Var2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Peida Var3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Hierarhia</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Hierarhiline kuva</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Hierarhia loend</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Eenda</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Kõrgeim hierarhia tase saab numbri 1, järgmine numbri 2 jne</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Küljendus</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Sügavuse loendur</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Eenduse loendur</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Taseme loendur</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Baaselemendid</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Näita ainult baaselemente.</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Tase</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Baaselement on 0, iga tase ülespoole lisab +1</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Filtreeri elemendid tasemeti</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Filtreeri elemendid tasemeti</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>Lõpptase</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Lõpeta filtreering sellel tasemel.</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Algustase</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Alusta elementide filtreerimist sellelt tasemelt</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Laadi</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Lokaalsed alamhulgad</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Vähenda määra</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_LOWER_PERCENTAGE pikk tekst</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>ELEMENTIDE MAKSIMUM</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>Näita elemente juhul, kui lõike maksimum vastab kriteeriumile</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Rakenda alamhulk</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Katkesta alamhulk</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>Tekst on asetatud koopiapuhvrisse</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Kas tõesti soovid kustutada alamhulka '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Viga</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Sisemine viga mis ei tohiks aset leida ja tähendab viga ekraanielemendis. Informeeri arendajaid!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Valitud fail ei vasta korrektsele alamhulgale</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>Aktiveeritud nimeliste parameetrite olemasolul parameetrite paneeli peita ei saa</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Ei saanud asetada alamhulga tulemusi. Põhjus:</value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>See parameeter on antud filtri puhul nõutav ja tema valikut ei saa maha võtta!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Kas salvestame muutused alamhulka:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Salvesta muutused</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Alamhulk kustutatud</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>LIIDA</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>Sordib nimekirja valikloendi-elemendid</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>ELEMENTIDE MIINIMUM</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>Näitab elemente, kui lõike miinimum vastab kriteeriumile</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Nimelised muutujad</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Uus</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Reeglid puuduvad</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_NO_RULES pikk tekst</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>Reeglita var 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>Reeglita var 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>NUMBRILINE</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Lisaseaded</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Muutuja</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Aseta</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Asetab alamhulgafunktsiooni Excel-i töölehte</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Eelvaade</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Värskenda</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Värskendab eelvaadet</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Otsistring (* ja ? valikutärkidega)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>PERL-i regulaarväljendite näited:
+    -  "Jaan|Veeb|Nov", leidmaks "Jaan", "Veeb" ja "Nov"
+    -  "J.*", leidmaks kõik "J"-ga algavad elemendid
+    -  "[s,d]", leidmaks kõik elemendid, mille nimes sisaldub "s" või "d"
+    -  "n$", leidmaks kõik elemendid, mis lõpevad "n"-ga</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Sisesta regulaarväljendid, mis vastavad selle alamhulga elementidele. Iga elemendi või aliase (kui kasutatakse) nimi, mis ei vasta vähemalt ühele regulaarväljendile jäetakse alamhulgast välja.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>PERL-i regulaarväljendid</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>Kasutatakse PERL-i regulaarväljendeid
+    Seetõttu tärgid nagu "[" või "$" toimivad funktsioonidena
+    s.t. X$ valib kõik X-iga lõppevad elemendid</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Muuda nime</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Vastupidi</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_REVERSE pikk tekst</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Näita peakirjeid alamkirjete all</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Kuvab peakirjed alamkirjete all, s.t. summad väärtuste all</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Vastupidi var1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Vastupidi var2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Vastupidi var3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Vastupidises järjekorras</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Elementide järjestus tasemeti</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Vastupidine sorteering igal hierarhiatasemel</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Kokku (koondväärtused detailandmete all)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>Vastupidine järjestus kõikidel hierarhiatasemetel</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Pöördlisamine</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD pikk tekst</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Loendi pikkus:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>Loendi pikkus:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Tsükliline loend</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Loo elementide loend alustades konkreetsest elemendist.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Salvesta</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Salvesta alamhulk</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Vali ja määra atribuutide väljad.</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>Vali esimene alias</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Määra, kuidas lisada valitud elemendid:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>Vali teine alias</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Vali server / andmebaas</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Seaded</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Näita alamkirjeid</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Näita topeltkirjeid</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Näita topeltkirjeid nimekirjas</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Näita peidetud elementide alamkirjeid</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>Näita peidetud alam-elemente</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Ära näita midagi</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Lõike operaatorid</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Sordi tasemel</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Järjestab loendi valitud hierarhiatasemel</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Sorteerimisviis</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Sorteerimiskriteerium</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_SORTING_CRITERIA pikk tekst</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Allik-kuup</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SOURCE_CUBE pikk tekst</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Salvestatud alamulgad</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>STRING</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String pikk tekst</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>ALAM</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Alamkuup</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE pikk tekst</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Alamhulga atribuutide filter</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Alamhulga andmefilter</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Alamhulgahaldur</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Alamhulga üldseaded</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Alamhulga hierarhia filter</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Alamhulga nimi</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Alamhulga nimi pikk tekst</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Alamhulga valikloendi filter</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Alamhulga järjestus</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Alamhulga tekstifilter</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Lahuta</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>Eemalda loendist kõik elemendid väljaarvatud valikunimekirjas olevad</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>ELEMENTIDE SUMMA</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>Näita elemente, kui lõike summa vastab kriteeriumile</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Võta kõik alumised elemendid kuni  %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>Võta vähima väärtusega elemente kuni nende summa ületab x%</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Võta tipmised elemendid:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>Võta n suurima väärtusega ülemist elementi</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Võta kõik ülemised elemendid kuni %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>Võta suurima väärtusega elemente kuni nende summa ületab x%</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>ELEMENDI NIMI (String)</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Üles</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP pikk tekst</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Tüüp</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE pikk tekst</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Tüübipiirang</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE_LIMITATION pikk tekst</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>Tüübipiirang var1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>Tüübipiirang var2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>Tüübipiirang var3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Ülemine protsent</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_UPPER_PERCENTAGE pikk tekst</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Kasuta</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Kasuta filtrit</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Väärtus</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Kõik</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_WHOLE pikk tekst</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Otsi elemente</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Elementide nimekirjast otsimisel saab kasutada otsitärke (*,?)</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Loon vaadet ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>Laadi XLL-i ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>Otsin serverit %1. Palun oota...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Loen csv faili...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Loen blokki kuubist. Palun oota ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Loen blokki andmebaasist. Palun oota ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Loen elemente serverist %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Skaneerin valitut...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Skaneerin töölehte...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Stardin lokaalset PALO serveriteenust...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Reegel kustutatud</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Viga reeglite ekspordil!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Reeglid edukalt eksporditud!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Viga reeglis #%1. Reegel: %2. Serveri teade: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Reeglid edukalt imporditud!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Reegel salvestatud</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Näitab Palo Serveri, Jälgimisserveri enda ja andmebaasi salvestamise peatumist</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>Standardjälgimine</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>Muutuste jälgimine etteantud lahtrite vahemikus</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>Kuubijälgimine</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>Sisse- ja väljalogimiste jälgimine</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>Sisselogimiste jälgimine</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>Andmete allika jälgimine koostöös ETL serveriga.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>Vaata detaile</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>Annab kasutaja tuvastuse tulemusel jah või ei</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>Kasutajatuvastus</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>Annab kasutaja ja tema grupikuuluvuse tuvastuse tulemusel jah või ei</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>Autoriseerimine</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>Viimase sammuna palun salvesta skript ja konfigureeri sellele vastavalt SVS.</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>Vali jälgimise tüüp:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>Vali tuvastuse tüüp:</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>Määra jälgitavad lahtrid:</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>Genereeritud näidis-skript. Muuda vastavalt vajadusele:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>Õnnitlused!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>alias</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>aliase formaat</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Lisa faili lõppu</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>atribuut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Atribuudikuubid</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>Muudetud</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Vali kuup:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Vali element...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Vali server/andmebaas:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>Vali stiil :</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Kas oled kindel, et soovid kustutada kõik andmed kuubist %1?
+Märkus: Kuubi struktuur jääb samaks.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Tühjenda kuup</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Kõik kokku</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Kommentaar</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>Andmeühendus</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Elemendi tüübi muutmine konsolideeritust numbriliseks võib põhjustada andmete kustumise.
+Kas oled kindel, et soovid muuta elemendi andmetüübi numbriks ?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Muudan andmetüübi numbriks</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Elemendi tüübi muutmine konsolideeritust stringiks võib põhjustada andmete kustumise.
+Kas oled kindel, et soovid muuta elemendi andmetüübi stringiks?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Muudan tüübi stringiks</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Elementide kustutamine</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Seda elementi kasutatakse kuubis. Elemendi tüübi muutmine numbrilisest või stringist konsolideerituks võib põhjustada andmete kustumist.
+Kas oled kindel, et soovid jätkata?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Muuda andmetüüp konsolideerituks</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Seda elementi kasutatakse kuubis. Elemendi tüübi muutmisel numbriliseks võib põhjustada andmete kustumise.
+Kas oled kindel, et soovid muuta elemendi tüübi numbriliseks?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Muudan andmetüübi numbriks</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Seda elementi kasutatakse kuubis. Elemendi tüübi muutmisel stringiks võib põhjustada andmete kustumise.
+Kas oled kindel, et soovid muuta elemendi tüübi stringiks?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Muudan andmetüübi stringiks</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>Kuubi nimi</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>Kuubid</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Üritad kustutada dimensiooni %1, mis on kasutusel %2 kuubis.
+Kasutusel oleva dimensiooni kustutamiseks kustuta eelnevalt neid kasutavad kuubid</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Kasutusel olev dimensioon</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>andmebaas</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>andmebaasi elemendid</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Kas oled kindel, et soovid dimensiooni %1 serverist täielikult kustutada?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Kustuta dimensioon</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Kas oled kindel, et soovid kuubi %1 serverist täielikult kustutada?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Kustuta kuup</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Kas oled kindel, et soovid serverist täielikult kustutada järgmise(d) elemendi(d):
+%1 ?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Elementide kustutamine</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>dimensiooni elemendid</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Element %1 puudub dimensioonis %2!</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>dimensioonide nimed</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>dimensioonid</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>elemendi nimi</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>elemendid</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Valikloend:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Kõik lahti</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>formaat</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Arva argumendid</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>Päis olemas</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Elementide lisamiseks vajuta ENTER...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Lisa allikelemendid topeltklikkides elementide nimekirjas...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Uue kuubi lisamiseks kliki nupul "Uus kuup..."...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Dimensiooni lisamiseks vajuta ENTER...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>laaditud</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>Rohkem %1 esinemisi ei leitud!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>puudub</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>normaalne</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Kas oled kindel, et soovid kõik dimensiooni %1 elemendid asendada koopiapuhvri sisuga?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Aseta elemendid</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Piira asetamist hetkevalikuga ?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Reegel</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Reeglihaldur (Lisadega)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Vali nimekirjast DSN...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Vali elemendid...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>server</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Näita atribuute</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Näita kõiki valimisvahendeid</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>alamhulk</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>süsteem</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Vihje: Valiku laiendamiseks hoia all SHIFT klahvi</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>pole teada</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>laadimata</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Kasutaja info</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>lisa %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[ilma mallita]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Märgi see, kui soovid asetatu automaatselt formateerida</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Uus kuup...</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Uus dimensioon</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Uus element</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Rakenda muutused</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Katkesta muutmine</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Välju vaadete haldurist</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Abimehest väljumiseks kliki siia</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Konsolideeri elemendid...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Tagasi andmebaasi lehele</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Kustuta kuup...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Kustuta dimensioon...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Kustuta elemendid...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Muuda dimensiooni</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Sulge disainer</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Liiguta dimensioon alla</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Liiguta element alla</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Eemalda valitud elemendid allikelementide nimekirjast</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Lisa valitud elemendid allikelementide nimekirja</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Liiguta element üles</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Eemalda dimensioon(id) kuubist</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Lisa dimensioon(id) kuupi</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Sisesta uue kuubi nimi</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Kuubi loomiseks kliki siia</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Palo abimees...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Aseta käesolev vaade Exceli-sse</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Muuda dimensiooni nime</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Muuda elemendi nime</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Ühenda</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Lülita andmeühendus sisse / välja</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Ühenda lahti</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Lülita kordaja kuvamist(Vasak/Parem)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Lülita elementide puulise- ja loendivaate vahel</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Vali kuup</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Andmebaasi valimiseks kliki siia</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Elementide valimiseks kliki siia</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Serveri valimiseks kliki siia</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Serveri või andmebaasi valimiseks kliki siia...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Vali Palo andmefunktsiooni tüüp</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Eelmine samm</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Järgmine samm</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>See loend näitab kasutatavate dimensioonide nimekirja</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Kuvab aktiivse andmebaasi kuupide nimekirja</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Kuvab aktiivse andmebaasi dimensioonide nimekirja</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Kuvab aktiivse dimensiooni elementide nimekirja</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Kuvab aktiivse konsolideeritud elemendi alla kuuluvate elementide nimekirja</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Kuvab valitud dimensioonide nimekirja</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>Loomise järjestuses</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Sordi kasvavalt</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Sorti kahanevalt</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Andmebaasi seaded</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>Tunnuskood muutub iga päringu järel, et klientarvutid tühjendaksid oma vahemälu</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>Tunnuskood muutub töölehe lahtri lisamisel, uuendamisel ja kustutamisel</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>Tunnuskood muutub töölehe lahtri lisamisel, uuendamisel või kustutamisel</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Atribuudikuubid</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Andmekuubid</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Kasutajahalduskuubid</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Atribuutide haldus</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Meta-andmete haldus</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Kasutajate haldus</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Sulge reeglite redaktor</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Kustuta valitud reegl</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Ekspordi reeglid CSV faili...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Impordi reeglid CSV failist...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Nihuta reegli definitsiooni allapoole</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Liiguta reegli definitsiooni ülespoole</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Salvesta sisestatud reegel</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Reeglihaldur...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Töötab ainult Jälgimis-serveriga</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Vali element</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Vali element %1 jaoks</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Kuubi loomise abimees</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Muuda stringväärtust</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Ekspordi dimensiooni andmed</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Ekspordi kuubi andmed</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Andmeimpordi abimees</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Modelleerija</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Aseta andmefunktsioon</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>Jälgimisabimees</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>SVSWizard2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Dimensioon malli põhjal</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Reeglihaldur</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>Reeglis on viga</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Näita süsteemikuupe</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Kuvab selle dimensiooni globaalseid alamhulki</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>"MyPalo Community" on Palo kasutajate infokeskus internetis. "MyPalo"-s on põhjalikumad kasutajajuhendid, klienditugi, artiklid ekspertidelt ja see on koht kus pidada ühendust teiste Palo kasutajatega. "MyPalo Community"-s osalemisega saate kontakti Palo-ga tegelejatega üle maailma. Parim viis alustamiseks on luua endale MyPalo kasutajakonto. Kui kasutajakonto on juba olemas, kasuta oma kontot automaatseks sisselogimiseks.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Muuda</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>Saadaval on Palo Suite-i uus versioon. Kas laadime selle alla?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Uuenduste kontroll</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL on tühi</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL ei ole korrektne</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Hoiatus: Valitud fail kustutatakse jäädavalt!
+Kas oled kindel, et jätkame?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>See abimees aitab sisse logida ning lisada ja kustutada andmebaase ja serveriühendusi</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Sisesta uuele andmebaasile unikaalne nimi.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>Selle sammuga luuakse valitud serveris uus andmebaas</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>Selle sammuga kustutatakse andmebaas valitud serverist</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Vali kustutatav andmebaas:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>Andmebaas:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Vali andmeühendus</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Andmeühendus:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Kasutajanimi:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Salasõna:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Ühenduse nimi:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Andmebaaside haldur</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Andmeühenduste haldus</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>Selle sammuga luuakse olemasoleva serveri registratsioon klientarvutis</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>Selle sammuga saab muuta olemasoleva serveri registreeringut siinses arvutis</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Sisesta registreeritava serveri nimi või IP-aadress</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Sisesta serveri nimi või IP-aadress</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Loo uus andmebaas</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Loo andmebaas andmebaasi malli põhjal</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Kustuta olemasolev andmebaas</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Registreeri uus server</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Eemalda valitud serveri registreering</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>Muuda valitud serveri registreeringut</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Palo abimees</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Serveri ja andmebaasi abimees</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Kasuta Palo autentimist</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Kasuta Windows-i autentimist</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>Palo viga</value>
+  </data>
+</root>

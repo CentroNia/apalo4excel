@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="JControls.CComputable" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\CComputable.cs</FileName>
+      <HashCode>AAAAgIBIACJAQAABAACAQAACAAAAACEAgBABAAAAEIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JControls.Collapsible" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\Collapsible.cs</FileName>
+      <HashCode>AUBIjAAAQCkDASACASOEAAAiIAEAIGgBAAEIAARBAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.UComputable" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\UComputable.cs</FileName>
+      <HashCode>AAAAAIAIAAIAAAAAAAAAQAAAAAAAAAEAgAABAAAAEAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JControls.AreaControl" Collapsed="true">
+    <Position X="10.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\AreaControl.cs</FileName>
+      <HashCode>AAAAAIAQQCAAAAAAAACAAAACAAACAAAAAAAgICAADQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.ArgControl" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\ArgControl.cs</FileName>
+      <HashCode>AAABAAAAACAAAAAAAQCAAAACgBAAAAAAIAAAAACAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.CExpression" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CExpression.cs</FileName>
+      <HashCode>gAAQgIAAACAAAABAAQCAAAACAEAAAABAICAAIAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.CFChooser" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CFChooser.cs</FileName>
+      <HashCode>ABAQAICIAGAAAIAAAQDAGAgOIAgEIFAIAJQBAAEgDAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.CTarget" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\CTarget.cs</FileName>
+      <HashCode>AAAAAIAAACAAAAAAAQCAAAgCAAAAIAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.DEControl" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\DEControl.cs</FileName>
+      <HashCode>AAAmAoAAQCAAABAIAACAAAACgAIAiAAAAAAAgAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.EBuilder" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\EBuilder.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAQCAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.MoreLess" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\MoreLess.cs</FileName>
+      <HashCode>AAAGIAAARSAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.OArgControl">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\OArgControl.cs</FileName>
+      <HashCode>AAAGAAAAACAAAAAAAQCAAAACAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.OperatorSelector" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\OperatorSelector.cs</FileName>
+      <HashCode>AAIAAAAAQCAEAAICBAiAAAACAAAAAAACAAEAAAAIIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.RBuilder" Collapsed="true">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\RBuilder.cs</FileName>
+      <HashCode>AAgAAIAAACAAQBQAAYCQAAACgIAAgAAAAAAAgAQAAKA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.Constants" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Constants.cs</FileName>
+      <HashCode>AAQAAoBAAAAAAAAAAAEAAAAIAAIgIAAAAAAAgABgBBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.DBList" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\DBList.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.CBEntity" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Entity.cs</FileName>
+      <HashCode>EAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.Entity" Collapsed="true">
+    <Position X="3.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Entity.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAgAAEAYAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.Filter" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Filter.cs</FileName>
+      <HashCode>EBAAFAAAEJwAERRAARAAQIAAAAIAgAFAgIDBgAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.Argument" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\FunctionReader.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAAIAAAAAAAAAABCAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.Function" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\FunctionReader.cs</FileName>
+      <HashCode>AAAAAAgAAAAAAAAEAAAAAAAAAAAkCgAAAAAIAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.XMLDescription" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\FunctionReader.cs</FileName>
+      <HashCode>AAAAAAAAAAgAAAAIAAAAQAAgAABAAAAAQBAAAAAQACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.RegionalSettings" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\RegionalSettings.cs</FileName>
+      <HashCode>AAAAAAAQCAAAAAgAAAAAAAAABABAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JControls.Properties.Resources" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAEBEAABAQAAJAAAAAAEAAAAAIQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="JControls.IComputable" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\IComputable.cs</FileName>
+      <HashCode>AAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAgAABAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="JControls.MLOrientation" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controls\MoreLess.cs</FileName>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JControls.CPriority" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Constants.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="JControls.EUEventHandler" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\IComputable.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

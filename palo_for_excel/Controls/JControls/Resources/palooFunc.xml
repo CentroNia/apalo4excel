@@ -1,0 +1,2826 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="convert.xsl"?>
+<functions>
+	<function>
+		<name>ABS</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ABS(number)
+		</short-description>
+
+		<short-description language="german">
+			ABS(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the absolute value of a number. The absolute value of a number is the number without its sign.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Betrag einer Zahl zurueck. Der Betrag entspricht der vorzeichenlosen Zahl.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>ACOS</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ACOS(number)
+		</short-description>
+
+		<short-description language="german">
+			ACOS(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the inverse cosine. The returned angle is given in radians.
+		</long-description>
+
+		<long-description language="german">
+			Inverse Cosinusfunkion. Der Rueckgabewert ist im Bogenmass.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>ADD</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ADD(number A,number B)
+		</short-description>
+
+		<short-description language="german">
+			ADD(Zahl A, Zahl B)
+		</short-description>
+
+		<long-description language="english">
+			Returns the sum of its two arguments.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die Summe der beiden Argumente zurueck
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter,Double</description>
+		</argument>
+
+		<argument number="1">
+			<type> numerischer Parameter</type>
+		</argument>
+	</function>
+	<function>
+		<name>ASIN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ASIN(number)
+		</short-description>
+
+		<short-description language="german">
+			ASIN(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the inverse sine. The returned angle is given in radians.
+		</long-description>
+
+		<long-description language="german">
+			Inverse Sinusfunkion. Der Rueckgabewert ist im Bogenmass.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>ATAN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ATAN(number)
+		</short-description>
+
+		<short-description language="german">
+			ATAN(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the inverse tangent. The returned angle is given in radians.
+		</long-description>
+
+		<long-description language="german">
+			Inverse Tangensfunkion. Der Rueckgabewert ist im Bogenmass.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>CEILING</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			CEILING(number)
+		</short-description>
+
+		<short-description language="german">
+			CEILING(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Rounds a number up, to the nearest integer or to the nearest multiple of significance.;
+		</long-description>
+
+		<long-description language="german">
+			Rundet eine Zahl zur naechsten ganzen Zahl oder zum naechsten Vielfachen von Bedeutung auf.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>CHAR</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			CHAR(number)
+		</short-description>
+
+		<short-description language="german">
+			CHAR(Zahl)
+		</short-description>
+
+		<long-description language="german">
+			Gibt den durch das Integer-Argument codierten Buchstaben zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">character code</description>
+			<description language="german">Buchstaben Code</description>
+		</argument>
+	</function>
+	<function>
+		<name>CLEAN</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			CLEAN(text)
+		</short-description>
+
+		<short-description language="german">
+			CLEAN(Text)
+		</short-description>
+
+		<long-description language="english">
+			Removes all nonprintable characters from text.
+		</long-description>
+
+		<long-description language="german">
+			Entfernt alle nichtdarstellbaren Zeichen aus dem Text.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be cleaned</description>
+			<description language="german">Zu saeubernder String</description>
+		</argument>
+	</function>
+	<function>
+		<name>CODE</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			CODE(text)
+		</short-description>
+
+		<short-description language="german">
+			CODE(Text)
+		</short-description>
+
+		<long-description language="english">
+			Returns a numeric code for the first character in a text string
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Zahlencode des ersten Buchstabens im String-Argument zurueck
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string argument</description>
+			<description language="german">string parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>CONCATENATE</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			CONCATENATE(text1,text2)
+		</short-description>
+
+		<short-description language="german">
+			CONCATENATE(Text1,Text2)
+		</short-description>
+
+		<long-description language="english">
+			Joins two text items into one text item.
+		</long-description>
+
+		<long-description language="german">
+			Fuegt zwei Texte zu einem zusammen.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">1st part -- head</description>
+			<description language="german">vorderer Teilstring</description>
+		</argument>
+
+		<argument number="1">
+			<type>hinterer Teilstring</type>
+			<description language="english">2nd part -- tail</description>
+		</argument>
+	</function>
+	<function>
+		<name>COS</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			COS(number)
+		</short-description>
+
+		<short-description language="german">
+			COS(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the cosine. The number is given in radians.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Cosinus des Argumentes zurueck, welches im Bogenmass angegeben wird.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>DATE</name>
+		<category>DATE_TIME</category>
+
+		<short-description language="english">
+			DATE(year,month,day)
+		</short-description>
+
+		<short-description language="german">
+			DATE(Jahr,Monat,Tag)
+		</short-description>
+
+		<long-description language="english">
+			Returns the serial number that represents a particular date. The year argument must be four digits and greater than or equal to 1900 and smaller than or equal to 10000. Month is a number representing the month of the year. If month is greater than 12, month adds that number of months to the first month in the year specified. For example, DATE(2008,14,2) returns the serial number representing February 2, 2009. Day is a number representing the day of the month. If day is greater than the number of days in the month specified, day adds that number of days to the first day in the month. For example, DATE(2008,1,35) returns the serial number representing February 4, 2008.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">year of date</description>
+			<description language="german">Jahr des Datums</description>
+		</argument>
+
+		<argument number="1">
+			<type>Integer</type>
+			<description language="english">month of date</description>
+			<description language="german">Monat des Datums</description>
+		</argument>
+
+		<argument number="2">
+			<type>Integer</type>
+			<description language="english">day of date</description>
+			<description language="german">Tag des Datums</description>
+		</argument>
+	</function>
+	<function>
+		<name>DATEVALUE</name>
+		<category>DATE_TIME</category>
+
+		<short-description language="english">
+			DATEVALUE(date_text)
+		</short-description>
+
+		<short-description language="german">
+			DATEVALUE(Datum_Text)
+		</short-description>
+
+		<long-description language="english">
+			Returns the serial number of the date represented as MM-TT-YY
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>string</type>
+			<description language="english">date-string to convert</description>
+			<description language="german">zu konvertierendes String-Datum</description>
+		</argument>
+	</function>
+	<function>
+		<name>DEL</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			DEL(number A, number B)
+		</short-description>
+
+		<short-description language="german">
+			DEL(Zahl A, Zahl B)
+		</short-description>
+
+		<long-description language="english">
+			Returns the result of subtracting the second argument from the first.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das zweite Argument subtrahiert vom ersten Argument zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>DIV</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			DIV(number A, number B)
+		</short-description>
+
+		<short-description language="german">
+			DIV(Zahl A, Zahl B)
+		</short-description>
+
+		<long-description language="english">
+			Returns the result of dividing the two arguments.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das Resultat der Division der beiden Argumente zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>EQ</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			EQ(operand A, operand B)
+		</short-description>
+
+		<short-description language="german">
+			EQ(Operand A, Operand B)
+		</short-description>
+
+		<long-description language="english">
+			Checks if the two arguments, which can be of type string or double, are exactly equal. Returns true or false accordingly. Both arguments must have the same type.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double ODER String</type>
+			<description language="english">comparison arg</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+
+		<argument number="1">
+			<type> Double ODER String</type>
+			<description language="english">comparison arg</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>EVEN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			EVEN(number)
+		</short-description>
+
+		<short-description language="german">
+			EVEN(Zahl)
+		</short-description>
+
+		<long-description language="german">
+			Rundet die Zahl auf zur naechsten geraden ganzen Zahl
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>EXACT</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			EXACT(text1,text2)
+		</short-description>
+
+		<short-description language="german">
+			EXACT(Text1,Text2)
+		</short-description>
+
+		<long-description language="english">
+			Checks to see if two text values are identical Compares two text strings and returns 1 if they are exactly the same, 0 otherwise. EXACT is case-sensitive
+		</long-description>
+
+		<long-description language="german">
+			Prueft, ob zwei String genau gleich sind. Entsprechend wird wahr oder falsch zurueckgegeben.Die Funktion ist Case-Sensitive.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">comparison arg</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">comparison arg</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>EXP</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			EXP(number)
+		</short-description>
+
+		<short-description language="german">
+			EXP(number)
+		</short-description>
+
+		<long-description language="english">
+			Returns e raised to the power of a given number.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das Resultat der Exponentialfunktion angewendet auf den Wert zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>FACT</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			FACT(number)
+		</short-description>
+
+		<short-description language="german">
+			FACT(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the factorial of the argument.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die Fakultaet des Argumentes zurueck
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>FLOOR</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			FLOOR(number)
+		</short-description>
+
+		<short-description language="german">
+			FLOOR(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Rounds a number down, toward zero.
+		</long-description>
+
+		<long-description language="german">
+			Rundet eine Zahl nach Null hin ab.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>GE</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			GE(operand A;operand B)
+		</short-description>
+
+		<short-description language="german">
+			GE(Operand A;Operand B)
+		</short-description>
+
+		<long-description language="english">
+			Checks if the first argument is greater than or equal to the second argument. Both arguments must have the same type, which can be Double or String.
+		</long-description>
+
+		<long-description language="german">
+			Prueft, ob das erste Argument groesser oder gleich dem zweiten ist. Beide Argumente muessen den gleichen Typ haben. Dieser kann Double oder String sein.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>GT</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			GT(operand A;operand B)
+		</short-description>
+
+		<short-description language="german">
+			GT(Operand A; Operand B)
+		</short-description>
+
+		<long-description language="english">
+			Checks if the first argument is greater than the second argument. Both arguments must have the same type, which can be Double or String.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>IF</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			IF(test, value-if-true, value-if-false)
+		</short-description>
+
+		<long-description language="english">
+			IF checks, if the first parameter is TRUE. In this case, the second parameter is returned. Otherwise, the third parameter is returned
+		</long-description>
+
+		<long-description language="german">
+			IF testet, ob der erste Parameter WAHR zurueckliefert. In diesem Fall wird der zweite Parameter zurueckgeliefert. Anderenfalls der dritte
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>boolean</type>
+			<description language="english">condition</description>
+		</argument>
+
+		<argument number="1">
+			<type>object</type>
+			<description language="english">true value</description>
+		</argument>
+
+		<argument number="2">
+			<type>object</type>
+			<description language="english">false value</description>
+		</argument>
+
+		<argument number="3">
+			<type>IF</type>
+			<description language="english">german</description>
+		</argument>
+
+		<argument number="4">
+			<type>IF(test, wert-bei-wahr, wert-bei-falsch)</type>
+			<description language="english">boolean</description>
+		</argument>
+
+		<argument number="5">
+			<type>Bedingung</type>
+			<description language="english">object</description>
+		</argument>
+
+		<argument number="6">
+			<type>Wahr-Wert</type>
+			<description language="english">object</description>
+		</argument>
+
+		<argument number="7">
+			<type>Falsch-Wert</type>
+		</argument>
+	</function>
+	<function>
+		<name>INT</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			INT(number)
+		</short-description>
+
+		<short-description language="german">
+			INT(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Rounds a number down to the nearest integer
+		</long-description>
+
+		<long-description language="german">
+			Rundet eine Zahl zur naechsten ganzen Zahl ab.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>LE</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			LE(operand A;operand B)
+		</short-description>
+
+		<short-description language="german">
+			LE(Operand A;Operand B)
+		</short-description>
+
+		<long-description language="german">
+			Prueft, ob das erste Argument kleiner oder gleich dem zweiten ist. Beide Argumente muessen den gleichen Typ haben. Dieser kann Double oder String sein.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>LEFT</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			LEFT(text,num_chars)
+		</short-description>
+
+		<short-description language="german">
+			LEFT(Text,Zahl_Zeichen)
+		</short-description>
+
+		<long-description language="english">
+			Returns the leftmost characters from a text value. Text is the text string that contains the characters you want to extract. Num_chars specifies the number of characters you want LEFT to extract. Num_chars must be greater than or equal to zero. If num_chars is greater than the length of text, LEFT returns all of the text. If num_chars is omitted, it is assumed to be 1.
+		</long-description>
+
+		<long-description language="german">
+			Gibt soviele Buchstaben eines Textes zurueck, wie das Integer-Argument angibt.Der zurueckgegebene String beginnt am linken Ende des Ursprungstextes. Das Integer-Argument muss groesser oder gleich 0 sein. Falls die Zahl groesser oder gleich der Laenge des Textes ist, so wird der gesamte Text zurueckgegeben. Falls die Zahl weggelassen wird, so wird 1 ersetzt.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">base-string</description>
+			<description language="german">Basis-String</description>
+		</argument>
+
+		<argument number="1">
+			<type>Integer</type>
+			<description language="english">number of chars</description>
+			<description language="german">Zahl der Zeichen</description>
+		</argument>
+	</function>
+	<function>
+		<name>LEN</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			LEN(text)
+		</short-description>
+
+		<short-description language="german">
+			LEN(Text)
+		</short-description>
+
+		<long-description language="english">
+			Returns the number of characters in a text string
+		</long-description>
+
+		<long-description language="german">
+			Gibt die Zahl der Zeichen des String-Arguments zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be counted</description>
+			<description language="german">zu zaehlender String</description>
+		</argument>
+	</function>
+	<function>
+		<name>LN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			LN(number)
+		</short-description>
+
+		<short-description language="german">
+			LN(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the natural logarithm of a number
+		</long-description>
+
+		<long-description language="german">
+			Gibt den natuerlichen Logarithmus des Integer-Argumentes zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>LOG</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			LOG(number, base)
+		</short-description>
+
+		<short-description language="german">
+			LOG(Zahl, Basis)
+		</short-description>
+
+		<long-description language="english">
+			Returns the logarithm of a number to a specified base
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Logarithmus bezueglich der angegebenen Basis zurueck
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>LOG10</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			LOG10(number)
+		</short-description>
+
+		<short-description language="german">
+			LOG10(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the base-10 logarithm of a number.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Logarihmus des Argumentes zur Basis 10 zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>LOWER</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			LOWER(text)
+		</short-description>
+
+		<short-description language="german">
+			LOWER(Text)
+		</short-description>
+
+		<long-description language="english">
+			Converts text to lowercase.
+		</long-description>
+
+		<long-description language="german">
+			Wandelt einen Text nach Kleinschrift um.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be uncapitalised</description>
+			<description language="german">klein zu schreibender String</description>
+		</argument>
+	</function>
+	<function>
+		<name>LT</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			LT(operand A;operand B)
+		</short-description>
+
+		<short-description language="german">
+			LT(Operand A; Operand B)
+		</short-description>
+
+		<long-description language="english">
+			Checks if the first argument is less than the second argument. Both arguments must have the same type, which can be Double or String.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double ODER String</type>
+			<description language="english">comparison argument</description>
+			<description language="german">Vergleichs-Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>MID</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			MID(text,start_num,num_chars)
+		</short-description>
+
+		<short-description language="german">
+			MID(Text,Zahl_Anfang, Zahl_Groesse)
+		</short-description>
+
+		<long-description language="english">
+			MID returns a specific number of characters from a text string, starting at the position you specify, based on the number of characters you specify. Text is the text string containing the characters you want to extract. Start_num is the position of the first character you want to extract in text. Num_chars specifies the number of characters you want MID to return from text. If start_num is greater than the length of text, MID returns -empty text-. If start_num is less than the length of text, but start_num plus num_chars exceeds the length of text, MID returns the characters up to the end of text. If start_num is less than 1, MID returns -empty text-.If num_chars is negative, MID returns -empty text-.
+		</long-description>
+
+		<long-description language="german">
+			MID gibt einen Teilstring zurueck, beginnend an der angegebenen Position, mit der angegebenen Laenge. Text ist der Basis-String, aus welchem ein Teilstring zu extrahieren ist. Zahl_Anfang gibt den Buchstaben an, ab welchem wir extrahieren. Zahl_Groesse gibt an, wieviel wir extrahieren. Falls Zahl_Anfanggroesser als die Laenge des Textes ist, so wird Leerstring zurueckgegeben. Gleiches geschieht, falls Zahl_Anfang kleiner als 1 oder Zahl_Groesse negativ ist. Falls Zahl_Anfang kleiner als die Laenge des Textes ist aber die Summe von Zahl_Anfang und Zahl_Groesse die Laenge des Textes ueberschreitet, so wird der String bis zum Ende des Textes zurueckgegeben.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">base-string</description>
+			<description language="german">Basis-String</description>
+		</argument>
+
+		<argument number="1">
+			<type>Integer</type>
+			<description language="english">position</description>
+			<description language="german">Position</description>
+		</argument>
+
+		<argument number="2">
+			<type>Integer</type>
+			<description language="english">number of chars</description>
+			<description language="german">Zahl der Zeichen</description>
+		</argument>
+	</function>
+	<function>
+		<name>MOD</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			MOD(number, divisor)
+		</short-description>
+
+		<short-description language="german">
+			MOD(Zahl,Divisor)
+		</short-description>
+
+		<long-description language="english">
+			Returns the remainder after number is divided by divisor. The result has the same sign as divisor.
+		</long-description>
+
+		<long-description language="german">
+			Gibt Zahl modulo Divisor zurueck, d.h. den ganzzahligen Rest bei Teilung durch den Divisor. Das Ergebnis hat stets das gleiche Vorzeichen wie der Divisor.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Integer</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>MUL</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			MUL(number A, number B)
+		</short-description>
+
+		<short-description language="german">
+			MUL(Zahl A, Zahl B)
+		</short-description>
+
+		<long-description language="english">
+			Returns the arithmetical product of its two arguments.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das arithmetische Produkt der beiden Argumente zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>NE</name>
+		<category>CONTROL</category>
+
+		<long-description language="english">
+			Checks if the two arguments, which can be of type string or double, are exactly equal. Returns true if there is no equality and false otherwise. Both arguments must have the same type.
+		</long-description>
+
+		<long-description language="german">
+			Prueft ob die beiden Argumente, die vom Typ String oder Double sein koennen, genau gleich sind. Es wird wahr zurueckgegeben, falls keine Gleichheit besteht.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+	</function>
+	<function>
+		<name>NOW</name>
+		<category>DATE_TIME</category>
+
+		<short-description language="english">
+			NOW()
+		</short-description>
+
+		<short-description language="german">
+			NOW()
+		</short-description>
+
+		<long-description language="english">
+			Returns the serial number of the current date and time.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die dem Zeitpunkt zugeordnete Folgezahl zurueck.
+		</long-description>
+
+		<minimal-arguments>0</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+	</function>
+	<function>
+		<name>ODD</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ODD(number)
+		</short-description>
+
+		<short-description language="german">
+			ODD(Zahl)
+		</short-description>
+
+		<long-description language="german">
+			Gibt das zur naechsten ungeraden ganzen Zahl aufgerundete Argument zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.CUBEDIMENSION</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ETYPE(Database,Cube,num_n)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ETYPE(Datenbank,Cube,Zahl_n)
+		</short-description>
+
+		<long-description language="english">
+			Returns the name of the nth dimension in a specified hypercube.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Namen der n-ten Dimension im angegebenen Wuerfel zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">cube</description>
+			<description language="german">Cube</description>
+		</argument>
+
+		<argument number="2">
+			<type>Integer</type>
+			<description language="english">dimension-index</description>
+			<description language="german">Dimensions-Index</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.DATA</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.DATA(Database, Cube, Coordinate1, Coordinate2,...,CoordinateN)
+		</short-description>
+
+		<short-description language="german">
+			PALO.DATA(Datenbank, Wuerfel, Koordinate1, Koordinate2,...,KoordinateN)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the value of the specified element from the cube.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Wert des angegebenen Wuerfel-Elements zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database name</description>
+			<description language="german">Datenbank Name</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">cube name</description>
+			<description language="german">Wuerfel Name</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">1st dim coordinate</description>
+			<description language="german">1te Dimensions-Koordinate</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ECHILD</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ECHILD(Database,Dimension,Parent Element,num_child)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ECHILD(Datenbank,Dimension,Eltern Element,KindIndex)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the name of the specified child-element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Wert des angegebenen Kind-Elementes zurueck.
+		</long-description>
+
+		<minimal-arguments>4</minimal-arguments>
+		<maximal-arguments>4</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">parent</description>
+			<description language="german">Eltern Element</description>
+		</argument>
+
+		<argument number="3">
+			<type>Integer</type>
+			<description language="english">number of child</description>
+			<description language="german">Index des Kindes</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ECHILDCOUNT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ECHILDCOUNT(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ECHILDCOUNT(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the number of children in the specified consolidated element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die Zahl der Kinder des angegebenen konsolidierten Elementes zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ECOUNT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ECOUNT(Database,Dimension)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ECOUNT(Datenbank,Dimension)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the amount of dimension elements in the specified dimension.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die Zahl der Dimensionselemente der angegebenen Dimension zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EFIRST</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EFIRST(Database,Dimension)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EFIRST(Datenbank,Dimension)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the first element in the specified dimension.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das erste Element in der angegebenen Dimension zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EINDENT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EINDENT(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EINDENT(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the indention level of the specified element.
+		</long-description>
+
+		<long-description language="german">
+			Liefert die Einrueckungsebene des angegebenen Elements zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EINDEX</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EINDEX(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EINDEX(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the position of the specified dimension element.
+		</long-description>
+
+		<long-description language="german">
+			Liefert die Position des angegebenen Dimensionselements.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EISCHILD</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EISCHILD(Database,Dimension,Parent Element,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EISCHILD(Datenbank,Dimension,Eltern Element,Element)
+		</short-description>
+
+		<long-description language="english">
+			Checks if a consolidated element contains the specified element, results in 0 or 1.
+		</long-description>
+
+		<minimal-arguments>4</minimal-arguments>
+		<maximal-arguments>4</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">parent</description>
+			<description language="german">Eltern Element</description>
+		</argument>
+
+		<argument number="3">
+			<type>String</type>
+			<description language="english">child</description>
+			<description language="german">Kind</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ELEVEL</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ELEVEL(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ELEVEL(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Returns the level in the dimension hierarchy of a specified element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die Ebene eines Elementes in der Dimensionshierarchie zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ENAME</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ENAME(Database,Cube,num_n)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ENAME(Datenbank,Cube,Zahl_n)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the name of the element at the specified position (First Position is 1).
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Namen des Elementes an der angegebenen Position zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">cube</description>
+			<description language="german">Cube</description>
+		</argument>
+
+		<argument number="2">
+			<type>Integer</type>
+			<description language="english">dimension-index</description>
+			<description language="german">Dimensions-Index</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ENEXT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ENEXT(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ENEXT(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the name of the succeeding element of a dimension element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Namen des Folgeelements eines Dimensionselements zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EPARENT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EPARENT(Database,Dimension,Element,num_n)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EPARENT(Datenbank,Dimension,Element,Zahl_n)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the name of the n-th parent of the specified element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Namen des n-ten Elternteils des angegebenen Elements zurueck.
+		</long-description>
+
+		<minimal-arguments>4</minimal-arguments>
+		<maximal-arguments>4</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+
+		<argument number="3">
+			<type>Integer</type>
+			<description language="english">index of parent</description>
+			<description language="german">Index des Elternelementes</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EPARENTCOUNT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EPARENTCOUNT(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EPARENTCOUNT(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the number of consolidated elements which contain the specified element.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EPREV</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EPREV(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EPREV(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the name of the preceding element of a dimension element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Namen des Vorgaengerelements des angegebenen Dimensionselements zurueck.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ESIBLING</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ESIBLING(Database,Dimension,Element,Index)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ESIBLING(Datenbank,Dimension,Element,Index)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the name of the specified sibling
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Namen des angegebenen Geschwisterteils zurueck.
+		</long-description>
+
+		<minimal-arguments>4</minimal-arguments>
+		<maximal-arguments>4</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+
+		<argument number="3">
+			<type>Integer</type>
+			<description language="english">index of sibling</description>
+			<description language="german">Index des Geschwisterteils</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ETOPLEVEL</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ETOPLEVEL(Database,Dimension)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ETOPLEVEL(Datenbank,Dimension)
+		</short-description>
+
+		<long-description language="english">
+			Returns the level number of the highest element in the consolidation hierarchy of a dimension.
+		</long-description>
+
+		<long-description language="german">
+			Gibt die hoechste Ebene zurueck, die ein Element in der Konsolidierungshierarchie der angegebenen Dimension hat.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.ETYPE</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.ETYPE(Database,Dimension,Element)
+		</short-description>
+
+		<short-description language="german">
+			PALO.ETYPE(Datenbank,Dimension,Element)
+		</short-description>
+
+		<long-description language="english">
+			Retrieves the type of the specified element.(numeric, string or consolidated)
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Typ des angegebenen Elements zurueck.(Zahl,String oder konsolidiert)
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">element</description>
+			<description language="german">Element</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.EWEIGHT</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.EWEIGHT(Database,Dimension,Parent,Child)
+		</short-description>
+
+		<short-description language="german">
+			PALO.EWEIGHT(Datenbank,Dimension,Parent,Child)
+		</short-description>
+
+		<long-description language="english">
+			Returns the consolidation weight of a specified component of an element.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das Konsolidierungs-Beitrag des angegebenen Teils eines Elementes zurueck.
+		</long-description>
+
+		<minimal-arguments>4</minimal-arguments>
+		<maximal-arguments>4</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database</description>
+			<description language="german">Datenbank</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">dimension</description>
+			<description language="german">Dimension</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">parent</description>
+			<description language="german">Elternteil</description>
+		</argument>
+
+		<argument number="3">
+			<type>String</type>
+			<description language="english">child</description>
+			<description language="german">Kind</description>
+		</argument>
+	</function>
+	<function>
+		<name>PALO.MARKER</name>
+		<category>PALO</category>
+
+		<short-description language="english">
+			PALO.MARKER(Database, Cube, Coordinate1, Coordinate2,...,CoordinateN)
+		</short-description>
+
+		<short-description language="german">
+			PALO.MARKER(Datenbank, Wuerfel, Koordinate1, Koordinate2,...,KoordinateN)
+		</short-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">database name</description>
+			<description language="german">Datenbank Name</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">cube name</description>
+			<description language="german">Wuerfel Name</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">1st marker coordinate</description>
+			<description language="german">1te Marker-Koordinate</description>
+		</argument>
+	</function>
+	<function>
+		<name>PI</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			PI()
+		</short-description>
+
+		<short-description language="german">
+			PI()
+		</short-description>
+
+		<long-description language="english">
+			Returns the value of pi.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Wert der Konstanten PI zurueck.
+		</long-description>
+
+		<minimal-arguments>0</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+	</function>
+	<function>
+		<name>POWER</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			POWER(number , power)
+		</short-description>
+
+		<short-description language="german">
+			POWER(Zahl , Exponent)
+		</short-description>
+
+		<long-description language="english">
+			Returns the result of a number raised to a power.
+		</long-description>
+
+		<long-description language="german">
+			Gibt das Resultat von Zahl hoch Exponent zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>PROPER</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			PROPER(text)
+		</short-description>
+
+		<short-description language="german">
+			PROPER(Text)
+		</short-description>
+
+		<long-description language="english">
+			Capitalizes the first letter in a text string and any other letters in text that follow any character other than a letter. Converts all other letters to lowercase letters.
+		</long-description>
+
+		<long-description language="german">
+			Verwandelt alle Anfangsbuchstaben (Buchstaben, denen kein anderer Buchstabe vorausgeht) in Grossbuchstaben. Alle anderern Buchsteben werden in Kleinbuchstaben verwandelt.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be changed</description>
+			<description language="german">zu veraendernder String</description>
+		</argument>
+	</function>
+	<function>
+		<name>QUOTIENT</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			QUOTIENT(numerator, denominator)
+		</short-description>
+
+		<short-description language="german">
+			QUOTIENT(Zaehler, Nenner)
+		</short-description>
+
+		<long-description language="english">
+			Returns the integer portion of a division
+		</long-description>
+
+		<long-description language="german">
+			Gibt den ganzzahligen Anteil des Divisionsergebnisses zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter der Division</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter der Division</description>
+		</argument>
+	</function>
+	<function>
+		<name>RAND</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			RAND()
+		</short-description>
+
+		<short-description language="german">
+			RAND()
+		</short-description>
+
+		<long-description language="english">
+			Returns a random number between 0 and 1
+		</long-description>
+
+		<long-description language="german">
+			Gibt eine Zufallszahl zwischen 0 und 1 zurueck.
+		</long-description>
+
+		<minimal-arguments>0</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+	</function>
+	<function>
+		<name>RANDBETWEEN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			RANDBETWEEN(bottom, top)
+		</short-description>
+
+		<short-description language="german">
+			RANDBETWEEN(Anfang, Ende)
+		</short-description>
+
+		<long-description language="english">
+			Returns a random number in the range you specify.
+		</long-description>
+
+		<long-description language="german">
+			Gibt eine Zufallszahl aus dem uebergebenen Bereich zurueck.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">numeric argument</description>
+			<description language="german">numerischer Parameter</description>
+		</argument>
+	</function>
+	<function>
+		<name>REPLACE</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			REPLACE(old_text,start_num,num_chars,new_text)
+		</short-description>
+
+		<long-description language="english">
+			REPLACE replaces part of a text string, based on the number of characters you specify, with a different text string. Old_text is text in which you want to replace some characters. Start_num is the position of the character in old_text that you want to replace with new_text. Num_chars is the number of characters in old_text that you want REPLACE to replace with new_text. New_text is the text that will replace characters in old_text.
+		</long-description>
+
+		<long-description language="german">
+			REPLACE ersetzt einen Teil eines Strings durch einen neuen, wobei die Zahl der ersetzten Buchstaben und deren Position von den Argumenten abhaengt. Text_Alt ist der Basis-Text, in welchem wir etwas ersetzen wollen. Anfang ist die Position in diesem String, ab welcher wie ersetzen und Laenge die Anzahl der zu ersetzenden Buchstaben. Text_Neu ist der einzusetzende Ersatztext.
+		</long-description>
+
+		<minimal-arguments>4</minimal-arguments>
+		<maximal-arguments>4</maximal-arguments>
+
+		<argument number="0">
+			<type>string</type>
+			<description language="english">base-string</description>
+		</argument>
+
+		<argument number="1">
+			<type>integer</type>
+			<description language="english">start index</description>
+		</argument>
+
+		<argument number="2">
+			<type>integer</type>
+			<description language="english">end index</description>
+		</argument>
+
+		<argument number="3">
+			<type>string</type>
+			<description language="english">
+				replacement
+				REPLACE
+			</description>
+		</argument>
+
+		<argument number="4">
+			<type>german</type>
+			<description language="english">REPLACE(Text_Alt,Anfang,Laenge,Text_Neu)</description>
+		</argument>
+
+		<argument number="5">
+			<type>String</type>
+			<description language="english">Basis-String</description>
+		</argument>
+
+		<argument number="6">
+			<type>Integer</type>
+			<description language="english">Anfangs-Index</description>
+		</argument>
+
+		<argument number="7">
+			<type>Integer</type>
+			<description language="english">End-Index</description>
+		</argument>
+
+		<argument number="8">
+			<type>String</type>
+			<description language="english">Ersatz-String</description>
+		</argument>
+	</function>
+	<function>
+		<name>REPT</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			REPT(text,num_times)
+		</short-description>
+
+		<short-description language="german">
+			REPT(Text,Zahl_Wiederholungen)
+		</short-description>
+
+		<long-description language="english">
+			Repeats text a given number of times. Text is the text you want to repeat. Number_times is a positive number specifying the number of times to repeat text. If number_times is 0 (zero), REPT returns  -empty text-. If number_times is not an integer, it is truncated.
+		</long-description>
+
+		<long-description language="german">
+			Wiederholt den Text so oft wie angegeben. Text ist der zu wiederholende Text. Zahl_Wiederholungen ist eine positive Zahl, welche angibt, wie oft der Text zu wiederholen ist. Falls Zahl_Wiederholungen 0 ist, so wird Leerstring zurueckgegeben. Falls Zahl_Wiederholungen keine ganze Zahl (sondern ein Double) ist, werden die Nachkommastellen abgeschnitten.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">base-string</description>
+			<description language="german">Basis-String</description>
+		</argument>
+
+		<argument number="1">
+			<type>Integer</type>
+			<description language="english">number of repetitions</description>
+			<description language="german">Zahl der Wiederholungen</description>
+		</argument>
+	</function>
+	<function>
+		<name>RIGHT</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			RIGHT(text,num_chars)
+		</short-description>
+
+		<short-description language="german">
+			RIGHT(Text,Zahl_Zeichen)
+		</short-description>
+
+		<long-description language="english">
+			Returns the rightmost characters from a text value. Text is the text string that contains the characters you want to extract. Num_chars specifies the number of characters you want RIGHT to extract. Num_chars must be greater than or equal to zero. If num_cahrs is greater than the length of text, RIGHT returns all of the text. If num_chars is omitted, it is assumed to be 1.
+		</long-description>
+
+		<long-description language="german">
+			Gibt soviele Buchstaben eines Textes zurueck, wie das Integer-Argument angibt.Der zurueckgegebene String beginnt am rechten Ende des Ursprungstextes. Das Integer-Argument muss groesser oder gleich 0 sein. Falls die Zahl groesser oder gleich der Laenge des Textes ist, so wird der gesamte Text zurueckgegeben.Falls das Integer-Argument weggelassen wird, so wird 1 ersetzt.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">base-string</description>
+			<description language="german">Basis-String</description>
+		</argument>
+
+		<argument number="1">
+			<type>Integer</type>
+			<description language="english">number of chars</description>
+			<description language="german">Zahl der Zeichen</description>
+		</argument>
+	</function>
+	<function>
+		<name>ROUND</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			ROUND(num_base, num_digits)
+		</short-description>
+
+		<short-description language="german">
+			ROUND(Zahl_Basis,Zahl_Stellen)
+		</short-description>
+
+		<long-description language="english">
+			Rounds a number to a specified number of digits. If num_digits is 0, then number is rounded to the nearest integer. If num_digits is less than 0, then number is rounded to the left of the decimal point.
+		</long-description>
+
+		<long-description language="german">
+			Rundet eine Zahl auf die angegebene Zahl von Nachkommastellen.Falls Zahl_Stellen 0 ist, so wird die Zahl auf die naechste ganze Zahl gerundet. Falls Zahl_Stelen kleiner 0 ist, so wird die Zahl vor dem Komma entsprechend gerundet.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">real to be rounded</description>
+			<description language="german">zu rundende reelle Zahl</description>
+		</argument>
+
+		<argument number="1">
+			<type>Double</type>
+			<description language="english">number of digits</description>
+			<description language="german">Nachkommastellen</description>
+		</argument>
+	</function>
+	<function>
+		<name>SEARCH</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			SEARCH(find_text,within_text)
+		</short-description>
+
+		<short-description language="german">
+			SEARCH(Text_Suche,Text_Basis)
+		</short-description>
+
+		<long-description language="english">
+			Finds one text value within another (not case-sensitive) Find_text is the text you want to find. You can use the wildcard characters, question mark (?) and asterisk (*) in find_text. A question mark matches any single character; an asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, type a tilde (~) before the character. Within_text is the text in which you want to search for find_text. If find_text is not found, then 0 is returned.
+		</long-description>
+
+		<long-description language="german">
+			Findet einen Text-Wert in einem anderen.(nicht case-sensitiv) Text_Suche ist der zu findende Text. Man kann wildcards, ? und * in Text_Suche verwenden. Ein Fragezeichen passt zu jedem einzelnen Zeichen und ein Sternchen zu jeder Folge von Zeichen. Falls Fragezeichen oder Sternchen selbst gefunden werden sollen, muss eine Tilde ~ vorangestellt werden. Falls Text_Suche nicht gefunden wird, wird 0 zurueckgeliefert.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">base-string</description>
+			<description language="german">Basis-String</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">string we search for</description>
+			<description language="german">gesuchte Zeichenkette</description>
+		</argument>
+	</function>
+	<function>
+		<name>SIGN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			SIGN(number)
+		</short-description>
+
+		<short-description language="german">
+			SIGN(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the sign of a number
+		</long-description>
+
+		<long-description language="german">
+			Gibt das Vorzeichen einer Zahl zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parmeter</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>SIN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			SIN(number)
+		</short-description>
+
+		<short-description language="german">
+			SIN(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the sine. The number is given in radians.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Sinus des Arguments im Bogenmass angegeben wird.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parameter</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>SQRT</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			SQRT(number)
+		</short-description>
+
+		<short-description language="german">
+			SQRT(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns a positive square root.
+		</long-description>
+
+		<long-description language="german">
+			Gibt eine positive Wurzel zurueck.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parameter</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>STET</name>
+		<category>CONTROL</category>
+
+		<short-description language="english">
+			STET()
+		</short-description>
+
+		<short-description language="german">
+			STET()
+		</short-description>
+
+		<long-description language="english">
+			If a rule evaluates to STET, then the resulting cell behaves like no rule is existent for this cell
+		</long-description>
+
+		<long-description language="german">
+			Falls die Auswertung einer Regel STET ergibt, so verhaelt sich die resultierende Zelle so, als gaebe es fuer sie keine Regel.
+		</long-description>
+
+		<minimal-arguments>0</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+	</function>
+	<function>
+		<name>SUBSTITUTE</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			SUBSTITUTE(text_base,old_text,new_text)
+		</short-description>
+
+		<short-description language="german">
+			SUBSTITUTE(Text,Text_alt,Text_neu)
+		</short-description>
+
+		<long-description language="english">
+			Substitutes new text for old text in a text string. Text is the text or the reference to a cell containing text for which you want to substitute characters. Old_text is the text you want to replace. New_text is the text you want to replace old_text with.
+		</long-description>
+
+		<long-description language="german">
+			Ersetzt Text_alt mit Text_neu im String Text. Text ist der Text oder die Referenz zu der Zelle mit dem Text, in dem das Ersetzen stattfindet. Text_alt ist der zu ersetzende Text. Text_neu ist der Text, der anstelle von Text_alt einzusetzen ist.
+		</long-description>
+
+		<minimal-arguments>3</minimal-arguments>
+		<maximal-arguments>3</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">base-string</description>
+			<description language="german">Basis-String</description>
+		</argument>
+
+		<argument number="1">
+			<type>String</type>
+			<description language="english">string to be replaced</description>
+			<description language="german">zu ersetzende Zeichenkette</description>
+		</argument>
+
+		<argument number="2">
+			<type>String</type>
+			<description language="english">replacement</description>
+			<description language="german">Ersatz</description>
+		</argument>
+	</function>
+	<function>
+		<name>TAN</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			TAN(number)
+		</short-description>
+
+		<short-description language="german">
+			TAN(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the tangens. The number is given in radians.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Tangens des Argumentes zurueck, welches im Bogenmass angegeben.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parameter</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>TIMI</name>
+		<category>8</category>
+
+		<short-description language="english">
+			TIMI(...)
+		</short-description>
+
+		<minimal-arguments>8</minimal-arguments>
+		<maximal-arguments>0</maximal-arguments>
+
+		<argument number="0">
+			<type>string</type>
+			<description language="english">a1</description>
+		</argument>
+
+		<argument number="1">
+			<type>string</type>
+			<description language="english">a2</description>
+		</argument>
+
+		<argument number="2">
+			<type>stirng</type>
+			<description language="english">a3</description>
+		</argument>
+
+		<argument number="3">
+			<type>string</type>
+			<description language="english">a4</description>
+		</argument>
+
+		<argument number="4">
+			<type>string</type>
+			<description language="english">a5</description>
+		</argument>
+
+		<argument number="5">
+			<type>string</type>
+			<description language="english">a6</description>
+		</argument>
+
+		<argument number="6">
+			<type>string</type>
+			<description language="english">a7</description>
+		</argument>
+
+		<argument number="7">
+			<type>string</type>
+			<description language="english">a8</description>
+		</argument>
+	</function>
+	<function>
+		<name>TRIM</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			TRIM(text)
+		</short-description>
+
+		<short-description language="german">
+			TRIM(Text)
+		</short-description>
+
+		<long-description language="english">
+			Removes spaces from text.
+		</long-description>
+
+		<long-description language="german">
+			Entfernt Leerzeichen aus dem Text.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be trimmed</description>
+			<description language="german">zu pflegender String</description>
+		</argument>
+	</function>
+	<function>
+		<name>TRUNC</name>
+		<category>MATH_TRIG</category>
+
+		<short-description language="english">
+			TRUNC(number)
+		</short-description>
+
+		<short-description language="german">
+			TRUNC(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Truncates a number to an integer.
+		</long-description>
+
+		<long-description language="german">
+			Schneidet alle Nachkommastellen einer Zahl ab, sodass eine ganze Zahl resultiert.
+		</long-description>
+
+		<minimal-arguments>2</minimal-arguments>
+		<maximal-arguments>2</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parameter</description>
+			<description language="german">numerisches Argument</description>
+		</argument>
+	</function>
+	<function>
+		<name>UPPER</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			UPPER(text)
+		</short-description>
+
+		<short-description language="german">
+			UPPER(Text)
+		</short-description>
+
+		<long-description language="english">
+			Converts Text to uppercase.
+		</long-description>
+
+		<long-description language="german">
+			Wandelt alle Kleinbuchstaben des Textes in Grossbuchstaben um.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be capitalised</description>
+			<description language="german">gross zu schreibender String</description>
+		</argument>
+	</function>
+	<function>
+		<name>VALUE</name>
+		<category>TEXT</category>
+
+		<short-description language="english">
+			VALUE(text)
+		</short-description>
+
+		<short-description language="german">
+			VALUE(Text)
+		</short-description>
+
+		<long-description language="english">
+			Converts a string to a number. Returns 0 if the conversion fails.
+		</long-description>
+
+		<long-description language="german">
+			Konvertiert einen String in eine Zahl. Gibt 0 zurueck, falls die Umwandlung fehlschlaegt.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>String</type>
+			<description language="english">string to be converted</description>
+			<description language="german">zu konvertierender String</description>
+		</argument>
+	</function>
+	<function>
+		<name>VALUEDATE</name>
+		<category>DATE_TIME</category>
+
+		<short-description language="english">
+			VALUEDATE(number)
+		</short-description>
+
+		<short-description language="german">
+			VALUEDATE(Zahl)
+		</short-description>
+
+		<long-description language="english">
+			Return a date_text for a given serial number in the format MM-TT-YY. Targetarea must be of type string
+		</long-description>
+
+		<long-description language="german">
+			Wandle eine Folgezahl in einen Datums-Text im Format MM-TT-YY um. Zielgebiet muss vom Typ string sein
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parameter representing a date</description>
+			<description language="german">numerisches Argument, das ein Datum repraesentiert</description>
+		</argument>
+	</function>
+	<function>
+		<name>WEEKDAY</name>
+		<category>DATE_TIME</category>
+
+		<short-description language="english">
+			WEEKDAY(serial_number)
+		</short-description>
+
+		<short-description language="german">
+			WEEKDAY(Folgezahl)
+		</short-description>
+
+		<long-description language="english">
+			Returns the day of the week corresponding to a date. The day is given as an integer, ranging from 1 (Sunday) to 7 (Saturday), by default.
+		</long-description>
+
+		<long-description language="german">
+			Gibt den Wochentag zurueck, der zu einem Datum gehoert. Der Tag wird als ganze Zahl gegebzwischen 1 (Sonntag) und 7 (Samstag) zurueckgegeben.
+		</long-description>
+
+		<minimal-arguments>1</minimal-arguments>
+		<maximal-arguments>1</maximal-arguments>
+
+		<argument number="0">
+			<type>Double</type>
+			<description language="english">numeric parameter representing day</description>
+			<description language="german">numerisches Argument, das Tag repraesentiert</description>
+		</argument>
+	</function>
+</functions>

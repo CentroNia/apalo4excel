@@ -1,0 +1,2572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>activate update search</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Elemlista hozzáadása...</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Összes</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Vissza</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Böngészés</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Mégsem</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Lista törlése</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;Bezár</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Mind becsuk</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Click here to insert connection string</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Kapcsolódás</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Click here to insert cube string</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; Adatbázis</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Töröl...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>Click here to insert dimensions string.</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Leválasztás</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Mind kibont</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Befejez &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Megjegyzések elrejtése</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Vízszintes beillesztés</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Következő &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Elemzés</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Beillesztés</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>paste head</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Refresh list</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Mentés...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Keresés &amp;&amp; Kijelölés</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Mindegyik</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Ág kiválasztása</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Kijelölés megfordítása</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Egyik sem</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Kijelölve</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Megjegyzés mutatása</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>Csökkenő</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>Növekvő</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Kapcsolat tesztelése</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Függőleges beillesztés</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Kiürítés</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>A kiválasztott kocka szelet tartalmának törlése</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Minden törlése</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>A kockat teljes tartalmának törlése (korábbi kijelölések nem lesznek figyelembe véve)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Kilépés</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Cache beállítások</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Cache beállítások</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Kliens cache inaktív</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Cache használata a kliens gépen</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Cache használata a kliens gépen a szabályokat nem tartalmazó kockák esetén</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Kocka kiürítése</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Kocka adatok ürítése. Kérem várjon ...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Hozzáadás első gyerekként</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Kocka létrehozása...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Új dimenzió</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Hozzáad</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Hozzáadás testvérként</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Kocka kiürítése...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>convert cube (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Másolás első gyermekként</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Elemek másolása</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Másolás testvérként</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Megszámolás</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Kocka információk ...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Kocka törlése...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Dimenzió törlése...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Törlés...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Eltávolítás a gyermek elemek közül</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Dimenzió szerkesztése</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Összesítés...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Adatexport...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Dimendzió export...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Összesítési súly...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Elem előre helyezése</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Elem áthelyezése a végére</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Numerikus</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Elemek beillesztése</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Eltávolítás a hierarchiából</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Dimenzió átnevezése</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Átnevez</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Összes kijelölése</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>show parents</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>Szöveges</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Dimenzió exportálása...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Treat as Measure dimension(MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Hozzáadás...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Aktív</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Törlés..</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Szerkesztés...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Szabály szerkesztő ...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Mozgatás Le</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Mozgatás Fel</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Toggle Activity</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Treat as Time dimension(MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Kocka átnevezése...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Dimenzió információk ...</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Elem keresése</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Változások átvezetése. Kérem várjon ...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Dimenziók</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Feltöltöttségi arány (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Azonosító</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Cellák száma</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Dimenziók száma</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Feltöltött cellák száma</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Státusz</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Kocka információk</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Típus</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Elemlista törlése...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Attribútum kocka</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>C-s elemek száma</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Elemek</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Azonosító</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Maximális mélység:</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Maximum indent</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Maximális szintszám</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>N-es elemek száma</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Elemek száma</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>S-es elemek száma</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Dimenzió információ</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Típus</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Hiba: körkörös hivatkozás!
+A konszolidált elemek egyike már tartalmazza az elemet.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Az elemek beillesztése nem történt meg. Az importállás leállt:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Elem beillesztési hiba</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Hiba lépett fel a kapcsolódás során!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>A &lt;%1&gt; elem nem egyedi!
+Érdemes megadni az elem nevében annak a dimenzióknak a nevét (kettősponttal elválasztva) 
+amelyben használja. Pl.: Honapok:Januar</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>A(z) %1 kocka már létezik a %2 adatbázisban!\n Kérem, adjon más nevet a kockának!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Üres a kockanév mező!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>A kocka elnevezése érvénytelen karaktereket tartalmaz!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Nem választott ki dimenziót!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Nem áll rendelkezésre adat</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>Ilyen nevű adatbázis már létezik!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Az adatbázis neve nem megfelelő karaktereket tartalmaz!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>A dimenzió már létezik!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Dimension name empty!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>A dimenzió neve nem megfelelő karaktereket tartalmaz!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Az elem már létezik!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Az elem neve nem megfelelő karaktereket tartalmaz!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>%1 fájl nem található</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>Nem megfelelő jogosultságok</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>LogOn Error: Érvénytelen belépési adatok!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Hiba az XLL fájl betöltése során!
+Lehetséges ok: az XLL fájlt áthelyezték vagy törölték (Keresett fájl: "%1"). Fontolja meg az Add-in újratelepítését. Az XLL fájl betöltése nélkül egyes Add-in funkciók nem működnek megfelelően.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Hiba lépett fel a PALO Add-in inicializálása során: Excel kommunikációs hiba!
+Az Add-in egyes funkciói nem fognak megfelelően működni! Próbálja meg újra telepíteni a plugint!.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Hiba lépett fel a PALO Add-in inicializálása során:
+A PALO szerver szolgáltatás nem indult el!
+Valószívű, hogy a szolgáltatás le van tiltva. Engedélyezze a szolgáltatást, és indítsa újra a programot!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Hiba lépett fel a PALO Add-in inicializálása során:
+Hiba a PALO szerver szolgáltatással folytatott kommunikáció során! Valószínű, hogy a PALO szervert nem installálták lokálisan, vagy működése során hiba lépett fel.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Hiba lépett fel a PALO Add-in inicializálása során:
+Ön nem rendelkezik megfelelő jogosultsággal az Add-in elindításához!
+Az Add-in egyes funkciói nem fognak megfelelően működni. Telepítse újra a plugint.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Hiba lépett fel az adatbázis beolvasása során:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Hiba lépett fel az új szerver regisztrálása során!
+Kérem, ellenőrizze a kapcsolódási adatokat.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>A B1 cellában nincs képlet</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Username must not contain @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>A megadott megnevezés olyan karaktereket tartalmaz, melyek valószínűleg Excelben nem működnek megfelelően (‘, “, stb.). A Palo szerver és a kliens az Exceltől eltérően elfogadja ezeket.
+Folytatja?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Excel kompatibilitási figyelmeztetés</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Fájl létrehozva</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Szabály megadása</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>Az adatbázist létrehoztuk.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>Az adatbázist töröltük.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Szerver regisztrálva.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>A szerver regisztrációját megszűntettük!</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Sikeres tesztelés!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Congratulations! Palo for Excel was successfully installed.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Optimize Excel with Palo: Open Source BI for Planning, Analysis and Reporting</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo login and advanced manual</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Open Excel workbook with Palo Demo Application</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Open "First Steps with Palo for Excel"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Apply for free training</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Show this dialog when starting Excel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Our sample manual helps you...</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Log into MyPalo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Or start immediatly using Palo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>With "Paste View"...</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Attribútumok</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Elemek</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Elelmlisták</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Elérhető dimenziók:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Karakterek száma:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Oszlop szélesség:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Felhasználói és csoport jogosultságok elrejtése</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Elemválasztó megnyitása két kattintással</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Súly megjelenítése a bal oldalon</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Beilleszt</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Dimenzió attribútumok megjelenítése</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Hierarchia előnézete</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>with header</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Oszlop nevek tördelése</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Nullsorírtás</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>supress calculated null</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Szövegfájlok (*.txt)|*.txt|Vesszővel elválasztott értékek (CSV) (*.csv)|*.csv|Minden fájl (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>A varázsló segíti Önt az új kocka létrehozása során.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Név:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Kockák:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Dimenziók:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Gépelje be az értékeket. Az Excel korlátai miatt Excel felületen csak az első 255 karakter lesz látható.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Gépelje be az értékeket.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Elemek:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Összesítő elemek:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Kérem válassza ki a CSV célfájlt és annak struktúráját:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Válassza ki a célfájlt (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>szabály alapú cellákat is exportálja</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Súly</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>Az első sorban található cellák törlése importálás után</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>A varázsló segíti Önt a betöltendő adatforrás kijelölésében, melynek rekordjait az aktív munkalap első sorában loopoljuk.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Adatforrás kiválasztása</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Kiterített (flat) szövegfájl (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC lekérdezés</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Kocka</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Képrenyő frissítése befejezéskor</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Rekordok loopolása (A1 növelése B1 hibára futásáig)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>Kérem határozza meg a betöltendő szövegfájlt</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Forrásfájl kijelölése (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>Kérem, definiálja az betöltéshez szükséges ODBC lekérdezést</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. ODBC forrás (DSN) kijelölése</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Gépelje be az SQL utasítást</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Kattintson a "Következő"-re a következő rekord beolvasásához, vagy kattintson a "Befejezés"-re az összes rekord loopolásához.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Lekérdezés</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Üres cellák figyelmen kívül hagyása</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Csak levészintű elemek</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Belépési adatok tárolása</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Új...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Új dimenzió</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Új elem</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>Új sor</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Üres</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Vessző</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Tizedes vessző</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Pontosvessző</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Tabulátor</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Felhasználó által meghatározott</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Válassza ki a feladatot a listából...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Minden elem</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Kijelölt dimenziók:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL lekérdezés fájlok (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Szerkesztés...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Új...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Frissítések keresése...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Kérem válassza ki a CSV célfájlt, az elválasztó karaktert és a kívánt hierarchia formátumot:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Válassza ki a hierarchia formátumot</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-formátum (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Szülő-gyermek kapcsolat egy sorban</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Válassza ki az elválasztó karaktert:</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Dimension name:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Please choose the dimension name and the template:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Új szabály</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Szabály</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Jelenlegi szabályok listája</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Subset elements:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Template:</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Download CE Version</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Compare CE vs Premium</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Generate quote</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>License will expire in %1 days.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium license expired</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>A helyi PALO szerver szolgáltatás státusza: </value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>&amp;Névjegy...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Set reference for undo</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>Adat &amp;import...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Modellező...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Palo &amp;varázsló...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>&amp;Elemek beszúrása...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Adatbázis&amp;függvény beszúrása...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Elelmista beillesztése...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>&amp;Nézet beszúrása...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Mentés fényképként...</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Go one step back</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Cache aktiválása a kliens gépen</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Összes elem (db): %1
+Összes N elem (db): %2
+Összes S elem (db): %3
+Összes C elem (db): %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Azonosító                                        %1
+Név                                                 %2
+"Szám" dimenziók                            %3
+Dimenziók                                       %4
+Cellák száma                                   %5
+Értékkel rendelkező cellák száma      %6
+Állapot                                             %7
+Típus                                                %8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>A(z) %1 elem a(z) %2 hierarchiából eltávolításra került, de más struktúrák is használják, 
+ezért a kért helyen nem fog megjelenni.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>A kiválasztott nézet több mint %1 cellát tartalmaz. Kívánja, hogy a méretét %2 sorra korlátozzuk (ajánlott)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>A munkafüzet egyesített cellákat tartalmaz.
+A beillesztő függvények használata előtt ezeket el kell távolítania!</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>A kockán belüli kijelölést kiürítettük.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>A kocka teljes tartalmát kiürítettük.</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>This action may take long. Please Wait.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>A kocka nem található.</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>invalid type of element</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Az elem nem található.</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Érvénytelen kiterjesztés.</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Érvénytelen formátum!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Gépelési hiba! Ön szöveges értékeket kíván megadni egy numerikus cellában.</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Open from repositroy...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publish to repository...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Lapozó dimenzió(k)</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Oszlop dimenziók</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Sor dimenziók</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Adat</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Tipp: Kattintson kétszer a dimenzióra az elemek kiválasztásához</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Nézet beszúrása</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Determing wich cells are not empty. Please wait...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>PWW_DefaultConnectionMsg</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>PWW_DefaultConnectionTitle</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>PWW_T1ConnectionAction</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>PWW_T1ConnectionHeading</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>PWW_T1ConnectionLabel</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>PWW_T1ConnectionMarkDefault</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>PWW_T1Edit</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>PWW_T1Heading</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>PWW_T1New</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>PWW_T1Remove</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>PWW_T2ConnectionHeading</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>PWW_T2ConnectionName</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>PWW_T2ConnectionURL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>PWW_T2Heading</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>PWW_T2Password</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>PWW_T2Secret</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>PWW_T2Username</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Biztos benne, hogy mentés nélkül akar kilépni?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>Ez a kérése %1 cellát töröl,
+ami eltart egy ideig.
+Folytatja?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Biztos benne, hogy a(z) %1 adatbázist törli a szerverről?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Adatbázis törlése</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>This action may take long.
+Do you want to proceed ?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Biztos benne, hogy a(z) %1 szerver regisztrációját meg akarja szűntetni?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Regisztráció megszüntetése</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Az összes meglévő szabályt törli az importálás előtt?</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Összesítő elemek</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Base Elements</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Összes elem</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Rename Subset...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Szabály</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Frissítve</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Felfelé</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>If turned on, hierarchy filter will choose all elements which are located above reference element in hierarchy within dimension. Default behaviour for Hierarchy filter is below.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Szűrő aktiválása</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Hozzáadás</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>ALIAS</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>First alias field</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Choose alias upon which you want to apply filter(text or sorting). If alias field is empty, filters will be applied on element names.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Second alias field</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Choose second alias field upon which you want to apply filter(text or sorting). If this alias field is empty, filters will be applied on first alias field and if that one is empty too it will be looked in element names.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>MIND</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>@@@All Desc Long</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Összes elem</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@All Elements Desc Long</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>ÉS</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>ANY</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>@@@Any Desc Long</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Attribútum</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>SB_ATTRIBUTE Desc Long</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Examples:
+
+    -  "&gt;0", to match ...
+    -  "&lt;=1000", to match ...
+    -  "&lt;&gt;10", to match...
+    -  "=10", to match...
+
+
+</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Attribútum szűrő</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>SB_ATTRIBUTE_FILTERS Desc Long</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Automatikus frissítés</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Ne mutassa ezt többet</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Please note that AutoRefresh will be unchecked when you select Data Filter.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>ÁTLAG</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>@@@Average Desc Long</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>VISSZA</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>@@@Back Desc Long</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Csak levélszintű elemek</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Base Elements Desc Long</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Behaviour</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Below</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Show only elements that are located below the reference element within hierarchy</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>By Alias</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>@@@By Alias Desc Long</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>By Attribute</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>@@@By Attribute Desc Long</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>By Definition</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>@@@By Definition Desc Long</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>Elemnév szerint</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>@@@By Element Name Desc Long</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>By Value</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>@@@By Value Desc Long</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[Összes elem]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Cell Operator</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>SB_CELL_OPERATOR Desc Long</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Kiválasztott elemek:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Bezár</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>@@@Connection Desc Long</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Consolidated</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Összesített elemek mutatása.</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Összesített elemek</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Consolidated Elements Desc Long</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>@@@Copy Desc Long</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Másolás a vágólapra</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Feltétel</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Kocka kiválasztása:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Definíció</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Mélység</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>@@@Depth Desc Long</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Leírás</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Részletek</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Beillesztés</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Dimenzió tartalma</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>@@@Dimension Desc Long</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Filter elements hierarchically</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Reference element within hierarchy inside dimension.</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Exclusive</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Defines if selected element should be excluded from the result.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Kiterjesztve</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Attribútum</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>Adat</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Hierarchia</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Elemlista</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Rendezés</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Szöveg</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>@@@Flat Desc Long</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Formula Subset</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>FRONT</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>@@@Front Desc Long</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Globális elemlisták</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Szint</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Revolve</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Filter elements by type</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Filter elements by type.</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Hide Opt1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Hide Opt2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Hide Opt3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Hierarchia</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>@@@Hierarchy Desc Long</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Hierarchy enumeration</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Indent Desc Long</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Depth Enumeration</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Indent Enumeration</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Level Enumeration</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Base elements</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Show only base elements.</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Szint</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Level Desc Long</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Filter elements by level</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Elemek szűrése szintek szerint</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>End level</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>A szűrés megállítása ezen a szinten</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Start level</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Start filtering element from this level</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Betöltés</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Lokális elemlisták</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Lower percentage</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_LOWER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>MAX</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>@@@Max Desc Long</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Elemlista alkalmazása</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Elemlista elvetése</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>A szöveg a vágólapra került</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Do you really want to delete subset '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error - Kérem tájékoztassa a fejlesztőt!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>A kiválasztott fájl nem tartalmaz értelmezhető elemlistát</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>You cannot hide Parameters panel when there are active named parameters.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Could not paste subset results. Reason: </value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>A paraméter nélkül ez a szűrő nem működik, ezért a kiválasztás nem szűntethető meg!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Do you want to save your changes to subset: </value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Módosítások mentése</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Elemlista törölve</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>ÖSSZEVON</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>@@@Merge Desc Long</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>MIN</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>@@@Min Desc Long</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Named Parameters</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Új</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Nincsenek szabályok</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_NO_RULES Desc Long</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>NoRules Opt 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>NoRules opt 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>NUMERIC</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Opciók</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Paste Into</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>@@@Paste Desc Long</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Előnézet</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Regexes</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Példák:
+
+    -  "Jan|Feb" esetén a találat "Jan" és "Feb"
+    -  "J.*" esetén a találatok között az összes "J"-vel kezdődő elem szerepel
+    -  "J.*|Mar" esetén a találatok között az összes "J"-vel és "Mar"-ral kezdődő elem szerepel
+</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Specify regular expressions that match the elements in this subset. Any element name or alias name (if used) that does not match at least one of the regular expressions will be excluded from the subset.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>Regular expressions</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>@@@Regular Expressions Desc Long</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Átnevezés</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_REVERSE Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Hierarchia megfordítása</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Displays parents under children, i.e. totals under values</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Reverse Opt1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Reverse Opt2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Reverse Opt3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Reverse Order</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Order of elements per level</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Reverse Per Level Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Total (aggregated values  below details)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>@@@Reverse Total Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Revolve Add</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Lista hossza:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>List length:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Cyclic list</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Create list of elements starting from some specified element.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Please select and set attribute fields.
+</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>Első alias kiválasztása</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Please select how to insert chosen elements:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>Select Second Alias</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Szerver</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Szerver / Adatbázis kiválasztás</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Gyermek elemek mutatása</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Ismétlődések mutatása</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>@@@Show Duplicates Desc Long</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Az elrejtett elemek gyermekeinek mutatása</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>@@@Show Hidden Children Desc Long</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Show None</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Slice operators</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Sort at Level</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Sort Level Desc Long</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Sorting behaviour</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Rendezési kritérium</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_SORTING_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Forrás kocka</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SOURCE_CUBE Desc Long</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Mentett elemlisták</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String Desc Long</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>SUB</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Alkocka</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Elemlista attribútum szűrő</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Subset Data Filter</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Elemlista szerkesztő</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Subset General Settings</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Subset Hierarchy Filter</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Elemlista neve</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Subset Name Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Subset Picklist Filter</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Subset Sorting</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Subset Text Filter</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>@@@Subtract Desc Long</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>SUM</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>@@@Sum Desc Long</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Take all lower elements up to  %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>@@@Take Lower Desc Long</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Take topmost elements:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>@@@Take Topmost Desc Long</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Take all upper elements up to %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>@@@Take Upper Desc Long</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>TEXT</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Típus</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Type Limitation</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE_LIMITATION Desc Long</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>TypeLimit Opt1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>TypeLimit Opt2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>TypeLimit Opt3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Upper percentage</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_UPPER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Használ</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Szűrő használata</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Érték</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Whole</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_WHOLE Desc Long</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Elem keresése</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Az elemek keresésekor helyettesítő jelek alkalmazhatók</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Szerver</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Nézet készítése ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>XLL betöltése ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>A %1 szerver keresése. Kérem várjon...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Csv fájl betöltése...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Blokk beolvasása kockából. Kérem várjon ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Blokk beolvasása az adatbázisból. Kérem, várjon ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Elemek beolvasása a(z) %1 szerverről ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Keresés a kijelölésben...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Keresés a munkalapon...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>A lokális PALO szerver szolgáltatás indítása...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Szabály törölve</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>A szabályexportálás során hiba lépett fel</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Sikeres szabályexportálás</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Hiba a  #%1 szabályban. Szabály: %2. Szerver üzenet: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Sikeres szabályimportálás</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Szabály mentve</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>alias</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>alias formátum</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Hozzáfűzés a fájl végéhez</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>Attribútum</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Attribútumok</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Attribútum kockák</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>Megváltoztatva</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Kocka kiválasztása:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Elelm kiválasztása...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Szerver/adatbázis kiválasztása:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>choose style :</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Biztos benne, hogy ki akarja törölni az adatokat a(z) %1 kockából?
+Megjegyzés: A kocka struktúráját a törlés nem változtatja meg.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Kocka kiürítése</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Összes becsukása</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Megjegyzés</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>kapcsolat</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Az elem típusának átállítása összesítőről numerikusra adatvesztéshez vezethet!
+Biztos benne, hogy numerikusra akarja változtatni?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Típus átállítása numerikusra</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Az elem típusának átállítása összesítőről szövegesre adatvesztéshez vezethet!
+Biztos benne, hogy szövegesre akarja változtatni?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Típus átállítása szövegesre</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Elemek törlése</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Ez az elem szerepel egy kockában. Az elem típusának átállítása numerikusról vagy szövegesről összesítőre adatvesztéshez vezethet.
+Biztos benne, hogy folytatja?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Típus átállítása összesítőre</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Ez az elem szerepel egy kockában. Az elem típusának átállítása numerikusra adatvesztéshez vezethet.
+Biztos benne, hogy numerikusra változtatja?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Típus átállítása numerikusra</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Ez az elem szerepel egy kockában. Az elem típusának átállítása szövegesre adatvesztéshez vezethet. 
+Biztos benne, hogy szövegesre változtatja?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Típus átállítása szövegesre</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>kocka név</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>kockák</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Ön a(z) %1 dimenziót kívánja törölni, melyet a(z) %2 kockák használnat.
+A dimenzió törlése előtt törölje a kocká(ka)t, melyekben szerepel.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Dimenzió használatban</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>adatbázis</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>adatbázis elemek</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Biztos benne, hogy véglegesen törölni akarja a(z) %1 dimenziót a szerverről?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Dimenzió törlése</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Biztos benne, hogy véglegesen törölni akarja a(z) %1 kockát a szerverről?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Kocka törlése</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Biztos benne, hogy a következő eleme(ke)t véglegesen törölni akarja a szerverről?
+%1
+</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Elemek törlése</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>dimenzió elemek</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>A(z) %1 elem nem található meg a(z) %2 dimenzióban!</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>dimenzió nevek</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>dimenziók</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>elemek</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Kijelölt elemek:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Összes kibontása</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>formátum</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Változók megsejtése</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>A fejléc létezik</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>ENTER: elemek hozzáadása</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Gyermekek hozzáadása: dupla kattintás az elemlistában</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Kattintson az "Új kocka ..." gombra a kocka létrehozásához ...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>ENTER: dimenzió hozzáadása ...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>betöltve</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>No further occurrence of %1 was found!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>nincs</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>normál</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Biztos benne, hogy a(z) %1 dimenzió összes elemét a vágólap tartalmával kívánja helyettesíteni?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Elemek beszúrása</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Beillesztés korlátozása a kijelölésre ?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Szabály</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Szabályszerkesztő (Haladó)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Válassza ki a DSN-t a listából...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Elemek kiválasztása...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>szerver</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Attribútumok megjelenítése</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Összes kijelölő eszköz</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>elemlista</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>rendszer</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Tipp: Tartsa nyomva a SHIFT-et a kijelölés bővítéséhez</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>ismeretlen</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>nincs betöltve</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Felhasználói adatok</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>%1 beszúrása</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[without template]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Pipálja ki a beillesztés automatikus formázásához</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Új kocka...</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Új dimenzió</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Új elem</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Alkalmazás</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Kilépés a nézet szerkesztőből</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Kattintson ide a kilépéshez</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Elemek összesítése...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Vissza az adatbázis lapra</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Kocka törlése...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Dimenzió törlése...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Elem(ek) törlése...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Dimenzió szerkesztése</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Designer bezárása</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Dimenzió mozgatása lefelé</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Elem mozgatása lefelé</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>A kiválasztott elem(ek) eltávolítása a gyerek elemek közül</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>A kiválasztott elem(ek) hozzáadása a gyerek elemekhez</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Elem mozgatása felfelé</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Dimenzió(k) eltávolítása a kockából</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Dimenzió felvétele a kockába</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Kérem adja meg az új kocka nevét</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Kattintson ide új kocka létrehozásához</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>A Palo varázsló elindítása...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Nézet beszúrása Excelbe</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Dimenzió átnevezése</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Elem átnevezése</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Kapcsolódás</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Kapcsolódás gomb(kapcsolódás/leválasztás)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Leválasztás</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Súlyozás megjelenítése (bal/jobb)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Elemek megjelenítése (lista/hierarchia)</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Kocka kiválasztása</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Kattintson ide az adatbázis kiválasztásához</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Kattintson ide elemek kiválasztásához</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Kattintson ide a szerver kiválasztásához</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Kattintson ide a szerver/adatbázis kiválasztásához...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Válassza ki a használni kívánt PALO adatbázis függvényt</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Vissza az előző lépéshez</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Előre a következő lépéshez</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>A rendelkezésre álló dimenziók listája</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Az aktuális adatbázisban található kockák listája</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Az aktuális adatbázisban található dimenziók listája</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Az aktuális dimenzióban található elemek listája</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Az aktuális összesítő elem alá tartozó elemek listája</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>A kiválasztott dimenziók listája</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>In order of creation</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Sort ascending</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Sort descending</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Cache beállítások</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>The token changes after each request to force each client to invalidate its cache.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>The token changes after a cell insert, update or delete.</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>The token changes after a cell insert, update or delete.</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Attribútum kockák</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Adatkockák</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Jogosultsági kockák</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Attribútumok kezelése</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Meta adat menedzsment</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Felhasználói jogosultásgok kezelése</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Szabályszerkesztő bezárása</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Kiválasztott szabály törlése</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Szabályok exportálása CSV-be...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>CSV-be exportált szabályok visszaállítása...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Szabály mozgatása lefelé</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Szabály mozgatása felfelé</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Szabály mentése</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Szabály szerkesztése...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Only works with Supervisionserver</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Válasszon elemet</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Válasszon elemet %1 részére</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Kocka építő varázsló</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Cellaérték szerkesztése</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Dimenzió adatok exportálása</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Kocka értékek exportálása</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Adatbetöltés varázsló</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Modellező</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Adatbázisfüggvény beszúrása</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Dimension from template</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Szabályszerkesztö</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Show system cubes</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Shows the list of global subsets for this dimension</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>'There is a new version of Palo Suite. Do you want to download it?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Update Check</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL is empty</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL is not wellformed</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Figyelem: véglegesen törli a kiválasztott fájlt!
+Biztos benne, hogy folytatja?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>A varázsló segíti Önt a bejelentkezés, a szerverek és adatbázisok létrehozása és törlése során</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Adjon meg egy egyedi nevet az adatbázisnak.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>Ebben a lépésben a kiválasztott szerveren egy új adatbázist hoz létre</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>Ebben a lépésben egy adatbázist töröl a kiválasztott szerveren</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Válassza ki a törlendő adatbázist:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>Adatbázis:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Válasszon szervert</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Szerver:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Felhasználónév:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Jelszó:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Kapcsolat neve:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Adatbázis menedzsment</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Szerver menedzsment</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>Ebben a lépésben egy létező szervert regisztrál ezen a kliensen.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>In this step you will edit an existing server on this client.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Adja meg a regisztrálandó szerver IP-címét vagy nevét!</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Adja meg a szerver IP-címét</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Új adatbázis létrehozása</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Adatbázis létrehozása adabtázis sablonból</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Létező adatbázis törlése</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Új szerver regisztrálása</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>A kiválasztott szerver regisztrálásának törlése</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>A kiválasztott szerver szerkesztése</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Palo varázsló</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Szerver és adatbázis varázsló</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Use Palo Authentication</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Use Windows Authentication</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>PALO hiba</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+</root>

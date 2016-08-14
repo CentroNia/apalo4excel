@@ -1,0 +1,2479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>activate update search</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>添加子项...</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;返回</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;取消</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>清空列表</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;关闭</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>全部合并</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>点击插入连接字符串</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>点击插入立方字符串</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; 数据库</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>删除...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>点击插入纬度字符串.</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>断开连接</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>全部展开</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;完成 &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>水平粘贴</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;下一步 &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>粘贴抬头</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Refresh list</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>保存...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>查找 &amp;&amp; 选择</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>选择分支</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>反向选择</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>全不选</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>递减</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>递增</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;测试连接</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>垂直粘贴</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>清除选中的立方体切片</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>全部清除</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>清楚整个立方体（将忽略你做的所有选择并清除整个立方体）</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>缓存设置</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>缓存设置</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>没有客户端缓存</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>使用客户端缓存</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>在无企业规则的下使用使用客户端缓存</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>清除立方体</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>正在清除立方体数据,请稍候 ...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>新增为第一个子项</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>添加立方...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>新建维</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>同类添加</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>清除立方...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>convert cube (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>复制为第一个子项</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>复制元素</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>汇总</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>立方信息 ...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>删除立方...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>删除维...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>删除...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>从元素源移除</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>编辑维=</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>汇总...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>导出数据...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>导出纬度...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>汇总要素...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>移动元素到最前面</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>移动元素到最后</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>粘贴元素</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>从层次中移除</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>重命名维</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>show parents</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>字符</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>导出纬度...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Treat as Measure dimension(MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>添加...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>删除..</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>编辑...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>编辑规则...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>向下移动</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>向上移动</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Toggle Activity</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Treat as Time dimension(MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>重命名立方...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>维度信息 ...</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>查询元素</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo正在应用更改...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>维度</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>填充比例 (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>定义</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>单元格数量</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>维度数量</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>已填充的单元格数量</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>立方信息</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>立方类型</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>删除子项...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>立方属性</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>C元素数量.</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>定义</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>最大深度</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>最大缩进</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>最大程度</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>N元素数量.</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>元素数量</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>S元素数量.</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>维度信息</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>维度类型</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>循环引用错误!当前元素已经被别的元素引用。</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>粘贴元素不能处理此任务。'%1'导入失败！</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>粘贴元素错误</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>服务连接错误!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>元数 &lt;%1&gt; 不唯一!请在维度名称前加前缀，如colon: Months:January等等</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value> %1 已经存在于 %2 数据库中!请输入一个与当前立方名不同的名称.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>立方名称为空!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>立方名称含有无效字符!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>没有选择维!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>没有发现任务数据</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>此名称数据库已经存在!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>数据库名含有无效字符!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>维已经存在!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Dimension name empty!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>维名称中含有无效字符!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>元素已经存在!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>元素名含有无效字符!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>没有找到 %1 文件.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS " xml:space="preserve">
+    <value>权限不够</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>登陆错误: 无效的登陆数据!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>装载XLL文件错误!可能原因:XLL文件已被删除或移走(寻找:"%1").建议重新安装Add-in. 当XLL文件不能被装载时部分Add-in功能将无法正常运行.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>初始化Palo Add-in错误:你没有足够的权限运行Add-in!部分Add-in功能将不能正常运行.尝试重新安装plugin.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>初始化 PALO Add-in 错误:不能启动本地PALO服务!服务可能不可用.启动服务后再次运行设计器.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>初始化 PALO Add-in 错误:与本地PALO服务通信错误! PALO 服务可能没有安装在本地或出现故障.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>初始化Palo Add-in错误:你没有足够的权限运行Add-in!部分Add-in功能将不能正常运行.尝试重新安装plugin.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>数据库读取错误:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>新服务注册错误!请检查连接数据.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>B1 没有定义任何公式</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Username must not contain @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>输入的名字里头包含Excel可能不兼容的字符（‘，“，等等），Palo服务器和客户端在这个方面具有更强的兼容性。是否继续？</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Excel兼容性警告</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>文件编写成功</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>请在此输入规则定义</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>数据库创建成功.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>数据库删除成功.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>注册服务成功.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>服务注销成功.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>测试成功!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Congratulations! Palo for Excel was successfully installed.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Optimize Excel with Palo: Open Source BI for Planning, Analysis and Reporting</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo login and advanced manual</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Open Excel workbook with Palo Demo Application</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Open "First Steps with Palo for Excel"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Apply for free training</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Show this dialog when starting Excel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Our sample manual helps you...</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Log into MyPalo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Or start immediatly using Palo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>With "Paste View"...</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>子项</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>无效维:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>字符数:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>采用列宽</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>不显示用户/组纬度</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>双击显示选定的元素</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>左侧显示要素</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>缩进</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>显示纬度属性</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>显示树</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>with header</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>折叠列标签</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>零限制</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>supress calculated null</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>文本文件 (*.txt)|*.txt|CSV后缀文件 (*.csv)|*.csv|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>此向导将引导你安装一个新的立方.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>立方:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>维:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>请定义字符串值. 在Excel中只有前面的255个字符是可见的，而Palo则没有这个限制. </value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>请定义字符串值.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>元素:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>汇总元素:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>请选择CSV目标文件已经它的结构:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. 选择目标文件 (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>同时也根据单元格的数值导出规则</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>因数</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>导入到第一行的空白可写单元格</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>这个Wizard允许你建立一个数据资源,对被激活的工作表的第一行数据开始循环操作.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>选择数据源</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Flat 文本文件 (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC 查询</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>立方</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>完成时刷新屏幕</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>内部循环 (自动增加A1直到B1发生错误)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>这一步你需要定义用以导入的文本文件.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. 选择源文件 (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>在这步中你将为循环导入定义ODBC查询</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. 选择 ODBC 数据源 (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. 输入SQL表达式</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>请按“下一步”察看下一条记录或者按“完成”跳过所有记录</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>忽略空单元格</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>仅基本元素</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>保存登陆数据</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>新建...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>新建维</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>新建维</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>新建一行</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>空白</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>逗号</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>小数点</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>分号</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Tab标签</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>用户自定义</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>请从列表中选择操作...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>所有元素</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>已选维:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL查询文件(*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>修改...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>新增...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>检查更新...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>请选择目标CSV文件、分割符、层次结构:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. 选择层次结构</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-格式 (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>父子关系在同一行</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. 选择分隔符</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Dimension name:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Please choose the dimension name and the template:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>新建规则</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>规则定义</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>当前规则列表</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>子项元素:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Template:</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Download CE Version</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Compare CE vs Premium</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Generate quote</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>License will expire in %1 days.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium license expired</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>本地PALO服务状态已修改 </value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>&amp;关于...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Set reference for undo</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>数据 &amp;导入...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;模型...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Palo &amp;向导...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>粘贴 &amp;元素...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>粘贴 数据 &amp;公式...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>粘贴子项...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>粘贴 &amp;视图...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>另存为快照...</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Go one step back</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>激活客户端缓存</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>元素总计: %1
+ N元素个数： %2
+ S元素个数： %3
+ C元素个数： %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>定义                       %1 
+名称                                      %2
+维度数量                                  %3
+维度                                      %4
+单元格总数                                %5
+已经填充的基本的和字符型单元格数量        %6
+状态                                      %7
+类型                                      %8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>%1元素已经从%2树中删除, 但是在其它结构中仍在使用，它将不再在查询结果中显示。</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>所选视图超过 %1 (=%3) 单元格. 是否限定当前视图为 %2 行 （推荐）？</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>你所尝试粘贴的工作有合并的单元格.需要删除这些单元格后采用使用粘贴功能.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>已删除立方体选中项</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>已完全删除立方体</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>This action may take long. Please Wait.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>找不到立方!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>invalid type of element</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>元素不存在!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>无效数据!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>无效格式!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>类型匹配错误！不能把string数据写入numeric单元格.</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Open from repositroy...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publish to repository...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>页选择器</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>列标题</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>行标题</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>技巧: 可以双击维选择元素</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>粘贴视图</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Determing wich cells are not empty. Please wait...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>PWW_DefaultConnectionMsg</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>PWW_DefaultConnectionTitle</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>PWW_T1ConnectionAction</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>PWW_T1ConnectionHeading</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>PWW_T1ConnectionLabel</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>PWW_T1ConnectionMarkDefault</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>PWW_T1Edit</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>PWW_T1Heading</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>PWW_T1New</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>PWW_T1Remove</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>PWW_T2ConnectionHeading</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>PWW_T2ConnectionName</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>PWW_T2ConnectionURL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>PWW_T2Heading</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>PWW_T2Password</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>PWW_T2Secret</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>PWW_T2Username</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>你确定要退出而不保存?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>此操作将删除 %1 单元格,并需要比较长的时间.是否继续 ?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>确定从服务器上删除 %1 数据库?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>删除数据库</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>This action may take long.
+Do you want to proceed ?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>确定注销 %1 服务?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>注销服务</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>是否在导入之前删除所有已存在的规则?</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>固定元素</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>基础元素</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>所有元素</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>重命名子项...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>上面</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>SB_ABOVE Desc Long</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>激活过滤条件</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>别名1</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>别名1 Desc Long</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>别名2</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>别名2 Desc Long</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>@@@All Desc Long</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>所有元素</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@All Elements Desc Long</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>任何</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>@@@Any Desc Long</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>SB_ATTRIBUTE Desc Long</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>例如:
+
+    -  "&gt;0", 匹配 ...
+    -  "&lt;=1000", 匹配 ...
+    -  "&lt;&gt;10", 匹配...
+    -  "=10", 匹配...
+
+
+</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>属性过滤</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>SB_ATTRIBUTE_FILTERS Desc Long</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>不再显示此信息</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>请注意当你选择数据过滤时不会自动刷新.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>@@@Average Desc Long</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>@@@Back Desc Long</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>仅基本元素</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Base Elements Desc Long</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>根据别名</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>@@@By Alias Desc Long</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>根据属性</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>@@@By Attribute Desc Long</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>根据定义</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>@@@By Definition Desc Long</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>根据元素名称</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>@@@By Element Name Desc Long</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>根据数值</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>@@@By Value Desc Long</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[所有元素]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>单元格操作</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>SB_CELL_OPERATOR Desc Long</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>选择元素:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>@@@Connection Desc Long</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>仅固化元素</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Consolidated Elements Desc Long</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>@@@Copy Desc Long</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>复制到剪贴板</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>选择立方:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>定义</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>@@@Depth Desc Long</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>纬度内容</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>@@@Dimension Desc Long</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>SB_ELEMENT Desc Long</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>排除</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>SB_EXCLUSIVE Desc Long</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>拓展</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>层次</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>选择列表</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>@@@Flat Desc Long</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>规范子项</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>前进</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>@@@Front Desc Long</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>全局子项</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>SB_HIDE Desc Long</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>隐藏 Opt1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>隐藏 Opt2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>隐藏 Opt3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>分层</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>@@@Hierarchy Desc Long</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>分层展示</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>缩进</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>缩进 Desc Long</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>纵向展示</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>缩进展示</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>水平展示</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Level Desc Long</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>级别元素</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>SB_LEVEL_ELEMENT Desc Long</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>级别结束</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>SB_LEVEL_END Desc Long</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>级别开始</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>SB_LEVEL_START Desc Long</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>载入</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>本地子项</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>较低百分比</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_LOWER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>@@@Max Desc Long</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>应用子目录</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>取消子目录</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>这些文本已经写入剪贴板</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Do you really want to delete subset '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>发生不该发生的内部错误，请通知开发者!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>所选择的文件不是一个有效子集</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>当参数命名处于活动状态时，不允许隐藏参数面板.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>不能粘贴子项结果.原因: </value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>这些过滤需要这些参数且不可取消!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>是否保存子项修改: </value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>保存修改</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>子项已删除</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>@@@Merge Desc Long</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>@@@Min Desc Long</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>命名参数</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>没有规则</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_NO_RULES Desc Long</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>无规则 Opt 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>无规则 opt 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>NUMERIC</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>@@@Paste Desc Long</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Regexes</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>例如:
+
+    -  "Jan|Feb", 匹配 "Jan" 和 "Feb"
+    -  "J.*", 匹配所有由"J"开头的元素
+    -  "J.*|Mar", 匹配所有由"J"和"Mar"开头的元素
+</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>限定规则表达式以匹配子项中的元素. 无法匹配到至少一个规则表达式的任何一个元素名称或别名(如果有使用的话)将从子项中剔除.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>规则表达式</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>@@@Regular Expressions Desc Long</value>
+  </data>
+  <data name="SB_REMOVE_DUPLICATES" xml:space="preserve">
+    <value>移除重复</value>
+  </data>
+  <data name="SB_REMOVE_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>@@@Remove Duplicates Desc Long</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>反转</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_REVERSE Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>反转层次</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>显示子项的父项，汇总值等</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>反转 Opt1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>反转 Opt2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>反转 Opt3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>倒序</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>每一层元素的排序</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Reverse Per Level Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>总计 (合计值  小计)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>@@@Reverse Total Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>循环添加</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>循环合计</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_COUNT Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>循环元素</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ELEMENT Desc Long</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>请选择和设置属性字段.
+</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>选择第一别名</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>请选择如何插入所选择元素:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>选择第二别名</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>服务器 / 数据库选择</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>显示子元素</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>显示隐藏元素的子项</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>@@@Show Hidden Children Desc Long</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>不显示</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>切片操作</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>级别分类</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Sort Level Desc Long</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>行为分类</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>标准排序</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_SORTING_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>立方源</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SOURCE_CUBE Desc Long</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>排序子集</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String Desc Long</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>SUB</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>子立方</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>过滤属性子集</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>过滤数据子集</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>修改子集</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>常规设置</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Subset Hierarchy Filter</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>子集名称</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Subset Name Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>子集查询列表过滤器</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>子集排序</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>子集文本过滤</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>减去</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>@@@Subtract Desc Long</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>合计</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>@@@Sum Desc Long</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Take all lower elements up to  %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>@@@Take Lower Desc Long</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>获取顶层元素:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>@@@Take Topmost Desc Long</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>把所有上面的元素向上移动到 %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>@@@Take Upper Desc Long</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>类型限制</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE_LIMITATION Desc Long</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>类型限制 Opt1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>类型限制 Opt2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>类型限制 Opt3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>高百分比</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_UPPER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>使用过滤</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_WHOLE Desc Long</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>查找元素</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>使用wilcards查找元素列表</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>生成视图 ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>正在装载 XLL ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>正在查找 1% 服务器.请稍候...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>读取 csv 文件...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>正在从立方中读取模块，请稍候...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>正在读取数据，请稍候...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>正从服务器获取元素 %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>扫描选项...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>扫描工作簿...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>启动本地PALO服务...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>规则已删除</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>导出规则失败!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>导出规则成功!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>规则 #%1错误. 规则: %2. 服务器信息: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>规则导入成功!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>规则已保存</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>别名格式</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>在文件末尾追加</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>属性立方体</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>已修改</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>选择立方:</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>选择服务器/数据库:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>choose style :</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>确定要清除 1% 立方中的数据?注意:立方结构仍然存在.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>清空立方</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>修改汇总元素类型为数值型将会导致数据丢失.确定要修改为numeric类型？</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>修改类型为数值型</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>把汇总元素修改为string类型将会导致数据丢失.确定要修改类型为string?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>修改类型为string</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>删除元素</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>此元素已经在立方中进行使用,把元素类型从数值型或字符型修改为固定类型将会丢失数据。是否继续？</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>修改为汇总类型</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>此元素已经在立方中使用，修改元素类型为numeric将会导致数据丢失.你确定要修改为numeric类型么?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>修改为numeric类型</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>此元素已经在立方中使用，修改类型为字符型将会导致数据丢失。确定要修改为string类型？</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>修改类型为字符型</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>立方体名称</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>立方体</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>你所要删除的 1% 维正被 2% 立方引用,必须先删除立方才能删除维.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>维正在使用中</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>数据库元素</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>你确定要从服务中完全删除 %1 维?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>删除维</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>你确定要从服务中彻底删除 %1 立方?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>删除立方</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>确定从服务器彻底删除以下元素?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>删除维</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>纬度元素</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>在 %2 维中找不到 1% 元素！</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>纬度名称</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>元素名称</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>选取列表:</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>预测数据</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>标题已经存在</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>点击“返回”添加元素...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>双击元素列表增加元素源...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>点击"新增立方..."按钮来新增立方...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>按返回添加维...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>No further occurrence of %1 was found!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>你确定你要用剪贴板中的数据替换 %1 维的所有数据?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>粘贴元素</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>限制往当前选择项粘贴 ?</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>请从列表中选择DSN...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>显示属性</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>显示所有选择工具</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>子集</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>技巧: 按下SHIFT键可以选择多个</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>无加载</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>用户信息</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>插入 %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[without template]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>如果想作为自动格式粘贴选择项的话，请检查</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>新建立方...</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>新建维</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>新建元素</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>应用修改</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>取消修改</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>退出视图编辑器</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>点击这里退出向导</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>汇总元素</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>回到数据库页面</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>删除立方...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>删除维...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>删除维(可以多个)...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>编辑维</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>关闭设计器</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>向下移动维</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>向下移动元素</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>从元素列表中删除已选择的元素</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>把所选元素加入到列表</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>向上移动元素</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>从立方中删除维</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>插入维到立方</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>请输入新立方的名称</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>点击这里创建立方</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>开始Palo向导...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>粘贴当前维到Excel</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>重命名维</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>重命名维</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>保持连接(连接/断开连接)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>断开连接</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>持续(左/右)显示Factor</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>保持树形列表模式显示元素</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>选择立方</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>点击这里选择数据库</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>点击这里选择元素</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>点击这里选择服务</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>点击这里选择服务或数据库...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>选择你想要使用的Palo数据公式类型</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>返回到上一步</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>继续下一步</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>可用维列表</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>显示当前数据库的所有立方</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>显示当前数据库的维列表</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>显示当前维度的元素列表</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>显示当前汇总元素和所有子元素</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>这张列表显示了所有选择的维</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>In order of creation</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Sort ascending</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Sort descending</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>缓存设置</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>这些变化发生在每一个客户端缓存失效之后</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>这些变化发生在一个单元格完成新增、更新和删除之后</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>这些变化发生在一个单元格完成新增、更新和删除之后</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>属性立方体</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>数据立方体</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>用户管理立方体</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>属性管理</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>元数据管理</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>用户管理</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>关闭规则编辑器</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>删除选中规则</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>导出规则到CSV...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>从已导出的CSV中还原规则...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>向下移动规则</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>向上移动规则</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>保存所有规则</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>规则编辑器...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Only works with Supervisionserver</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>选择元素</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>为 %1 选择元素</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>立方创建向导</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>编辑字符串</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>导出纬度数据</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>导出立方数据</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>数据导入向导</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>模型</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>粘贴数据公式</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Dimension from template</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>规则编辑器</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Show system cubes</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>显示这个纬度的全部子集</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>'There is a new version of Palo Suite. Do you want to download it?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Update Check</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL is empty</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL is not wellformed</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>警告:这将永久的删除所选文件!确定要执行此操作?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>此向导将引导你进行登录、新建/删除数据库和服务器.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>为新数据库输入一个唯一的名称.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>这一步你将在选定的服务器上创建一个新的数据库.</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>这一步你从选中服务中删除数据库.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>选择要删除的数据库:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>数据库:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>选择服务器</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>端口:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>服务器:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>连接名:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>数据库管理</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>服务管理</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>在这步中你将在客户端注册一个已经存在的服务.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>在这一步中，你将会编辑一个在客户端已经存在的服务.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>输入服务的名称或IP进行注册</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>输入服务机器名或IP地址</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>创建新数据库</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>从数据库模板中创建数据库</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>删除一个已经存在的数据库</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>注册新服务</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>注销选中服务</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>编辑选中的服务</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Palo向导</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>服务和数据库向导</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Use Palo Authentication</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Use Windows Authentication</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>PALO</value>
+  </data>
+</root>

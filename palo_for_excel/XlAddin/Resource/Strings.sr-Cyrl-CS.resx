@@ -1,0 +1,2719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>Активирај провјеру нове верзије</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Додај подскуп...</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>Одустани</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Све</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Назад</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Нађи...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Откажи</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Очисти листу</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;Затвори</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Скупи све</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Кликните овде за уметање везивне  ниске</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Успостави везу</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Кликните овде да уметнете ниску коцке</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; База података</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Обриши...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>кликните овде да уметнете димензионе ниске.</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Прекини везу</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Прошири све</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Крај &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Сакриј коментар</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Налепи хоризонтално</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Прошири</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Даље &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;У реду</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Расчлани</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Налепи</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>Налепи заглавље</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Освежи листу</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Сачувај...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Тражи &amp;&amp; Одабери</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Одабери све</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Одабери грану</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Инвертован одабир</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Не одабирај ништа</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Одабрано</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Прикажи коментар</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>Опадајуће</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>Растуће</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Тестирај успоставу везе</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Налепи вертикално</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Очисти</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>Очисти одабрани део коцке</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Очисти све</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>Очисти целу коцку (ако сте учинили било какав одабир, биће игнорисан, и цела коцка ће бити очишћена)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Обриши</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Напусти</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Сними</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Тражи</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Кеш подешавања</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Кеш подешавања</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Нема клијентског кеша</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Узми клијентски кеш</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Узми клијентски кеш за коцке без компанијских правила</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Очисти коцку</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Чишћење података коцке. Молимо сачекајте ...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Додај као прво дете</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Додај коцку...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Нова димензија</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Додај</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Додај као суизданак</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Очисти коцку...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>Конвертуј коцку (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Копирај као прво дете</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Копирај елементе</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Копирај као суизданак</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Преброји</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Информације о коцки ...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Обриши коцку...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Обриши димензију...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Обриши...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Уклонити из елемената извора</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Уређивање димензије</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Консолидација...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Извези податке...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Извези димензију...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Фактор консолидације...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Помери елемент на почетак</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Помери елемент на крај</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Нумерички</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Налепи елементе</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Одстрани из хиерархије</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Промени име димензији</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Промени име</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Одабери све</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>прикажи родитеље</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>Ниска</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Извоз димензије...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Третирај као димензију мјере(MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Додај...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Активно</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Обриши..</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Ажурирај...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Едитор Правила...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Информације</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Помери доле</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Помери горе</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Мијењај стање активности</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Третирај као димензија времена(MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Преименовати коцку...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Информације о димензији...</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Тражи елемент</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo потврђује промене...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Димензије</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Однос попуњености(%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Број ћелија</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Број димензија</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Број попуњених ћелија</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Информације о коцки</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Обриши подскуп...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Коцка атрибута</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>Бр.Ц елемената.</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Елементи</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Максимална дубина</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Максимална испупченост</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Највиши ниво</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>Бр.Н елемената</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Бр.елемената</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>Бр.С елемената</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Информације о димензији</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Грешка кружне референце!
+Један од консолидационих елемената већ садржи тренутни елемент.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Налепи елементе није могло да заврши задатак. Увоз неуспео:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Налепи елементе грешка</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Грешка при успоставњању везе са сервером!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Елемент &lt;%1&gt; није јединствен!
+Молимо специфицирајте димензију додавањем префикса на елемент са именом димензије
+праћено зарезом: нпр. Месеци:Јануар</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Коцка %1 већ постоји у бази података %2!
+Молимо,унесите другачије име за тренутну коцку.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Име коцке празно!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>Име коцке садржи недозвољене карактере!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Ни једна димензија није одабрана!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Подаци нису нађени</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>База података са тим именом већ постоји!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Име базе података садржи недозвољене карактере!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>Димензија већ постоји!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Име димензије празно!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>Име димензије садржи недозвољене карактере!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Елемент већ постоји!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Име елемента садржи недозвољене карактере!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Датотека %1 није нађена.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>Недовољна права!</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS " xml:space="preserve">
+    <value>Недовољна права</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Грешка пријављивања: Недозвољени подаци за пријављивање!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Грешка при учитавању XLL датотеке!
+Могући узрок: XLL датотека је померена или обрисана(Тражило се: "%1"). Размотри реинсталирање Add-in. Када XLL датотека није учитана делови овог Add-in неће радити правилно.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Грешка при иницијализацији PALO Add-in: Грешка Excel комуникације!
+Делови овог Add-in неће радити правилно. Пробајте реинсталирати додатак.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Грешка при иницијализацији PALO Add-in:
+Не може се покренути сервис локалног PALO сервера!
+Сервис је вероватно онемогућен. Укључи сервис и покушај покренути дизајнера поново.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Грешка при иницијализацији PALO Add-in:
+Грешка при комуникацији са сервисом локалног PALO сервера! PALO Сервер вероватно није инсталиран локално или функционише лоше.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Грешка при иницијализацији PALO Add-in:
+Немате довољно привилегија да извршите Add-in!
+Делови овог Add-in неће радити правилно. Пробајте реинсталирати додатак.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Грешка при читању из базе података:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Грешка при регистрацији новог сервера!
+Молимо,проверите податке повезивања.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>Формула није нађена у B1</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Име не сме да садржи @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Име које сте унели садржи неке карактере који могу изазвати грешку у Excel-у (‘, “, итд.). Palo сервер и клијенти који нису Excel ће вероватно толерисати те карактере.
+Да ли желите да наставите?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Упозорење о Excel компатибилности</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Датотека успешно сачувана...</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Унесите нову дефиницију правила</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>База података успешно креирана.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>База података успешно обрисана.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Сервер успешно пријављен.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Сервер успешно одјављен.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Тест успешан!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Честитамо! Palo for Excel је успешно инсталисан.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Оптимизујте Excel са Palo-ом: Open Source BI за планиранје, анализу и извјештавање</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>О Програму</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo приступ и напредно упутство за употребу</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Затвори</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Отвори Excel workbook са Palo демо апликациом</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Отвоприте "First Steps with Palo for Excel"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Apply for free training</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Прикажите овај дијалог код стартања Excelа</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Our sample manual helps you...</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Log into MyPalo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Or start immediatly using Palo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>With "Paste View"...</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Атрибути</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Елементи</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Подскупови</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Доступне димензије:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Број карактера:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Подеси ширину:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Не показуј корисник/група димензије</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Покажи одабирач елемената на дупли клик</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Прикажи фактор на левој страни</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Увлачење</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Прикажи димензионе атрибуте</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Прикажи стабло</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>са заглављем</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Увијене ознаке</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Нулто избацивање</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>потисни калкулисане празне вредности</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Текст датотеке (*.txt)|*.txt|Раздвојене зарезом (CSV) Датотеке (*.csv)|*.csv|Све датотеке (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>Овај Чаробњак ће Вам дозволити да подесите нову коцку.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Име:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Коцке:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Димензије:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Молимо,унесите вредност ниске. Због Excel ограничења само првих 255 карактера ће бити видљиво у Excel-у. Palo, међутим, може сместити онолико карактера по ћелији колико ти твоји системски ресурси дозвољавају.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Молимо,унесите вредност ниске.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Елементи:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Консолидовани елементи:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Молимо,одаберите одредишну CSV датотеку и њену структуру:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Одаберите одредишну датотеку (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Такође извезите правила основне ћелијске вредности</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Фактор</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>Празне ћелије у првој линији после Завршетка</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>Овај чаробњак ће вам дозволити да подесите извор података који кружи кроз први ред активне радне странице.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Одаберите извор података</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Фиксна текст датотека (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC Упит</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Коцка</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Освежавање екрана током завршавања</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Унутрашња петља (increase A1 until error in B1)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>У овом кораку дефинишете фиксну текст датотеку која ће бити увезена.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Одаберите изворну датотеку (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>У овом кораку дефинишете ODBC Упит за увозну петљу</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Одаберите ODBC извор (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN: </value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Унесите SQL израз</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Притисните Следећи да видите следећи запис или притисните Крај да кружите кроз све записе.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Упит</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Игнориши празне ћелије</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Само основни елементи</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Смести податке за пријављивање</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Ново...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>Нови атрибут</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Нова димензија</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Нови елемент</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>Нови субсет</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>Нова линија</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Празно</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Зарез</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Децимална тачка</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Тачка-зарез</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Табулатор</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Кориснички-дефинисано</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Молимо,одаберите акцију из листе...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Сви елементи</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Одабране димензије:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>Датотеке SQL упита (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Уреди...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Ново...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Провери нову верзију...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Молимо,одаберите одредишну CSV датотеку, одвајач и жељени хијерархијски облик:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Одабери хијерархијски облик</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-облик (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Родитељ-дете-релација у једном реду</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Одабери одвајач</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Име димензије:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Изаберите име димензије и предложак:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Ново правило</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Коментар</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Листа постојећих правила</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>Грешка у правилу. Сервер је вратио:
+</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Елементи подкупа:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Предложак:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>Кликните овде за регистрацију у  "MyPalo Community"</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>Лозинка</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>Зашто да се регистурјем за "MyPalo Community"?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>Корисничко име</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Download CE Version</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Compare CE vs Premium</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Настави</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Generate quote</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>Лиценца ће истећи за %1 дана.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium license expired</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>Статус сервиса локалног PALO сервера је подешен на </value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>&amp;О програму...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Запамти почетно стање</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Прихвати измене</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>Подаци &amp;Увоз...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Моделар...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Palo &amp;Чаробњак (&amp;Wizard)...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Налепи &amp;Елементе...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Налепи податке &amp;Функција...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Налепи подскуп...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>Налепи &amp;Поглед...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Врати измене</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Сачувај тенутно стање...</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>SVSWizard</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Врати се један корак назад</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Кеширање вредности на клијенту</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Укупни број елемената: %1
+Број N елемената: %2
+Број S елемената: %3
+Број C елемената: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Идентификатор                                           %1
+Име                                              %2
+Број димензије                          %3
+Димензионс                                      %4
+Укупан број ћелија                         %5
+Број попуњених основнох ћелија и ћелија низова %6
+Статус                                              %7
+Тип                                                %8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Елемент %1 је био уклоњен из %2 стабла, али се користи у другим структурама и зато
+неће бити приказан у захтеваном циљу.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>Одабрани поглед садржи више од %1 (=%3) ћелија. Да ли желите да ограничите поглед на %2 редова (препоручљиво)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>Страница у којој покушавате да прилепите садржи спојене ћелије.
+Морате уклонити ове ћелије пре него што можете користити Налепи функције.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>Селекција коцке је очишћена.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>Коцка је комплетно обрисана.</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>Ова акција може да потраје дуже. Молимо сачекајте.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>Коцка није нађена!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>Погрешан тип елемента</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Елемент није нађен!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Недозвољен аргумент!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Недозвољен формат!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Тип неодговарајућ! Покушавате да упишете ниску у нумеричку ћелију.</value>
+  </data>
+  <data name="PaloOnlineAdvancedHelp" xml:space="preserve">
+    <value>MyPalo</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>Први кораци са Палом</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>Улогуј се...</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>Одлогуј се</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Open from repositroy...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publish to repository...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web Чаробњак</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Одабирач стране</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Називи колона</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Називи редова</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Подаци</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Tip: Дупли клик на димензију да одаберете елементе</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Налепи поглед</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Determing wich cells are not empty. Please wait...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>PWW_DefaultConnectionMsg</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>PWW_DefaultConnectionTitle</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>PWW_T1ConnectionAction</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>PWW_T1ConnectionHeading</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>PWW_T1ConnectionLabel</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>PWW_T1ConnectionMarkDefault</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>PWW_T1Edit</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>PWW_T1Heading</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>PWW_T1New</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>PWW_T1Remove</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>PWW_T2ConnectionHeading</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>PWW_T2ConnectionName</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>PWW_T2ConnectionURL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>PWW_T2Heading</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>PWW_T2Password</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>PWW_T2Secret</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>PWW_T2Username</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web Чаробњак</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да изађете без чувања?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>Ова акција ће обрисати %1 ћелија.
+Ово може трајати дуго.
+Да ли желите да наставите ?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да потпуно обришете базу података %1 са сервера?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Обриши базу података</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>Ова радња може потрајати неко вријеме.
+Желите ли да наставите?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да одјавите сервер %1?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Одјави сервер</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Желите ли да обришете сва правила пре учитавања?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Да ли сте сигурни да желите обрисати правило(а)?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Приоритет консолидованја</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Консолидовани елементи</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Основни елементи</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Сви елементи</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Преименуј подскуп...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Правило</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Ажурирано</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Горе</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>Ако је укључен, хијерархијски филтер ће изабрати све елементе који су лоцирани изнад рефернтних елемената у хијерархији без димензија. Уобичајена карактеристика за хијерархијски филтер је доле.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Активирај овај филтер</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Додај</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Додај нови подскуп</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Алиас</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>Поље првог алиаса</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Одаберите алиас коме желите да доделите филтер(текст или сортирање) ако је поље алиаса празно, филтерима ће бити додељена имена елемената</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Поље другог алиаса</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Одабери друго поње алиаса ако желите да доделите филтер(текст или сортирање). Ако је поље овог алиаса празно, филтери ће бити примењени на прво поље алиаса и ако је оно празно такође биће приказани као име елемента.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>Све</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>@@@Све дуг опис</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Сви елементи</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Сви елементи дуг опис</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>@@@Било који дуги опис</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>SB_АТРИБУТ дуги опис</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Примери:
+
+    -  "&gt;0", да одговара ...
+    -  "&lt;=1000", да одговара ...
+    -  "&lt;&gt;10", да одговара...
+    -  "=10", да одговара...
+
+
+</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Филтери атрибута</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>SB_ФИЛТЕРИ_АТРИБУТА дуги опис</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Аутоматски освежи</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Активира Preview Auto Refresh</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Не приказуј ово поново</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Молимо знајте да ће аутоматско освежење бити искључено када одаберете филтер података.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>Просек</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>@@@Просек дуг опис</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>@@@Назад дуг опис</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Само основни елементи</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Основни елементи дуг опис</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Карактеристика</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Испод</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Покажи само елементе који су лоцирани испод референтних елемената без хијерархије</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>По алиасу</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>@@@По алиасу дуг опис</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>По атрибуту</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>@@@По атрибуту дуг опис</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>По дефиницији</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>@@@По дефиницији дуг опис</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>По имену елемента</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>@@@By Име елемента дуг опис</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>По вредности</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>@@@По вредности дуг опис</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[Сви елементи]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Ћелијски оператор</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>SB_ЋЕЛИЈСКИ_ОПЕРАТОР дуги опис</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Одабрани елементи:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Затвори</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Затвори едитор подскупова</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>@@@Веза дуг опис</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Консолидовано</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Прикажи само консолидоване елементе.</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Само консолидовани елементи</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>@@@Консолидовани елементи дуг опис</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>@@@Копирај дуг опис</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Копирај у клипборд</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Критеријум</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_КРИТЕРИУМ дуги опис</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Одабери коцку:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Дефиниција</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_ДЕФИНИЦИЈА дуги опис</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Обриши</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Обриши снимљен подскуп</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Дубина</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>@@@Дубина дуг опис</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Димензија</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Димензиони коментари</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>@@@Димензија дуги опис</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Уреди</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Преименуј подскуп</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Филтрирај елементе хијерархијски</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Референцирај елементе без хијерархије унутар димензије.</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Ексклузивно</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Покажи ако селектоване елементе треба искључити из резултата.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Проширено</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_ПРОШИРЕНО дуги опис</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Алиас</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>податак</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Опште</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Хијерархија</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Изборна листа</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Сортирање</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Испражњено</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>@@@Дуг једноставан опис</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Формула подскупа</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>Испред</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>@@@Предња страна дуг опис</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Уопштено</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Општи поскупови</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>уопштено</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Ниво</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Ротирати</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Филтрирај елементе по типу</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Филтрирај елементе по типу.</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Сакривено Opt1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>сакривено Opt2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Сакривено Opt3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Хијерархија</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>@@@Хијерархија дуги опис</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Хијерархијско бројање</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Једнак</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Једнак дуг опис</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Диспозиција</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Дубоко пребројавање</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Идентично бројање</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Ниво бројања</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Основни елементи</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Прикажи само основне елементе.</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Ниво</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Ниво дуги опис</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Филтрирај елементе по нивоу</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Филтрирај елементе по нивоу</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>Задњи ниво</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Заустави филтрирање на овом нивоу.</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Почетни ниво</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Покрени филтрирање елемената на овом нивоу</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Учитај</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Локални подкупови</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Нижи проценат</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_НИЖИ_ПРОЦЕНАТ дуги опис</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>@@@Максималан дуг опис</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Примени подскуп</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Откажи потскуп</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>Овај текст ће бити уписан у клипборд</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Да ли заиста желите да обришете подскуп '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Интерна грешка ово се не би требало догодити и индикује баг у управљању. Молимо обавестите издавача!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Одабрани фајлови не приказују добар подскуп</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>Не можете сакрити табелеу параметара када су ту активни именовани параметри.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Не може се налепити резултат подскупа. Разлог: </value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>Овај параметар је потребан у оквиру филтера и не може бити деселектован!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Да ли желите да сачувате промене за подскуп: </value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Сачувај промене</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Подскуп обрисан</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>ПРИПОЈИ</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>@@@Припоји дуг опис</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>@@@Минимум дуг опис</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Именовани параметри</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Ново</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Без Правила</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_БЕЗ_ПРАВИЛА дуги опис</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>БезПравила опција 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>БезПравила опција 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>НУМЕРИЧКИ</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Алтернативна подешавања</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Параметар</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Параметар</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Налепи унутра</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>@@@Налепи дуг опис</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Освежи</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Освежава приказ</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Регуларни изрази</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Примери:
+
+    -  "Jan|Feb", да одговара "Jan" и "Feb"
+    -  "J.*", да одговара свим елементима који почињу са "J"
+    -  "J.*|Mar", да одговара свим елементима који почињу са "J" и "Mar"
+</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Специфицирај дозвољене изразе који се поклапају са елементима у том подскупу. Било које име елемента или алиас име(ако је у употребу) које се не поклапа са најмање једним регуларним изразом ће бити искључено из подскупа.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>Дозвољени изрази</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>@@@Дозвољени изрази дуг опис</value>
+  </data>
+  <data name="SB_REMOVE_DUPLICATES" xml:space="preserve">
+    <value>Уклони дупликате</value>
+  </data>
+  <data name="SB_REMOVE_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>@@@Уклони дупликате дуг опис</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Преименуј</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Супротно</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_СУПРОТНО дуги опис</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Reverse hierarchy</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Displays parents under children, i.e. totals under values</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Супротно опција1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Супротно опција2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Супротно опција3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Обрнут поредак</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Поређај елементе по нивоу</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Инвертуј по нивоу дуг опис</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Укупно (сакупљене вредности испод детаља)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>@@@Обрни укупан збир дуг опис</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Обрни додавање</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_ОБРНИ_ДОДАВАЊЕ дуги опис</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Дужина листе:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>Дужина листе:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Кружна листа</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Креирајте листе елемената пчевши од неког специфицираног елемента.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Сачувај</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Сними подскуп</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Молимо одаберите и поставите поља атрибута.
+</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>Одабери први алиас</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Молимо изаберите како желите да уметнете одабране елементе:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>Изабери други алиас</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Сервер / Извор базе података</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Подешавања</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Прикажи децу</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Прикажи дупликате</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Прикажи дупликате у листи</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Прикажи децу скривених елемената</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>@@@Прикажи скривену децу дуг опис</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Не приказуј ништа</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Оператори делова</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Сортирај по нивоу</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>@@@Ниво сортирања дуги опис</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Сортирање карактеристика</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Сортирање критеријума</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_СОРТИРАЊЕ_КРИТЕРИЈУМА дуги опис</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Изворна коцка</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_ИЗВОРНА_КОЦКА дуги опис</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Раширени подскуп</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>Ниска</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@Ниска дуг опис</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>Испод</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Подкоцка</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_ПОДКОЦКА дуги опис</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Филтер подскупа атрибута</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Филтер података подскупа</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Уређивач подскупова</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Уобичајена подешавања подскупа</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Хијерархијски филтер подскупа</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Име подскупа</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Име подскупа Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Филтер листе за одабир подскупа</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Сортирање подскупа</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Текст филтер подскупа</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Одузми</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>@@@Одузети дуг опис</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>Сума</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>@@@ЊСума дуг опис</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Све ниже елементе подићи на  %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>@@@Узми нижи дужи опис</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Узми најчешце елементе:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>@@@Узми најчешће дуг опис</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Узми у обзир све елементе до %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>@@@Узми горње дуг опис</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Врх</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_ВРХ дуги опис</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_ТИП дуги опис</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Типско ограничење</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_ТИПСКО_ОГРАНИЧЕЊЕ дуги опис</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>Граница типа опција1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>Граница типа опција2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>граница типа опција3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Горњи проценат</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_ГОРЊИ_ПРОЦЕНАТ дуги опис</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Употреби</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Употрбеби филтер</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Вредност</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Цео</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_ЦЕО дуги опис</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Тражи елементе</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Можете користити универзалне заменитеље (wildcards) за претрагу листе елемената</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Генерисање погледа ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>Учитавање XLL-а ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>Траже се сервери %1. Молимо сачекајте...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Читање csv датотеке...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Читање блока из коцке. Молимо сачекајте ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Читање блока из базе података. Молимо сачекајте ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Читање елемената са сервера %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Скенирање одабира...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Скенирање радне странице...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Покретање сервиса локалног PALO сервера...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Правило обрисано</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Грешка код извоза правила!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Правила успешно снимљена!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Грешка у правилу #%1. Правило: %2. Порука са сервера: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Правила успешно учитана!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Правило снимљено</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Пријављује гашење сервера, Supervision Server процеса и промјене у стању базе.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>Обично надзирање</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>Надгледање подручја(подскупа ћелија) унутар коцке.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>Надзирање података у коцки</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>Надзирање корисничке активности(улазак/излазак у/из система).</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>Надзирање корисничке активности</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>Комуникација са изворним системо преко ETL сервера(обично релациона база података).</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>Drill Through</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>Враћа true/false као резултат приступања корисника систем.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>Аутентификација</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>Враћа true/false и припадност корисника групи као резултат приступања корисника систем.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>Ауторизација</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>У задњем кораку снимите скрипту на жељену локацију и направите промјене у истој сходно конфигурацији Вашег система.</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>Молимо Вас изаберите тип надзора:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>Молимо Вас изаберите тип идентификације:</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>Молимо Вас изаберите подскуп података које желите да надзирете:</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>Ово је генерисана скрипта. Молимо Вас прилагодите је Вашим потребама:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>Честитамо!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>алиас</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>Формат алиаса</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Додај на крај датотеке</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Атрибути коцака</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>Промењни</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Одабери коцку:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Одабери елемент...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Одабери сервер/базу података:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>Изаберите стил :</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да очистите податке у коцки %1?
+Белешка: Структура коцке ће остати нетакнута.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Очисти Коцку</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Заустави све</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Коментар</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>Успостава везе</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Промена типа елемента из консолидационог у нумерички може довести до губитка података.
+Јесте ли сигурни да желите да промените тип у нумерички?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Мењање типа у нумерички</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Промена типа елемента из консолидационог у тип ниска може довести до губитка података.
+Јесте ли сигурни да желите да промените тип у стринговни?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Мењање типа у тип ниска</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Обриши Елементе</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Овај елемент се користи у коцки. Промена типа елемента из нумеричког или ниска тип у консолидациони може довести до губитка података.
+Јесте ли сигурни да желите да наставите?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Промени тип у консолидациони</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Овај елемент се користи у коцки. Промена типа елемента у нумерички може довести до губитка података.
+Јесте ли сигурни да желите да промените тип у нумерички?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Мењање типа у нумерички</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Овај елемент се користи у коцки. Промена типа елемента у ниска тип може довести до губитка података.
+Јесте ли сигурни да желите да промените тип у стринговни?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Мењање типа у тип ниска</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>Име коцке</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>Коцке</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Покушавате да обришете димензију %1 коју тренутно користе %2  Коцка(s).
+Најпре морате обрисати коцку/е да бисте могли обрисати коришћену димензију.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Димензија у употреби</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>База података</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>Елементи базе података</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да потпуно обришете димензију %1 са сервера?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Обриши димензију</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да потпуно обришете коцку %1 са сервера?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Обриши коцку</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Јесте ли сигурни да желите да потпуно обришете следеће елементе:
+%1
+са сервера?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Обриши елементе</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>Димензиони елементи</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Елемент %1 није био нађен у димензији %2 !</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>Димензијсака имене</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>димензије</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>Име елемента</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>Елементи</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Одабери листу:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Прошири све</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Погоди аргументе</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>Заглавље постоји</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>RETURN да додате атрибут...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Притисните ENTER да додате елементе...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Додајте изворне елементе дуплим кликом у листу елемената...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>RETURN да додате субсет...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Кликните на "Нова Коцка ..." дугме да додате коцку...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Притисните ENTER да додате димензију...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>Учитавање</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>Изван</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>Појам %1 није више пронађен!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>ни једно</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>нормално</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Јесте ли сигурнио да желите да замените све елементе у димензији %1 са садржином оставе?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Налепи Елементе</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Ограничити налепљивање на тренутни одабир ?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Правило</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Уреди правила (Напредно)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Молимо,одаберите DSN са листе...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Одабери елементе...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Прикажи артибуте</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Прикажите све алате за одабир</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>Подскуп</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>систем</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Tip: Притисните SHIFT да бисте проширили тренутни одабир</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>непознат</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>неучитан</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Информације о кориснику</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>Уметни %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[без предлошке]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Чекирајте ово ако желите да налепљени одабир буде аутоформатиран</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Нова Коцка...</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Нова Димензија</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Нови Елемент</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Примени промене</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Откажи промене</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Напусти Уредника погледа</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Кликните овде да напустите чаробњака</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Консолидуј елементе...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Вратите се на страну о бази података</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Обриши коцку...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Обриши димензију...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Обриши елемент(е)...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Уреди димензију</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Затвори Дизајнера</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Померите димензију доле</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Померите елемент доле</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Уклоните одабране елемент/е из листе изворних елемената</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Додајте одабране елемент/е на листу изворних елемената</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Померите елемент горе</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Уклоните димензију/је из коцке</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Убаците димензију/је у коцку</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Молимо,унесите име за нову коцку</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Кликните овде да бисте креирали коцку</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Покрените Palo чаробњака...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Налепите тренутни поглед у Excel</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Преименујте димензију</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Преименујте елемент</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Успостави везу</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Успостави/Прекини везу са сервером</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Прекини везу</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Прикажи фактор лево/десно</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Прикажи елементе у листи/хијерархијском моду</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Одабери коцку</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Кликните овде да одаберете базу податка</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Кликните овде да одаберете елементе</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Кликните овде да одаберете сервер</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Кликните овде да одаберете сервер или базу података...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Одаберите тип Palo функције података који желите да користите</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Вратите се на претходни корак</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Пређите на следећи корак</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Ова листа представља листу доступних елемената</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Приказује листу коцки за тренутну базу података</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Приказује листу димензија за тренутну базу података</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Приказује листу елемената за тренутну димензију</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Приказује листу елемената за тренутни консолидован елемент</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Ова листа представља листу одабраних димензија</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>Онако како су креирани</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Поредај опадајући</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Поредај узлазно</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Кеш подешавања</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>Токен се мења после сваког захтева како би натерао сваког клијента да понисти свој кешThe token changes after each request to force each client to invalidate its cache.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>Токен се мења после ћелијског убацивања,ажурирања или брисања .</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>Токен се мења после ћелијског убацивања,ажурирања или брисања.</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Коцке атрибута</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Коцке података</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Коцке управљања корисницима</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Подешавање атрибута</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Управљање мета-подацима</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Управљање корисницима</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Затвори едитор правила</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Обриши изабрано правило</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Сними правила у CSV датотеку...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Учитај правила из CSV датотеке...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Помери правило на доле</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Помери правило на горе</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Сними унето правило</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Едитор Правила...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Ради само са SupervisionServer</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Одабери елемент</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Одабери елемент за %1</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Чаробњак за креирање коцке</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Обриши</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Уреди вредност ниске</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Извоз димензионих података</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Извези податке коцке</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Чаробњак за увоз података</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Моделар</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Функција Налепи податке</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Wizard</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>SVSWizard2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Димензија из предлошке</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Едитор Правила</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>Грешка у правилу</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Прикажи системске коцке</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Прикажи листе глобалних подскупа за ову димензију</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>"MyPalo Community" је online место за све Palo кориснике. "MyPalo" Вам нуди напредну документацију, подршку, чланке експерата и начин је kako да останете у контакту са другим Palo корисницима. Судјеловањем у "MyPalo Community", придружићете се људима из целог света који раде са Palo-ом. Најбољи начин да почнете, јесте да се учланите - креирате кориснички профил. Ако сте већ регистровани, молимо Вас, унесите своје корисничке податке да бисте били аутоматски пријављени.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Ажурирај</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>Открили смо нову верзију Palo Suiteа. Желите ли да је даунлодујете?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Провјера верзије</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL је празан</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL није добро сачињен</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Упозорење: Ово ће трајно обрисати одабрану датотеку!
+Јесте ли сигурни да желите да наставите?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>Овај чаробњак ће вам дозволити да се пријавите и додајете/бришете базе података и сервере.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Унесите јединствено име за нову базу података.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>У овом кораку креираћете нову базу података на одабраном серверу.</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>У овом кораку обрисаћете базу података са одабраног сервера.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Одаберите базу података да буде обрисана:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>База података:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Одаберите сервер</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Прикључак:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Корисничко име:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Лозинка:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Име успоставе везе:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Управљање базом података</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Управљање сервером</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>У овом кораку ћете регистровати постојећи сервер на овом клијенту.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>У овом кораку ћете едитовати постојећу конекцију.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Унесите име или IP адресу сервера за регистровање</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Унеси име или IP сервера</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Креирај нову базу података</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Креирај базу података по шаблону базе података</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Обриши постојећу базу података</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Пријави нов сервер</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Одјави одабрани сервер</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>Уреди одабрани сервер</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Palo чаробњак</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Чаробњак сервера и база података</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Користи Palo ауторизацију</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Користи Windows ауторизацију</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>PALO</value>
+  </data>
+</root>

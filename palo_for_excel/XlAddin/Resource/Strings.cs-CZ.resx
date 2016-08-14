@@ -1,0 +1,2699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>activate update search</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Vložit Subset...</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Vše</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Zpět</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Procházet...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Zrušit</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Vymazat seznam</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;Zavřít</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Sbalit vše</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Klepněte zde pro zadání připojení</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Připojit</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Klepněte zde pro zadání kostky</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; Databáze</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Smazat...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>Klepněte zde pro zadání dimenze.</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Odpojit</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Rozbalit vše</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Konec &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Schovat komentář</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Vložit vodorovně</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Maximalizovat</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Další &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Kompilovat</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Vlož</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>vložte hlavičku</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Obnovit seznam</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Ulož...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Hledej &amp;&amp; vyber</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Vybrat vše</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Vyber větev</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Otoč výběr</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Zrušit výběr</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Označit</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Zobrazit komentář</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>Sestupně</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>Vzestupně</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Test připojení</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Vložit svisle</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Vyčistit</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>Vyčistí označenou část kostky</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Vyčistit vše</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>Vyčistí celou kostku (pokud jste něco vybrali, tak bude ignorován a celá kostka bude vyčištěna)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Hledej</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Nastavení databáze</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Nastavení cache</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Bez cache na klientovi</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Použít cache na klientovi</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Použít cache na klientovi bez pravidel</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Čištění kostky</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Mažu data kostky. Prosím čekej ...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Přidat prvního "potomka"</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Přidat...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Přidat...</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Přidat jako "sourozence"</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Vyčistit kostku...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>Převést kostku (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Kopíruj jako prvního potomka</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Kopíruj prvky</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Kopíruj jako "sourozence"</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Počet</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Informace o kostce ...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Smazat kostku...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Mažu dimenzi...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Mazání...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Odstranit ze zdrojových prvků</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Editovat dimenzi</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Konsolidace...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Exportuji data...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Export dimension...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Váha prvku pro konsolidaci...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Přesunout prvek na začátek</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Přesunout prvek na konec</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Numerická</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Vložit prvky</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Odstranit z hierarchie</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Přejmenovat dimenzi</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Přejmenování</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Vybrat vše</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>Zobrazit rodiče</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>Řetězec (text)</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Monitorovací server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Export dimenze...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Brát jako měrnou dimenzi (MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Přidat...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Aktivní</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Smazat..</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Upravit...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Editor pravidel...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Posunout dolů</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Posunout nahoru</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Přepnout aktivitu</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Brát jako časovou dimenzi (MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Přejmenovat kostku...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Vlastnosti</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Hledej prvek</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo potvrdilo změny...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Dimenze</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Podíl vyplnění (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Identifikátor</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Počet buněk</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Počet dimenzí</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Počet naplněných buněk</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Informace o kostce</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Smazat Subset...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Atribuční kostka</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>Počet C prvků</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Prvky</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Identifikátor</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Maximální hloubka</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Maximální odsazení</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Maximální úroveň</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>Počet N prvků</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Počet prvků</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>Počet S prvků</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Informace o dimenzi</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Chyba cyklické reference!
+Jeden z konsolidovaných elementů již obsahuje současný prvek.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Vložení prvků nemohlo být dokončeno. Import selhal na:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Chyba vkládání prvků</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Chyba připojení k serveru!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Prvek &lt;%1&gt; není jedinečný!
+Prosím specifikujte prvek přidáním prefixu z názvu dimenze
+následovaného dvojtečkou: např. Months:January</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Kostka %1 již existuje v databázi %2!
+Prosím vložte jiný název pro současnou kostku.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Jméno kostky je prázdné!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>Název kostky obsahuje neplatné znaky!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Žádná dimenze nebyla vybrána!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Data nenalezena</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>Databáze s tímto názvem již existuje!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Název databáze obsahuje neplatné znaky!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>Dimenze již existuje!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Nezadán název dimenze!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>Název dimenze obsahuje neplatné znaky!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Prvek již existuje!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Jméno prvku obsahuje neplatné prvky!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Soubor %1 nebyl nalezen.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>nedostatečné oprávnění</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Chyba při přihlašování: špatné přihlašovací údaje!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Chyba načtení XLL souboru!
+Možná příčina: XLL soubor byl přemístěn nebo smazán (Hledej: "%1"). Zvažte přeinstalaci doplňku Palo. Jestliže soubor XLL není načten, tak části doplňku Palo nemusí pracovat správně.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Chyba spuštění doplňku Palo: komunikační chyba aplikace Excel.
+Části doplňku Palo nemusí nebudou pracovat správně. Zkuste přeinstalovat modul.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Chyba spuštění doplňku Palo:
+Nemohu spustit lokální server Palo!
+Služba je pravděpodobně zablokovaná. Povolte službu a zkuste spustit návrhář znovu.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Chyba spuštění doplňku Palo:
+Chyba komunikace s lokálním serverem Palo! Palo server pravděpodobně není instalován lokálně nebo nefunguje správně.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Chyba spuštění doplňku Palo:
+K otevření doplňku nemáte dostatečná oprávnění.
+Části doplňku nemusí pracovat správně. Zkuste přeinstalovat modul.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Chyba čtení z databáze:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Chyba registrace nového serveru.
+Prosím zkontrolujte přihlašovací údaje.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>Žádný vzorec nenalezen v B1</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Uživatelské jméno nesmí obsahovat znak @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Vložené jméno obsahuje znaky, které nemusejí v Excelu pracovat správně (‘, “, atd.). Palo server a klienti s jinou aplikací než Excel budou tyto znaky pravděpodobně tolerovat.
+Chcete pokračovat?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Upozornění kompatibility Excelu</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Soubor uspěšně zapsán</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Sem zadejte definici nového pravidla</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>Databáze byla úspěšně vytvořena.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>Databáze kompletně vymazána.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Server je zaregistrovaný.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Server je odregistrovaný.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Test byl úspěšný!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Gratulujeme! Doplněk Palo pro Excel byl úspěšně nainstalován.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Optimalizujte aplikaci Excel s doplňkem Palo: Open Source BI pro plánování, analýzy a reporting</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>Přihlášení do MyPalo a pokročilý manuál</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Otevřít sešit MS Excel s aplikací Palo Demo</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Otevřít "První kroky s doplňkem Palo pro Excel"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Apply for free training</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Zobrazit toto dialogové okno při startu aplikace MS Excel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Otevřít sešit aplikace Excel s jednou vzorovou aplikací</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Ukázkový manuál vás letmo provede možnostmi doplňku Palo.</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Zaregistrujte se do komunity MyPalo nebo se zúčastněte tréninků s Palo.</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Nebo můžete začít pracovat s doplňkem Palo okamžitě klepnutím na nabídku "Palo"</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>With "Paste View"...</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Atribuce</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Prvky</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Subsety</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Dostupné dimenze:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Počet znaků:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Použít šířku sloupce:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Úprava uživatelských práv</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Ukázat vybraný prvek na dvojklik</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Odsazení zleva</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Odsazení</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Zobrazit pole atribucí</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Zobrazit strom</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>s hlavičkou</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Zalomit nadpis sloupce</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Potlačení nul</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>Potlačit vypočítané prázdné hodnoty</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Textový soubor (*.txt)|*.txt|oddělený čárkou  (CSV) soubor (*.csv)|*.csv|Všechny soubory (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>Tento průvodce umožní nastavit novou kostku.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Název:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Kostka:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Dimenze:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Prosím zadejte textovou hodnotu. V důsledku limitu Excelu bude zobrazeno pouze prvních 255 znaků. PALO může uložit další znaky, podle toho kolik umožní vaše systémové nastavení.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Prosím zadejte textovou hodnotu.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Prvky:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Podřazené prvky:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Prosím zvolte cíl CSV souboru a jeho strukturu:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Vyber cílový soubor (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Exportovat také hodnoty buněk počítaných pravidly</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Váha</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>po konci vyprázdnit zapsané buňky v prvním řádku</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>Tento průvodce Vám umožní nastavit zdroj dat, který prochází přes první řádek aktivního sešitu.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Vyberte datový zdroj</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Textový soubor (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC Dotaz</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Kostka</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Obnovit obrazovku po skončení</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Vnitřní smyčka (zvyšuj A1 dokud nenastane chyba v B1)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>V tomto kroku definujete importní textový soubor.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Vyberte zdrojový soubor (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>V tomto kroku definujte ODBC dotaz pro importovací smyčku</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Vyber ODBC zdroj (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Vložit SQL dotaz</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Stiskem tlačítka Další zobrazíte další záznam nebo stiskem Konec projedete všechny záznamy.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Dotaz</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Ignorovat prázdné buňky</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Pouze základní prvky</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Uložit přihlašovací data</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Nový...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>Nová atribuce</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Nová dimenze</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Nový prvek</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>Nový subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>nový řádek</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Prázdný</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Čárka</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Desetiná čárka</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Středník</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Tabulátor</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Uživatelsky definovaný</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Prosím vyberte akci ze seznamu...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Všechny prvky</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Vybrat dimenzi:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL Query soubory (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Úpravy...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Nové...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Hledat aktualizace...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Vyberte prosím cílový CSV soubor, oddělovač a požadovaný formát hierarchie:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Vyberte formát hierarchie</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-formát (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Rodič-dítě-vztah v jednom řádku</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Vyberte oddělovač</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Jméno dimenze:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Vyberte název dimenze a šablonu:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Klikněte zde pro editaci nového pravidla</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Komentář</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Seznam definovaných pravidel</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>V pravidlu je chyba. Server vrátil:</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Prvky subsetu:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Šablona:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>Pro registraci do "Palo Community" klepněte zde</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>Proč bych se měl zaregistrovat do "MyPalo Community"?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Stáhnout verzi Community</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Porovnat verze Community a Premium</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Pokračovat</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Vygenerovat nabídku na verzi Premium</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Nebo použijte Palo Community Edition, která je 100% opensource. Klepněte na tlačítko pro stažení</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Zobrazit rozdíly mezi verzemi Community a Premium</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>Licence vyprší za %1 den.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Licence Premium vypršela!</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Kontaktujte společnost Jedox.</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>Lokální server PALO je nyní nastaven</value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>&amp;O aplikaci...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Nastavit referenční bod pro krok zpět</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Provést</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>&amp;Import dat...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Návrhář...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>PALO P&amp;růvodce...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Vložit prv&amp;ek...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Vložit datovou &amp;funkci...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Vložit subset...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>Vložit po&amp;hled...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Uložit snímek jako...</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>Průvodce SVS</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Jeden krok zpět</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Aktivuj cache na klienta</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Celkový počet prvků: %1
+Počet z N prvků: %2
+Počet z S prvků: %3
+Počet z C prvků: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Identifikátor                                      %1
+Jméno                                             %2
+Počet dimenzí                                  %3
+Dimenze                                          %4
+Celkový počet buněk                         %5
+Počet naplněných zakladních buněk   %6
+Stav                                                 %7
+Typ                                                  %8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Prvek %1 byl přesunut z adresáře %2, ale je užíván v jiné struktuře a proto
+nebude zobrazen požadovaný cíl.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>Tento pohled obsahuje více než %1 (=%3) buněk. Chcete omezit pohled na %2 řádků (doporučeno)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>List do kterého zkoušíte vložit obsahuje sloučené buňky.
+Potřebujete odstranit tyto buňky předtím než butete vkládat.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>Vybraná oblast kostky byla vyčištěna.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>Kostka byla kompletně vyčištěna.</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>Tato operace může trvat delší dobu. Prosím, vyčkejte.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>Kostka nebyla nalezena!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>neplatný typ prvku</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Prvek nenalezen!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Neplatný argument!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Neplatný formát!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Typy si neodpovídají! Zkoušíte zapsat text do numerické buňky.</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>První kroky s Palo</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>Přihlášení...</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>Odhlášení</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Upravit sešit doplňku Palo</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publikovat...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Průvodce aplikace Palo Web</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Výběr stránek</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Názvy sloupců</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Názvy řádků</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Tip: Poklepáním na dimenzi vyberete prvky</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Vložit pohled</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Určuji, které buňky nejsou prázdné. Prosím, počkejte...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>Výchozí připojení pro aplikaci Palo Web není definované. Prosím, použijte Průvodce aplikací Palo Web pro nastavení připojení.</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>Připojení chybí</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>Správa připojení</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>Vyberte připojení</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>Připojení</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>Upravit připojení</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>Tento průvodce vám umožní prapřidat, odebrat nebo upravit připojení pro služby aplikace Palo Web</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>Nové připojení</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>Odebrat připojení</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>Správa připojení</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>V tomto kroku můžete měnit data pro existující připojení.</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>Bezpečnostní Token</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Průvodce aplikace Palo Web</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Opravdu chcete odejít bez uložení?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>Tento postup by mohl smazat %1 buňky.
+This may take long.
+Chcte pokračovat ?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Opravdu chcete smazat celou databázi %1 ze serveru?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Smazat databázi</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>Tato operace může trvat déle. Chcete opravdu pokračovat?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Opravdu chcete odregistrovat server %1?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Nezaregistrovaný server</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Chcete před importem smazat všechny existující pravidla?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Opravdu chcete smazat pravidlo (pravidla)?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Použít na:</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Konsolidované prvky</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Základní prvky</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Všechny prvky</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Přejmenovat subset...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Pravidlo</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Aktualizováno</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Nad</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>Jestliže je zapnutý, hierarchickým filtrem jsou vybrány všechny prvky umístěné nad referenčním prvkem v hierarchii dimenze. Ve výchozím nastavení hierarchického filtru je Pod.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Aktivovat tento filtr</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Přidat nový subset</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>První pole pro alias</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Vyberte alias na který chcete použít filtr (textový nebo třídící). Jestliže ponecháte pole aliasu prázdné, filtr se použije na jména prvků.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Druhé pole pro alias</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Vyberte druhý alias na který chcete použít filtr (textový nebo třídící). Jestliže toto pole aliasu ponecháte prázdné, filter se použije na první pole aliasu. Pokud i toto bude prázdné, filtr se použije na jména prvků.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>VŠECHNY PRVKY</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí prvky, jestliže všechny prvky řezu splňují kritéria</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Všechny prvky</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Třídí všechny prvky seznamu</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>PRVEK</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí prvky, jestliže některý prvek řezu odpovídá kritériím</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuce</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Seznam podle atribucí</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Příklady:
+
+    -  "&gt;0" 
+    -  "&lt;=1000"
+    -  "&lt;&gt;10"
+    -  "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Filtry atribucí</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>Seznam podle filtru atribucí</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Aktivuje automatické obnovování náhledu</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Znova nezobrazovat</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Výběrem datového filtru bude zrušena automatická aktualizace.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>PRŮMĚR PRVKŮ</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí prvky, jestliže průměr řezu odpovídá kriteriím</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>KONEC</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>Vloží vybrané prvky výběrového seznamu na konec seznamu</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Jen základní prvky</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Setřídí jen základní prvky</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Chování</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Níže</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí pouze prvky, které jsou v hierarchii umístěny pod referenčním prvkem.</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>Podle aliasů</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>Setřídí seznam podle aliasů</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>Podle atribucí</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Setřídí seznam podle atribucí</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>Podle definice</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>Setřídí seznam podle definičního seznamu v Návrháři</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>Podle jména prvku</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>Setřídí seznam podle jména prvků</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>Podle hodnoty</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>Setřídí seznam podle hodnoty</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[Všechny prvky]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Kritéria:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>prosím vyberte kritéria</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Vybrané prvky:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Zavřít editor subsetů</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>Připojení</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Konsolidované</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Zobrazit pouze konsolidovaný prvek</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Zobraz pouze konsolidované prvky</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Setřídí jen konsolidované prvky</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Kopírovat do schránky</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Kritéria</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Výběr kostky:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Definice</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Smazat uložený subset</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Hloubka</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>Nejvyšší úroveň v hierarchii je označena 0, druhá nejvyšší 1 atd.</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Detaily</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Dimenze</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Obsah dimenze</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>Dimenze</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Úpravy</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Upravit název subsetu</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Filtrovat prvky hierarchicky</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Referenční prvek v hierarchii uvnitř dimenze.</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Výhradně</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Definuje, zda má být vybraný prvek vyřazen z výsledku.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Rozšířený</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuce</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Hierarchie</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Výběrový seznam</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Třídění</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Plochý</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí souvislý seznam</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Vzorec subsetu</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>ZAČÁTEK</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>Vloží vybrané prvky výběrového seznamu na začátek seznamu</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Globalní Subsety</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Úroveň</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Opakování</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Filtrovat prvky dle typu</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Filtrovat prvky podle typu.</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Skrýt Opt1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Skrýt Opt2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Skrýt Opt3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Hierarchie</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Zobrazení v hierarchické struktuře</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Výčet hierarchie</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Odsazení</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Nejvyšší úroveň v hierarchii je označena 1, druhá nejvyšší 2 atd</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Rozvržení</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Hloubka výčtu</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Odsazení výčtu</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Úroveň výčtu</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Základní prvky</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Zobrazit pouze základní prvky</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Úroveň</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Základní prvky jsou označeny 0, na každé vyšší úrovni se přidá 1</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Úroveň prvku</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Filtrování prvku podle úrovně</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>Poslední úroveň</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Ukončit filtrování na této úrovni.</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Počáteční úroveň</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Zahájit filtrování na této úrovni.</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Nahrát</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Lokální Subsety</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Nižší procento</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_LOWER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>MAXIMUM PRVKŮ</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí prvky, jestliže maximum řezu odpovídá kritériím</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Použít Subset</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Zrušit Subset</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>Tento text byl zapsán do schránky</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Chcete opravdu smazat subset '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Vnitřní chyba, která by se neměla stát a indikuje chybu v ovládání. Prosím informujte výrobce!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Vybraný soubor nereprezentuje platný subset</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>Nemůžete skrýt panel Parametry, jestliže jsou aktivní označené parametry.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Nelze vložit výsledek subsetu. Důvod:</value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>Tento parametr je nutný uvnitř filtru a musí být vybrán!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Chcete uložit změny do subsetu:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Uložit změny</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Subset smazán</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>SLOUČIT</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>Třídí prvky výběrového seznamu uvnitř seznamu</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>MINIMUM PRVKŮ</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí prvky, jestliže minimum řezu odpovídá kritériím</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Označené parametry</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Nový</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Bez pravidel</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_NO_RULES Desc Long</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>NoRules Opt 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>NoRules opt 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>NUMERIC</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Volitelné nastavení</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Proměnná</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Vloží funkci subsetu do nového listu aplikace Excel</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Náhled</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Obnovit</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Obnoví náhled</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Maska (s * a ? jako zástupnými znaky)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Příklady:
+    -  "Jan|Feb", vybere "Jan" a "Feb"
+    -  "J.*", vybere všechny prvky začínající na "J"
+    -  "[s,d]", vybere všechny prvky obsahující "s" a "d" ve jménu prvku
+    -  "n$", vybere všechny prvky končící na "n"</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Specifikujte masku, která se porovná s prvky v tomto subsetu. Každé jméno nebo alias (jestliže je použitý), který se nerovná nejméně jedné masce, bude vyřazen ze subsetu.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>Masky</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>Masky</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Přejmenovat</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Obrátit</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_REVERSE Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Obrátit strukturu</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Zobrazit rodiče pod dětmi, t.j. součty pod hodnotami</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Otočit Opt1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Otočit Opt2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Otočit Opt3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Obrátit pořadí</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Pořadí prvků na jedné úrovni</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Obrácené třídění uvnitř každé hierarchické úrovně</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Vše (agregované hodnoty pod detaily)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>Obrácené třídění přes všechny hierarchické úrovně</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Přidat obráceně</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Délka seznamu:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>Délka seznamu:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Cyklický seznam</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Vytvoří seznam prvků začínající od nějakého určeného prvku.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Uložit subset</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Prosím vyberte a nastavte atribuční pole.</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>Vyberte první alias</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Vyberte prosím, jak vložit vybrané prvky:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>Vyberte druhý alias</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Server / Výběr databáze</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Zobrazit děti</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Zobrazit duplikáty</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí duplikáty v seznamu</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Zobrazit děti skrytých prvků</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí děti skrytých prvků</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Nezobrazit nic</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Operátory řezu</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Třídit na úrovni</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Třídí seznam uvnitř vybrané hierarchické úrovně</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Chování třídění</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Kritéria třídění</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_SORTING_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Zdrojová kostka</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SOURCE_CUBE Desc Long</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Uložené subsety</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>Řetězec</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String Desc Long</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>SUB</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Subkostka</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Subset - atribuční filtr</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Subset - datový filtr</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Editor subsetů</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Subset - obecné nastavení</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Subset - hierarchický filtr</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Jméno subsetu</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Název subsetu, sestupně dlouhé</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Subset - filtr výběrového seznamu</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Subset - třídění</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Subset - textový filtr</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Odečíst</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>Odstraní všechny prvky ze seznamu kromě definovaných ve výběrovém seznamu</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>SUMA PRVKŮ</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>Zobrazí prvky, jestliže součet řezu odpovídá kritériím</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Vybrat všechny nižší prvky do %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>Vybere prvky s nejnižšími hodnotami dokud přidávaná hodnota nepřekročí x%</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Vybrat nejvyšší prvky:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>Vybere n nejvyšších prvků s nejvyššími hodnotami</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Vybrat všechny vyšší prvky do %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>Vybere prvky s nejvyššími hodnotami dokud přidávaná hodnota nepřekročí x%</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>JMÉNO (řetězec) PRVKU</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Nahoru</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Typové omezení</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE_LIMITATION Desc Long</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>TypeLimit Opt1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>TypeLimit Opt2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>TypeLimit Opt3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Horní procento</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_UPPER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Použít</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Použít filtr</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Celý</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_WHOLE Desc Long</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Hledání prvků</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Můžete použít zástupný znak k hledání prvku v seznamu</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Generuji náhled ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>Nahrávám XLL ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>Hledám server %1. Prosím vyčkejte...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Čtení CSV souboru...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Načítání bloku z kostky. Prosím čekejte...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Načítám blok z databáze. Prosím vyčkejte...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Načítám elementy ze serveru %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Prohlížím vybrané...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Skenuji pracovní list...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Spouštění služby lokálního PALO serveru...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Pravidlo smazáno</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Chyba v exportu pravidel!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Pravidla úspěsně vyexportována!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Chyba v pravidle #%1. Pravidlo: %2. Zpráva serveru: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Pravidla uspěšně naimportována!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Pravidlo uloženo</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Reportuje pád Palo serveru, samotný proces monitorovacího serveru a úložiště databáze.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>Standardní monitorování.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>Monitorování změn v buňkách. Oblast buněk.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>Monitorování kostek.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>Monitorování přihlašování a odhlašování.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>Monitorování přihlašování.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>Monitoruje původ dat ve spolupráci s ETL serverem.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>Drill Through</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>Vrací "pravda" nebo "nepravda" jako výsledek ověření uživatele.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>Ověření</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>Vrací "pravda" nebo "nepravda" jako výsledek ověření uživatele a skupiny, do které spadá.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>Autorizace</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>Prosím, uložte jako poslední krok skriptu a v souladu s tím nastavte SVS.</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>Vyberte typ monitorování:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>Vyberte typ ověření.</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>Určete buňky, které mají být sledované:</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>Zde je vygenerovaný ukázkový kód. Upravte ho dle vašich potřeb:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>Gratulujeme!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>alias</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>alias - formát</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Doplnit na konec souboru</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>atribuce</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Atribuce</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Atribuce kostek</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>Změněno</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Zvolte Kostku:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Vybrat prvek...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Zvolte Server/Databázi:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>Zvolte styl:</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Opravdu chcete vyčistit data z kostky %1?
+Pozn.: Struktura kostky zůstane nedotčena.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Vyčistit kostku</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Sbalit vše</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Komentář</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>Připojení</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Změna typu prvku z konsolidovaného na numerický to může vést ke ztrátě dat.
+Opravdu chete změnit typ na numerický?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Změna typu na numerický</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Změna typu prvku z konsolidovaného do textového může vést ke ztrátě dat.
+Opravdu chcete změnit typ na textový?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Přetypování do textové proměnné</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Vymazat prvky</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Tento prvek je užíván v kostce. Změna typu prvku z numerické nebo textové do konsolidované povede ke ztrátě dat.
+Jste si jisti, že chcete pokračovat?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Změna  typu na konsolidovaný</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Tento prvek je užíván v kostce. Změněním typu prvku na numerický může dojít ke ztrátě dat.
+Opravdu chcete změnit typ na numerický?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Změna typu na numerický</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Tento prvek je užíván kostkou. Změněním prvku na text může vést ke ztrátě dat.
+Opravdu chete změnit typ na textový?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Změna typu na textový</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>jméno kostky</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>kostky</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Zkoušíte vymazat dimenzi %1 která je současně užívána v kostce %2.
+Musíte nejprve smazat kostku a poté můžete smazat dimenzi.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Dimenze je užívána</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>databáze</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>prvky databáze</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Opravdu chcete kompletně smazat dimenzi %1 ze serveru?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Smazat dimenzi</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Opravdu chcete kompletně smazat kostku %1 ze serveru?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Smazat kostku</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Opravdu chcete smazat následující prvek(y):
+%1
+ze serveru?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Smazat prvky</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>prvky dimenze</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Prvek %1 nebyl v dimenzi %2 nalezen!</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>jména dimenze</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>dimenze</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>jméno prvku</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>prvky</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Výběr seznamu:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Rozbalit vše</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>formát</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Odhad argumentů</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>Hlavička existuje</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Stiskněte klávesu ENTER pro přidání atribucí</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Stiskni ENTER pro přidávání prvků...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Přidej zdrojové prvky dvojitým kliknutím na seznam elementů...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Stiskněte klávesu ENTER pro přidání subsetů...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Klepněte na "Nová kostka..." pro přidání kostky...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Stiskněte tlačítko ZPĚT pro návrat do přidané dimenze...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>načteno</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>Žádný další výskyt %1 nebyl nalezen!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>žádný</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>normální</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Opravdu chcete přepsat všechny prvky z dimenze %1 obsahem schránky?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Vložit prvek</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Omezit vkládání do současného výběru?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Pravidlo</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Editor pravidel (pokročilý)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Prosím vyberte DSN ze seznamu...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Vybrat prvky...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>server</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Zobrazit atribuce</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Ukaž všechny vybrané nástroje</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>subset</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>systém</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Tip: Zmáčkni SHIFT pro rozšíření současného výběru</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>neznámý</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>nenačteno</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Uživatelské info</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>vložit %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[bez šablony]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Zaškrtněte toto tlačítko, pokud chcete automaticky formátovat vložený výběr.</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Nová kostka</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Nová dimenze</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Nový prvek</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Potvrdit změny</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Zrušit změny</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Opustit editor VLožit pohled</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Klepněte zde pro ukončení Průvodce</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Sloučit prvky...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Zpět na stránku databáze</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Smazat kostku...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Smazat dimenzi...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Smazat prvek (prvky)...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Upravit dimenzi</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Zavřít Návrháře</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Přesun dimenze dolů</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Přesun prvku dolů</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Odstraní vybrané prvky ze seznamu zdrojových prvků</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Přidání označených prvků do seznamu zdrojových prvků</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Přesun prvku nahoru</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Odstranit dimenzi z kostky</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Vložit dimenzi do kostky</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Prosím zadejte název nové kostky</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Klepněte zde pro vytvoření kostky</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Spustit průvodce Palo...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Vloží současný pohled do Excelu</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Přejmenovat dimenzi</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Přejmenovat prvek</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Navázat spojení</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Přepínání připojení (Připojení/Odpojení)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Odpojit</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Změna zobrazení koeficientu (vlevo/vpravo)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Přepínání zobrazení prvků (seznam/strom)</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Vybrat kostku</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Klepněte zde pro výběr databáze</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Klepněte zde pro výběr prvků</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Klepněte zde pro výběr serveru</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Klepněte zde pro výběr serveru nebo databáze...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Vyberte typ datové funkce Palo, kterou chcete použít</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Zpět na předchozí krok</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Postoupit na další krok</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Tento seznam představuje dostupné dimenze</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Zobrazuje seznam kostek současné databáze</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Zobrazí seznam dimenzí pro danou databázi</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Zobrazí seznam prvků pro danou dimenzi</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Zobrazí seznam prvků pro aktuální konsolidovaný prvek</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Tento seznam představuje strom zvolené dimenze</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>Podle pořadí vytvoření</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Třídit vzestupně</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Třídit sestupně</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Nastavení databáze</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>Token se změní po každé žádosti o vynucené zneplatnění cache klienta.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>Změny se projeví po vložení, aktualizaci nebo smazání buňky.</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>Změny se projeví po vložení, aktualizaci nebo smazání buňky.</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Atribuční kostky</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Datové kostky</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Uživatelská správa kostek</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Správa atribucí</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Správa meta dat</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Správa uživatelů</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Zavřít editor pravidel</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Smazat vybrané pravidlo</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Exportovat pravidla do souboru CSV...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Importovat pravidla ze souboru CSV...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Posunout definici pravidla dolů</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Posunout definici pravidla nahoru</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Uložit zadané pravidlo</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Editor pravidel...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Funguje pouze s monitorovacím serverem</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Volba prvku</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Vyberte prvek pro %1</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Průvodce vytvořením kostky</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Vymazat</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Editace textové hodnoty</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Exportovat data dimenze</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Exportování dat kostky</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Průvodce importem dat</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Návrh modelu</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Vložte datovou funkci</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>Průvodce monitorováním.</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>Průvodce SVS 2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Dimenze ze šablony</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Editor pravidel</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>Chyba v pravidlu</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Zobrazit systémové kostky</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Ukázat seznam globálních subsetů pro tuto dimenzi</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>Komunita MyPalo je online zdrojem informací pro uživatele Palo. MyPalo nabízí pokročilou dokumentaci, podporu, články od odborníků a stává se tak možností, jak zůstat v kontaktu s ostatními uživateli Palo. Účastí v komunitě MyPalo můžete spolupracovat s uživateli Pala z celého světa. Nejsnažší cestou, jak začít, je vytvoření účtu MyPalo. Pokud ve vašem případě již registrace proběhla, použijte váš účet pro automatické přihlášení.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Změna</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>Existuje novější verze Palo Suite. Chcete ji stáhnout?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Kontrola aktualizací</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL je prázdná</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL není vytvořená správně</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Upozornění: Vybrané soubory budou trvale smazány!
+Opravdu chcete pokračovat?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>Tento průvodce Vám umožní přihlášení, přidání/smazání databází a serverů.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Vložte jedinečný název pro novou databázi.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>V tomto kroku vytvoříte novou databázi na vybraném serveru.</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>V tomto kroku smažete databázi ze serveru.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Vyberte databázi, která má být smazána:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>Databáze:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Vyberte připojení:</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Připojení:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Uživatelské jméno:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Heslo:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Název připojení:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Správa databáze</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Správa připojení</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>V tomto kroku zaregistrujete existující server na tomto klientu.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>V tomto kroku budete editivat existující server na této klientské stanici.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Zadejte jméno nebo IP adresu serveru, který má být zaregistrován.</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Zadejte jméno nebo IP adresu serveru</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Vytvořit novou databázi</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Vytvořit databázi ze šablony</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Smazat existující databázi</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Zaregistrovat nový server</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Odregistrovat vybraný server</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>Editovat vybraný server</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Průvodce Palo</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Průvodce serveru a databází</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Použít ověření Palo</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Použít ověření systému Windows</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>Chyba Palo</value>
+  </data>
+</root>

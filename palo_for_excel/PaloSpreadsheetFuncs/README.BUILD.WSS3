@@ -1,0 +1,10 @@
+export BOOSTINC=/include
+export BOOSTLIB=/usr/lib
+ICUINC=/data/devel/wss_core/extlibs/icu/include/
+ICULIB=/data/devel/wss_core/extlibs/icu/lib/Linux/i386/
+export INPUTRC=/etc/inputrc
+export LIBCPOOLINC=/data/devel/distfiles/palo/palo_engine/trunk
+export LIBCPOOLLIB=/data/devel/distfiles/palo/palo_engine/trunk
+export LIBPOOLINC=/data/devel/distfiles/palo/palo_engine/trunk
+export PALOINC=/data/devel/distfiles/palo/palo_engine/trunk/libpalo_ng/source/include
+export PALOLIB=/data/devel/distfiles/palo/palo_engine/trunk/libpalo_ng/source/.libs

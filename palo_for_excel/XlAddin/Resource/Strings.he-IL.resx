@@ -1,0 +1,2707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>activate update search</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>...הוסף קבוצה</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="btnPaloOnlineOK" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>כל</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; חזור</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>עיון...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>נקה רשימה</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>מזער הכל</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>לחץ כאן כדי להוסיף שם חיבור</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>התחבר</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>לחץ כאן כדי להוסיף שם קוביה</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; בסיס נתונים</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>לחץ כאן כדי להוסיף שם מימד</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>התנתק</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>הרחב הכל</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>סיום &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>הסתר הערה</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>הדבק אופקית</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>הרחב</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>הבא &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>נתח</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>paste head</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>רענן רשימה</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>שמור...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>חפש &amp;&amp; בחר</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Select branch</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>הפןך בחירה</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>ללא בחירה</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>נבחר</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>הראה הערה</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>יורד</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>עולה</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>בדוק חיבור</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>הדבק אנכית</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>נקה בחירה</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>נקה חתך קוביה שנבחרה</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>נקה הכל</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>נקה הקוביה כולה (אם עשית בחירה כלשהי, לא תבוא לידי ביטוי, וכל הקוביה תמחק)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>הגדרות בסיס נתונים</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>הגדרות מטמון</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>No client cache</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Use a client cache</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Use a client cache for cubes without enterprise rules</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>נקה קוביה</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>מנקה נתוני קוביה. המתן בבקשה...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>הוסף כבן הראשון</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Add cube...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>New dimension</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>הוסף כאח</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Clear cube...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>Convert Cube (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>העתק בן ראשון</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>העתק אלמנטים</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>העתק כאח</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>ספירה</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Cube Information ...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Delete cube...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Delete dimension...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>מחק...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Remove from source elements</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Edit dimension</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>איחוד ...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>ייצוא נתונים...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Export dimension...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>פאקטור איחוד...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>הזז אלמנט להתחלה</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>הזזת אלמנט עד הסוף</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>הדבק אלמנטים</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>הסר מההיררכיה</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Rename dimension</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>הראה אבות</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>תווים</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Export dimension...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Treat as Measure dimension(MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>הוסף..</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>פעיל</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>מחק...</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>ערוך...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>עריכת כללים...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>הזז מטה</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>הזז מעלה</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Toggle Activity</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Treat as Time dimension(MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Rename cube...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Dimension Information ...</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>חפש אלמנט</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo is committing changes...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>מימדים</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Filled ratio (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>זהה</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>מספר תאים</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>מספר מימדים</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>מספר תאים מלאים</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>פרטי קוביה</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Delete Subset...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>Number of C elem.</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>אלמנטים</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>זהה</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>מקסימום עומק</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>מקסימום כניסה</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>רמה מקסימלית</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>מספר אלמנטים</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>Number of S elem.</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>פרטי המימד</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Circular reference error!
+One of the Consolidated Elements already contains current element.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Paste Elements was unable to complete the task. Import failed at:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>הדבק שגיאת אלמנט</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>שגיאה בחיבור לשרת!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Element &lt;%1&gt; not unique!
+Please specify dimension by prefixing the element with dimension name
+followed by colon: eg. Months:January</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Cube %1 already exists in database %2!
+Please enter a different name for a current cube.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>שם קוביה ריק!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>שם הקוביה מכיל תווים לא חוקיים!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>מימד לא נבח</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>לא נמצאו נתונים</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>Database with that name already exists!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>שם בסיס נתונים מכיל תווים לא חוקיים!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>מימד זה כבר קיים!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>שם מימד ריק!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>שם מימד מכיל תווים לא חוקיים!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>אלמנט זה כבר קיים!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>שם אלמנט מכיל תווים לא חוקיים!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>file %1 was not found.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>insufficient rights</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Logon Error: Invalid login data!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Error loading XLL file!
+Possible cause: XLL File was moved or deleted(Looked for: "%1"). Consider reinstalling the Add-in. When XLL file is not loaded portions of this Add-in will not work properly.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Error initialising PALO Add-in: Excel Communication Error!
+Portions of this Add-in will not work properly. Try reinstalling the plugin.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Error initialising PALO Add-in:
+Could not start the local PALO server service!
+The service is probably disabled. Enable the service and try starting the designer again.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Error initialising PALO Add-in:
+Error Communicating with the local PALO server service! PALO server is probably not installed locally or it is malfunctioning.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Error initialising PALO Add-in:
+You don't have sufficient privileges to execute the Add-in!
+Portions of this Add-in will not work properly. Try reinstalling the plugin.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>שגיאה בקריאה מבסיס הנתונים:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Error registering new server!
+Please check the connection data.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>לא נמצאה נוסחא ב B1</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Username must not contain @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>The name you entered contains some chars that may not work well in Excel (',", etc.). Palo server and clients other than Excel will probably tolerate these.
+Do you want to continue?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>אזהרת תאימות אקסל</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>קובץ נכתב בהצלחה</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Enter new rule definition here</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>בסיס נתונים נוצר בהצלחה.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>בסיס נתונים נמחק בהצלחה.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>שרת נרשם בהצלחה.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Server successfully unregistered.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>הבדיקה עברה בהצלחה!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Congratulations! Palo for Excel was successfully installed.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Optimize Excel with Palo: Open Source BI for Planning, Analysis and Reporting</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo login and advanced manual</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Open Excel workbook with Palo Demo Application</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Open "First Steps with Palo for Excel"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Apply for Palo training</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Show this dialog when starting Excel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Open Excel workbook with one demo application</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Our sample manual gives you fast track introduction to capabilities of Palo.</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Register for MyPalo community or take part in one of our Palo trainings.</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Or start immediatly using Palo by clicking on "Palo" menu</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>With "Paste View" you can create views based upon Demo databases included in setup. With "Modeller" you can model existing databases or create new ones.</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>כינויים</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>אלמנטים</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Subsets</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>מימדים זמינים:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>מספר תווים:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>רוחב קבוע:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>עריכת הרשאות</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Show element selector on doubleclick</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Display factor on the left</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Show attribute fields</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>הצג היררכיה</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>עם כותרת</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>גלישת תוויות</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Zero suppression</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>Suppress calculated null</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Text files (*.txt)|*.txt|Comma Separated (CSV) Files (*.csv)|*.csv|All files (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>This Wizard will allow you to setup a new Cube.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>שם:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>קוביות:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>מימידים:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Please, type in the string value. Due to Excel limitation only the first 255 characters will be visible in Excel. Palo however can store as many characters per cell as your system resources allow you to.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Please, type in the string value.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>אלמנטים:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>אלמנטי איחוד:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Please choose the destination CSV file and its structure:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Select the destination file (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Also export rule based cell values</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>פקטור</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>blank written cells in the first line after finishing</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>This Wizard will allow you to setup a data source that loops through the first row of the active worksheet.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>בחר מקור נתונים</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Flat Textfile (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC שאילתת</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>קוביה</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Refreshing screen while finishing</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Internal Loop (increase A1 until error in B1)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>In this step you define the flat textfile to be imported.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Select the sourcefile (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>In this step you define the ODBC Query for the import loop</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Select ODBC source (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Enter SQL statement</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Press Next to see next record or press Finish to loop through all records.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>שאילתה</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Ignore empty cells</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>אלמנטי בסיס בלבד</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Store login data</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>חדש...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>מימד חדש</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>אלמנט חדש</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>שורה חדשה</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>ריק</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>פסיק</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>נקודה עשרונית</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>אתנח</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>טאב</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>User-defined</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Please select action from the list...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>כל האלמטים</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Selected Dimensions:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL Query Files (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>ערוך...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>חדש...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>בדוק אם יש עדכונים ...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Please choose the destination CSV file, the separator and the desired hierarchy format:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Select the hierarchy format</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-format (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Parent-child-relation in one row</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Select the separator</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>שם מימד:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Please choose the dimension name and the template:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Click here to start editing new rule</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>הערה</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>List of defined rules</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>There is error in rule. Server returned:</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Subset elements:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>תבנית:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>Click here to register for "MyPalo Community"</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>Why should you register for "MyPalo Community"?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Download Palo for Excel Community Edition</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Compare Community and Premium versions</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>המשך</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Generate quote for Premium version</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Or use Palo Community Edition as 100% Open Source. Click on button to download it</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>See the difference between Community and Premium version</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>License will expire in %1 days.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>רשיון פרימיום פג תוקף!</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Contact Jedox to obtain quote for Premium edition</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>The local PALO server service status is now set to</value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>אודות...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Set reference for undo</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>Data &amp;Import...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Modeller...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Palo &amp;Wizard...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>הדבק אלמנטים...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Paste Data &amp;Function...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Paste &amp;SubSet...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>Paste &amp;View...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Save As S&amp;napshot...</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>SVSWizard</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Go one step back</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Activate client cache</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Total number of elements: %1
+Number of N elements: %2
+Number of S elements: %3
+Number of C elements: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Identifier:			%1
+Name:			%2
+Number of dimensions:			%3
+Dimensions:			%4
+Total number of cells:			%5
+Number of filled basic and string cells:			%6
+Status:			%7
+Type:			%8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Element %1 was removed from %2 tree, but is in use in other structures and therefore
+it will not be displayed in the requested target.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>The selected view contains more than %1 (=%3) cells. Do you want to restrict the view to %2 rows (recommended)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>Sheet in which you are trying to paste contains merged cells.
+You need to remove these cells before you can use paste functions.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>חלקי קוביה נבחרים נוקו.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>קוביה נוקתה לחלוטין</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>פעולה זו עשויה להימשך זמן רב. אנא המתן.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>קוביה לא נמצאה!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>סוג אלמנט לא חוקי</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>אלמנט לא נמצא!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Invalid argument!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>תבנית לא חוקית!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Type mismatch! You are trying to write string data in a numeric cell.</value>
+  </data>
+  <data name="PaloOnlineAdvancedHelp" xml:space="preserve">
+    <value>MyPalo</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>Palo First Steps</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>כניסה ...</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>יציאה</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Edit Palo spreadsheet...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>פרסם...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Page selector</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>כותרות טור</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>כותרות שורה</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>נתונים</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Tip: Double-Click dimension to select elements</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Paste View</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Determining wich cells are not empty. Please wait...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>Default Palo Web connection is not defined. Please use Palo Web Wizard to set default connection.</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>חיבור חסר</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>Connection management</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>בחר חיבור</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>חיבור</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>ברירת מחדל</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>ערוך חיבור</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>This wizard will allow you to add, remove and update connections to Palo Web servers</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>חיבור חדש</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>הסר חיבור</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>ניהול החיבור</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>In this step you can alter data for the existing connection</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Are you sure you want to exit without saving?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>This action could delete %1 cells.
+This may take long.
+Would you like to continue ?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Are you sure you want to completely delete the database %1 from the server?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>מחק בסיס נתונים</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>פעולה זו עשויה להימשך זמן רב.
+האם ברצונך להמשיך?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Are you sure you want to unregister server %1?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Unregister server</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Do you want to delete all existing rules before importing?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Are you sure you want to delete rule(s)?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Consolidation priority</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>אלמנט איחוד</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>אלמנט בסיסי</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>כל האלמטים</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Rename Subset...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>עדכן</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>מעל</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>If turned on, hierarchy filter will choose all elements which are located above reference element in hierarchy within dimension. Default behaviour for Hierarchy filter is below.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Activate this filter</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Add new subset</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>First alias field</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Choose alias upon which you want to apply filter(text or sorting).If alias field is empty, filters will be applied on element names.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Second alias field</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Choose second alias field upon which you want to apply filter(text or sorting). If this alias field is empty, filters will be applied on first alias field and if that one is empty too it will be looked in element names.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>כל האלמנטים</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>Shows Elements, when all elements of the slice meet the criteria</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>כל האלמנטים</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorts all elements of the list</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>וגם</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>כל אלמנט</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>Shows Elements, when any element of the slice meets the criteria</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Lists by attributes</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>דוגמאות:
+    -  "&gt;0"
+    -  "&lt;=1000"
+    -  "&lt;&gt;10"
+    -  "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Attribute filters</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>Lists by Attribute-Filter</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>אוטומטי</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Activates Preview Auto Refresh</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Don't show this again</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Please note that AutoRefresh will be unchecked when you select Data Filter.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>ממוצע האלמנטים</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>Shows Elements, when the average of the slice meets the criteria</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>חזור</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>Adds Picklist-Elements at the end of the list</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>אלמנטי בסיס בלבד</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorts only base elements</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>התנהגות</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>להלן</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Show only elements that are located below the reference element within hierarchy</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>By Alias</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>Sorts list by Alias</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>By Attribute</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Sorts list by Attributes</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>על פי הגדרה</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>Sorts list by Definition-List in the modeller</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>By Element name</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>Sorts list by Elementname</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>לפי ערך</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>Sorts list by Value</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[All Elements]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>קריטריונים:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>Please select the criteria</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>אלמנטים נבחרים:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>בגור</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Close Subset Editor</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>חיבור</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>איחוד</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Show only consolidated element</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>אלמנט איחוד בלבד</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorts only consolidated elements</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>העתק</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>קריטריון</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>בחר קוביה:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>הגדרה</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Delete stored subset</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>עומק</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>The highest hierarchie-level gets number 0, the second highest level number 1 and so on</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>מימד</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Dimension Contents</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>מימד</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Edit subsetname</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>סנן אלמנטים בצורת היררכיה</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Reference element within hierarchy inside dimension.</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Exclusive</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Defines if selected element should be excluded from the result.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>מורחב</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>נתונים</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>היררכיה</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Picklist</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>מיון</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>טקסט</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>שטוח</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>הצגת רשימה רציפה</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Formula Subset</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>FRONT</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>Adds Picklist-Elements at the beginning of the list</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Global Subsets</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>רמה</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Revolve</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Filter elements by type</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Filter elements by type.</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Hide Opt1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Hide Opt2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Hide Opt3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>היררכיה</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Hierarchical display</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Hierarchy enumeration</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>The highest hierarchie-level gets number 1, the second highest level number 2 and so on</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>מערך</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Depth Enumeration</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Indent Enumeration</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Level Enumeration</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Base elements</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Show only base elements.</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>רמה</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Base-Elements get number 0, every level above adds 1</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Filter elements by level</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Filter elements by level</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>רמה סופית</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Stop filtering at this level.</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>רמה התחלתית</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Start filtering element from this level</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>טען</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Local Subsets</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Lower percentage</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_LOWER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>MAXIMUM OF THE ELEMENTS</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>Shows Elements, when the maximum of the slice meets the criteria</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Apply Subset</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Cancel Subset</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>This text has been written into Clipboard</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Do you really want to delete subset '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error that should not happen and indicates a bug in control. Please inform the developer!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Selected file does not represent valid subset</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>You cannot hide Parameters panel when there are active named parameters.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Could not paste subset results. Reason:</value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>This parameter is required within this filter and it cannot be deselected!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Do you want to save your changes to subset:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>שמור שינויים</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Subset deleted</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>מזג</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>Sorts Picklist-Elements within the list</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>מינימום מהאלמנטים</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>Shows Elements, when the minimum of the slice meets the criteria</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Named Variables</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>חדש</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>אין כלל</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_NO_RULES Desc Long</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>NoRules Opt 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>NoRules opt 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Optional Settings</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>משתנה</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Pastes the Subset-Function in the excel-spreadsheet</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>רענן</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Refreshes the preview</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Textpattern(with * and ? as wildcards)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Examples for PERL-Regular expressions:
+    -  "Jan|Feb|Nov", to match "Jan", "Feb" and "Nov"
+    -  "J.*", to match all elements starting with a "J"
+    -  "[s,d]", to match all elements with "s" or "d" in the elementname
+    -  "n$", to match all elements which ends with "n"</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Specify regular expressions that match the elements in this subset. Any element name or alias name (if used) that does not match at least one of the regular expressions will be excluded from the subset.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>PERL-Regular expressions</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>PERL-Regular Expressions get used
+    Therefore signs like "[" or "$" get a function
+    e.g. X$ chooses all elements ending with X</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_REVERSE Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Show parents below children</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Displays parents below children, i.e. totals below values</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Reverse Opt1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Reverse Opt2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Reverse Opt3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Reverse Order</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Order of elements per level</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Reversed Sorting within every Hierarchy-Level</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Total (aggregated values  below details)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>Reversed Sorting over all Hierarchy-Levels</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Revolve Add</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>List length:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>List length:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Cyclic list</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Create list of elements starting from some specified element.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Save subset</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Please select and set attribute fields.</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>בחר כינוי ראשון</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Please select how to insert chosen elements:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>בחר כינוי שני</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>שרת</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>בחירת שרת / בסיס נתונים</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>הראה בנים</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>הראה כפולים</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Shows Duplicates in the list</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Show children of hidden elements</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>Shows Hidden Child-Elements</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Show None</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Slice operators</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>מיין לפי רמה</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Sorts list within the choosen Hierarchy-Level</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Sorting behaviour</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>קריטריון מיון</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_SORTING_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>קוביית מקור</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SOURCE_CUBE Desc Long</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Stored Subsets</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>מחרוזת</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String Desc Long</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>SUB</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Subcube</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Subset Attribute Filter</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Subset Data Filter</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Subset Editor</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Subset General Settings</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Subset Hierarchy Filter</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Subset Name</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Subset Name Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Subset Picklist Filter</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Subset Sorting</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Subset Text Filter</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>Remove all the elements from the list, except those defined in the picklist</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>SUM OF THE ELEMENTS</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>Shows Elements, when the sum of the slice meets the criteria</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Take all lower elements up to  %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>Take elements with lowest values until the added amount gets over x%</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Take topmost elements:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>Take the n Topmost-Elements with highest values</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Take all upper elements up to %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>Take elements with highest values until the added amount gets over x%</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>NAME (String) OF THE ELEMENT</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Type Limitation</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE_LIMITATION Desc Long</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>TypeLimit Opt1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>TypeLimit Opt2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>TypeLimit Opt3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Upper percentage</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_UPPER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Use filter</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>ערך</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>כל</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_WHOLE Desc Long</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>חפש אלמנטים</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>You can use wildcards to search the element list</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>שרת:</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Generating View ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>Loading XLL ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>מחפש שרת. אנא המתן ...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Reading csv file...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Reading block from Cube. Please wait ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Reading block from Database. Please wait ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Reading Elements from server %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Scanning Selection...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Scanning Worksheet...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Starting the local PALO server service...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Rule deleted</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Error exporting rules!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Rules exported successfully!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Error in rule #%1. Rule: %2. Server message: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Rules imported successfully!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>כלל נשמר</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Reports the shutdown of the Palo Server, the termination of the Supervision Server process itself and the storage of a database.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>Standard-Supervision</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>Supervision of the cell changes in a to be determined.cell range.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>Cube-Supervision</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>Supervision of logins and logouts.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>Login-Supervision</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>Monitors the data origin in collaboration with the ETL server.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>Drill Through</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>Returns true or false as a result of the identification of a user.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>אימות</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>Returns true or false as a result of identifying a user and his group memberships.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>הרשאה</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>Please save as a last step the script and configure the SVS accordingly.</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>Please select the type of supervision:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>נא לבחור את סוג של הזדהות:</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>Please specify the cells to be monitored:</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>Here, the generated sample script. Please adjust it according to your needs:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>מזל טוב!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>כינוי</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>תבנית כינוי</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Append at the end of file</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>attribut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Attribute Cubes</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>שונה</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>בחר קוביה:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>בחר אלמנ...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>בחר שרת/בסיס נתונים:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>בחירת סגנון:</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Are you sure you want to clear the data in Cube %1?
+Note: The structure of the cube will stay intact.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>נקה קוביה</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>מזער הכל</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>הערה</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>חיבור</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Changing element type from consolidated to numeric could lead to loss of data.
+Are you sure you want to change type to numeric?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>שינוי סוג למספר</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Changing element type from consolidated to string could lead to loss of data.
+Are you sure you want to change type to string?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>שינוי סוג למחרוזת</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>מחק אלמנטים</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>This element is used in a cube. Changing element type from numeric or string to consolidated will lead to loss of data.
+Are you sure you want to continue?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>שינוי סוג לאיחוד</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>This element is used in a cube. Changing element type to numeric could lead to loss of data.
+Are you sure you want to change type to numeric?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Changing type to numeric</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>This element is used in a cube. Changing element type to string could lead to loss of data.
+Are you sure you want to change type to string?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Changing type to string</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>שם קוביה</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>קוביות</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>You are trying to delete Dimension %1 which is currently in use by %2  Cube(s).
+You have to delete Cube(s) first to be able to delete used Dimension.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>מימד בשימוש</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>בסיס נתונים</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>database elements</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Are you sure you want to completely delete Dimension %1 from the server?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>מחק מימד</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Are you sure you want to completely delete Cube %1 from the server?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>מחק קוביה</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Are you sure you want to completely delete the following element(s):
+%1
+from the server?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>מחק מימדים</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>dimension elements</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>The element %1 was not found in dimension %2 !</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>שמות מימדים</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>מימדים</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>שם אלמנט</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>אלמנטים</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Pick list:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>הרחב הכל</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>תבנית</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>נחש ארגומנטים</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>כותרת קיימת</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Hit RETURN to add Elements...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Add source Elements by double-clicking in the list of Elements...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Click on the "New Cube ..." button to add Cube...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Hit RETURN to add Dimension...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>loaded</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>No further occurrence of %1 was found!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>ללא</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>נורמלי</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Are you sure you want to replace all elements of the dimension %1 with clipboard content?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>הדבק אלמנטים</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Restrict pasting to current selection ?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Rule Editor (Advanced)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Please select DSN from the list...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>בחר אלמנטים...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>שרת</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Show Attributes</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>הצג את כל הכלים לבחירה</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>subset</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>מערכת</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Tip: Press SHIFT to extend current selection</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>לא ידוע</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>unloaded</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>פרטי משתמש</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>insert %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[without template]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Check this if you want pasted selection to be auto-formatted</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>קוביה חדשה..</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>מימד חדש</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>אלמנט חדש</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>החל שינויים</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>בטל שינויים</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Exit View Editor</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Click here to exit Wizard</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>אלמנט איחוד...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>חזור למסך בסיס הנתונים</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>מחק קוביה...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>מחר מימד...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>מחק אלמנט/ים...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>ערוך מימד</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Close Designer</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>הזז מימד מטה</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>הזז אלמנט מטה</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Remove selected Element(s) from the list of Source Elements</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Add selected Element(s) to the list of Source Elements</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>הזז אלמנט מעלה</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>הסר מימד/ים מהקוביה</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>הוסף מימד/ים לקוביה</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>הכנס בבקשה שם לקוביה החדשה</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>חלחץ כאן ליצירת קוביה</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Start Palo Wizard...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Paste current View into Excel</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>שנה שם מימד</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>שנה שם אלמנט</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>התחבר</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Toggle Connection(Connect/Disconnect)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>התנתק</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Toggle displaying of Factor(Left/Right)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Toggle displaying Elements in List/Tree View mode</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>בחר קוביה</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>לחץ כאן לבחירת בסיס נתונים</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>לחץ כאן לבחירת אלמנטים</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>לחץ כאן לבחירת השרת</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>לחץ כאן לבחירת השרת או בסב הנתונים...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Select type of the Palo data function you want to use</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>חזור לשלב הקודם</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>המשל לשלב הבא</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>This list represents the list of available Dimensions</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>הצג את רשימת הקוביות עבור בסיס הנתונים הנוכחי</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>הצג את רשימת המימדים עבור בסיס הנתונים הנוכחי</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>הצג את רשימת האלמנטים עבור בסיס הנתונים הנוכחי</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Displays the list of Elements for the current consolidated Element</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>This list represents the list of selected Dimensions</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>In order of creation</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>מיין בסדר עולה</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>מיין בסדר יורד</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>הגדרות בסיס נתונים</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>The token changes after each request to force each client to invalidate its cache.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>The token changes after a cell insert, update or delete.</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>The token changes after a cell insert, update or delete.</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Attribute cubes</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Data cubes</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>User management cubes</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Attribute management</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Meta data management</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>ניהול משתמש</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>סגור את עורך הכלל</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>מחק כלל שנבחר</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Export rules to CSV...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Import rules from CSV...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>הזז כלל מטה</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>הזז כלל מעלה</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>שמור כלל</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>עריכת כלל...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Only works with Supervisionserver</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>בחר אלמנט</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Choose Element for %1</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>אשף יצירת קוביה</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>מחר</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>ערוך ערך מחרוזת</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Export Dimension Data</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>ייצוא נתוני קוביה</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>אשף יבוא נתונים</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Modeller</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Paste Data Function</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Wizard</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>SVSWizard2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>מימד מתבנית</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>עריכת כלל</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>שגיאה בכלל</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Show system cubes</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Shows the list of global subsets for this dimension</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>"MyPalo Community" is the online resource for Palo users. "MyPalo" offers advanced documentation, support, articles from experts and it is the resource to stay connected with other Palo users. By participating in "MyPalo Community", you will be joining people who work with Palo from all over the world. The best way to get started is to sign up for a MyPalo account. If you are already registered, please use your account to log in automatically.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>שנה</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>'There is a new version of Palo Suite. Do you want to download it?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>בדוק עדכונים</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL is empty</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL is not wellformed</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>אזהרה: פעולה זו תמחק לצמיתות את הקובץ הנבחר!
+האם ברצונך להמשיך?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>This wizard will allow you to login and add/delete databases and server connections.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>הכנס שם ייחודי עבור בסיס הנתונים החדש.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>בשלב זה תיצור בסיס נתונים חדש בשרת הנבחר.</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>בשלב זה תמחק בסיס נתונים מהשרת הנבחר.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>בחר בסיס נתונים למחיקה:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>בסיס נתונים:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>בחר חיבור</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>פורט:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>חיבור:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>שם משתמש:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>סיסמא:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>שם חיבור:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>ניהול בסיס הנתונים</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>ניהול החיבור</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>In this step you will register an existing server on this client.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>In this step you will edit an existing server on this client.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Enter the name or IP of the server to be registered</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>הכנס שם או כתובת IP של השרת</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>צור בסיס נתונים חדש</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Create database from database template</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>מחיקת בסיס נתונים קיים</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>הקמת שרת חדש</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Unregister the selected server</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>ערוך את השרת הנבחר</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Palo Wizard</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Server and Database Wizard</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Use Palo Authentication</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Use Windows Authentication</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>Palo Error</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+</root>

@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug12|Win32">
+      <Configuration>Debug12</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug12|x64">
+      <Configuration>Debug12</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release12|Win32">
+      <Configuration>Release12</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release12|x64">
+      <Configuration>Release12</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E099CABE-8499-4912-BBBE-98FF1C2FEAC4}</ProjectGuid>
+    <RootNamespace>Jedox::Palo::XLL</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release12|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release12|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\$(Platform)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PostBuildEventUseInBuild>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\$(Platform)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">$(Configuration)\$(Platform)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">true</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">true</PostBuildEventUseInBuild>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">$(Configuration)\$(Platform)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release12|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release12|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.xll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.xll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">.xll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">.xll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.xll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.xll</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">$(ProjectName)12</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">$(ProjectName)12_x64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">.xll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">.xll</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">$(ProjectName)12_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">$(ProjectName)12</TargetName>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\molap\client_libraries\Debug\Win32\lib;E:\DEV\Palo\Tools\Xll;$(LibraryPath)</LibraryPath>
+    <LinkKeyFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DEV\Palo\Source50\YGPaloSign.snk</LinkKeyFile>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>xl_sdk;$(SolutionDir)..\molap\client_libraries\libpalo_ng\source\include;$(SolutionDir)..\molap\client_libraries\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEBUG;_DEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;__XLL_VERSION_4;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;libpalo_ng.lib;libpalo2.lib;libconnectionpool.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\Tools\$(ConfigurationName)\Win32\lib;$(SolutionDir)..\molap\client_libraries\$(ConfigurationName\Win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)$(Configuration)\$(Platform)\Palo.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)$(Configuration)\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)$(Configuration)\$(Platform)"
+copy $(SolutionDir)..\molap\client_libraries\Debug\Win32\*.dll $(SolutionDir)$(Configuration)\$(Platform)
+copy $(SolutionDir)..\molap\client_libraries\Debug\Win32\pdb\*.pdb $(SolutionDir)$(Configuration)\$(Platform)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>xl_sdk;$(SolutionDir)..\molap\client_libraries\libpalo_ng\source\include;$(SolutionDir)..\molap\client_libraries\libconnectionpool\include;$(SolutionDir)..\molap\client_libraries\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;DEBUG;_DEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>xl_sdk;$(SolutionDir)..\lib\lib64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)$(Configuration)\$(Platform)\Palo_x64.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)$(Configuration)\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)$(Configuration)\$(Platform)\pdb\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>xl_sdk;$(SolutionDir)..\molap\client_libraries\libpalo_ng\source\include;$(SolutionDir)..\molap\client_libraries\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;__XLL_VERSION_4;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\Tools\$(ConfigurationName)\Win32\lib;$(SolutionDir)..\molap\client_libraries\$(ConfigurationName\Win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)$(Configuration)\$(Platform)\palo.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)$(Configuration)\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)$(Configuration)\$(Platform)\pdb\"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>xl_sdk;$(ProjectDir)..\libpalo_ng\source\include;$(ProjectDir)..\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>xl_sdk;$(SolutionDir)..\lib\lib64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)$(Configuration)\$(Platform)\palo_x64.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)$(Configuration)\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)$(Configuration)\$(Platform)\pdb\"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>xl_sdk;$(SolutionDir)..\molap\client_libraries\libpalo_ng\source\include;$(SolutionDir)..\molap\client_libraries\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEBUG;_DEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\Tools\$(ConfigurationName)\Win32\lib;$(SolutionDir)..\molap\client_libraries\$(ConfigurationName\Win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Debug\$(Platform)\Palo12.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)Debug\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)Debug\$(Platform)\pdb\"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>xl_sdk;$(ProjectDir)..\libpalo_ng\source\include;$(ProjectDir)..\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;DEBUG;_DEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>xl_sdk;$(SolutionDir)..\lib\lib64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Debug\$(Platform)\Palo12_x64.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)Debug\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)Debug\$(Platform)\pdb\"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>xl_sdk;$(SolutionDir)..\molap\client_libraries\libpalo_ng\source\include;$(SolutionDir)..\molap\client_libraries\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\Tools\$(ConfigurationName)\Win32\lib;$(SolutionDir)..\molap\client_libraries\$(ConfigurationName\Win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Release\$(Platform)\Palo12.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)Release\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)Release\$(Platform)\pdb\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>xl_sdk;$(ProjectDir)..\libpalo_ng\source\include;$(ProjectDir)..\libconnectionpool\include;$(ProjectDir)..\PaloSpreadsheetFuncs\include;$(SolutionDir)..\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;CLIENTXLL_EXPORTS;VS2005;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xlcall32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>xl_sdk\x64;$(SolutionDir)..\lib\lib64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>clientxll.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_internal.pdb</ProgramDatabaseFile>
+      <StripPrivateSymbols>$(TargetDir)$(TargetName).pdb</StripPrivateSymbols>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)Release\$(Platform)\Palo12_x64.xll"
+copy "$(TargetDir)*.lib" "$(SolutionDir)Release\$(Platform)\lib\"
+copy "$(TargetDir)$(TargetName)*.pdb" "$(SolutionDir)Release\$(Platform)\pdb\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="c2c_plus_plus.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SpreadsheetFuncsWrapper.h" />
+    <ClInclude Include="XLCellStyler.h" />
+    <ClInclude Include="XLConnectionPool.h" />
+    <ClInclude Include="XLContext.h" />
+    <ClInclude Include="XLFuncsDoc.h" />
+    <ClInclude Include="XLLComException.h" />
+    <ClInclude Include="XLLException.h" />
+    <ClInclude Include="XLRegistry.h" />
+    <ClInclude Include="XLSpecialConv.h" />
+    <ClInclude Include="XLSpreadsheetFuncs.h" />
+    <CustomBuildStep Include="XLTypes.h" />
+    <ClInclude Include="XLArrayBuilderImpl.h" />
+    <ClInclude Include="XLCell.h" />
+    <ClInclude Include="XLCellException.h" />
+    <ClInclude Include="XLCellIteratorImpl.h" />
+    <ClInclude Include="XLCellRange.h" />
+    <ClInclude Include="XLLCellLogger.h" />
+    <ClInclude Include="XLLMessages.h" />
+    <ClInclude Include="CTypes.h" />
+    <ClInclude Include="funcs.h" />
+    <ClInclude Include="funcs_decl.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="strdupf.h" />
+    <ClInclude Include="unicode_win.h" />
+    <ClInclude Include="xl.h" />
+    <ClInclude Include="funcs_decl.h.h" />
+    <ClInclude Include="xl_sdk\xlcall.h" />
+    <ClInclude Include="SpreadsheetFuncsDoc.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="c2c_plus_plus.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="funcs.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="SpreadsheetFuncsWrapper.cpp" />
+    <ClCompile Include="XLConnectionPool.cpp">
+    </ClCompile>
+    <ClCompile Include="XLContext.cpp" />
+    <ClCompile Include="XLFuncsDoc.cpp">
+    </ClCompile>
+    <ClCompile Include="XLLComException.cpp" />
+    <ClCompile Include="XLRegistry.cpp">
+    </ClCompile>
+    <ClCompile Include="XLSpecialConv.cpp" />
+    <ClCompile Include="XLSpreadsheetFuncs.cpp" />
+    <ClCompile Include="XLArrayBuilderImpl.cpp" />
+    <ClCompile Include="XLCell.cpp" />
+    <ClCompile Include="XLCellIteratorImpl.cpp" />
+    <ClCompile Include="XLCellRange.cpp">
+    </ClCompile>
+    <ClCompile Include="XLLCellLogger.cpp" />
+    <ClCompile Include="XLLMessages.cpp" />
+    <ClCompile Include="funcs.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="other_funcs.c" />
+    <ClCompile Include="strdupf.c" />
+    <ClCompile Include="unicode_win.c" />
+    <ClCompile Include="xl.c" />
+    <ClCompile Include="xl_sdk\xlcall.cpp" />
+    <ClCompile Include="SpreadsheetFuncsDoc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clientxll.def" />
+    <CustomBuild Include="..\PaloSpreadsheetFuncs\Documentation.xml">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug12|x64'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release12|x64'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLValidate\bin\Release"
+set PATH=%PATH%%3b"$(SolutionDir)Tools\XMLTransform\bin\Release"
+echo "Validating XML"
+XMLValidate %(FullPath)
+echo "Transforming XML (1)"
+XMLTransform MakeDocInitializer.xslt %(FullPath) DocInitializer.cpp.inc
+echo "Transforming XML (2)"
+XMLTransform MakeFuncWrappers.xslt %(FullPath) funcs_decl.h.h
+echo "DONE."
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MakeDocInitializer.xslt;MakeFuncWrappers.xslt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DocInitializer.h.cpp.inc funcs_decl.h.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="DocInitializer.cpp.inc" />
+    <None Include="MakeDocInitializer.xslt" />
+    <None Include="MakeFuncWrappers.xslt" />
+    <None Include="..\PaloSpreadsheetFuncs\TODO" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PaloXLL.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PaloSpreadsheetFuncs\PaloSpreadsheetFuncs.vcxproj">
+      <Project>{eae14674-7f66-43ba-bab2-2255f2632aca}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

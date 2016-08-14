@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C++">
+      <UniqueIdentifier>{439072f2-0213-4add-b5ec-e62bc2ca03cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Impl">
+      <UniqueIdentifier>{c1ec8c47-5979-4da3-a3ff-111caad984ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\XLCell">
+      <UniqueIdentifier>{82e089ea-60cb-456b-97f0-a164bfed0322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\XLCell\Impl">
+      <UniqueIdentifier>{0e9e3db9-a819-4348-830d-607ade30586b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C">
+      <UniqueIdentifier>{1ba8e297-4aed-4942-ab5d-7d0fc8f97df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{f0e820e3-5461-4b2b-a08e-785139fdde00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X\Output">
+      <UniqueIdentifier>{9918d3ca-08e7-44c6-82a4-5016eb78692e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlsdk">
+      <UniqueIdentifier>{4a51d0e7-c1ec-436b-bdf5-b9ad8f828ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{61cfe441-1b19-459b-8214-ee4b1605ba48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc\Impl">
+      <UniqueIdentifier>{76c9683f-1265-42d1-ac9f-87756448ca47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{332a9a2d-b559-42c9-b63b-fbf8a1bdd603}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpreadsheetFuncsWrapper.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLCellStyler.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLConnectionPool.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLContext.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLFuncsDoc.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLLException.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLSpreadsheetFuncs.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLArrayBuilderImpl.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="XLCell.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="XLCellException.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="XLCellIteratorImpl.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="XLCellRange.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="XLLCellLogger.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="XLLMessages.h">
+      <Filter>C++\XLCell</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs_decl.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="strdupf.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode_win.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="xl.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs_decl.h.h">
+      <Filter>X\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="xl_sdk\xlcall.h">
+      <Filter>xlsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SpreadsheetFuncsDoc.h">
+      <Filter>Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLRegistry.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Ressourcendateien</Filter>
+    </ClInclude>
+    <ClInclude Include="XLLComException.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="XLSpecialConv.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="c2c_plus_plus.h">
+      <Filter>C</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="funcs.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="SpreadsheetFuncsWrapper.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLConnectionPool.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLContext.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLFuncsDoc.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLSpreadsheetFuncs.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLArrayBuilderImpl.cpp">
+      <Filter>C++\XLCell\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLCell.cpp">
+      <Filter>C++\XLCell\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLCellIteratorImpl.cpp">
+      <Filter>C++\XLCell\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLCellRange.cpp">
+      <Filter>C++\XLCell\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLLCellLogger.cpp">
+      <Filter>C++\XLCell\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLLMessages.cpp">
+      <Filter>C++\XLCell\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="funcs.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="other_funcs.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="strdupf.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="unicode_win.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="xl.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="xl_sdk\xlcall.cpp">
+      <Filter>xlsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SpreadsheetFuncsDoc.cpp">
+      <Filter>Doc\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLRegistry.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLLComException.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="XLSpecialConv.cpp">
+      <Filter>C++\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="c2c_plus_plus.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clientxll.def">
+      <Filter>C</Filter>
+    </None>
+    <None Include="MakeDocInitializer.xslt">
+      <Filter>X</Filter>
+    </None>
+    <None Include="MakeFuncWrappers.xslt">
+      <Filter>X</Filter>
+    </None>
+    <None Include="..\PaloSpreadsheetFuncs\TODO" />
+    <None Include="DocInitializer.cpp.inc">
+      <Filter>X\Output</Filter>
+    </None>
+    <None Include="..\PaloSpreadsheetFuncs\Documentation.xml">
+      <Filter>X</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="XLTypes.h">
+      <Filter>C++</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PaloXLL.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

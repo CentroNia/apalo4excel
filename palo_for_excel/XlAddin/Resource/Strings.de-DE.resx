@@ -1,0 +1,2709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>Aktiviere Aktualisierungssuche</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Subset hinzufügen...</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="btnPaloOnlineOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Zurück</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Durchsuchen...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Abbrechen</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Liste löschen</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>Schliessen</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Alle zuklappen</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Klicken Sie hier, um die Verbindung einzufügen.</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Klicken Sie hier, um den Würfelnamen einzufügen.</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; Datenbank</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Löschen...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>Klicken Sie hier, um die Dimensionsnamen einzufügen</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Alle aufklappen</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Fertigstellen&gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Verberge Kommentar</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Horizontal einfügen</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Maximieren</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Weiter &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Prüfen</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>Kopf einfügen</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Speichern...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Suchen &amp;&amp; Auswählen</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Wähle Zweig</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Auswahl umkehren</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Keine Auswählen</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Ausgewählte</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Zeige Kommentar</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>Absteigend</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>Aufsteigend</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Verbindung testen</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Vertikal einfügen</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Auswahl leeren</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>Leere ausgewählten Würfelabschnitt</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Vollständig leeren</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>Leere gesamten Würfel (wenn Sie eine Auswahl getroffen haben, wird dies ignoriert und der ganze Würfel wird geleert)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Schliessen</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Cache Einstellungen</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Cache Einstellungen</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Kein Client-Cache vorhanden</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Benutze einen Client Cache</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Benutze einen Client Cache für Würfel ohne Enterprise Regeln.</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Würfel Leeren</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Die Würfeldaten werden gelöscht. Bitte warten..</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Als erstes Kind hinzufügen</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Auf gleicher Stufe hinzufügen</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Leeren...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>Konvertiere Würfel (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Als erstes Kind kopieren</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Elemente kopieren</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Auf der selben Stufe kopieren</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Zählen</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Eigenschaften</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Löschen...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Löschen...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Löschen...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Aus den Quellelementen entfernen</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Bearbeiten...</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Konsolidieren...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Exportiere Daten...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Exportieren...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Konsolidierungsfaktor...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Bewege Element an den Anfang</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Bewege Element an das Ende</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Numerisch</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Elemente einfügen</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Entfernen aus der Hierarchie</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Umbenennen...</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>Eltern anzeigen</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Exportieren...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Als Kennzahl-Dimension behandeln</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Neu...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Löschen...</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Bearbeiten...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Rule-Editor...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Anweisung umkehren</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Als Zeit-Dimension behandeln</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Eigenschaften</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Suche nach Element</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo schreibt die Änderungen fest...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Dimensionen</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Befüllungsgrad (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Bezeichner</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Anzahl der Zellen</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Anzahl der Dimensionen</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Anzahl der gefüllten Zellen</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Würfel-Information</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Subset löschen...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Attributwürfel</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>Anzahl der C-Elemente</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Elemente</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Bezeichner</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Maximale Tiefe</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Maximaler Einzug</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Maximale Ebene</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>Anzahl der N-Elemente</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Anzahl der Elemente</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>Anzahl der S-Elemente</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Dimension-Information</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Fehler: Zirkelbezug!
+Eines der konsolidierten Elemente enthält bereits dieses Element.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Elemente einfügen konnte die Aufgabe nicht beenden. 
+Der Import schlug fehl bei : '%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Fehler bei Elemente einfügen</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Fehler beim Verbindungsaufbau!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Element &lt;%1&gt; ist nicht eindeutig !
+Bitte geben Sie die Dimension an durch Voranstellen des Dimensionsnamen
+gefolgt von einem Doppelpunkt : z.Bsp. Months:January</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Der Würfel %1 existiert bereits in der Datenbank %2!
+Geben Sie einen anderen Namen ein.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Kein Name für den Würfel angegeben!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>Der Name enthält ungültige Zeichen!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Keine Dimension ausgewählt!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Keine Daten gefunden</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>Eine Datenbank mit diesem Namen existiert bereits!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Der Name enthält ungültige Zeichen!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>Diese Dimension existiert bereits!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Kein Name für die Dimension angegeben!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>Der Name enthält ungültige Zeichen!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Es gibt bereits ein Element mit diesem Namen!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Der Name enthält ungültige Zeichen!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Datei %1 wurde nicht gefunden.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>ungenügende Rechte</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Anmeldeinformationen ungültig!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Fehler beim Laden der XLL-Datei!
+Mögliche Ursache: Die XLL-Datei wurde verschoben oder gelöscht (Suchpfad: "%1"). Eventuell hilft eine Neuinstallation des Add-Ins. Wenn die XLL-Datei nicht geladen wurde, funktioniert das Add-In nicht einwandfrei.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Fehler beim Initialisieren des PALO Add-Ins: Excel-Kommunikationsfehler!
+Teile des Add-Ins werden nicht einwandfrei funktionieren. Versuchen Sie, das Add-In neu zu installieren.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Fehler beim Initialisieren des PALO Add-Ins:
+Der PALO-Server-Dienst konnte nicht gestartet werden!
+Der Dienst ist vermutlich deaktiviert. Aktivieren Sie den Dienst und starten Sie den Modeller neu.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Fehler beim Initialisieren des PALO Add-Ins:
+Fehler in der Kommunikation mit dem lokalen PALO Server-Dienst! Vermutlich ist der PALO-Server nicht lokal installiert oder arbeitet nicht richtig.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Fehler beim Initialisieren des PALO Add-Ins:
+Sie haben nicht die erforderlichen Zugriffsrechte!
+Teile des Add-Ins werden nicht richtig funktionieren. Versuchen Sie, das Add-In neu zu installieren.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Fehler beim Lesen der Datenbank:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Fehler beim Registrieren des Servers!
+Bitte überprüfen Sie die Verbindungsdaten.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>Keine Formel in B1 gefunden</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Benutzername darf kein @ enthalten.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Der eingegebene Name enthält Zeichen, die möglicherweise in Excel Probleme machen(',", etc.).
+Der Palo Server und andere Clients als Excel tolerieren sie wahrscheinlich. Wollen Sie fortfahren?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Excel Kompilitätswarnung</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Datei erfolgreich geschrieben</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Rule-Definition hier eintragen</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>Datenbank wurde angelegt</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>Datenbank wurde gelöscht</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Servereintrag wurde hinzugefügt</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Servereintrag wurde entfernt</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Test erfolgreich!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Herzlichen Glückwunsch! Palo for Excel ist nun erfolgreich installiert.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Optimieren Sie Excel mit Palo: Open Source BI für Planung, Analyse und Reporting.</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>Über Palo for Excel</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo Anmeldung und fortgeschrittene Themen</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Arbeitsmappe mit Palo-Beispiel öffnen</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>"Erste Schritte mit Palo for Excel" öffnen</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Anmeldung zur Palo-Schulung</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Diesen Dialog beim Excel-Start anzeigen</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Öffnen Sie eine Excel-Arbeitsmappe mit einer Palo Demo-Applikation:</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Unser Einführungshandbuch gibt Ihnen einen schnellen Überblick über Palo.</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Melden Sie sich zur MyPalo Community an oder nehmen Sie an einer unserer Palo-Schulungen teil.</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Oder legen Sie sofort los und öffnen Sie das Menü "Palo" in der Excel Menüleiste.</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>Mit dem Befehl "Ansicht einfügen" können Sie Demoberichte auf Basis der mitgelieferten Palo-Beispieldatenbank in Excel einfügen. Mit dem Befehl "Modeller…" können Sie die Palo-Beispieldatenbank verändern oder eine neue Palo Datenbank anlegen.</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Elemente</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Subsets </value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Verfügbare Dimensionen:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Anzahl der Schriftzeichen:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Spaltenbreite :</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Bearbeite Benutzerrechte</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Zeige Elementauswahl bei Doppelklick</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Faktor links anzeigen</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Zeileneinrückung</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Zeige Attributfelder</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Hierarchie</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>mit Kopfzeile</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Zeilenumbruch</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Null Unterdrückung</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>Berechnete Nullwerte ausblenden</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Textdateien (*.txt)|*.txt|Komma-getrennt (CSV) (*.csv)|*.csv|Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>Hier können Sie einen neuen Würfel erstellen.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Würfel:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Dimensionen:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Schreiben Sie bitte die Zeichenkette. Aufgrund von Excel Einschränkungen sind nur die ersten 255 in Excel sichtbar. Palo jedoch speichert soviel Zeichen pro Zelle wie die System Ressourcen es zulassen.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Schreiben Sie bitte die Zeichenkette.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Elemente:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Konsolidierte Elemente:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Bitte geben Sie die Datei an und beschreiben Sie die Struktur der Daten, die Sie exportieren möchten:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Wähle die Zieldatei (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Exportiere auch regelbasierte Zellwerte</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Faktor</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>Lösche geschriebene Zellen nach Import</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>Dieser Assistent unterstützt Sie bei der Definition einer Datenquelle, die dann Satz für Satz in die erste Zeile des aktuellen Arbeitsblatts eingefügt wird.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Wählen Sie eine Datenquelle aus:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Datei (*.txt; *.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC-Abfrage</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Würfel</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Bildschirm aktualisieren</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Interne Schleife (A1 erhöhen bis Fehler in B1)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>Bitte geben Sie die Datei an und beschreiben Sie die Struktur der Daten, die Sie importieren möchten:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Wählen Sie die Datei aus (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>Geben Sie hier die ODBC-Abfrage für den Datenimport ein</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Wählen Sie eine ODBC-Quelle (DSN) aus</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Geben Sie das SQL-Statement ein</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Wenn Sie auf 'Weiter' klicken, sehen Sie den nächsten Datensatz; Mit 'Fertigstellen' durchlaufen Sie alle Datensätze.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Abfrage</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Leere Zellen ignorieren</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Nur Basis-Elemente</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Anmeldedaten speichern</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Neu...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>Neues Attribut</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Neue Dimension</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Neues Element</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>Neues Subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>Zeilenvorschub</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Leerzeichen</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Komma</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Dezimaltrennung</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Semikolon</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Tabulator</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Benutzerdefiniert</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Wählen Sie eine Aktion aus der Liste...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Alle Elemente</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Ausgewählte Dimensionen:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL-Abfragen (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Bearbeiten...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Neu...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Auf Updates prüfen...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Bitte wählen Sie die CSV-Zieldatei, das Trennzeichen und das gewünschte Hierarchie-Format:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Wähle das Hierarchie-Format</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-Format (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Vater-Sohn-Beziehung in einer Zeile</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Wähle das Trennzeichen</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Dimensionsname:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Bitte wählen Sie den Dimensionsnamen und die Vorlage:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Klicken Sie hier, um eine neue Formel zu editieren</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Rule-Definition</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Aktuelle Liste von Rules</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>Fehler in Rule. Rückmeldung des Servers:
+</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Subset Elemente:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Vorlage:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>Klicken Sie hier, um sich für "MyPalo Community" zu registrieren</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>Warum sollten Sie sich für "MyPalo Community" registrieren?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Download Palo for Excel - Community Edition</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Funktionsübersicht Premium / Community</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Angebot Palo Premium erstellen</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Oder nutzen Sie die Palo Community Edition als 100% Open Source Version. Hier geht's zum download der Community Edition.</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Erfahren Sie den Nutzen und alle Unterschiede der Premium Version gegenüber der Open Source Version von Palo.</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>Ihre Palo Premium Lizenz wird in %1 Tagen auslaufen.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium-Lizenz abgelaufen</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Nehmen Sie Kontakt mit Jedox auf. Fordern Sie noch heute ein Angebot für Palo Premium Edition an.</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>Status des lokalen PALO-Diensts ändern auf</value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>I&amp;nfo...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Setze Wiederherstellungspunkt</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Änderungen festschreiben</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>&amp;Import-Assistent...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Modeller... </value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>&amp;Verbindungs-Assistent...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>&amp;Elemente einfügen...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>&amp;Funktion einfügen...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>&amp;SubSet einfügen...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>&amp;Ansicht einfügen...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Setze alles zurück</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Spei&amp;chern als Snapshot...</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>SVSWizard</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo </value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Gehe einen Schritt zurück</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Client Cache aktivieren</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Gesamtanzahl der Elemente: %1
+Anzahl der N Elemente: %2
+Anzahl der S Elemente: %3
+Anzahl der C Elemente: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Bezeichner                                                   %1
+Name                                                       %2
+Anzahl Dimensionen                                  %3
+Dimensionen                                             %4
+Gesamtanzahl von Zellen                            %5
+Anzahl von gefüllten Basis -und Stringzellen %6
+Status                                                       %7
+Typ                                                           %8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Element %1 wurde vom %2 Baum entfernt, wird aber in anderen Strukturen benutzt
+und wird daher nicht im gewünschten Ziel angezeigt.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>Der ausgewählte Report enthält mehr als %1 (=%3) Zellen. Möchten Sie die Ansicht auf %2 Zeilen beschränken (empfohlen)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>Das augenblickliche Blatt enthält verbundene Zellen.
+Sie müssen diese erst entfernen, bevor Sie 'Ansicht einfügen' benutzen können.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>Der Würfel wurde im ausgewählten Bereich geleert.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>Der Würfel wurde vollständig geleert.</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>Diese Aktion kann lang dauern. Bitte Warten.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>Würfel wurde nicht gefunden!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>Ungültiger Typ des Elementes</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Element nicht gefunden!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>ungültiges Argument!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Falsches Format!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Typenunverträglichkeit! Sie versuchen eine Zeichenkette in eine numerische Zelle zu schreiben.</value>
+  </data>
+  <data name="PaloOnlineAdvancedHelp" xml:space="preserve">
+    <value>MyPalo</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>Palo Erste Schritte</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>Login...</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Palo Spreadsheet bearbeiten...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publizieren...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web Assistent</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Seitenbereich</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Spaltentitel</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Zeilentitel</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Daten</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Tip: Mit einem Doppelklick auf die Dimension können Sie Elemente auswählen</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Ansicht einfügen</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Feststellung der nichtleeren Zellen. Bitte warten...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>Die Standard Palo Web-Verbindung ist nicht definiert. Bitte legen Sie mit dem Palo Web-Assistenten die Standard-Verbindung fest.</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>Verbindung fehlt</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>Verbindungsmanagement</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>Wählen Sie die Verbindung:</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>Verbindung</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>Verbindung bearbeiten</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>Dieser Assistent ermöglicht es Ihnen, Verbindungen zu Palo
+Web-Servern hinzufügen, zu entfernen und zu aktualisieren.</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>Neue Verbindung</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>Verbindung löschen</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>Verbindungsmanagement</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>Verbindungsname</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>Verbindungs-URL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>In diesem Schritt können Sie die Daten für die gewählte  Verbindung ändern.</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>Sicherheits-Token</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web Assistent</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Schliessen ohne zu speichern?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>Diese Aktion kann bis zu %1 Zellen löschen.
+Dies kann einige Zeit dauern.
+Möchten Sie fortfahren ?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie die Datenbank %1 vollständig vom Server löschen möchten?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Datenbank löschen</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>Diese Aktion kann länger dauern
+Möchten Sie fortfahren ?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Diese Verbindung %1 wirklich löschen?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Servereintrag löschen</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Sind Sie sich sicher, dass Sie alle existierenden Rules vor dem Import löschen wollen?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Wollen Sie wirklich die Rule(s) löschen?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Rule anwenden auf:</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Konsolidierte Elemente</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Basis Elemente</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Alle Elemente</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Subset umbenennen...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Rule </value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Geändert</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>Damit wählt der Hierarchiefilter alle Elemente aus, die hierarchisch über dem ausgewählten Element liegen.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Diesen Filter aktivieren</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Neues Subset hinzufügen</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>1.Alias-Feld</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Wählen Sie den Alias, den Sie im Filter (Text oder Sortierung) anwenden möchten. Wenn das Alias-Feld leer bleibt, dann werden die Original-Elementenamen benutzt.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>2.Alias-Feld</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Wählen Sie den 2.Alias, den Sie im Filter (Text oder Sortierung) anwenden möchten. Wenn das Alias-Feld leer bleibt, dann werden die Original-Elementenamen benutzt.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>ALLE ELEMENTE</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>Zeigt die Elemente an, bei denen alle Elemente des Querschnitts die Kriterien erfüllen</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Alle Elemente</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Alle Elemente werden sortiert</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>UND</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>EIN ELEMENT</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>Zeigt die Elemente an, bei denen ein beliebiges Element des Querschnitts die Kriterien erfüllt</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Auflistung nach Attributen</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Beispiele:
+   "&gt;0"
+   "&lt;=1000"
+   "&lt;&gt;10"
+   "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Attribut-Filter</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>Auflistung nach Attribut-Filtern</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Aktualisierung der Vorschau einschalten</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Dieses Fenster nicht mehr anzeigen</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Bitte beachten Sie, dass bei Auswahl des Daten-Filters die Auto-Aktualisierung nicht durchgeführt wird</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>MITTELWERT DER ELEMENTE</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>Zeigt die Elemente an, bei denen der Mittelwert des Querschnitts die Kriterien erfüllt</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>Hinzufügung nach der Liste</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>Picklist-Elemente werden nach der Auflistung hinzugefügt</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Nur Basis-Elemente</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Nur die Basis-Elemente werden sortiert</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Verwendung der Pickliste:</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Unter</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Damit wählt der Hierarchiefilter alle Elemente aus, die hierarchisch unter dem ausgewählten Element liegen.</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>Sortiert Auflistung nach Alias</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Sortiert Auflistung nach Attributen</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>Sortiert die Liste nach der Definitionsreihenfolge im Modeller</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>Elementname</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>Sortiert die Liste nach den Elementenamen</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>Sortiert die Liste nach den Werten</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Alle Elemente</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Kriterium:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>Angabe, was verglichen werden soll</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Ausgewählte Elemente:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Schliessen</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Subset Editor schliessen</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>Verbindung</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Konsolidierte Elemente</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Nur die konsolidierten Elemente werden angezeigt</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Nur konsolidierte Elemente</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Nur die konsolidierten Elemente werden sortiert</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>In die Zwischenablage kopieren</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Kriterien</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Würfel auswählen:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Gespeichertes Subset löschen</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Höchste Ebene ist 0</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>Die höchste Hierarchie-Ebene erhält die Zahl 0, die Zweithöchste die 1 usw.</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Dimension:</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Pickliste:</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Subsetname ändern</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Hierarchisch filtern</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Auflistung ab der gewählten Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Exklusiv</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Bestimmt, ob das ausgewählte Element von der Auswahl ausgeschlossen wird oder nicht.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Erweitert</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>Daten</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Grundeinstellungen</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Hierarchie-Filter</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Pickliste</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Sortierung</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Listendarstellung</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>Anzeige als fortlaufende Liste</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Formel-Subset</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>Hinzufügung vor der Liste</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>Picklist-Elemente werden vor der Auflistung eingefügt</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Globale Subsets</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>Grundeinstellungen</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Wiederholung</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Nach Typ filtern</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Filtert Elemente nach Typ</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Verberge Opt1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Verberge Opt2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Verberge Opt3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Hierarchie</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Hierarchische Darstellung</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Hierarchie-Nummerierung</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Höchste Ebene ist 1</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Die höchste Hierarchie-Ebene erhält die Zahl 1, die Zweithöchste 2 usw.</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Höchste Ebene ist 0</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Höchste Ebene ist 1</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Niederste Ebene ist 0</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Basis-Elemente</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Nur Basis-Elemente werden anzeigt</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Niederste Ebene ist 0</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Elemente der niedersten Hierarchie-Ebene(Basiselemente) erhalten die Zahl 0, auf jeder Stufe nach oben wird 1 addiert</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Nach H-Ebene filtern</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Filtert Elemente nach Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>Ende mit Ebene</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Beendet die Auswahl auf dieser Ebene.</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Beginn mit Ebene</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Beginnt die Auswahl auf dieser Ebene.</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Private Subsets</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Unterer Prozentbereich</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>Unterer Prozentbereich</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>MAXIMUM DER ELEMENTE</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>Zeigt die Elemente an, bei denen das Maximum des Querschnitts die Kriterien erfüllt</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Subset verwenden</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Subset abbrechen</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>Dieser Text wurde in die Zwischenablage übertragen</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Wollen Sie wirklich Subset '{0}' löschen?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Interner Fehler. Dies weist auf einen Programmfehler in der Bedienung hin. Bitte informieren Sie die Entwickler des Programms.</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Die ausgewählte Datei zeigt keinen gültigen Subset</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>Sie können das Parameter-Eingabefeld nicht ausblenden solange deren Eingabe nicht abgeschlossen ist!</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Kann das Ergebnis des Subsets nicht einfügen! Grund:</value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>Dieser Parameter wird in diesem Filter benötigt und kann nicht weggelassen werden!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Wollen Sie Ihre Änderungen im Subset speichern:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Änderungen speichern</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Subset gelöscht</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>Einsortierung in die Liste</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>Sortiert Picklist-Elemente in die Auflistung ein</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>Minimun der Elemente</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>Zeigt die Elemente an, bei denen das Minimum des Querschnitts die Kriterien erfüllt</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Angegebene Variablen</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Keine Rules anwenden</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>Daten werden ohne Veränderungen durch Rules in den Filter genommen</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>Keine Rules Opt 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>Keine Rules Opt 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>Numerisch</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Optionale Angaben:</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Fügt die Subset-Funktion in das Excel-Arbeitsblatt ein</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Aktualisierung</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Vorschau aktualisieren</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Textmuster(mit * und ? als Joker)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Beispiele für PERL-Reguläre Ausdrücke:
+  -  "Jan|Feb|Nov" bringt im Filter "Jan", "Feb" and "Nov"
+    -  "J.*" bringt im Filter alle Elemente, die mit "J" beginnen
+    -  "[s,d]" bringt im Filter alle Elemente, die ein "s" oder "d" im Elementnamen haben
+    -  "n$" bringt im Filter alle Elemente, die mit "n" enden</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Geben Sie reguläre Ausdrücke ein, mit denen die Elemente verglichen werden. Elementnamen oder Aliasnamen, die nicht zu den Ausdrücken passen, werden vom Subset entfernt.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>PERL-Reguläre Ausdrücke</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>Perl-reguläre Ausdrücke werden angewendet.
+    Damit haben Zeichen wie "[" oder "$" eine Wirkung:
+z.B.  mit X$ werden Elemente ausgewählt, die mit X enden</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Umkehrung</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>Die Sortierung erfolgt in umgekehrter Reihenfolge</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Eltern unterhalb ihrer Kinder</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Zeigt Elternelemente unterhalb ihrer Kinder an</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Umkehrung Opt1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Umkehrung Opt2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Umkehrung Opt3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Umkehr-Anweisung</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Nur Elternelemente unter Kindelemente stellen</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Elternelemente werden unter Kindelemente gestellt, Sortierung der Basiselemente wird nicht umgekehrt</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Alle Elemente</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>Umgekehrte Sortierung wird nicht getrennt nach Ebenen</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Wiederholung hinzufügen</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>Wiederholungen werden hinzugefügt</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Länge der Liste:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>Gesamtlänge der angezeigten Liste</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Liste wiederholen</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Auflistungswiederholung ab der gewählten Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Subset speichern</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Bitte Attribute auswählen</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>1.Alias:</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Auswahl, wie die Pickliste verwendet wird:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>2.Alias:</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Server/Datenbank:</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Einstellungen:</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Kinder anzeigen</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Mit Duplikaten</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Zeige Duplikate in der Auflistung</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Verborgene Kinder anzeigen</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>Zeigt Kinder von herausgefilterten Elementen an</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Keine anzeigen</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Vergleichsoperatoren für Teilmenge:</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Sortiert die Auflistung nur innerhalb der gewählten Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Sortierung nach:</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Sortierkriterien</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>Sortierkriterien</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Quellwürfel</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>Quellwürfel</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Gespeicherte Subsets</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>TEXT</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>Text eingeben</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>SUB</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Teil-Würfel</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Subset Attribut-Filter</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Subset Daten-Filter</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Subseteditor</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Subset Grundeinstellungen</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Subset Hierarchie-Filter</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Subsetname</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Name des Subsets</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Subset Pickliste-Filter</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Subset Sortierung</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Subset-Textfilter</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Als Vorauswahl für das Subset</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>Die weiteren Filter des Subsets werden nur auf die Picklist-Elemente angewendet</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>SUMME DER ELEMENTE</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>Zeigt die Elemente an, bei denen die Summe des Querschnitts die Kriterien erfüllt</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Zeige kleine Elemente bis %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>Nimmt solange die Elemente mit den kleinsten Datenwerten in die Liste auf, bis deren Anteil an der Gesamtdatenwertsumme den Grenzprozentwert überschreitet</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Zeige Topelemente bis n:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>Die ersten n TOP-Elemente mit den größten Werten kommen in die Auswahlliste</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Zeige große Elemente bis %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>Nimmt solange die Elemente mit den grössten Datenwerten in die Liste auf, bis deren Anteil an der Gesamtdatenwertsumme den Grenzprozentwert überschreitet</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>TEXT DES ELEMENTS</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Auswahl Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>Auswahl Hierarchie-Ebene</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>Typ-Grenze Opt1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>Typ-Grenze Opt2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>Typ-Grenze Opt3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Oberer Prozentbereich</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>Oberer Prozentbereich</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Benutzung</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Filter anwenden</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Suche Elemente</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Benutzen Sie Jokerzeichen um in der Element-Liste zu suchen</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Ansicht erstellen...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>XLL laden ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>Suche nach Server %1. Bitte warten...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Lese CSV-Datei ...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Lese Block vom Würfel. Bitte warten ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Lese Block von Datenbank. Bitte warten ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Lese  Elemente vom Server %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Auswahl durchsuchen ...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Arbeitsblatt durchsuchen ...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Lokalen PALO Server-Dienst starten ...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Rule wurde gelöscht</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Fehler beim Exportieren der Formeln!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Formeln wurden erfolgreich exportiert!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Fehler in der Formel #%1. Formel: %2. Server Nachricht: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Formeln wurden erfolgreich importiert!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Formel wurde gespeichert</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo Online</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Meldet das Herunterfahren des Palo-Servers, das Beenden des Supervision-Servers und das Speichern einer Datenbank.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>Standard-Überwachung</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>Überwacht Zelländerungen in einem festzulegenden Zellbereich.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>Würfel-Überwachung</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>Überwacht Logins und Logouts.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>Login-Überwachung</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>Überwacht die Datenherkunft in Zusammenarbeit mit dem ETL-Server.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>Drill Through</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>Liefert wahr oder falsch als Ergebnis der Identifizierung eines Benutzers.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>Authentifizierung</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>Liefert wahr oder falsch als Ergebnis der Identifizierung eines Benutzers sowie dessen Gruppenmitgliedschaften.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>Autorisierung</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>Bitte speichern Sie als letzten Schritt das Skript und konfigurieren Sie den SVS entsprechend.</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>Bitte wählen Sie einen Überwachungstyp aus:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>Bitte wählen Sie eine Identifizierungsart aus:</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>Bitte legen Sie die zu überwachenden Zellen fest:</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>Hier das generierte Beispielskript. Bitte passen Sie es Ihren Wünschen entsprechend an:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>Herzlichen Glückwunsch!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>Alias Format</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Anhängen an Datei</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Attributewürfel</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>geändert</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Würfel auswählen:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Element auswählen..</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Server/Datenbank auswählen:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>Stilart auswählen:</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Wollen Sie wirklich die Daten im Würfel %1 löschen?
+Hinweis: Die Struktur des Würfels bleibt erhalten.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Würfel leeren</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Alle zuklappen</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>Verbindung</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Wenn Sie den Elementtyp auf 'numerisch' ändern, kann das zu Datenverlust führen.
+Sind Sie sicher?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Typ ändern: numerisch</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Wenn Sie den Elementtyp auf 'Text' ändern, kann das zu Datenverlust führen.
+Sind Sie sicher?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Typ ändern: Text</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Elemente löschen</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Dieses Element wird in einem Würfel verwendet. Wenn Sie den Typ ändern, gehen wahrscheinlich Daten in diesem Element verloren.
+Sind Sie sicher?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Typ ändern: konsolidiert</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Dieses Element wird in einem Würfel verwendet. Wenn Sie den Typ ändern, gehen wahrscheinlich Daten in diesem Element verloren.
+Sind Sie sicher?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Typ ändern: numerisch</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Dieses Element wird in einem Würfel verwendet. Wenn Sie den Typ ändern, gehen wahrscheinlich Daten in diesem Element verloren.
+Sind Sie sicher?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Typ ändern: Text</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>Würfelname</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>Würfel</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Sie versuchen, die Dimension %1 zu löschen, die in %2 Würfel(n) verwendet wird.
+Löschen Sie zunächst den oder die betreffenden Würfel.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Dimension wird verwendet</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>Datenbank</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>Datenbankelemente</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie die Dimension %1 endgültig vom Server löschen wollen?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Dimension löschen</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Wollen Sie den Würfel  %1 wirklich vom Server löschen?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Würfel löschen</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Element(e)
+%1
+wirklich vom Server löschen?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Elemente löschen</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>Dimensionselemente</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Das Element %1 wurde nicht in der Dimension %2 gefunden !</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>Dimensionsnamen</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>Dimensionen</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>Elementname</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>Elemente</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Pickliste:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Alle aufklappen</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Argumente raten</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>Kopfzeile vorhanden</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Drücken Sie RETURN, um ein Attribut hinzuzufügen..</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Drücken Sie RETURN, um ein Element hinzuzufügen...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Klicken Sie auf ein Element aus der Liste, um es hinzuzufügen...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Drücken Sie RETURN, um ein Subset hinzuzufügen..</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Klicken Sie auf den Button 'Neuer Würfel', um einen neuen Würfel anzulegen...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Drücken Sie die RETURN-Taste, um eine Dimension hinzuzufügen...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>geladen</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>Meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>Kein weiteres Vorkommen von %1 gefunden!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>kein</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie alle Elemente dieser Dimension %1 durch den Inhalt der Zwischenablage ersetzen wollen?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Elemente einfügen</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Einfügen auf die aktuelle Auswahl begrenzen ?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Rule </value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Rule Editor (Fortgeschritten)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Wählen Sie eine DSN aus der Liste...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Elemente auswählen...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Zeige Attribute</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Zeige alle Auswahlwerkzeuge</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>Subset</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Tipp: Shift-Taste drücken, um mehrere Elemente auszuwählen</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>unbekannt</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>ungeladen</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Benutzer Info</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>%1 einfügen</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[ohne Vorlage]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Aktivieren Sie das Kontrollkästchen, wenn die Ansicht automatisch formatiert werden soll.</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Neuer Würfel</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Neue Dimension</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Neues Element</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Änderungen speichern</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Änderungen verwerfen</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Fenster schliessen</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Hier klicken, um den Assistenten zu beenden</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Elemente konsolidieren...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Zurück zur Datenbank-Seite</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Würfel löschen...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Dimension löschen</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Element(e) löschen...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Dimension bearbeiten</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Modeller schließen</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Dimension nach unten verschieben</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Element nach unten verschieben</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Ausgewählte(s) Element(e) aus der Liste löschen</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Ausgewählte(s) Element(e) in die Liste übernehmen</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Element nach oben verschieben</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Dimension(en) aus dem Würfel löschen</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Dimension(en) zum Würfel hinzufügen</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Klicken Sie hier, um einen Würfel zu erstellen</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Hier klicken, um Würfel zu erstellen</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Palo-Assistent starten...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Ansicht in Arbeitsblatt einfügen</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Dimension umbenennen</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Element umbenennen</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Verbindungsstatus ändern (verbinden/trennen)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Position des Faktors ändern (links/rechts)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Umschalten zwischen hierarchischer und Listenansicht</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Wählen Sie bitte den Cube</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Klicken Sie zum Löschen auf den Namen einer Datenbank</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Klicken Sie hier, um Elemente auszuwählen</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Klicken Sie hier, um einen Server auszuwählen</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Klicken Sie hier, um einen Server / eine Datenbank hinzuzufügen...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Wählen Sie, welchen Typ von Palo-Funktion Sie verwenden möchten</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Zurück zum vorigen Schritt</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Weiter zum nächsten Schritt</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Zeigt alle vorhandenen Dimensionen</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Zeigt alle Würfel in der aktuellen Datenbank</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Zeigt alle Dimensionen in der aktuellen Datenbank</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Zeigt alle Elemente in der aktuellen Dimension</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Zeigt alle Elemente im aktuellen konsolidierten Element</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Liste der ausgewählten Dimensionen</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>In Definitionsreihenfolge</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Sortiert aufsteigend</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Sortiert absteigend</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Datenbank Einstellungen</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>Das Token ändert sich nach jedem Request, um jeden Klient zu zwingen, seinen Cache zu invalidieren.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>Das Token ändert sich nach einer Zelleingabe, einem Aktualisieren oder Löschen</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>Das Token ändert sich nach einer Zelleingabe, einem Aktualisieren oder Löschen</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Attributwürfel</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Datenwürfel</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Benutzerrechtewürfel</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Attribut-Management</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Metadaten Management</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Benutzerverwaltung</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Schliesse Rule-Editor</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Lösche ausgewählte Formel</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Exportiere Formeln als CSV...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Stelle exportierte Formeln aus CSV her...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Bewege Formeldefinition nach unten</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Bewege Formeldefinition nach oben</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Speichere eingetragene Formel</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Rule-Editor...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Funktioniert nur mit Supervisionserver</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Element auswählen</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Element auswählen für %1</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Würfel-Assistent</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Text Inhalt bearbeiten</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Exportiere Elemente der Dimension</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Exportiere Daten des Würfels</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Import-Assistent</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Modeller </value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Daten-Funktion einfügen</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>Überwachungs-Assistent</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>SVSWizard2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Dimension aus der Vorlage</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Rule-Editor </value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>Fehler in Rule</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Zeige Systemwürfel</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Zeigt die Liste von Globalen Subsets für diese Dimension an</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>"MyPalo Community" ist das Online-Portal für Palo-Anwender. "MyPalo" bietet erweiterte Dokumentationen, Support sowie Artikel von Experten und es bietet die Möglichkeit, mit anderen Palo-Anwendern in Kontakt zu treten. Durch die Mitgliedschaft in der "MyPalo Community" können Sie weltweit Menschen treffen, die mit Palo arbeiten. Der beste Weg dazu ist, Ihr eigenes MyPalo Konto anzulegen. Wenn Sie bereits registriert sind, dann benutzen Sie bitte Ihr Konto, um sich einzuloggen.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>Es gibt eine neue Palo Suite Version. Wollen Sie diese herunterladen?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Auf Updates überprüfen</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL is leer</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL ist syntaktisch nicht korrekt</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Achtung: Datei wird unwiderruflich gelöscht!
+Sind Sie sicher?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>Dieser Assistent hilft beim Einloggen sowie beim Anlegen und Löschen von Datenbanken und Serververbindungen.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Geben Sie einen eindeutigen Namen für die neue Datenbank ein.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>Legen Sie hier eine neue Datenbank auf dem ausgewählten Server an:</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>Hier können Sie eine Datenbank vom Server löschen.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Wählen Sie die Datenbank aus, die gelöscht werden soll:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>Datenbank:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Verbindung auswählen</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Port: </value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Verbindung:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Bezeichnung:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Datenbanken verwalten</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Serververbindungen verwalten</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>Hier können Sie einen vorhandenen Server für diese Arbeitsstation registrieren.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>Hier können Sie einen vorhandenen Servereintrag für diese Arbeitsstation bearbeiten.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Geben Sie den Namen oder die IP-Adresse des Servers ein</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Geben Sie den Namen oder die IP-Adresse des Servers ein</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Neue Datenbank anlegen</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Datenbank aus Vorlage erstellen</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Vorhandene Datenbank löschen</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Neuen Server eintragen</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Servereintrag löschen</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>Servereintrag bearbeiten</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Verbindungs-Assistent</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Verbindungs-Assistent</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Palo Authentifikation verwenden</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Windows Authentifikation verwenden</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>Palo Fehler</value>
+  </data>
+</root>

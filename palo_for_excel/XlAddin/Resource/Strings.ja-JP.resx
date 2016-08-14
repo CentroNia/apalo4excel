@@ -1,0 +1,2694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>activate update search</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>サブセットを追加...</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="btnPaloOnlineOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;戻る</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>ブラウズ...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>リストをクリア</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>閉じる(&amp;C)</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>すべてたたむ</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>接続文字列を挿入するにはここをクリック</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>キューブ文字列を挿入するにはここをクリック</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; データベース</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>削除...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>ディメンジョン文字列を挿入するにはここをクリック</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>切断</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>すべて展開する</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>完了(&amp;F)&gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>コメントを隠す</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>水平に貼り付け</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>次(&amp;N) &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>解析</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>ヘッドを貼り付け</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>リストをリフレッシュ</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>保存...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>検索 &amp;&amp; 選択</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>ブランチを選択</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>選択を反転</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>選択解除</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>選択済み</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>コメントを表示</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>降順</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>昇順</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>接続テスト(&amp;T)</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>垂直に貼り付け</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>選択をクリア</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>選択されたキューブスライスをクリア</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>すべてクリア</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>すべてのキューブをクリア (選択がある場合は無視されすべてのキューブがクリアされます)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>データベース設定</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>キャッシュ設定</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>クライアントキャッシュ無し</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>クライアントキャッシュを使用</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>エンタープライズルールの無いキューブのクライアントキャッシュを使用</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>キューブをクリア</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>キューブデータをクリア中です。しばらくお待ちください...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>最初の子として追加</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>キューブを追加...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>新規ディメンジョン</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>同階層として追加</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>キューブをクリア...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>キューブを変換 (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>最初の子としてコピー</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>エレメントをコピー</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>同階層としてコピー</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>カウント</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>キューブ情報...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>キューブを削除...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンを削除...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>削除...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>ソースエレメントから削除</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンを編集</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>集計...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>データのエクスポート...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>ディメンジョンのエクスポート...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>集計係数...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>エレメントを最初に</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>エレメントを最後に</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>エレメントを貼り付け</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>階層から削除</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンの名前変更</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>名前変更</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>親を表示</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>文字列</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>総合管理サーバ</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>ディメンジョンのエクスポート...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>メジャーディメンジョンとして扱う(MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>追加...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>削除...</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>編集...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>ルールエディタ...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>下に移動</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>上に移動</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>アクティビティのオンオフ</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>時間ディメンジョンとして扱う(MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>キューブの名前変更...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>ディメンジョン情報...</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>エレメントを検索</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo が変更を適用中です...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>ディメンジョン</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>埋まっている比率 (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>識別子</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>セル数</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>ディメンジョン数</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>埋められたセル数</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>キューブ情報</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>サブセットを削除...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>属性キューブ</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>結合エレメントの数</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>エレメント</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>識別子</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>最大深さ</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>最大インデント量</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>最大レベル</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>数値エレメントの数</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>エレメントの数</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>文字列エレメントの数</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>ディメンジョン情報</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>循環参照エラーです!
+集計エレメントの一つが現在のエレメントを含んでいます。</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>貼り付けたエレメントのタスクが完了しませんでした。インポート失敗行:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>エレメント貼り付けエラー</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>サーバ接続でエラーです!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>エレメント &lt;%1&gt; はユニークではありません!
+ディメンジョン:エレメントのようにコロンをつけてください: 例Months:January</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>キューブ %1 はデータベース %2 に存在します!
+異なる名前を入力してください。</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>キューブ名が空です!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>キューブ名が無効な文字を含んでいます!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンが選択されていません!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>その名前のデータベースはすでに存在します!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>データベース名が無効な文字を含んでいます!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>ディメンジョンはすでに存在します!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>ディメンジョン名が空です!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>ディメンジョン名が無効な文字を含んでいます!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>エレメントはすでに存在します!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>エレメント名が無効な文字を含んでいます!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>ファイル %1 は見つかりませんでした。</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>権限の不足</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>ログインエラー: 無効なログインデータです!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>XLL ファイル読み込みエラーです!
+エラーの原因: XLL ファイルが移動・削除されました(検索先: "%1")。アドインの再インストールを試みてください。XLL ファイルが読み込まれないとこのアドインは正しく動作しません。</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>PALO アドインの初期化エラー: Excel 通信エラー!
+アドインの一部が正しいく動作していません。プラグインを再インストールしてください。</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>PALO アドインの初期化エラー:
+ローカル PALO サーバサービスを開始できません!
+おそらくサービスが無効にされています。サービスを有効にしてデザイナーを起動してください。</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>PALO アドインの初期化エラー:
+ローカル PALO サーバサービスと通信できません! おそらく PALO サーバが正しくインストールされていないか機能していません。</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>PALO アドインの初期化エラー:
+アドインを実行する権限がありません!
+アドインの一部が正しいく動作していません。プラグインを再インストールしてください。</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>データベース読み込みエラー:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>新規サーバ登録エラー!
+接続データを確認してください。</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>B1 に数式が見つかりません</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>ユーザ名は @ を含まないといけません。</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Excel で正しく動作しない文字が入力されました(',", など)。 Excel 外の Palo サーバとクライアントには問題ありません。
+本当に続行しますか?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Excel 互換性の警告</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>ファイル書き込み成功</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>ここに新規ルール定義を入力してください</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>データベースの作成に成功しました。</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>データベースの削除に成功しました。</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>サーバの登録に成功しました。</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>サーバの登録解除に成功しました。</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>テスト成功!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>おめでとうございます! Palo for Excel は無事インストールされました。</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>プランニング、分析、レポーティングのためのオープンソース BI: Palo によってExcelを最適化しましょう</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo ログインと詳細マニュアル</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Palo デモアプリを Excel で開く</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>"First Steps with Palo for Excel" を開く</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Palo トレーニングに参加</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Excel 開始時にこのダイアログを表示</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>デモアプリケーションを含んだ Excel ワークブックを開きます。</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>サンプルマニュアルによって Palo の機能を理解するうえで素早い導入がはかれます。</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>MyPalo コミュニティに登録するか Palo トレーニングに参加します。</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>もしくは "Palo" メニューをクリックすることでただちに Palo を開始します。</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>"ビューを貼り付け" によってセットアップに含まれているデモデータベースに基づいたビューを作成できます。"モデラー" によってデータベースの設計や新しいデータベースを作成できます。</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>エレメント</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>サブセット</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>利用可能ディメンジョン:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>文字数:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>固定幅:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>ユーザ権限を編集</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>ダブルクリックでエレメントセレクタを表示</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>係数を左に表示</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>字下げ</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>属性フィールドを表示</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>階層を表示</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>ヘッダーをつける</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>ラベルの折り返し</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>0を表示しない</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>計算された null を表示しない</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>テキストファイル (*.txt)|*.txt|カンマ区切り (CSV) Files (*.csv)|*.csv|すべてのファイル (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>このウィザードで新規キューブを設定します。</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>名前:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>キューブ:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>ディメンジョン:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>文字列を入力してください。Excelの制限のため最初の255文字しか見えません。一方 Palo はシステムリソースが許す限りの文字数を保存します。</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>文字列を入力してください。</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>エレメント:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>集計エレメント:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>CSVファイルの出力先と構造を選択して下さい:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. 出力ファイルを選択 (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>ルールベースのセル値もエクスポートする</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>係数</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>終了したら書き込んだ先頭行を空白にする</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>このウィザードはアクティブなワークシートの先頭行をループするデータソースをセットアップします。</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>データソースを選択</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>テキストファイル (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC クエリ</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>キューブ</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>終了まで画面を再描画する</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>内部ループ (B1でエラーが発生するまでA1を増加)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>このステップではインポートするテキストファイルを定義します。</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. ソースファイルを選択 (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>このステップではインポートループする ODBC クエリを定義します。</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. ODBC ソースを選択 (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. SQL文を入力</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>次を押して次のレコードを表示するか、完了を押して全レコードをループしてください。</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>クエリ</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>空セルを無視する</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>ベースエレメントのみ</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>ログインデータを保存</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>新規...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>新しいディメンジョン</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>新しいエレメント</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>新しい行</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>空白</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>カンマ</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>小数点文字</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>セミコロン</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>タブ</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>ユーザ定義</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>リストからアクションを選択してください...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>全てのエレメント</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>選択されたディメンジョン:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL クエリファイル (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>編集...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>新規...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>アップデートをチェック中...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>出力先の CSV ファイルと分離子と階層形式を選択:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. 階層形式を選択</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-形式 (エリア, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>一行内に親子関係</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. 分離子を選択</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>ディメンション名:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>ディメンジョン名とテンプレートを選択してください:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>ここをクリックして新しいルールを編集してください</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>定義されたルールのリスト</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>ルールにエラーがあります。サーバの応答:</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>サブセットエレメント:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>テンプレート:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>ここをクリックして"MyPalo コミュニティ"に登録します</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>"MyPalo コミュニティ"に登録しますか?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>ユーザ名</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Palo for Excel コミュニティエディションをダウンロード</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>コミュニティ、Premium バージョンを比較</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>続行</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Premium バージョンの見積を作成します</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>もしくは100% オープンソースのコミュニティエディションを使用できます。ダウンロードするにはクリックします。</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>コミュニティと Premium バージョンの違いを確認する</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>ライセンスは %1 日で失効します。</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium ライセンスが失効しました!</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Jedox にコンタクトして Premium エディションの見積を取る</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>ローカル PALO サーバサービス情報がセットされていません</value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>情報(&amp;A)...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>やり直しの起点をセット</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>コミット</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>データインポート(&amp;I)...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>モデラー(&amp;M)...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Palo ウィザード(&amp;W)...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>エレメントを貼り付け(&amp;E)...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>データ関数を貼り付け(&amp;F)...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>サブセットを貼り付け(&amp;S)...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>ビューを貼り付け(&amp;V)...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>ロールバック</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>スナップショットを保存(&amp;N)...</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>SVSウィザード</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>1ステップ戻る</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>クライアントキャッシュの有効化</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>エレメントの総数: %1
+数値エレメント: %2
+文字列エレメント: %3
+集計エレメント: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>識別子:			%1
+名前:			%2
+ディメンジョン数:			%3
+Dimensions:			%4
+Total number of cells:			%5
+Number of filled basic and string cells:			%6
+Status:			%7
+Type:			%8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>エレメントは %1 は %2 ツリーから削除されましたが他の構造で使われていたため、要求されたターゲットで表示されなくなります。</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>選択されたビューは %1 (=%3) 以上のセルを含みます。ビューを %2 行に制限しますか (推奨)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>貼り付けようとしたシートには結合セルが含まれます。貼り付ける前にこれらを削除する必要があります。</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>キューブの選択はクリアされました。</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>キューブは完全にクリアされました。</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>この動作は時間がかかります。しばらくお待ちください。</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>キューブが見つかりません!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>無効なエレメントタイプです</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>エレメントが見つかりません!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>引数が無効です!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>形式が無効です!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>タイプが合いません! 数値セルに文字列を書き込もうとしました。</value>
+  </data>
+  <data name="PaloOnlineAdvancedHelp" xml:space="preserve">
+    <value>MyPalo</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>Palo ファーストステップ</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>ログイン...</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo オンライン</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo ウェブ</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Palo スプレッドシートを編集...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>発行...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo ウェブウィザード</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>ページ選択</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>列タイトル</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>行タイトル</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>テクニック: ディメンジョンをダブルクリックするとエレメントが選択されます</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>ビューを貼り付け</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>セルが空ではありません。しばらくお待ちください...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>標準の Palo ウェブ接続が定義されていません。Palo ウェブウィザードをしようして標準接続を設定してください。</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>接続が失われました</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>接続管理</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>接続を選択</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>接続を編集</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>このウィザードで Palo ウェブサーバへの接続の追加、削除、更新を行います。</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>新しい接続</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>接続を削除</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>接続管理</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>このステップでは既存の接続データを変更できます</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>シークレット</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>ユーザ名</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo ウェブウィザード</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>本当に保存しないで終了しますか?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>この動作は %1 セルを削除します。これには時間がかかります。続行しますか?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>本当にサーバ %1 からデータベースを完全に削除しますか?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>データベースを削除</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>この動作は時間がかかります。続行しますか ?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>本当にサーバ %1 の登録解除をしますか?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>サーバの登録解除</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>本当にインポートの前にすべての存在するルールを削除しますか?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>本当にルールを削除しますか?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>集計の優先度</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>集計エレメント</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>ベースエレメント</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>全てのエレメント</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>サブセットの名前変更...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>ルール</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>更新済</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>上方</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>オンにすると階層フィルタは参照エレメントより上にあるエレメントを選択します。標準の階層フィルタの動作は下方です。</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>このフィルタを有効にする</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>新しいサブセットを追加します</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>エイリアス</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>最初のエイリアスフィールド</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>フィルタを適用したいエイリアスを選択してください(テキストかソート)。エイリアスフィールドが空の場合はフィルタはエレメント名に適用されます。</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>二番目のエイリアスフィールド</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>フィルタを適用したいエイリアスを選択してください(テキストかソート)。エイリアスフィールドが空の場合はフィルタは最初のエイリアスフィールドに適用され、そこも空の場合はエレメント名を参照します。</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>全てのエレメント</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>スライスの全てのエレメントが基準を満たした場合エレメントを表示します</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>全てのエレメント</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>リストの全てのエレメントをソートします</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>AND</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>いずれかのエレメント</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>いずれかのエレメントが基準を満たした場合エレメントを表示します</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>属性でリストします</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>例:
+    -  "&gt;0"
+    -  "&lt;=1000"
+    -  "&lt;&gt;10"
+    -  "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>属性フィルタ</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>属性フィルタによってリストします</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>自動更新プレビューを有効にする</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>再び表示しない</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>データフィルタを選択した場合自動更新のチェックは解除されることに注意してください。</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>エレメントの平均</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>スライスの平均が基準に達したらエレメントを表示します</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>後方</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>リストの最後にピックリストエレメントを追加する</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>ベースエレメントのみ</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>ベースエレメントのみソートします</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>下方</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>階層の参照エレメントの下にあるエレメントのみ表示する</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>エイリアス</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>エイリアスによってリストをソートします</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>属性によってリストをソートします</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>定義</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>モデラーの定義リストによってリストをソートします</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>エレメント名</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>エレメント名によってリストをソート</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>値によってリストをソートします</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[全てのエレメント]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>基準:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>基準を選択してください</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>選択されたエレメント:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>サブセットエディタを閉じる</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>集計</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>集計エレメントのみ表示します</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>集計エレメントのみ</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>集計エレメントのみソートします</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>クリップボードにコピー</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>キューブを選択:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>定義</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>保存されたサブセットを削除します</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>最も高い階層は 0、次に高いのは 1 です。</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>記述</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>ディメンジョン</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>ディメンジョンの内容</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>ディメンジョン</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>サブセット名を編集します</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>階層によってエレメントをフィルタする</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>ディメンジョンの階層中の参照エレメント</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>除外</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>選択されたエレメントを結果から除外するかを定義します。</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>拡張</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>エイリアス</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>階層</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>ピックリスト</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>ソート</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>フラット</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>連続したリストを表示します</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>数式サブセット</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>前方</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>リストの最初にピックリストエレメントを追加する</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>グローバルサブセット</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>循環</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>タイプによるエレメントのフィルター</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>タイプによってエレメントをフィルターします。</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>オプション 1 を隠す</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>オプション 2 を隠す</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>オプション 3 を隠す</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>階層</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>階層表示</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>階層の一覧表示</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>インデント</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>最高の階層レベルでは 1、次のレベルは 2 のようになります</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>レイアウト</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>深さの一覧表示</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>インデントの一覧表示</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>レベルの一覧表示</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>ベースエレメント</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>ベースエレメントのみ表示します。</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>ベースエレメントは 0で、それ以上のレベルは 1 追加されます。</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>レベルによってエレメントをフィルタ</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>レベルによってエレメントをフィルタします。</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>終了レベル</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>このレベルでフィルタを終了します。</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>開始レベル</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>このレベルからフィルタを開始します。</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>読み込み</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>ローカルサブセット</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>下限（％）</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_LOWER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>エレメントの最大値</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>スライスの最大値が基準に達したらエレメントを表示します。</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>サブセットを適用</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>サブセットをキャンセル</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>このテキストはクリップボードに書き込まれました</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>本当にサブセット '{0}' を削除しますか?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>深刻な内部エラーのためコントロール不能です。開発者にご連絡ください!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>選択されたファイルは有効なサブセットをあらわしていません。</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>アクティブな名前の付けられたパラメターがある場合はパラメターを隠すことはできません。</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>サブセットの結果を貼り付けできません。理由:</value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>このパラメターはこのフィルタで必要なため選択を解除することができません!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>サブセットへの変更を保存しますか:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>変更を保存</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>サブセットは削除されました</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>マージ</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>リスト内のピックリストエレメントをソートします。</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>エレメントの最小値</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>スライスの最小値が基準に達したらエレメントを表示します。</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>名前付き変数</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>ルールなし</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>SB_NO_RULES Desc Long</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>ルール無し オプション 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>ルール無し オプション 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>数値</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>オプション設定</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>パラメター</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>変数</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Excelの表にサブセットを貼り付けます</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>再描画</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>プレビューを再描画します</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>テキストパターン(* と ? をワイルドカードとして使用可能)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>PERL-正規表現の例:
+    -  "Jan|Feb|Nov" は"Jan", "Feb" , "Nov" にマッチします。
+    -  "J.*", は "J" で始まる全てのエレメントにマッチします。
+    -  "[s,d]" はエレメント名に "s" か "d" を含むものにマッチします。
+    -  "n$" は "n" で終了する全てのエレメントにマッチします。</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>サブセットのエレメントにマッチする正規表現を指定します。正規表現のどれか一つにマッチしないエレメント名、エイリアス名はサブセットから除外されます。</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>PERL-正規表現</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>PERL-正規表現が使用できます。"[" や "$" のような記号が機能します。
+    例 X$ は X で終了する全てのエレメントを選択します。</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>名前変更</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>反転</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>SB_REVERSE Desc Long</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>子の下に親を表示</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>子の下に親を表示します。例えば値の下に合計が出ます。</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>反転 オプション 1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>反転 オプション 2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>反転 オプション 3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>逆順</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>レベル毎のエレメント整列</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>それぞれの階層レベルで逆順ソートをかけます</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>合計 (詳細値の下に集計値)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>全ての階層レベルで逆順ソートをかけます</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>循環を追加</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>リスト長:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>リスト長:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>循環リスト</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>指定したエレメントで開始するエレメントリストを作成します。</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>サブセットを保存します</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>属性フィールドを選択し、設定してください。</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>1番目のエイリアスを選択</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>選択したエレメントをどのように挿入するか選んでください:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>2番目のエイリアスを選択</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>サーバ</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>サーバ / データベース選択</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>子を表示</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>重複を表示</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>リスト内の重複を表示します</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>隠しエレメントの子を表示</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>隠し子エレメントを表示します</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>何も表示しない</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>スライス演算</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>レベルでソート</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>選択された階層レベル内でリストをソートします</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>ソート動作</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>ソート基準</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_SORTING_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>ソースキューブ</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SOURCE_CUBE Desc Long</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>保存されたサブセット</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>文字列</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String Desc Long</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>サブ</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>サブキューブ</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>サブセット属性フィルター</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>サブセットデータフィルター</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>サブセットエディター</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>サブセット一般設定</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>サブセット階層フィルター</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>サブセット名</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Subset Name Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>サブセットピックリストフィルター</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>サブセットソート</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>サブセットテキストフィルター</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>除外</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>ピックリストで定義された以外の全てのエレメントをリストから削除します。</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>エレメント合計</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>スライスの合計が基準に達したらエレメントを表示します。</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>基準%以下のエレメントを選択:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>累積が下から x% 以下の最小エレメントを選択します。</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>上位エレメント:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>上位 n 位のエレメントを選択します。</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>基準%以上のエレメントを選択:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>累積が上から x% 以上の最大エレメントを選択します。</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>エレメント名 (文字列)</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>上位</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>タイプ制限</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE_LIMITATION Desc Long</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>タイプ制限 オプション1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>タイプ制限 オプション2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>タイプ制限 オプション3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>SB_UPPER_PERCENTAGE Desc Long</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>フィルタを使用</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>全体</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>SB_WHOLE Desc Long</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>エレメントを検索</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>エレメントリストの検索にワイルドカードを使用することができます</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>サーバ:</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>ビューを生成中 ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>XLL を読み込み中...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>サーバ %1を検索中。しばらくお待ちください...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>CSV ファイルを読込中...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>キューブからブロックを読込中。 しばらくお待ちください ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>データベースからブロックを読込中。しばらくお待ちください ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>サーバ %1 からエレメントを読込中 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>選択部分をスキャン中...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>ワークシートをスキャン中...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>ローカル PALO サーバサービスを起動中...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>ルールが削除されました</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>ルールのエクスポートエラーです!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>ルールのエクスポートに成功しました!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>ルール #%1 にエラーがあります。ルール: %2。 サーバメッセージ: %3。</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>ルールのインポートに成功しました!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>ルールが保存されました</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo オンライン</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Palo サーバのシャットダウン、総合管理サーバ自身の異常終了、データベーシウの容量をレポートします。</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>標準-総合管理</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>指定したセル、範囲の変更に対する総合管理です。</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>キューブ-総合管理</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>ログイン、ログアウトの総合管理</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>ログイン-総合管理</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>ETL サーバとの協調に伴うデータをモニタします。</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>ドリルスルー</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>ユーザの識別に関するTrue, Falseの結果を返します。</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>証明</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>ユーザとそのグループメンバーシップの識別に関するTrue, Falseの結果を返します。</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>認証</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>最後のステップとしてスクリプトを保存し SVS を設定します。</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>総合管理のタイプを選択:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>認証のタイプを選択:</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>モニタするセルを選択:</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>これは生成されたサンプルスクリプトです。必要に応じて変更してください:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>おめでとうございます!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>エイリアス</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>エイリアス形式</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>ファイルの最後に追加</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>属性キューブ</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>変更されました</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>キューブを選択:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>エレメントを選択...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>サーバ/データベースを選択:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>スタイルを選択 :</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>キューブ %1 のデータを削除しますか?
+注意: キューブの構造は保たれます。</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>キューブをクリア</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>すべてたたむ</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>エレメントタイプを集計型から数値型に変更するとデータをロスします。本当に数値型に変更しますか?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>タイプを数値型に変更中</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>エレメントタイプを集計型から文字列型に変更するとデータをロスします。本当に文字列型に変更しますか?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>タイプを文字列型に変更中</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>エレメントを削除</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>このエレメントはキューブで使用されています。エレメントタイプを数値・文字列型から文字列型に変更するとデータをロスします。本当に続行しますか?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>タイプを集計型に変更中</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>このエレメントはキューブで使用されています。エレメントタイプを数値型に変更するとデータをロスします。本当に数値型に変更しますか?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>タイプを数値型に変更中</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>このエレメントはキューブで使用されています。エレメントタイプを文字列型に変更するとデータをロスします。本当に文字列型に変更しますか?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>タイプを文字列型に変更中</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>キューブ名</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>キューブ</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>現在キューブ %2 で使用されているディメンジョン %2 を削除しようとしています。使用中のディメンジョンを削除するには最初にキューブを削除する必要があります。</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>使用中のディメンジョン</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>データベースエレメント</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>本当にディメンジョン %1 をサーバから削除しますか?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>ディメンションを削除</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>本当にキューブ %1 をサーバから削除しますか?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>キューブを削除</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>以下のエレメント:
+%1
+をサーバから完全に削除しますか?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>エレメントを削除</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>ディメンジョンエレメント</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>エレメント %1 がディメンジョン %2 に見つかりません!</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>ディメンジョン名</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>ディメンジョン</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>エレメント名</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>エレメント</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>ピックリスト:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>すべて展開</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>形式</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>引数を推測</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>ヘッダーが存在</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>RETURN を押すとエレメントが追加されます...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>リストのエレメントをダブルクリックしてソースエレメントを追加します...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>キューブを追加するには"新しいキューブ ..." ボタンをクリックします...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>RETURN を押すとディメンジョンが追加されます...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>読み込まれました</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>メタ</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>%1 が見つかりませんでした!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>ディメンジョン %1 の全てのエレメントをクリップボードの中身で置換しますか?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>エレメントを貼り付け</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>現在の選択への貼り付けを制限しますか ?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>ルール</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>ルールエディタ (詳細)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>リストから DSN を選択...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>エレメントを選択...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>サーバ</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>属性を表示</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>全ての選択ツールを表示</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>サブセット</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>テクニック: SHIFTを押して現在の選択を拡張します</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>未読み込み</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>ユーザ情報</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>%1 を挿入</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[テンプレートなし]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>貼り付けた選択を自動書式にするにはここをチェックして下さい</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>新しいキューブ...</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>新しいディメンジョン</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>新しいエレメント</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>変更を適用</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>変更をキャンセル</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>ビューエディタを終了</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>ウィザードを終了するにはここをクリックします</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>集計エレメント...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>データベースページに戻る</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>キューブを削除...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンを削除...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>エレメントを削除...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンを編集</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>デザイナーを閉じる</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンを下に移動</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>エレメントを下に移動</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>ソースエレメントのリストから選択されたエレメントを削除</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>ソースエレメントのリストへ選択されたエレメントを追加</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>エレメントを上に移動</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>キューブからディメンジョンを削除</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>キューブにディメンジョンを挿入</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>新しいキューブの名前を入力してください。</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>キューブを作成するにはここをクリックします</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Palo ウィザードを開始...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>現在のビューを Excel に貼り付け</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>ディメンジョンの名前変更</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>エレメントの名前変更</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>接続のオンオフ(接続/切断)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>切断</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>表示係数のオンオフ(左/右)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>リスト/ツリービューモードに置いてエレメントの表示をオンオフ</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>キューブを選択</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>データベースを選択するにはここをクリックします</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>エレメントを選択するにはここをクリックします</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>サーバを選択するにはここをクリックします</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>サーバかデータベースを選択するにはここをクリックします...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>使用したい Palo データ関数のタイプを選択してください</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>前のステップに戻る</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>次のステップに進む</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>このリストは利用可能なディメンジョンのリストです</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>現在のデータベースのキューブのリストを表示</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>現在のデータベースのデータベースのリストを表示</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>現在のディメンジョンのエレメントのリストを表示</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>現在の集計エレメントのエレメントのリストを表示</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>このリストは選択されたディメンジョンのリストです</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>作成順序</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>昇順でソート</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>降順でソート</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>データベース設定</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>それぞれのクライアントのキャッシュを強制的に無効化するそれぞれのリクエスト後にトークンが変更されました。</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>セルの挿入、更新、削除後にトークンが変更されました。</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>セルの挿入、更新、削除後にトークンが変更されました。</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>属性キューブ</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>データキューブ</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>ユーザ管理キューブ</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>属性マネジメント</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>メタデータマネジメント</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>ユーザマネジメント</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>ルールエディタを閉じる</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>選択されたルールを削除</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>ルールを CSV にエクスポート...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>ルールを CSV からインポート...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>ルール定義を下に移動</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>ルール定義を上に移動</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>入力されたルールを保存</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>ルールエディタ...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Supervisionserver でのみ機能します</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>エレメントを選択</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>%1 のエレメントを選択</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>キューブ作成ウィザード</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>文字列値を編集</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>ディメンションデータをエクスポート</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>キューブデータをエクスポート</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>データインポートウィザード</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>モデラー</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>データ関数を貼り付け</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>総合管理(Supervision)ウィザード</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>SVSウィザード2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>テンプレートからディメンジョン作成</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>ルールエディタ</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>ルールにエラー</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>システムキューブを表示</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>このディメンジョンのグローバルサブセットのリストを表示します</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>"MyPalo コミュニティ(英語)" は Palo ユーザのためのオンラインリソースです。"MyPalo" は詳細文書、サポート、エキスパートからの記事、他の Palo ユーザとの接点となります。"MyPalo コミュニティ" に参加すると、世界中の Palo を使用している人たちと繋がることができます。 MyPalo アカウントを登録することをお勧めします。もしすでに登録済みの場合は自動ログイン機能を設定してください。</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>'There is a new version of Palo Suite. Do you want to download it?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Update Check</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL が空です</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL が正しくありません</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>警告: この操作でファイルが削除されます!
+本当に続行しますか?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>このウィザードでログインするデータベース・サーバ接続の追加、削除を行います。</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>新しいデータベースのための一意な名前を入力してください。</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>このステップでは選択したサーバに新しいデータベースを作成します。</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>このステップでは選択したサーバからデータベースを削除します。</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>削除するデータベースを選択:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>データベース:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>接続を選択</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>ポート:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>接続:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>ユーザ名:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>パスワード:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>接続名:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>データベース管理</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>接続管理</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>このステップでは既存のサーバをこのクライアントに登録します。</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>このステップでは存在するサーバ情報をこのクライアントから編集します。</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>登録するサーバの名前か IP を入力</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>サーバの名前か IP を入力</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>新しいデータベースを作成</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>データベーステンプレートからデータベースを作成</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>現存のデータベースを削除</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>新しいサーバを登録</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>選択したサーバの登録解除</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>選択したサーバを編集</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Palo ウィザード</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>サーバー＆データベースウィザード</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Palo 認証を使用</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Windows 認証を使用</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+</root>

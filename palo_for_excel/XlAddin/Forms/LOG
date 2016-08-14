@@ -1,0 +1,66 @@
+BB       08:50:36 parse ANY [LINE]
+BB       08:50:36 if (SWITCH="ENTER") goto -ENTER
+BB       08:50:36 if (SWITCH="SWITCH") goto -ENTERED
+BB       08:50:36 goto -ENTERED
+BB       08:50:36 if (JMM<>"") execn &BBUSERID..EDC &1
+BB       08:50:36 execn JMM.EDC SWITCH
+         08:50:36 QUIET EXECUTE JMM.EDC SWITCH
+         08:50:36 EXECUTE JMM.EDC SWITCH
+JMM      08:50:36 if (SWITCH="READ") goto -READ
+JMM      08:50:36 if (SWITCH="ENTER") goto -ENTER
+JMM      08:50:36 if (SWITCH="SWITCH") goto -SWITCH
+JMM      08:50:36 goto -SWITCH
+JMM      08:50:36 cmdn set wintitle &EFILEID
+JMM      08:50:36 set wintitle E:\DEV\Palo\Source50\palo_for_excel\XlAddin\Forms\PaloDesigner.Designer.cs
+JMM      08:50:36 stop
+BB       08:50:36 if (0>1) goto -SETUP1
+BB       08:50:36 if (NUM="NUM")
+BB       08:50:36 then cmdn set lscreen 1 1 * &BBMARKCOL&EFILENO border
+BB       08:50:36 cmdn set lscreen 1 1 * &BBMARKCOL&EFILENO border
+BB       08:50:36 set lscreen 1 1 * 100 border
+BB       08:50:36 else set lscreen off
+BB       08:50:36 if (EC <> "") execn &BBEDITSCR&EFILENO...EDS &1
+BB       08:50:36 execn EC.EDS SWITCH
+         08:50:36 QUIET EXECUTE EC.EDS SWITCH
+         08:50:36 EXECUTE EC.EDS SWITCH
+EC       08:50:36 SET INSRESET OFF
+EC       08:50:36 set key A-H getword ZTC
+EC       08:50:36 set key A-O getword OS2
+EC       08:50:36 set key A-W getword W32
+EC       08:50:36 argstring WIN
+EC       08:50:36 if (0>0) set key A-O getword ODB
+EC       08:50:36 if (0>0) set key A-W getword OPM
+EC       08:50:36 if (1>0) set key A-W getword WIN
+EC       08:50:36 set key A-W getword WIN
+EC       08:50:36 if (0>0) set key A-W getword W32
+EC       08:50:36 if (\DEV\PALO="\UNIX") set key A-W gototag
+EC       08:50:36 if (WIN="SWITCH") stop
+EC       08:50:36 if (="") or (&BBFTYPE&EFILENO="")
+EC       08:50:36 then global &BBFTYPE&EFILENO = "C"
+EC       08:50:36 &BBFTYPE3 = C
+EC       08:50:36 set keyl A-9 OVE "                                                                       */"
+EC       08:50:36 if (100>80)
+EC       08:50:36 then set keyl A-0 RECENTER 1 80
+EC       08:50:36 set keyl A-0 RECENTER 1 80
+EC       08:50:36 then set keyl A-- OVE "/*                                                                            */"
+EC       08:50:36 set keyl A-- OVE "/*                                                                            */"
+EC       08:50:36 then set keyl A-= ADD 1 "/*----------------------------------------------------------------------------*/"
+EC       08:50:36 set keyl A-= ADD 1 "/*----------------------------------------------------------------------------*/"
+EC       08:50:36 else set keyl A-0 RECENTER 1 72
+EC       08:50:36 else set keyl A-- OVE "/*                                                                   */"
+EC       08:50:36 else set keyl A-= ADD 1 "/*-------------------------------------------------------------------*/"
+EC       08:50:36 set keyl A-A GOTOTAG
+EC       08:50:36 set keyl C-J CJOIN
+EC       08:50:36 set keyl C-S CSPLIT
+EC       08:50:36 set separator 0c GREEN
+EC       08:50:36 if (<>"") goto *+4
+EC       08:50:36 if (NUM="NUM")
+EC       08:50:36 then set keyl A-Y "locate $//=$&BBMARKCOL&EFILENO"
+EC       08:50:36 set keyl A-Y "locate $//=$100"
+EC       08:50:36 else set keyl A-Y "locate $//=$100"
+EC       08:50:36 if (CS = "CS")
+EC       08:50:36 then set ALTTABS 4
+EC       08:50:36 set ALTTABS 4
+EC       08:50:36 if (<>"YES") and (4 = 0)
+EC       08:50:36 then set tabs 1 5 9 13 17 21 25 30 35 40 45 50 55 60 72 80 90 ...
+

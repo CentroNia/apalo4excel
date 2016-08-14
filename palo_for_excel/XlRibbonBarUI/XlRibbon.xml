@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" loadImage="GetImage" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="tabPalo" label="Apalo">
+                <group id="grpPalo" label="Apalo Functions">
+                    <button id="btnModeller" onAction="btnModeller_Click" label="Modeller" image="btnModeller" size="large" />
+                    <separator id="separator1" />
+                    <button id="btnPasteView" onAction="btnPasteView_Click" label="Paste View"  image="btnPasteView" size="large" />
+                    <button id="btnPasteElement" onAction="btnPasteElement_Click" label="Paste Elements"  image="btnPasteElement" size="large" />
+                    <button id="btnPasteSubset" onAction="btnPasteSubset_Click" label="Paste Subset"  image="btnPasteSubset" size="large" />
+                    <separator id="separator2" />
+                    <button id="btnSaveSnapshot" onAction="btnSaveSnapshot_Click" label="Snapshot"  image="btnSaveSnapshot" size="large" />
+                    <separator id="separator3" />
+                    <button id="btnAbout" onAction="btnAbout_Click" label="About Apalo"  image="btnAbout" size="large" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

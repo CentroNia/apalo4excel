@@ -1,0 +1,1756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnConnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnConnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnConnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnConnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;btnConnAdd.Name" xml:space="preserve">
+    <value>btnConnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnConnAdd.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnConnAdd.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnConnAdd.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tabMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 556</value>
+  </data>
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnToggleSystemCubes.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnToggleSystemCubes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnToggleSystemCubes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnToggleSystemCubes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnToggleSystemCubes.Name" xml:space="preserve">
+    <value>btnToggleSystemCubes</value>
+  </data>
+  <data name="&gt;&gt;btnToggleSystemCubes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnToggleSystemCubes.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnToggleSystemCubes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRuleEditor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRuleEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnRuleEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRuleEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;btnRuleEditor.Name" xml:space="preserve">
+    <value>btnRuleEditor</value>
+  </data>
+  <data name="&gt;&gt;btnRuleEditor.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnRuleEditor.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnRuleEditor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAttributeManagment.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAttributeManagment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnAttributeManagment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAttributeManagment.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;btnAttributeManagment.Name" xml:space="preserve">
+    <value>btnAttributeManagment</value>
+  </data>
+  <data name="&gt;&gt;btnAttributeManagment.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnAttributeManagment.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnAttributeManagment.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnUserManagment.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnUserManagment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnUserManagment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnUserManagment.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;btnUserManagment.Name" xml:space="preserve">
+    <value>btnUserManagment</value>
+  </data>
+  <data name="&gt;&gt;btnUserManagment.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnUserManagment.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnUserManagment.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDataManagment.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDataManagment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDataManagment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDataManagment.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="&gt;&gt;btnDataManagment.Name" xml:space="preserve">
+    <value>btnDataManagment</value>
+  </data>
+  <data name="&gt;&gt;btnDataManagment.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnDataManagment.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDataManagment.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnOrigDims.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnOrigDims.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnOrigDims.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnOrigDims.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;btnOrigDims.Name" xml:space="preserve">
+    <value>btnOrigDims</value>
+  </data>
+  <data name="&gt;&gt;btnOrigDims.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOrigDims.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnOrigDims.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnAscDims.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAscDims.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnAscDims.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnAscDims.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;btnAscDims.Name" xml:space="preserve">
+    <value>btnAscDims</value>
+  </data>
+  <data name="&gt;&gt;btnAscDims.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAscDims.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnAscDims.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnDescDims.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDescDims.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDescDims.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnDescDims.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;btnDescDims.Name" xml:space="preserve">
+    <value>btnDescDims</value>
+  </data>
+  <data name="&gt;&gt;btnDescDims.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDescDims.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDescDims.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelChooseServer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelChooseServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 8</value>
+  </data>
+  <data name="labelChooseServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 16</value>
+  </data>
+  <data name="labelChooseServer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelChooseServer.Name" xml:space="preserve">
+    <value>labelChooseServer</value>
+  </data>
+  <data name="&gt;&gt;labelChooseServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChooseServer.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;labelChooseServer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblCubes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCubes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 48</value>
+  </data>
+  <data name="lblCubes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 16</value>
+  </data>
+  <data name="lblCubes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCubes.Name" xml:space="preserve">
+    <value>lblCubes</value>
+  </data>
+  <data name="&gt;&gt;lblCubes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCubes.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;lblCubes.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblDimensions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblDimensions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblDimensions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblDimensions.Name" xml:space="preserve">
+    <value>lblDimensions</value>
+  </data>
+  <data name="&gt;&gt;lblDimensions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDimensions.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;lblDimensions.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnConnToggle.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConnToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnConnToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnConnToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;btnConnToggle.Name" xml:space="preserve">
+    <value>btnConnToggle</value>
+  </data>
+  <data name="&gt;&gt;btnConnToggle.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnConnToggle.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnConnToggle.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="treeViewDims.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 96</value>
+  </data>
+  <data name="treeViewDims.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 97</value>
+  </data>
+  <data name="treeViewDims.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;treeViewDims.Name" xml:space="preserve">
+    <value>treeViewDims</value>
+  </data>
+  <data name="&gt;&gt;treeViewDims.Type" xml:space="preserve">
+    <value>Junction.Palo.XlAddin.Forms.Modeller+TreeViewNoBeep, Junction.Palo.XlAddin, Version=3.1.3882.27581, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;treeViewDims.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;treeViewDims.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="treeViewCubes.Indent" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="treeViewCubes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 96</value>
+  </data>
+  <data name="treeViewCubes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 328</value>
+  </data>
+  <data name="treeViewCubes.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;treeViewCubes.Name" xml:space="preserve">
+    <value>treeViewCubes</value>
+  </data>
+  <data name="&gt;&gt;treeViewCubes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;treeViewCubes.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;treeViewCubes.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnDimensionAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDimensionAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDimensionAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDimensionAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionAdd.Name" xml:space="preserve">
+    <value>btnDimensionAdd</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionAdd.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionAdd.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionAdd.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnDimensionRename.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDimensionRename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDimensionRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDimensionRename.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRename.Name" xml:space="preserve">
+    <value>btnDimensionRename</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRename.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRename.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRename.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnDimensionRemove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDimensionRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDimensionRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDimensionRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRemove.Name" xml:space="preserve">
+    <value>btnDimensionRemove</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRemove.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRemove.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDimensionRemove.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnCubeAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCubeAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnCubeAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCubeAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;btnCubeAdd.Name" xml:space="preserve">
+    <value>btnCubeAdd</value>
+  </data>
+  <data name="&gt;&gt;btnCubeAdd.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnCubeAdd.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnCubeAdd.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnCubeRemove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCubeRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnCubeRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCubeRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;btnCubeRemove.Name" xml:space="preserve">
+    <value>btnCubeRemove</value>
+  </data>
+  <data name="&gt;&gt;btnCubeRemove.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;btnCubeRemove.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;btnCubeRemove.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tabSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tabSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 532</value>
+  </data>
+  <data name="tabSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="tabSettings.Title" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="tabSettings.ToolTip" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Name" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Type" xml:space="preserve">
+    <value>Crownwood.DotNetMagic.Controls.TabPage, DotNetMagicLocal, Version=4.2.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>Crownwood.DotNetMagic.Controls.TabControl, DotNetMagicLocal, Version=4.2.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnOrigElems.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnOrigElems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnOrigElems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnOrigElems.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="&gt;&gt;btnOrigElems.Name" xml:space="preserve">
+    <value>btnOrigElems</value>
+  </data>
+  <data name="&gt;&gt;btnOrigElems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAscElems.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAscElems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnAscElems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnAscElems.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="&gt;&gt;btnAscElems.Name" xml:space="preserve">
+    <value>btnAscElems</value>
+  </data>
+  <data name="&gt;&gt;btnAscElems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDescElems.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDescElems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDescElems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="btnDescElems.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="&gt;&gt;btnDescElems.Name" xml:space="preserve">
+    <value>btnDescElems</value>
+  </data>
+  <data name="&gt;&gt;btnDescElems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHome.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnHome.TabIndex" type="System.Int32, mscorlib">
+    <value>999</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Name" xml:space="preserve">
+    <value>btnHome</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbElementType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 8</value>
+  </data>
+  <data name="cmbElementType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="cmbElementType.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="cmbElementType.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmbElementType.Name" xml:space="preserve">
+    <value>cmbElementType</value>
+  </data>
+  <data name="&gt;&gt;cmbElementType.Type" xml:space="preserve">
+    <value>Jedox.Controls.JComboBox, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 0</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="elemCmdMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <data name="cmdAddN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdRen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="separator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 6</value>
+  </data>
+  <data name="cmdNumeric.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="separator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 6</value>
+  </data>
+  <data name="cmdElemCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAWBJREFUOE+lkyFv
+        wzAUhP1T8hMC+gMCCwsHA0cqGU0dmVxpYNKINzBFGjGMNGkyGCirYdBkGDaDgUHDsdt79tY2mZZW2pOO
+        RPF3986JmM1m4j8S1gVk+ayNh7Ee29d3nAJOgPEY61Arg5fu7SiEAP4XQLcOrvOopcbyYj0JERyZx/UA
+        JYcPEdpY2C7SShGr9SOuH7bQlp6Tlpe3A6DguLv5BGIEwgcdJsB4VBtRnjtc3T3tIMJQXB7TAXoToWyA
+        NAGG3McjmwwuzyzU/XOCCN6XJyb3mNx5DbPJ5Wqb5fuIWod0mFUszDeA9uXDP87sLhsP3Q5vh99huPME
+        p7KGAErLrr4P9AKpC1AE4uG9ZROS+0L5pASYHyQo5zXGknp/vVwsG7A73wwXX8x1XuGvr62+yYBD510C
+        6u0oYLFyqRuOu5cD3xoXX1RHElTSDRrn0tg1iQ4XlZpe4ZQfabKDUwFfg5ogNc1X8KgAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="cmdElemCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdElemPaste.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAYZJREFUOE+lk6ty
+        wzAURP0J+YR8QkBAoWCgYKBgWAXLqrJAQUPBQMFAQUPBQMFAwbLtXqnOa9IJqGd2ZOA9ex/WsF6vh//o
+        qTlFB1EMDq/gDRAPHrOCN6jn0FROHnan4PeWcu18BDZzrRGgag0Io23n1+c78uTgrIYzK9RE8HEJa/Qd
+        pAHELPJ7QxOBZ890hzIZxFHDbBWCWyL7AXb7CAgzIMA7w0SRZum/YqIlwNsOMBt1X0GYAdJ3YXq2yGFx
+        1ch3Gmept9UDYHR9aIXnif1nzW4W8IEtjRHOU/sA6wLMh4ex/glAkk8c0kRz4sAEQPPl+eaIakU5V+id
+        gzbX9Q7BSzI1qW4+LlDC0JLlCTF1HRJyIYDmNGUobVolg+xX+p7N9TB0AMvGTXI+VaRcoLe2mdWmb4MA
+        mieKyVJ6ISCPXBd7lrJvK5C5xJT7fCi1WmLwTsx9RbeSgUnPc3KaSjPHY9cFIGXI/uUPM1pBq1Ujy7Sl
+        5znt2dkq+OuyyLTlg1f611WW8B+bwRxuoSaqIQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdElemPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdElemSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="separator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 6</value>
+  </data>
+  <data name="cmdElementMoveBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdElementMoveEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 6</value>
+  </data>
+  <data name="cmdCountElements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdSearchElements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdShowParents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cmdShowParents.Text" xml:space="preserve">
+    <value>Show Parents</value>
+  </data>
+  <data name="elemCmdMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 336</value>
+  </data>
+  <data name="&gt;&gt;elemCmdMenu.Name" xml:space="preserve">
+    <value>elemCmdMenu</value>
+  </data>
+  <data name="&gt;&gt;elemCmdMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="srcElemCmdMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 54</value>
+  </metadata>
+  <data name="cmdFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="cmdDelSrcElem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="commandBarSeparatorItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="cmdSrcElementMoveBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="cmdSrcElementMoveEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="srcElemCmdMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 98</value>
+  </data>
+  <data name="&gt;&gt;srcElemCmdMenu.Name" xml:space="preserve">
+    <value>srcElemCmdMenu</value>
+  </data>
+  <data name="&gt;&gt;srcElemCmdMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="dimCmdMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>387, 17</value>
+  </metadata>
+  <data name="cmdNewDim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="cmdDelDim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="cmdRenDim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="cmdEditDim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="commandBarSeparatorItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 6</value>
+  </data>
+  <data name="cmdDimExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="cmdDimExport.Text" xml:space="preserve">
+    <value>Export dimension...</value>
+  </data>
+  <data name="commandBarSeparatorItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 6</value>
+  </data>
+  <data name="cmdDimInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="dimCmdMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 148</value>
+  </data>
+  <data name="&gt;&gt;dimCmdMenu.Name" xml:space="preserve">
+    <value>dimCmdMenu</value>
+  </data>
+  <data name="&gt;&gt;dimCmdMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdSubSetEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="commandBarSeparatorItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <metadata name="cubeCmdMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>282, 54</value>
+  </metadata>
+  <data name="cmdAddCube.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdDelCube.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdCubeRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="commandBarSeparatorItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 6</value>
+  </data>
+  <data name="cmdClearCube.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdExportCube.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdExportCube.Text" xml:space="preserve">
+    <value>Export Cube</value>
+  </data>
+  <data name="commandBarSeparatorItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 6</value>
+  </data>
+  <data name="cmdRuleEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdRuleEditor.Text" xml:space="preserve">
+    <value>Rule Editor...</value>
+  </data>
+  <data name="commandBarSeparatorItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 6</value>
+  </data>
+  <data name="cmdCubeInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdCubeConvert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="cmdCubeConvert.Text" xml:space="preserve">
+    <value>Convert Cube</value>
+  </data>
+  <data name="cubeCmdMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 198</value>
+  </data>
+  <data name="&gt;&gt;cubeCmdMenu.Name" xml:space="preserve">
+    <value>cubeCmdMenu</value>
+  </data>
+  <data name="&gt;&gt;cubeCmdMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="cubeDimCmdMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>134, 17</value>
+  </metadata>
+  <data name="cmdMeasure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="cmdMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="cmdTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="cmdTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="cubeDimCmdMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 48</value>
+  </data>
+  <data name="&gt;&gt;cubeDimCmdMenu.Name" xml:space="preserve">
+    <value>cubeDimCmdMenu</value>
+  </data>
+  <data name="&gt;&gt;cubeDimCmdMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="tabCmdMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cmdTabDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="cmdTabDatabase.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="tabCmdMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="&gt;&gt;tabCmdMenu.Name" xml:space="preserve">
+    <value>tabCmdMenu</value>
+  </data>
+  <data name="&gt;&gt;tabCmdMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>407, 54</value>
+  </metadata>
+  <data name="btnExpandAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExpandAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExpandAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExpandAll.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnExpandAll.Name" xml:space="preserve">
+    <value>btnExpandAll</value>
+  </data>
+  <data name="&gt;&gt;btnExpandAll.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnCollapseAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCollapseAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnCollapseAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCollapseAll.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCollapseAll.Name" xml:space="preserve">
+    <value>btnCollapseAll</value>
+  </data>
+  <data name="&gt;&gt;btnCollapseAll.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExpand.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExpand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExpand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExpand.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;btnExpand.Name" xml:space="preserve">
+    <value>btnExpand</value>
+  </data>
+  <data name="&gt;&gt;btnExpand.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnCollapse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCollapse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnCollapse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCollapse.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;btnCollapse.Name" xml:space="preserve">
+    <value>btnCollapse</value>
+  </data>
+  <data name="&gt;&gt;btnCollapse.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExp1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp1.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="&gt;&gt;btnExp1.Name" xml:space="preserve">
+    <value>btnExp1</value>
+  </data>
+  <data name="&gt;&gt;btnExp1.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExp2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp2.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="&gt;&gt;btnExp2.Name" xml:space="preserve">
+    <value>btnExp2</value>
+  </data>
+  <data name="&gt;&gt;btnExp2.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExp3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp3.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="&gt;&gt;btnExp3.Name" xml:space="preserve">
+    <value>btnExp3</value>
+  </data>
+  <data name="&gt;&gt;btnExp3.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExp4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp4.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="&gt;&gt;btnExp4.Name" xml:space="preserve">
+    <value>btnExp4</value>
+  </data>
+  <data name="&gt;&gt;btnExp4.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExp5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp5.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="&gt;&gt;btnExp5.Name" xml:space="preserve">
+    <value>btnExp5</value>
+  </data>
+  <data name="&gt;&gt;btnExp5.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnExp6.Name" xml:space="preserve">
+    <value>btnExp6</value>
+  </data>
+  <data name="&gt;&gt;btnExp6.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnExp7.Name" xml:space="preserve">
+    <value>btnExp7</value>
+  </data>
+  <data name="&gt;&gt;btnExp7.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <data name="btnExp8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExp8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnExp8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnExp8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnExp8.Name" xml:space="preserve">
+    <value>btnExp8</value>
+  </data>
+  <data name="&gt;&gt;btnExp8.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <metadata name="ChildSibling.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>492, 54</value>
+  </metadata>
+  <data name="cmdChild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="cmdSibling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="ChildSibling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 48</value>
+  </data>
+  <data name="&gt;&gt;ChildSibling.Name" xml:space="preserve">
+    <value>ChildSibling</value>
+  </data>
+  <data name="&gt;&gt;ChildSibling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="ChildSiblingCopy.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>601, 54</value>
+  </metadata>
+  <data name="cmdChildCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="cmdSiblingCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="ChildSiblingCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 48</value>
+  </data>
+  <data name="&gt;&gt;ChildSiblingCopy.Name" xml:space="preserve">
+    <value>ChildSiblingCopy</value>
+  </data>
+  <data name="&gt;&gt;ChildSiblingCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuSubSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>279, 17</value>
+  </metadata>
+  <data name="cmdAddSubset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="cmdAddSubset.Text" xml:space="preserve">
+    <value>Add Subset...</value>
+  </data>
+  <data name="cmdRemoveSubset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="cmdRemoveSubset.Text" xml:space="preserve">
+    <value>Remove Subset...</value>
+  </data>
+  <data name="cmdEditSubset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="cmdEditSubset.Text" xml:space="preserve">
+    <value>Edit Subset...</value>
+  </data>
+  <data name="mnuSubSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 70</value>
+  </data>
+  <data name="&gt;&gt;mnuSubSet.Name" xml:space="preserve">
+    <value>mnuSubSet</value>
+  </data>
+  <data name="&gt;&gt;mnuSubSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEnableTree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnEnableTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnEnableTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEnableTree.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;btnEnableTree.Name" xml:space="preserve">
+    <value>btnEnableTree</value>
+  </data>
+  <data name="&gt;&gt;btnEnableTree.Type" xml:space="preserve">
+    <value>Jedox.Controls.JButton, Jedox.Controls, Version=3.1.0.0, Culture=neutral, PublicKeyToken=abf3111d881cd6f9</value>
+  </data>
+  <metadata name="imgListElements.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>489, 15</value>
+  </metadata>
+  <data name="imgListElements.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADU
+        CQAAAk1TRnQBSQFMAgEBBAEAATQBAAE0AQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AIgDA/xAAAYcBYAFK
+        Af8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGH
+        AWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSoX/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOA
+        Af8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/BAABhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFg
+        AUoB/ygAAX8BXQFHAf5c/wNoAf8DaAH/A2gB/wNoAf8DaBX/A6sB/wPsAf8D7AH/A+wB/wPsAf8D7AH/
+        A+wB/wPsAf8D7AH/A+wB/wPsAf8D7AH/A+wB/wPsAf8DgAH/BAABhwFgAUoB/wgAAYcBYAFKAf8BhwFg
+        AUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/
+        AYcBYAFKAf8BhwFgAUoB/wGHAWABShX/A5kB/wOZAf8DmQH/A5kB/wOZNf8DaAH/A2gJ/wNoAf8DaBH/
+        A6sB/wP4Ff8DaAH/A2gB/wNoAf8DaAn/A+wB/wOAAf8EAAGHAWABSgH/OAAU/wOZAf8DmUH/A2gB/wNo
+        Cf8DaAH/A2gR/wOrAf8D+AX/A5oB/wOaAf8DmgX/A2gB/wNoAf8DaAH/A2gJ/wPsAf8DgAH/BAABhwFg
+        AUoB/wgAAYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFK
+        Af8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABShn/A5kB/wOZPf8DaAH/A2gJ/wNo
+        Af8DaBH/A6sB/wP4Bf8Dmg3/A2gB/wNoAf8DaAH/A2gJ/wPsAf8DgAH/BAABhwFgAUoB/wGHAWABSgH/
+        AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFg
+        AUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AX8BXQFHAf4DmQH/A5kB/wOZAf8DmQ3/
+        A5kB/wOZDf8DmQH/A5kB/wOZIf8DaAH/A2gB/wNoAf8DaAH/A2gV/wOrAf8D+AX/A5oN/wNoAf8DaAH/
+        A2gB/wNoCf8D7AH/A4AB/wQAAYcBYAFKAf8IAAGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/
+        AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFg
+        AUoF/wOZAf8DmRX/A5kB/wOZBf8DmQn/A5kB/wOZBf8DaAH/A2gB/wNoAf8DaAH/A2gF/wNoAf8DaCH/
+        A6sB/wP4Bf8DmiX/A+wB/wOAAf8EAAGHAWABSgH/OAAE/wOZAf8DmQn/A5kJ/wOZAf8DmRH/A5kB/wOZ
+        Af8DaAH/A2gJ/wNoAf8DaAX/A2gB/wNoDf8DaAH/A2gB/wNoAf8DaAX/A6sB/wP4Bf8Dmg3/A5kB/wOZ
+        Af8DmQH/A5kJ/wPsAf8DgAH/BAABhwFgAUoB/wgAAYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFK
+        Af8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGH
+        AWABSgX/A5kB/wOZDf8DmQH/A5kB/wOZDf8DmQH/A5kB/wOZCf8DaAH/A2gB/wNoAf8DaAH/A2gF/wNo
+        Af8DaAn/A2gB/wNoEf8DqwH/A/gF/wOaAf8DmgH/A5oF/wOZAf8DmQH/A5kB/wOZCf8D7AH/A4AB/wQA
+        AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFg
+        AUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wF/AV0BRwH+
+        BP8DmQH/A5kt/wOZAf8DmRH/A2gB/wNoFf8DaAH/A2gR/wOrAf8D+AX/A5oN/wOZAf8DmQH/A5kB/wOZ
+        Cf8D7AH/A4AB/wQAAYcBYAFKAf8IAAGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFK
+        Af8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wOZ
+        Af8DmQH/A5kh/wOZCf8DmQH/A5kF/wNoAf8DaAH/A2gB/wNoGf8DaAH/A2gR/wOrAf8D+AX/A5oN/wOZ
+        Af8DmQH/A5kB/wOZCf8D7AH/A4AB/wQAAYcBYAFKAf84AAT/A5kB/wOZJf8DmQH/A5kB/wOZNf8DaAH/
+        A2gB/wNoAf8DaAX/A6sB/wP4Bf8DmiX/A+wB/wOAAf8EAAGHAWABSgH/CAABhwFgAUoB/wGHAWABSgH/
+        AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFg
+        AUoB/wGHAWABSgH/AYcBYAFKhf8DqwH/A/gB/wP4Af8D+AH/A/gB/wP4Af8D+AH/A/gB/wP4Af8D+AH/
+        A/gB/wP4Af8D+AH/A+wB/wOAAf8EAAGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/KAABfwFd
+        AUcB/oT/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DgAH/BAABhwFgAUoB/wgAAYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGH
+        AWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSgH/AYcBYAFKAf8BhwFgAUoB/wGHAWABSsH/BAABhwFg
+        AUoB/zgAAUIBTQE+BwABPgMAASgDAAFAAwABIAMAAQEBAAEBBgABARYAA/+HAAHwBwABhwH+BgABsAcA
+        Ab8B/wYAAbAHAAGABwABsAcAAb8B/wYAAbAHAAGABwABsAcAAb8B/wYAAbAHAAGHAf4GAAGwBwABvwH/
+        Cw==
+</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>608, 556</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>616, 560</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Modeller</value>
+  </data>
+  <data name="&gt;&gt;cmdAddN.Name" xml:space="preserve">
+    <value>cmdAddN</value>
+  </data>
+  <data name="&gt;&gt;cmdAddN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDel.Name" xml:space="preserve">
+    <value>cmdDel</value>
+  </data>
+  <data name="&gt;&gt;cmdDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRen.Name" xml:space="preserve">
+    <value>cmdRen</value>
+  </data>
+  <data name="&gt;&gt;cmdRen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit.Name" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;separator2.Name" xml:space="preserve">
+    <value>separator2</value>
+  </data>
+  <data name="&gt;&gt;separator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdNumeric.Name" xml:space="preserve">
+    <value>cmdNumeric</value>
+  </data>
+  <data name="&gt;&gt;cmdNumeric.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdString.Name" xml:space="preserve">
+    <value>cmdString</value>
+  </data>
+  <data name="&gt;&gt;cmdString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;separator3.Name" xml:space="preserve">
+    <value>separator3</value>
+  </data>
+  <data name="&gt;&gt;separator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdElemCopy.Name" xml:space="preserve">
+    <value>cmdElemCopy</value>
+  </data>
+  <data name="&gt;&gt;cmdElemCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdElemPaste.Name" xml:space="preserve">
+    <value>cmdElemPaste</value>
+  </data>
+  <data name="&gt;&gt;cmdElemPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdElemSelectAll.Name" xml:space="preserve">
+    <value>cmdElemSelectAll</value>
+  </data>
+  <data name="&gt;&gt;cmdElemSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;separator4.Name" xml:space="preserve">
+    <value>separator4</value>
+  </data>
+  <data name="&gt;&gt;separator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdElementMoveBegin.Name" xml:space="preserve">
+    <value>cmdElementMoveBegin</value>
+  </data>
+  <data name="&gt;&gt;cmdElementMoveBegin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdElementMoveEnd.Name" xml:space="preserve">
+    <value>cmdElementMoveEnd</value>
+  </data>
+  <data name="&gt;&gt;cmdElementMoveEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;separator1.Name" xml:space="preserve">
+    <value>separator1</value>
+  </data>
+  <data name="&gt;&gt;separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCountElements.Name" xml:space="preserve">
+    <value>cmdCountElements</value>
+  </data>
+  <data name="&gt;&gt;cmdCountElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSearchElements.Name" xml:space="preserve">
+    <value>cmdSearchElements</value>
+  </data>
+  <data name="&gt;&gt;cmdSearchElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdShowParents.Name" xml:space="preserve">
+    <value>cmdShowParents</value>
+  </data>
+  <data name="&gt;&gt;cmdShowParents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdFactor.Name" xml:space="preserve">
+    <value>cmdFactor</value>
+  </data>
+  <data name="&gt;&gt;cmdFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDelSrcElem.Name" xml:space="preserve">
+    <value>cmdDelSrcElem</value>
+  </data>
+  <data name="&gt;&gt;cmdDelSrcElem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem1.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem1</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSrcElementMoveBegin.Name" xml:space="preserve">
+    <value>cmdSrcElementMoveBegin</value>
+  </data>
+  <data name="&gt;&gt;cmdSrcElementMoveBegin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSrcElementMoveEnd.Name" xml:space="preserve">
+    <value>cmdSrcElementMoveEnd</value>
+  </data>
+  <data name="&gt;&gt;cmdSrcElementMoveEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdNewDim.Name" xml:space="preserve">
+    <value>cmdNewDim</value>
+  </data>
+  <data name="&gt;&gt;cmdNewDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDelDim.Name" xml:space="preserve">
+    <value>cmdDelDim</value>
+  </data>
+  <data name="&gt;&gt;cmdDelDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRenDim.Name" xml:space="preserve">
+    <value>cmdRenDim</value>
+  </data>
+  <data name="&gt;&gt;cmdRenDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdEditDim.Name" xml:space="preserve">
+    <value>cmdEditDim</value>
+  </data>
+  <data name="&gt;&gt;cmdEditDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem7.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem7</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDimExport.Name" xml:space="preserve">
+    <value>cmdDimExport</value>
+  </data>
+  <data name="&gt;&gt;cmdDimExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem3.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem3</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDimInfo.Name" xml:space="preserve">
+    <value>cmdDimInfo</value>
+  </data>
+  <data name="&gt;&gt;cmdDimInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSubSetEditor.Name" xml:space="preserve">
+    <value>cmdSubSetEditor</value>
+  </data>
+  <data name="&gt;&gt;cmdSubSetEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem4.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem4</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddCube.Name" xml:space="preserve">
+    <value>cmdAddCube</value>
+  </data>
+  <data name="&gt;&gt;cmdAddCube.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDelCube.Name" xml:space="preserve">
+    <value>cmdDelCube</value>
+  </data>
+  <data name="&gt;&gt;cmdDelCube.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCubeRename.Name" xml:space="preserve">
+    <value>cmdCubeRename</value>
+  </data>
+  <data name="&gt;&gt;cmdCubeRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem6.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem6</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdClearCube.Name" xml:space="preserve">
+    <value>cmdClearCube</value>
+  </data>
+  <data name="&gt;&gt;cmdClearCube.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdExportCube.Name" xml:space="preserve">
+    <value>cmdExportCube</value>
+  </data>
+  <data name="&gt;&gt;cmdExportCube.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem5.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem5</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRuleEditor.Name" xml:space="preserve">
+    <value>cmdRuleEditor</value>
+  </data>
+  <data name="&gt;&gt;cmdRuleEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem2.Name" xml:space="preserve">
+    <value>commandBarSeparatorItem2</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparatorItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCubeInfo.Name" xml:space="preserve">
+    <value>cmdCubeInfo</value>
+  </data>
+  <data name="&gt;&gt;cmdCubeInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCubeConvert.Name" xml:space="preserve">
+    <value>cmdCubeConvert</value>
+  </data>
+  <data name="&gt;&gt;cmdCubeConvert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdMeasure.Name" xml:space="preserve">
+    <value>cmdMeasure</value>
+  </data>
+  <data name="&gt;&gt;cmdMeasure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdTime.Name" xml:space="preserve">
+    <value>cmdTime</value>
+  </data>
+  <data name="&gt;&gt;cmdTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdTabDatabase.Name" xml:space="preserve">
+    <value>cmdTabDatabase</value>
+  </data>
+  <data name="&gt;&gt;cmdTabDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdChild.Name" xml:space="preserve">
+    <value>cmdChild</value>
+  </data>
+  <data name="&gt;&gt;cmdChild.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSibling.Name" xml:space="preserve">
+    <value>cmdSibling</value>
+  </data>
+  <data name="&gt;&gt;cmdSibling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdChildCopy.Name" xml:space="preserve">
+    <value>cmdChildCopy</value>
+  </data>
+  <data name="&gt;&gt;cmdChildCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSiblingCopy.Name" xml:space="preserve">
+    <value>cmdSiblingCopy</value>
+  </data>
+  <data name="&gt;&gt;cmdSiblingCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddSubset.Name" xml:space="preserve">
+    <value>cmdAddSubset</value>
+  </data>
+  <data name="&gt;&gt;cmdAddSubset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRemoveSubset.Name" xml:space="preserve">
+    <value>cmdRemoveSubset</value>
+  </data>
+  <data name="&gt;&gt;cmdRemoveSubset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdEditSubset.Name" xml:space="preserve">
+    <value>cmdEditSubset</value>
+  </data>
+  <data name="&gt;&gt;cmdEditSubset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgListElements.Name" xml:space="preserve">
+    <value>imgListElements</value>
+  </data>
+  <data name="&gt;&gt;imgListElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Modeller</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

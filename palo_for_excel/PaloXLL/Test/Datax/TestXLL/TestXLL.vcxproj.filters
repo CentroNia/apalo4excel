@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C">
+      <UniqueIdentifier>{1ba8e297-4aed-4942-ab5d-7d0fc8f97df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlsdk">
+      <UniqueIdentifier>{4a51d0e7-c1ec-436b-bdf5-b9ad8f828ec5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xl.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="xl_sdk\xlcall.h">
+      <Filter>xlsdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="xl.c">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="xl_sdk\xlcall.cpp">
+      <Filter>xlsdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clientxll.def">
+      <Filter>C</Filter>
+    </None>
+  </ItemGroup>
+</Project>

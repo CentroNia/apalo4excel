@@ -1,0 +1,1454 @@
+Server Version: 5.0.0
+Database: System ID=0 Type=SystemDatabase Status=LoadedDatabase)
+  Cube: #_USER_USER_PROPERTIES ID=0  Type=SystemCube Status=LoadedCube
+    #_USER_
+    #_USER_PROPERTIES_
+  Cube: #_USER_GROUP ID=1  Type=SystemCube Status=LoadedCube
+    #_USER_
+    #_GROUP_
+  Cube: #_ROLE_RIGHT_OBJECT ID=2  Type=SystemCube Status=LoadedCube
+    #_ROLE_
+    #_RIGHT_OBJECT_
+  Cube: #_GROUP_ROLE ID=3  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_ROLE_
+  Cube: #_ROLE_ROLE_PROPERTIES ID=4  Type=SystemCube Status=LoadedCube
+    #_ROLE_
+    #_ROLE_PROPERTIES_
+  Cube: #_GROUP_GROUP_PROPERTIES ID=5  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_GROUP_PROPERTIES_
+  Cube: #_SERVER_LOG_ ID=6  Type=SystemCube Status=LoadedCube
+    #_LINE_
+    #_MESSAGE_
+  Cube: #_SESSIONS_ ID=7  Type=SystemCube Status=LoadedCube
+    #_SESSION_
+    #_SESSION_PROPERTIES_
+  Cube: #_JOBS_ ID=8  Type=SystemCube Status=LoadedCube
+    #_SESSION_
+    #_JOB_
+    #_JOB_PROPERTIES_
+  Cube: #_LICENSES_ ID=9  Type=SystemCube Status=LoadedCube
+    #_LICENSE_
+    #_LICENSE_PROPERTIES_
+  Dim #_USER_  ID=0 Type=SystemDimension, 12 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_USER_PROPERTIES_  ID=1 Type=SystemDimension, 9 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_GROUP_  ID=2 Type=SystemDimension, 7 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_ROLE_  ID=3 Type=SystemDimension, 6 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_RIGHT_OBJECT_  ID=4 Type=SystemDimension, 28 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_GROUP_PROPERTIES_  ID=5 Type=SystemDimension, 2 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_ROLE_PROPERTIES_  ID=6 Type=SystemDimension, 2 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_LINE_  ID=7 Type=SystemIdDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_LICENSE_  ID=8 Type=SystemIdDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_SESSION_  ID=9 Type=SystemIdDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_JOB_  ID=10 Type=SystemIdDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_SESSION_PROPERTIES_  ID=11 Type=SystemDimension, 12 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_JOB_PROPERTIES_  ID=12 Type=SystemDimension, 5 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_LICENSE_PROPERTIES_  ID=13 Type=SystemDimension, 11 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CUBE_PROPERTIES_  ID=14 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_SERVER_CONFIGURATION_  ID=15 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_MESSAGE_  ID=16 Type=SystemDimension, 4 Elements, Max. Depth = 0, AttrCube = 
+Database: DPR ID=1 Type=SystemDatabase Status=LoadedDatabase)
+  Cube: #_GROUP_DIMENSION_DATA_#_#_CUBE__ ID=0  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_CUBE__
+  Cube: #_#_CUBE_ ID=1  Type=AttributeCube Status=LoadedCube
+    #_#_CUBE__
+    #_CUBE_
+  Cube: #_GROUP_CUBE_DATA ID=2  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CUBE_
+  Cube: #_CONFIGURATION ID=3  Type=SystemCube Status=LoadedCube
+    #_CONFIGURATION_
+  Cube: #_GROUP_DIMENSION_DATA_#_#_DIMENSION__ ID=4  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_DIMENSION__
+  Cube: #_#_DIMENSION_ ID=5  Type=AttributeCube Status=LoadedCube
+    #_#_DIMENSION__
+    #_DIMENSION_
+  Cube: #_GROUP_DIMENSION_DATA_#_#_SUBSET__ ID=6  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_SUBSET__
+  Cube: #_#_SUBSET_ ID=7  Type=AttributeCube Status=LoadedCube
+    #_#_SUBSET__
+    #_SUBSET_
+  Cube: #_GROUP_DIMENSION_DATA_#_#_VIEW__ ID=8  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_VIEW__
+  Cube: #_#_VIEW_ ID=9  Type=AttributeCube Status=LoadedCube
+    #_#_VIEW__
+    #_VIEW_
+  Cube: #_GROUP_DIMENSION_DATA_#_CELL_PROPERTIES_ ID=10  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CELL_PROPERTIES_
+  Cube: #_SUBSET_LOCAL ID=11  Type=SystemCube Status=LoadedCube
+    #_DIMENSION_
+    #_USER_
+    #_SUBSET_
+  Cube: #_SUBSET_GLOBAL ID=12  Type=SystemCube Status=LoadedCube
+    #_DIMENSION_
+    #_SUBSET_
+  Cube: #_VIEW_LOCAL ID=13  Type=SystemCube Status=LoadedCube
+    #_CUBE_
+    #_USER_
+    #_VIEW_
+  Cube: #_VIEW_GLOBAL ID=14  Type=SystemCube Status=LoadedCube
+    #_CUBE_
+    #_VIEW_
+  Cube: #_GROUP_DIMENSION_DATA_#_Base Amount_ ID=15  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Base Amount_
+  Cube: #_Base Amount ID=16  Type=AttributeCube Status=LoadedCube
+    #_Base Amount_
+    Base Amount
+  Cube: #_GROUP_DIMENSION_DATA_Base Amount ID=17  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Base Amount
+  Cube: #_GROUP_DIMENSION_DATA_#_Ledger Type_ ID=18  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Ledger Type_
+  Cube: #_Ledger Type ID=19  Type=AttributeCube Status=LoadedCube
+    #_Ledger Type_
+    Ledger Type
+  Cube: #_GROUP_DIMENSION_DATA_Ledger Type ID=20  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Ledger Type
+  Cube: #_GROUP_DIMENSION_DATA_#_Year_ ID=21  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Year_
+  Cube: #_Year ID=22  Type=AttributeCube Status=LoadedCube
+    #_Year_
+    Year
+  Cube: #_GROUP_DIMENSION_DATA_Year ID=23  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+  Cube: #_GROUP_DIMENSION_DATA_#_Month_ ID=24  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Month_
+  Cube: #_Month ID=25  Type=AttributeCube Status=LoadedCube
+    #_Month_
+    Month
+  Cube: #_GROUP_DIMENSION_DATA_Month ID=26  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Month
+  Cube: #_GROUP_DIMENSION_DATA_#_Day_ ID=27  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Day_
+  Cube: #_Day ID=28  Type=AttributeCube Status=LoadedCube
+    #_Day_
+    Day
+  Cube: #_GROUP_DIMENSION_DATA_Day ID=29  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Day
+  Cube: #_GROUP_DIMENSION_DATA_#_Legal Entity_ ID=30  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Legal Entity_
+  Cube: #_Legal Entity ID=31  Type=AttributeCube Status=LoadedCube
+    #_Legal Entity_
+    Legal Entity
+  Cube: #_GROUP_DIMENSION_DATA_Legal Entity ID=32  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Legal Entity
+  Cube: #_GROUP_DIMENSION_DATA_#_Business Unit_ ID=33  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Business Unit_
+  Cube: #_Business Unit ID=34  Type=AttributeCube Status=LoadedCube
+    #_Business Unit_
+    Business Unit
+  Cube: #_GROUP_DIMENSION_DATA_Business Unit ID=35  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Business Unit
+  Cube: #_GROUP_DIMENSION_DATA_#_Object Account_ ID=36  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Object Account_
+  Cube: #_Object Account ID=37  Type=AttributeCube Status=LoadedCube
+    #_Object Account_
+    Object Account
+  Cube: #_GROUP_DIMENSION_DATA_Object Account ID=38  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Object Account
+  Cube: #_GROUP_DIMENSION_DATA_#_Subsidiary Acct_ ID=39  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Subsidiary Acct_
+  Cube: #_Subsidiary Acct ID=40  Type=AttributeCube Status=LoadedCube
+    #_Subsidiary Acct_
+    Subsidiary Acct
+  Cube: #_GROUP_DIMENSION_DATA_Subsidiary Acct ID=41  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Subsidiary Acct
+  Cube: DPR Production ID=42  Type=NormalCube Status=LoadedCube
+    Base Amount
+    Ledger Type
+    Year
+    Month
+    Day
+    Legal Entity
+    Business Unit
+    Object Account
+    Subsidiary Acct
+  Cube: #_GROUP_CELL_DATA_DPR Production ID=43  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Base Amount
+    Ledger Type
+    Year
+    Month
+    Day
+    Legal Entity
+    Business Unit
+    Object Account
+    Subsidiary Acct
+  Cube: #_CELL_PROPERTIES_DPR Production ID=44  Type=SystemCube Status=LoadedCube
+    Base Amount
+    Ledger Type
+    Year
+    Month
+    Day
+    Legal Entity
+    Business Unit
+    Object Account
+    Subsidiary Acct
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Cabana_Accounts_ ID=45  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Cabana_Accounts_
+  Cube: #_Cabana_Accounts ID=46  Type=AttributeCube Status=LoadedCube
+    #_Cabana_Accounts_
+    Cabana_Accounts
+  Cube: #_GROUP_DIMENSION_DATA_Cabana_Accounts ID=47  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Cabana_Accounts
+  Cube: #_GROUP_DIMENSION_DATA_#_Index_ ID=48  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Index_
+  Cube: #_Index ID=49  Type=AttributeCube Status=LoadedCube
+    #_Index_
+    Index
+  Cube: #_GROUP_DIMENSION_DATA_Index ID=50  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Index
+  Cube: Cabana ID=51  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Index
+    Cabana_Accounts
+  Cube: #_GROUP_CELL_DATA_Cabana ID=52  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Index
+    Cabana_Accounts
+  Cube: #_CELL_PROPERTIES_Cabana ID=53  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Index
+    Cabana_Accounts
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino_Acct_ ID=54  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino_Acct_
+  Cube: #_Casino_Acct ID=55  Type=AttributeCube Status=LoadedCube
+    #_Casino_Acct_
+    Casino_Acct
+  Cube: #_GROUP_DIMENSION_DATA_Casino_Acct ID=56  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino_Acct
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino_Measures_ ID=57  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino_Measures_
+  Cube: #_Casino_Measures ID=58  Type=AttributeCube Status=LoadedCube
+    #_Casino_Measures_
+    Casino_Measures
+  Cube: #_GROUP_DIMENSION_DATA_Casino_Measures ID=59  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino_Measures
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino_DataType_ ID=63  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino_DataType_
+  Cube: #_Casino_DataType ID=64  Type=AttributeCube Status=LoadedCube
+    #_Casino_DataType_
+    Casino_DataType
+  Cube: #_GROUP_DIMENSION_DATA_Casino_DataType ID=65  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino_DataType
+  Cube: Casino ID=66  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino_DataType
+    Casino_Acct
+    Casino_Measures
+  Cube: #_GROUP_CELL_DATA_Casino ID=67  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Casino_DataType
+    Casino_Acct
+    Casino_Measures
+  Cube: #_CELL_PROPERTIES_Casino ID=68  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino_DataType
+    Casino_Acct
+    Casino_Measures
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Date_Measures_ ID=69  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Date_Measures_
+  Cube: #_Date_Measures ID=70  Type=AttributeCube Status=LoadedCube
+    #_Date_Measures_
+    Date_Measures
+  Cube: #_GROUP_DIMENSION_DATA_Date_Measures ID=71  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Date_Measures
+  Cube: Date ID=72  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Date_Measures
+  Cube: #_GROUP_CELL_DATA_Date ID=73  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Date_Measures
+  Cube: #_CELL_PROPERTIES_Date ID=74  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Date_Measures
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Parameters_ ID=75  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Parameters_
+  Cube: #_Parameters ID=76  Type=AttributeCube Status=LoadedCube
+    #_Parameters_
+    Parameters
+  Cube: #_GROUP_DIMENSION_DATA_Parameters ID=77  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Parameters
+  Cube: #_GROUP_DIMENSION_DATA_#_Parameters_Measures_ ID=78  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Parameters_Measures_
+  Cube: #_Parameters_Measures ID=79  Type=AttributeCube Status=LoadedCube
+    #_Parameters_Measures_
+    Parameters_Measures
+  Cube: #_GROUP_DIMENSION_DATA_Parameters_Measures ID=80  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Parameters_Measures
+  Cube: Paramrters ID=84  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Parameters
+    Parameters_Measures
+  Cube: #_GROUP_CELL_DATA_Paramrters ID=85  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Parameters
+    Parameters_Measures
+  Cube: #_CELL_PROPERTIES_Paramrters ID=86  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Parameters
+    Parameters_Measures
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Verify Source_ ID=87  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Verify Source_
+  Cube: #_Verify Source ID=88  Type=AttributeCube Status=LoadedCube
+    #_Verify Source_
+    Verify Source
+  Cube: #_GROUP_DIMENSION_DATA_Verify Source ID=89  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Verify Source
+  Cube: DPR Upload Check ID=90  Type=NormalCube Status=LoadedCube
+    Base Amount
+    Ledger Type
+    Year
+    Month
+    Verify Source
+    Legal Entity
+    Business Unit
+    Object Account
+    Subsidiary Acct
+  Cube: #_GROUP_CELL_DATA_DPR Upload Check ID=91  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Base Amount
+    Ledger Type
+    Year
+    Month
+    Verify Source
+    Legal Entity
+    Business Unit
+    Object Account
+    Subsidiary Acct
+  Cube: #_CELL_PROPERTIES_DPR Upload Check ID=92  Type=SystemCube Status=LoadedCube
+    Base Amount
+    Ledger Type
+    Year
+    Month
+    Verify Source
+    Legal Entity
+    Business Unit
+    Object Account
+    Subsidiary Acct
+    #_CELL_PROPERTIES_
+  Cube: DaysInMonth ID=96  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+  Cube: #_GROUP_CELL_DATA_DaysInMonth ID=97  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+  Cube: #_CELL_PROPERTIES_DaysInMonth ID=98  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Location_ ID=99  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Location_
+  Cube: #_Casino Location ID=100  Type=AttributeCube Status=LoadedCube
+    #_Casino Location_
+    Casino Location
+  Cube: #_GROUP_DIMENSION_DATA_Casino Location ID=101  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Location
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Measure_ ID=102  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Measure_
+  Cube: #_Casino Measure ID=103  Type=AttributeCube Status=LoadedCube
+    #_Casino Measure_
+    Casino Measure
+  Cube: #_GROUP_DIMENSION_DATA_Casino Measure ID=104  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Measure
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Tender_ ID=105  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Tender_
+  Cube: #_Casino Tender ID=106  Type=AttributeCube Status=LoadedCube
+    #_Casino Tender_
+    Casino Tender
+  Cube: #_GROUP_DIMENSION_DATA_Casino Tender ID=107  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Tender
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Venue_ ID=108  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Venue_
+  Cube: #_Casino Venue ID=109  Type=AttributeCube Status=LoadedCube
+    #_Casino Venue_
+    Casino Venue
+  Cube: #_GROUP_DIMENSION_DATA_Casino Venue ID=110  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Venue
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Game Codes_ ID=111  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Game Codes_
+  Cube: #_Casino Game Codes ID=112  Type=AttributeCube Status=LoadedCube
+    #_Casino Game Codes_
+    Casino Game Codes
+  Cube: #_GROUP_DIMENSION_DATA_Casino Game Codes ID=113  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Game Codes
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Asset ID_ ID=114  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Asset ID_
+  Cube: #_Casino Asset ID ID=115  Type=AttributeCube Status=LoadedCube
+    #_Casino Asset ID_
+    Casino Asset ID
+  Cube: #_GROUP_DIMENSION_DATA_Casino Asset ID ID=116  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Asset ID
+  Cube: #_GROUP_DIMENSION_DATA_#_Table Location Codes_ ID=117  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Table Location Codes_
+  Cube: #_Table Location Codes ID=118  Type=AttributeCube Status=LoadedCube
+    #_Table Location Codes_
+    Table Location Codes
+  Cube: #_GROUP_DIMENSION_DATA_Table Location Codes ID=119  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Table Location Codes
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Parameter Measure_ ID=120  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Parameter Measure_
+  Cube: #_Casino Parameter Measure ID=121  Type=AttributeCube Status=LoadedCube
+    #_Casino Parameter Measure_
+    Casino Parameter Measure
+  Cube: #_GROUP_DIMENSION_DATA_Casino Parameter Measure ID=122  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Parameter Measure
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Audit Category_ ID=123  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Audit Category_
+  Cube: #_Casino Audit Category ID=124  Type=AttributeCube Status=LoadedCube
+    #_Casino Audit Category_
+    Casino Audit Category
+  Cube: #_GROUP_DIMENSION_DATA_Casino Audit Category ID=125  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Audit Category
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino Audit Measure_ ID=126  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino Audit Measure_
+  Cube: #_Casino Audit Measure ID=127  Type=AttributeCube Status=LoadedCube
+    #_Casino Audit Measure_
+    Casino Audit Measure
+  Cube: #_GROUP_DIMENSION_DATA_Casino Audit Measure ID=128  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino Audit Measure
+  Cube: Casino Parameters ID=129  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Parameter Measure
+  Cube: #_GROUP_CELL_DATA_Casino Parameters ID=130  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Parameter Measure
+  Cube: #_CELL_PROPERTIES_Casino Parameters ID=131  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Parameter Measure
+    #_CELL_PROPERTIES_
+  Cube: Casino Detail ID=132  Type=NormalCube Status=LoadedCube
+    Ledger Type
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Asset ID
+    Casino Measure
+    Casino Tender
+  Cube: #_GROUP_CELL_DATA_Casino Detail ID=133  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Ledger Type
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Asset ID
+    Casino Measure
+    Casino Tender
+  Cube: #_CELL_PROPERTIES_Casino Detail ID=134  Type=SystemCube Status=LoadedCube
+    Ledger Type
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Asset ID
+    Casino Measure
+    Casino Tender
+    #_CELL_PROPERTIES_
+  Cube: Casino Summary ID=135  Type=NormalCube Status=LoadedCube
+    Ledger Type
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Measure
+    Casino Tender
+  Cube: #_GROUP_CELL_DATA_Casino Summary ID=136  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Ledger Type
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Measure
+    Casino Tender
+  Cube: #_CELL_PROPERTIES_Casino Summary ID=137  Type=SystemCube Status=LoadedCube
+    Ledger Type
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Measure
+    Casino Tender
+    #_CELL_PROPERTIES_
+  Cube: Casino Audit Log ID=138  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino Audit Category
+    Casino Audit Measure
+  Cube: #_GROUP_CELL_DATA_Casino Audit Log ID=139  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Casino Audit Category
+    Casino Audit Measure
+  Cube: #_CELL_PROPERTIES_Casino Audit Log ID=140  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino Audit Category
+    Casino Audit Measure
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Frequency_ ID=141  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Frequency_
+  Cube: #_Frequency ID=142  Type=AttributeCube Status=LoadedCube
+    #_Frequency_
+    Frequency
+  Cube: #_GROUP_DIMENSION_DATA_Frequency ID=143  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Frequency
+  Cube: #_GROUP_DIMENSION_DATA_#_Casino JDE Measure_ ID=144  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Casino JDE Measure_
+  Cube: #_Casino JDE Measure ID=145  Type=AttributeCube Status=LoadedCube
+    #_Casino JDE Measure_
+    Casino JDE Measure
+  Cube: #_GROUP_DIMENSION_DATA_Casino JDE Measure ID=146  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Casino JDE Measure
+  Cube: Casino JDE Upload ID=147  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Measure
+    Frequency
+    Casino JDE Measure
+  Cube: #_GROUP_CELL_DATA_Casino JDE Upload ID=148  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Measure
+    Frequency
+    Casino JDE Measure
+  Cube: #_CELL_PROPERTIES_Casino JDE Upload ID=149  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Casino Venue
+    Casino Location
+    Casino Measure
+    Frequency
+    Casino JDE Measure
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_Notes Category_ ID=150  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Notes Category_
+  Cube: #_Notes Category ID=151  Type=AttributeCube Status=LoadedCube
+    #_Notes Category_
+    Notes Category
+  Cube: #_GROUP_DIMENSION_DATA_Notes Category ID=152  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Notes Category
+  Cube: #_GROUP_DIMENSION_DATA_#_Notes Measure_ ID=153  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Notes Measure_
+  Cube: #_Notes Measure ID=154  Type=AttributeCube Status=LoadedCube
+    #_Notes Measure_
+    Notes Measure
+  Cube: #_GROUP_DIMENSION_DATA_Notes Measure ID=155  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Notes Measure
+  Cube: Notes Log ID=159  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Notes Category
+    Notes Measure
+    Index
+  Cube: #_GROUP_CELL_DATA_Notes Log ID=160  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Notes Category
+    Notes Measure
+    Index
+  Cube: #_CELL_PROPERTIES_Notes Log ID=161  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Notes Category
+    Notes Measure
+    Index
+    #_CELL_PROPERTIES_
+  Dim #_USER_  ID=0 Type=SystemDimension, 12 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_GROUP_  ID=1 Type=SystemDimension, 7 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CUBE_PROPERTIES_  ID=2 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CUBE_  ID=3 Type=SystemDimension, 13 Elements, Max. Depth = 0, AttrCube = #_#_CUBE_
+  Dim #_#_CUBE__  ID=4 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CONFIGURATION_  ID=5 Type=SystemDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_DIMENSION_  ID=6 Type=SystemDimension, 32 Elements, Max. Depth = 0, AttrCube = #_#_DIMENSION_
+  Dim #_#_DIMENSION__  ID=7 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_SUBSET_  ID=8 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = #_#_SUBSET_
+  Dim #_#_SUBSET__  ID=9 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_VIEW_  ID=10 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = #_#_VIEW_
+  Dim #_#_VIEW__  ID=11 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CELL_PROPERTIES_  ID=12 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim Base Amount  ID=13 Type=NormalDimension, 9 Elements, Max. Depth = 0, AttrCube = #_Base Amount
+  Dim #_Base Amount_  ID=14 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Ledger Type  ID=15 Type=NormalDimension, 51 Elements, Max. Depth = 3, AttrCube = #_Ledger Type
+  Dim #_Ledger Type_  ID=16 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim Year  ID=17 Type=NormalDimension, 15 Elements, Max. Depth = 1, AttrCube = #_Year
+  Dim #_Year_  ID=18 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Month  ID=19 Type=NormalDimension, 43 Elements, Max. Depth = 2, AttrCube = #_Month
+  Dim #_Month_  ID=20 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Day  ID=21 Type=NormalDimension, 160 Elements, Max. Depth = 32, AttrCube = #_Day
+  Dim #_Day_  ID=22 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Legal Entity  ID=23 Type=NormalDimension, 47 Elements, Max. Depth = 1, AttrCube = #_Legal Entity
+  Dim #_Legal Entity_  ID=24 Type=AttributeDimension, 2 Elements, Max. Depth = 0, AttrCube = 
+  Dim Business Unit  ID=25 Type=NormalDimension, 682 Elements, Max. Depth = 7, AttrCube = #_Business Unit
+  Dim #_Business Unit_  ID=26 Type=AttributeDimension, 2 Elements, Max. Depth = 0, AttrCube = 
+  Dim Object Account  ID=27 Type=NormalDimension, 3345 Elements, Max. Depth = 10, AttrCube = #_Object Account
+  Dim #_Object Account_  ID=28 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim Subsidiary Acct  ID=29 Type=NormalDimension, 1076 Elements, Max. Depth = 2, AttrCube = #_Subsidiary Acct
+  Dim #_Subsidiary Acct_  ID=30 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim Cabana_Accounts  ID=31 Type=NormalDimension, 11 Elements, Max. Depth = 0, AttrCube = #_Cabana_Accounts
+  Dim #_Cabana_Accounts_  ID=32 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Index  ID=33 Type=NormalDimension, 21 Elements, Max. Depth = 1, AttrCube = #_Index
+  Dim #_Index_  ID=34 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino_Acct  ID=35 Type=NormalDimension, 81 Elements, Max. Depth = 2, AttrCube = #_Casino_Acct
+  Dim #_Casino_Acct_  ID=36 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino_Measures  ID=37 Type=NormalDimension, 23 Elements, Max. Depth = 0, AttrCube = #_Casino_Measures
+  Dim #_Casino_Measures_  ID=38 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino_DataType  ID=39 Type=NormalDimension, 3 Elements, Max. Depth = 0, AttrCube = #_Casino_DataType
+  Dim #_Casino_DataType_  ID=40 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Date_Measures  ID=41 Type=NormalDimension, 1 Elements, Max. Depth = 0, AttrCube = #_Date_Measures
+  Dim #_Date_Measures_  ID=42 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Parameters  ID=43 Type=NormalDimension, 66 Elements, Max. Depth = 3, AttrCube = #_Parameters
+  Dim #_Parameters_  ID=44 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Parameters_Measures  ID=45 Type=NormalDimension, 1 Elements, Max. Depth = 0, AttrCube = #_Parameters_Measures
+  Dim #_Parameters_Measures_  ID=46 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Verify Source  ID=47 Type=NormalDimension, 2 Elements, Max. Depth = 0, AttrCube = #_Verify Source
+  Dim #_Verify Source_  ID=48 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Location  ID=49 Type=NormalDimension, 5 Elements, Max. Depth = 1, AttrCube = #_Casino Location
+  Dim #_Casino Location_  ID=50 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Measure  ID=51 Type=NormalDimension, 35 Elements, Max. Depth = 4, AttrCube = #_Casino Measure
+  Dim #_Casino Measure_  ID=52 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Tender  ID=53 Type=NormalDimension, 21 Elements, Max. Depth = 2, AttrCube = #_Casino Tender
+  Dim #_Casino Tender_  ID=54 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Venue  ID=55 Type=NormalDimension, 141 Elements, Max. Depth = 5, AttrCube = #_Casino Venue
+  Dim #_Casino Venue_  ID=56 Type=AttributeDimension, 9 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Game Codes  ID=57 Type=NormalDimension, 17 Elements, Max. Depth = 0, AttrCube = #_Casino Game Codes
+  Dim #_Casino Game Codes_  ID=58 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Asset ID  ID=59 Type=NormalDimension, 1682 Elements, Max. Depth = 3, AttrCube = #_Casino Asset ID
+  Dim #_Casino Asset ID_  ID=60 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Table Location Codes  ID=61 Type=NormalDimension, 12 Elements, Max. Depth = 0, AttrCube = #_Table Location Codes
+  Dim #_Table Location Codes_  ID=62 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Parameter Measure  ID=63 Type=NormalDimension, 9 Elements, Max. Depth = 0, AttrCube = #_Casino Parameter Measure
+  Dim #_Casino Parameter Measure_  ID=64 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Audit Category  ID=65 Type=NormalDimension, 8 Elements, Max. Depth = 1, AttrCube = #_Casino Audit Category
+  Dim #_Casino Audit Category_  ID=66 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino Audit Measure  ID=67 Type=NormalDimension, 3 Elements, Max. Depth = 1, AttrCube = #_Casino Audit Measure
+  Dim #_Casino Audit Measure_  ID=68 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Frequency  ID=69 Type=NormalDimension, 2 Elements, Max. Depth = 0, AttrCube = #_Frequency
+  Dim #_Frequency_  ID=70 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Casino JDE Measure  ID=71 Type=NormalDimension, 2 Elements, Max. Depth = 0, AttrCube = #_Casino JDE Measure
+  Dim #_Casino JDE Measure_  ID=72 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Notes Category  ID=73 Type=NormalDimension, 3 Elements, Max. Depth = 0, AttrCube = #_Notes Category
+  Dim #_Notes Category_  ID=74 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Notes Measure  ID=75 Type=NormalDimension, 2 Elements, Max. Depth = 0, AttrCube = #_Notes Measure
+  Dim #_Notes Measure_  ID=76 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+Database: Zeus ID=2 Type=SystemDatabase Status=LoadedDatabase)
+  Cube: #_#_CUBE_ ID=0  Type=AttributeCube Status=LoadedCube
+    #_#_CUBE__
+    #_CUBE_
+  Cube: #_GROUP_CUBE_DATA ID=1  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CUBE_
+  Cube: #_CONFIGURATION ID=2  Type=SystemCube Status=LoadedCube
+    #_CONFIGURATION_
+  Cube: #_#_DIMENSION_ ID=3  Type=AttributeCube Status=LoadedCube
+    #_#_DIMENSION__
+    #_DIMENSION_
+  Cube: #_#_SUBSET_ ID=4  Type=AttributeCube Status=LoadedCube
+    #_#_SUBSET__
+    #_SUBSET_
+  Cube: #_#_VIEW_ ID=5  Type=AttributeCube Status=LoadedCube
+    #_#_VIEW__
+    #_VIEW_
+  Cube: #_SUBSET_LOCAL ID=6  Type=SystemCube Status=LoadedCube
+    #_DIMENSION_
+    #_USER_
+    #_SUBSET_
+  Cube: #_SUBSET_GLOBAL ID=7  Type=SystemCube Status=LoadedCube
+    #_DIMENSION_
+    #_SUBSET_
+  Cube: #_VIEW_LOCAL ID=8  Type=SystemCube Status=LoadedCube
+    #_CUBE_
+    #_USER_
+    #_VIEW_
+  Cube: #_VIEW_GLOBAL ID=9  Type=SystemCube Status=LoadedCube
+    #_CUBE_
+    #_VIEW_
+  Cube: #_Month ID=10  Type=AttributeCube Status=LoadedCube
+    #_Month_
+    Month
+  Cube: #_GROUP_DIMENSION_DATA_Month ID=11  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Month
+  Cube: #_Day ID=12  Type=AttributeCube Status=LoadedCube
+    #_Day_
+    Day
+  Cube: #_GROUP_DIMENSION_DATA_Day ID=13  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Day
+  Cube: #_Scenario ID=14  Type=AttributeCube Status=LoadedCube
+    #_Scenario_
+    Scenario
+  Cube: #_GROUP_DIMENSION_DATA_Scenario ID=15  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Scenario
+  Cube: #_Basis ID=16  Type=AttributeCube Status=LoadedCube
+    #_Basis_
+    Basis
+  Cube: #_GROUP_DIMENSION_DATA_Basis ID=17  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Basis
+  Cube: #_SaleValue ID=18  Type=AttributeCube Status=LoadedCube
+    #_SaleValue_
+    SaleValue
+  Cube: #_GROUP_DIMENSION_DATA_SaleValue ID=19  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    SaleValue
+  Cube: #_Year ID=22  Type=AttributeCube Status=LoadedCube
+    #_Year_
+    Year
+  Cube: #_GROUP_DIMENSION_DATA_Year ID=23  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+  Cube: #_Company ID=24  Type=AttributeCube Status=LoadedCube
+    #_Company_
+    Company
+  Cube: #_GROUP_DIMENSION_DATA_Company ID=25  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Company
+  Cube: #_Account ID=26  Type=AttributeCube Status=LoadedCube
+    #_Account_
+    Account
+  Cube: #_GROUP_DIMENSION_DATA_Account ID=27  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Account
+  Cube: #_Class ID=28  Type=AttributeCube Status=LoadedCube
+    #_Class_
+    Class
+  Cube: #_GROUP_DIMENSION_DATA_Class ID=29  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Class
+  Cube: #_Customer ID=30  Type=AttributeCube Status=LoadedCube
+    #_Customer_
+    Customer
+  Cube: #_GROUP_DIMENSION_DATA_Customer ID=31  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Customer
+  Cube: #_Product ID=32  Type=AttributeCube Status=LoadedCube
+    #_Product_
+    Product
+  Cube: #_GROUP_DIMENSION_DATA_Product ID=33  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Product
+  Cube: #_SalesRep ID=34  Type=AttributeCube Status=LoadedCube
+    #_SalesRep_
+    SalesRep
+  Cube: #_GROUP_DIMENSION_DATA_SalesRep ID=35  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    SalesRep
+  Cube: #_Vendor ID=36  Type=AttributeCube Status=LoadedCube
+    #_Vendor_
+    Vendor
+  Cube: #_GROUP_DIMENSION_DATA_Vendor ID=37  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Vendor
+  Cube: #_TransType ID=38  Type=AttributeCube Status=LoadedCube
+    #_TransType_
+    TransType
+  Cube: #_GROUP_DIMENSION_DATA_TransType ID=39  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    TransType
+  Cube: GL Summary ID=40  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    Basis
+    Company
+    Account
+    Class
+  Cube: #_GROUP_CELL_DATA_GL Summary ID=41  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Scenario
+    Basis
+    Company
+    Account
+    Class
+  Cube: GL Detail ID=42  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    Basis
+    Company
+    Account
+    Class
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: #_GROUP_CELL_DATA_GL Detail ID=43  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Scenario
+    Basis
+    Company
+    Account
+    Class
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: Sales Summary ID=44  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+  Cube: #_GROUP_CELL_DATA_Sales Summary ID=45  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+  Cube: Sales Detail ID=50  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: #_GROUP_CELL_DATA_Sales Detail ID=51  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: GL Start Balance ID=52  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Scenario
+    Basis
+    Company
+    Account
+  Cube: #_GROUP_CELL_DATA_GL Start Balance ID=53  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Scenario
+    Basis
+    Company
+    Account
+  Cube: #_DateChoices ID=54  Type=AttributeCube Status=LoadedCube
+    #_DateChoices_
+    DateChoices
+  Cube: #_GROUP_DIMENSION_DATA_DateChoices ID=55  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    DateChoices
+  Cube: #_DateChoiceAlt ID=56  Type=AttributeCube Status=LoadedCube
+    #_DateChoiceAlt_
+    DateChoiceAlt
+  Cube: #_GROUP_DIMENSION_DATA_DateChoiceAlt ID=57  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    DateChoiceAlt
+  Cube: Sales Count ID=58  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: #_GROUP_CELL_DATA_Sales Count ID=59  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: #_CF Category ID=60  Type=AttributeCube Status=LoadedCube
+    #_CF Category_
+    CF Category
+  Cube: #_GROUP_DIMENSION_DATA_CF Category ID=61  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Category
+  Cube: #_CF Frequency ID=62  Type=AttributeCube Status=LoadedCube
+    #_CF Frequency_
+    CF Frequency
+  Cube: #_GROUP_DIMENSION_DATA_CF Frequency ID=63  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Frequency
+  Cube: #_CF Sequence ID=64  Type=AttributeCube Status=LoadedCube
+    #_CF Sequence_
+    CF Sequence
+  Cube: #_GROUP_DIMENSION_DATA_CF Sequence ID=65  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Sequence
+  Cube: #_CF Period ID=66  Type=AttributeCube Status=LoadedCube
+    #_CF Period_
+    CF Period
+  Cube: #_GROUP_DIMENSION_DATA_CF Period ID=67  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Period
+  Cube: Cash Flow Parameters ID=68  Type=NormalCube Status=LoadedCube
+    CF Category
+    CF Sequence
+    CF Period
+    CF Frequency
+  Cube: #_GROUP_CELL_DATA_Cash Flow Parameters ID=69  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Category
+    CF Sequence
+    CF Period
+    CF Frequency
+  Cube: #_CF Delay ID=70  Type=AttributeCube Status=LoadedCube
+    #_CF Delay_
+    CF Delay
+  Cube: #_GROUP_DIMENSION_DATA_CF Delay ID=71  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Delay
+  Cube: #_CF Forecast ID=82  Type=AttributeCube Status=LoadedCube
+    #_CF Forecast_
+    CF Forecast
+  Cube: #_GROUP_DIMENSION_DATA_CF Forecast ID=83  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Forecast
+  Cube: Cash Flow Entry ID=84  Type=NormalCube Status=LoadedCube
+    CF Forecast
+    CF Category
+    CF Sequence
+    CF Period
+    CF Delay
+  Cube: #_GROUP_CELL_DATA_Cash Flow Entry ID=85  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Forecast
+    CF Category
+    CF Sequence
+    CF Period
+    CF Delay
+  Cube: Cash Flow Results ID=86  Type=NormalCube Status=LoadedCube
+    CF Forecast
+    CF Category
+    CF Sequence
+    CF Period
+  Cube: #_GROUP_CELL_DATA_Cash Flow Results ID=87  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Forecast
+    CF Category
+    CF Sequence
+    CF Period
+  Cube: #_Entry Stage ID=88  Type=AttributeCube Status=LoadedCube
+    #_Entry Stage_
+    Entry Stage
+  Cube: #_GROUP_DIMENSION_DATA_Entry Stage ID=89  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Entry Stage
+  Cube: #_CF Label Category ID=98  Type=AttributeCube Status=LoadedCube
+    #_CF Label Category_
+    CF Label Category
+  Cube: #_GROUP_DIMENSION_DATA_CF Label Category ID=99  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Label Category
+  Cube: CF Labels ID=102  Type=NormalCube Status=LoadedCube
+    CF Label Category
+    CF Sequence
+    Entry Stage
+  Cube: #_GROUP_CELL_DATA_CF Labels ID=103  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    CF Label Category
+    CF Sequence
+    Entry Stage
+  Cube: #_Account Types ID=104  Type=AttributeCube Status=LoadedCube
+    #_Account Types_
+    Account Types
+  Cube: #_GROUP_DIMENSION_DATA_Account Types ID=105  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Account Types
+  Cube: #_AR Aging Ranges ID=106  Type=AttributeCube Status=LoadedCube
+    #_AR Aging Ranges_
+    AR Aging Ranges
+  Cube: #_GROUP_DIMENSION_DATA_AR Aging Ranges ID=107  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    AR Aging Ranges
+  Cube: #_Parameters ID=108  Type=AttributeCube Status=LoadedCube
+    #_Parameters_
+    Parameters
+  Cube: #_GROUP_DIMENSION_DATA_Parameters ID=109  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Parameters
+  Cube: #_GROUP_DIMENSION_DATA_#_CELL_PROPERTIES_ ID=110  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_#_CUBE__ ID=111  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_CUBE__
+  Cube: #_GROUP_DIMENSION_DATA_#_#_DIMENSION__ ID=112  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_DIMENSION__
+  Cube: #_GROUP_DIMENSION_DATA_#_#_SUBSET__ ID=113  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_SUBSET__
+  Cube: #_GROUP_DIMENSION_DATA_#_#_VIEW__ ID=114  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_#_VIEW__
+  Cube: #_GROUP_DIMENSION_DATA_#_Month_ ID=115  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Month_
+  Cube: #_GROUP_DIMENSION_DATA_#_Day_ ID=116  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Day_
+  Cube: #_GROUP_DIMENSION_DATA_#_Scenario_ ID=117  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Scenario_
+  Cube: #_GROUP_DIMENSION_DATA_#_Basis_ ID=118  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Basis_
+  Cube: #_GROUP_DIMENSION_DATA_#_SaleValue_ ID=119  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_SaleValue_
+  Cube: #_GROUP_DIMENSION_DATA_#_Year_ ID=120  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Year_
+  Cube: #_GROUP_DIMENSION_DATA_#_Company_ ID=121  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Company_
+  Cube: #_GROUP_DIMENSION_DATA_#_Account_ ID=122  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Account_
+  Cube: #_GROUP_DIMENSION_DATA_#_Class_ ID=123  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Class_
+  Cube: #_GROUP_DIMENSION_DATA_#_Customer_ ID=124  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Customer_
+  Cube: #_GROUP_DIMENSION_DATA_#_Product_ ID=125  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Product_
+  Cube: #_GROUP_DIMENSION_DATA_#_SalesRep_ ID=126  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_SalesRep_
+  Cube: #_GROUP_DIMENSION_DATA_#_Vendor_ ID=127  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Vendor_
+  Cube: #_GROUP_DIMENSION_DATA_#_TransType_ ID=128  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_TransType_
+  Cube: #_GROUP_DIMENSION_DATA_#_DateChoices_ ID=129  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_DateChoices_
+  Cube: #_GROUP_DIMENSION_DATA_#_DateChoiceAlt_ ID=130  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_DateChoiceAlt_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Category_ ID=131  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Category_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Frequency_ ID=132  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Frequency_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Sequence_ ID=133  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Sequence_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Period_ ID=134  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Period_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Delay_ ID=135  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Delay_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Forecast_ ID=136  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Forecast_
+  Cube: #_GROUP_DIMENSION_DATA_#_Entry Stage_ ID=137  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Entry Stage_
+  Cube: #_GROUP_DIMENSION_DATA_#_CF Label Category_ ID=138  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_CF Label Category_
+  Cube: #_GROUP_DIMENSION_DATA_#_Account Types_ ID=139  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Account Types_
+  Cube: #_GROUP_DIMENSION_DATA_#_AR Aging Ranges_ ID=140  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_AR Aging Ranges_
+  Cube: #_GROUP_DIMENSION_DATA_#_Parameters_ ID=141  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_Parameters_
+  Cube: #_CELL_PROPERTIES_GL Summary ID=142  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    Basis
+    Company
+    Account
+    Class
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_GL Detail ID=143  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    Basis
+    Company
+    Account
+    Class
+    TransType
+    Customer
+    Product
+    Vendor
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_Sales Summary ID=144  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_Sales Detail ID=145  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_GL Start Balance ID=146  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Scenario
+    Basis
+    Company
+    Account
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_Sales Count ID=147  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_Cash Flow Parameters ID=148  Type=SystemCube Status=LoadedCube
+    CF Category
+    CF Sequence
+    CF Period
+    CF Frequency
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_Cash Flow Entry ID=149  Type=SystemCube Status=LoadedCube
+    CF Forecast
+    CF Category
+    CF Sequence
+    CF Period
+    CF Delay
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_Cash Flow Results ID=150  Type=SystemCube Status=LoadedCube
+    CF Forecast
+    CF Category
+    CF Sequence
+    CF Period
+    #_CELL_PROPERTIES_
+  Cube: #_CELL_PROPERTIES_CF Labels ID=151  Type=SystemCube Status=LoadedCube
+    CF Label Category
+    CF Sequence
+    Entry Stage
+    #_CELL_PROPERTIES_
+  Cube: #_GROUP_DIMENSION_DATA_#_DBChoices_ ID=152  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    #_DBChoices_
+  Cube: #_DBChoices ID=153  Type=AttributeCube Status=LoadedCube
+    #_DBChoices_
+    DBChoices
+  Cube: #_GROUP_DIMENSION_DATA_DBChoices ID=154  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    DBChoices
+  Cube: Product Sales ID=155  Type=NormalCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: #_GROUP_CELL_DATA_Product Sales ID=156  Type=SystemCube Status=LoadedCube
+    #_GROUP_
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+  Cube: #_CELL_PROPERTIES_Product Sales ID=157  Type=SystemCube Status=LoadedCube
+    Year
+    Month
+    Day
+    Scenario
+    SaleValue
+    Company
+    Class
+    SalesRep
+    TransType
+    Customer
+    Product
+    Vendor
+    #_CELL_PROPERTIES_
+  Dim #_USER_  ID=0 Type=SystemDimension, 12 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_GROUP_  ID=1 Type=SystemDimension, 7 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CUBE_  ID=2 Type=SystemDimension, 11 Elements, Max. Depth = 0, AttrCube = #_#_CUBE_
+  Dim #_#_CUBE__  ID=3 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CONFIGURATION_  ID=4 Type=SystemDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_DIMENSION_  ID=5 Type=SystemDimension, 28 Elements, Max. Depth = 0, AttrCube = #_#_DIMENSION_
+  Dim #_#_DIMENSION__  ID=6 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_SUBSET_  ID=7 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = #_#_SUBSET_
+  Dim #_#_SUBSET__  ID=8 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_VIEW_  ID=9 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = #_#_VIEW_
+  Dim #_#_VIEW__  ID=10 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Month  ID=11 Type=NormalDimension, 29 Elements, Max. Depth = 1, AttrCube = #_Month
+  Dim #_Month_  ID=12 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim Day  ID=13 Type=NormalDimension, 97 Elements, Max. Depth = 31, AttrCube = #_Day
+  Dim #_Day_  ID=14 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Scenario  ID=15 Type=NormalDimension, 4 Elements, Max. Depth = 0, AttrCube = #_Scenario
+  Dim #_Scenario_  ID=16 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Basis  ID=17 Type=NormalDimension, 5 Elements, Max. Depth = 1, AttrCube = #_Basis
+  Dim #_Basis_  ID=18 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim SaleValue  ID=19 Type=NormalDimension, 11 Elements, Max. Depth = 2, AttrCube = #_SaleValue
+  Dim #_SaleValue_  ID=20 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Year  ID=21 Type=NormalDimension, 7 Elements, Max. Depth = 1, AttrCube = #_Year
+  Dim #_Year_  ID=22 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Company  ID=23 Type=NormalDimension, 2 Elements, Max. Depth = 1, AttrCube = #_Company
+  Dim #_Company_  ID=24 Type=AttributeDimension, 8 Elements, Max. Depth = 0, AttrCube = 
+  Dim Account  ID=25 Type=NormalDimension, 764 Elements, Max. Depth = 6, AttrCube = #_Account
+  Dim #_Account_  ID=26 Type=AttributeDimension, 7 Elements, Max. Depth = 0, AttrCube = 
+  Dim Class  ID=27 Type=NormalDimension, 162 Elements, Max. Depth = 3, AttrCube = #_Class
+  Dim #_Class_  ID=28 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim Customer  ID=29 Type=NormalDimension, 841 Elements, Max. Depth = 3, AttrCube = #_Customer
+  Dim #_Customer_  ID=30 Type=AttributeDimension, 4 Elements, Max. Depth = 0, AttrCube = 
+  Dim Product  ID=31 Type=NormalDimension, 677 Elements, Max. Depth = 3, AttrCube = #_Product
+  Dim #_Product_  ID=32 Type=AttributeDimension, 2 Elements, Max. Depth = 0, AttrCube = 
+  Dim SalesRep  ID=33 Type=NormalDimension, 78 Elements, Max. Depth = 2, AttrCube = #_SalesRep
+  Dim #_SalesRep_  ID=34 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim Vendor  ID=35 Type=NormalDimension, 1413 Elements, Max. Depth = 1, AttrCube = #_Vendor
+  Dim #_Vendor_  ID=36 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim TransType  ID=37 Type=NormalDimension, 91 Elements, Max. Depth = 2, AttrCube = #_TransType
+  Dim #_TransType_  ID=38 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim DateChoices  ID=39 Type=NormalDimension, 13 Elements, Max. Depth = 0, AttrCube = #_DateChoices
+  Dim #_DateChoices_  ID=40 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim DateChoiceAlt  ID=41 Type=NormalDimension, 10 Elements, Max. Depth = 0, AttrCube = #_DateChoiceAlt
+  Dim #_DateChoiceAlt_  ID=42 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Category  ID=43 Type=NormalDimension, 51 Elements, Max. Depth = 3, AttrCube = #_CF Category
+  Dim #_CF Category_  ID=44 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Frequency  ID=45 Type=NormalDimension, 5 Elements, Max. Depth = 0, AttrCube = #_CF Frequency
+  Dim #_CF Frequency_  ID=46 Type=AttributeDimension, 2 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Sequence  ID=47 Type=NormalDimension, 12 Elements, Max. Depth = 1, AttrCube = #_CF Sequence
+  Dim #_CF Sequence_  ID=48 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Period  ID=49 Type=NormalDimension, 71 Elements, Max. Depth = 2, AttrCube = #_CF Period
+  Dim #_CF Period_  ID=50 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Delay  ID=51 Type=NormalDimension, 2 Elements, Max. Depth = 0, AttrCube = #_CF Delay
+  Dim #_CF Delay_  ID=52 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Forecast  ID=57 Type=NormalDimension, 11 Elements, Max. Depth = 0, AttrCube = #_CF Forecast
+  Dim #_CF Forecast_  ID=58 Type=AttributeDimension, 4 Elements, Max. Depth = 0, AttrCube = 
+  Dim Entry Stage  ID=59 Type=NormalDimension, 3 Elements, Max. Depth = 0, AttrCube = #_Entry Stage
+  Dim #_Entry Stage_  ID=60 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim CF Label Category  ID=65 Type=NormalDimension, 9 Elements, Max. Depth = 0, AttrCube = #_CF Label Category
+  Dim #_CF Label Category_  ID=66 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim Account Types  ID=67 Type=NormalDimension, 1 Elements, Max. Depth = 0, AttrCube = #_Account Types
+  Dim #_Account Types_  ID=68 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim AR Aging Ranges  ID=69 Type=NormalDimension, 6 Elements, Max. Depth = 0, AttrCube = #_AR Aging Ranges
+  Dim #_AR Aging Ranges_  ID=70 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim Parameters  ID=71 Type=NormalDimension, 9 Elements, Max. Depth = 0, AttrCube = #_Parameters
+  Dim #_Parameters_  ID=72 Type=AttributeDimension, 1 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CUBE_PROPERTIES_  ID=73 Type=SystemDimension, 0 Elements, Max. Depth = 0, AttrCube = 
+  Dim #_CELL_PROPERTIES_  ID=74 Type=AttributeDimension, 3 Elements, Max. Depth = 0, AttrCube = 
+  Dim DBChoices  ID=75 Type=NormalDimension, 3 Elements, Max. Depth = 0, AttrCube = #_DBChoices
+  Dim #_DBChoices_  ID=76 Type=AttributeDimension, 0 Elements, Max. Depth = 0, AttrCube = 

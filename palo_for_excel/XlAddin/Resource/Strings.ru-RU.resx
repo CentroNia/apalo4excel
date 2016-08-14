@@ -1,0 +1,2658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>включить поиск обновлений</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Добавить подмножество</value>
+  </data>
+  <data name="btnPaloOnlineCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Назад</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Щелкните здесь для вставки строки подключения</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Подключиться</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Щелкните здесь для вставки строки куба</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; Возврат к БД</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>Щелкните сюда для вставки строки измерений.</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Отключиться</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Развернуть все</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Готово &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Скрыть комментарий</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Вставить по горизонтали</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Далее &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Анализ</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>вставить заголовок</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Обновить список</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Найти и выбрать</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Выбрать ветку</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Обратить выделение</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Отменить выделение</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Показать комментарий</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Тест соединения</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Вставить по вертикали</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Очистить выделенное</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>Очистить выделенный срез куба</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Очистить все</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>Очистить весь куб (выделенное будет проигнорировано, очистка всего куба полностью)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Настройки БД</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Настройки кэша</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Не использовать локальный кэш</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Использовать локальный кэш</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Использовать локальный кэш для кубов без правил</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Очистить куб</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Очистка данных куба. Подождите ...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Добавить как подчиненный</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Добавить как равный</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>Конвертировать куб (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Копировать как подчиненный</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Копировать элементы</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Копировать как равный</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Кол-во</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Удалить из исходных элементов</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Объединить</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Экспорт данных</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Коэффициент объединения</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Переместить элемент в начало</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Переместить элемент в конец</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Числовой</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Вставить элементы</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Удалить из иерархии</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>Показать родителей</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>Строковый</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Сервер наблюдения</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Обрабатывать как измерение показателя (MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Активный</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Редактор формул</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="CmdRuleToggleActivity" xml:space="preserve">
+    <value>Переключить режим</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Обрабатывать как временное измерение (MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Поиск элемента</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Идет обработка изменений...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Коэфф. заполнения (%)</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Кол-во ячеек</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Кол-во измерений</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Кол-во заполненных ячеек</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Информация о кубе</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Удалить подмножество</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Куб атрибутов</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>Кол-во конс. элементов</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Макс. глубина</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Макс. отступ</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Макс. уровень</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>Кол-во числ. элементов</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Кол-во элементов</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>Кол-во стр. элементов</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Информация об измерении</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Циклическая ошибка!Один из консолидированных элементов уже содержит текущий элемент.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Невозможно вставить элементы. Ошибка импорта в '%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Ошибка вставки элементов</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Ошибка при подключении к серверу!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Элемент &lt;%1&gt; не уникальный!Укажите измерение, предваряя название элемента именем измерения,разделенных двоеточием, например: Месяцы:Январь</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Куб %1 уже существует в базе данных %2!Используйте другое имя.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Имя куба не заполнено!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>Недопустимые символы в имени куба!( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Не выбрано измерение!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Данные не обнаружены</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>База данных с таким именем уже существует!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Недопустимые символы в имени базы данных!( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>Измерение уже существует!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Имя измерения не заполнено!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>Недопустимые символы в имени измерения!( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Элемент уже существует!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Недопустимые символы в имени элемента!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>файл %1 не найден</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>недостаточно прав</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Ошибка аутентификации: неверные регистрационные данные!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Ошибка загрузки XLL файла!Возможная причина: XLL файл был перемещен или удален (Не найден: "%1"). Переустановите модуль Excel. Когда XLL файл не загружен, компоненты модуля не будут работать правильно.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Ошибка инициализации модуля PALO: Ошибка связи с Excel!Компоненты модуля не будут работать правильно. Переустановите модуль Excel.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Ошибка инициализации модуля Palo:Невозможно запустить службу локального севера PALO!Возможно, данная служба отключена. Включите службу и снова запустите редактор.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Ошибка инициализации модуля PALO:Ошибка соединения со службой локального сервера PALO! Сервер PALO не установлен локально или работает с ошибками.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Ошибка инициализации модуля PALO:У Вас нет достаточных прав запускать модуль PALO!Компоненты PALO не будут работать правильно. Переустановите модуль Excel.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Ошибка чтения из БД:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Ошибка регистрации нового сервера!Проверьте настройки соединения.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>Не найдена формула в B1</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Имя пользователя не должно содержать @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Введенное имя содержит символы, которые могут быть восприняты Excel некорректно (',", и.т.д). Сервер Palo и не-Excel клиенты разрешают эти символы. Все равно продолжить?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Несовместимость с Excel</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Файл записан успешно</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Введите описание формулы</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>БД создана.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>БД удалена.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Сервер зарегистрирован.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Регистрация сервера отменена.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Тест пройден!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Palo для Excel успешно установлен.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Оптимизируйте Excel с помощью Palo: BI приложение c открытым кодом для планирования, анализа и отчетности</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo логин и дополнительное руководство</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Открыть книгу Excel с демонстрационным приложением Palo</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Открыть самоучитель "Palo для Excel: первые шаги"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Обучение Palo</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Показывать этот диалог при запуске Excel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Открыть книгу Excel с одним из демонстрационных приложений</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Наше руководство позволит быстро освоить возможности Palo.</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Зарегистрируйтесь в сообществе MyPalo или примите участие в одном из наших тренингов.</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Начните использовать Palo, выбрав в меню "Palo"</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>С помощью "Вставить проекцию" Вы можете создать проекции на основе демонстрационных баз, включенных в поставку. С помощью "Конструктора" Вы можете работать с существующими БД или создать новые.</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Подмножества</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Доступные измерения:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Кол-во символов:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Фиксир. ширина:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Редактировать права пользователя</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Показывать выбор элементов по двойному щелчку</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Показывать коэффициент слева</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Отступ</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Показывать поля атрибута</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Иерархически</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>с заголовком</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Переносить по словам названия колонок</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Отбрасывание нулей</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>Отбрасывать вычисленные нули</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Текстовые файлы (*.txt)|*.txt|Текстовые файлы, разделенные запятой (*.csv)|*.csv|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>Данный мастер поможет Вам настроить новый куб.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Кубы:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Измерения:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Введите строчное значение. Из-за ограничений в Excel, только первые 255 символов будут отображены. Однако Palo ограничен лишь свободными системными ресурсами при сохранении символов в ячейке.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Введите строчное значение.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Элементы:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Консолидированные элементы:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Выберите конечный CSV файл и его структуру:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Выберите конечный файл (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Экспортировать значения ячеек на основе формул</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Коэффициент</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>Импорт пустой строки после окончания</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>Мастер позволит Вам установить источник данных, которые будут построчно отображаться в первой строке активного листа Excel.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Выберите источник данных</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Неструктурированный файл (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>Запрос ODBC</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Куб</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Обновление экрана по завершении</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Закачка "конвеером" из первой строки Excel</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>На этом шаге Вы указываете неструктурированный файл для импорта</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Выберите исходный файл (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>На этом шаге Вы указываете запрос ODBC для импорта</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Выберите источник ODBC (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Введите SQL запрос</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Нажмите "Далее" для обработки следующей записи или нажмите "Готово" для автоматической обработки всех записей подряд.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Игнорировать пустые ячейки</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Только базовые элементы</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Запомнить регистрационные данные</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Новое измерение</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Новый элемент</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>новая строка</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Пробел</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Запятая</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Десятичный знак</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Точка с запятой</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Табулятор</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Выберите действие из списка</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Все элементы</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Выбранные измерения:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>Файлы SQL запросов (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Выберите конечный CSV файл, разделитель и требуемый формат иерархии:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Выберите формат иерархии</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-формат (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Отношение родитель-потомок в одной строке</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Выберите разделитель</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Имя измерения:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Пожалуйста выберите имя измерения и шаблон:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Создать правило</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Список правил</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>Ошибка в правиле. Сообщение сервера:</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Элементы подмножества:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Шаблон:</value>
+  </data>
+  <data name="lblPaloOnlineLink" xml:space="preserve">
+    <value>Щелкните здесь для регистрации на "MyPalo Community"</value>
+  </data>
+  <data name="lblPaloOnlinePassword" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="lblPaloOnlineText" xml:space="preserve">
+    <value>Почему следует зарегистрироваться на "MyPalo Community"?</value>
+  </data>
+  <data name="lblPaloOnlineUsername" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Загрузить Community редакцию</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Сравнить Community и Premium редакции</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Сделать запрос на Premium редакцию</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Или используйте Community редакцию с полностью открытым исходным кодом. Нажмите на кнопку для загрузки</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Сравнение Community и Premium редакций</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>Лицензия закончится через %1 дней.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Коммерческая лицензия истекла</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Связаться с Jedox для получения Premium редакции</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>Служба локального сервера PALO установлена в</value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>&amp;О программе</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Установите ссылку для отмены</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>Импорт &amp;данных</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Конструктор</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>Мастер &amp;Palo</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Вставить &amp;элементы</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Вставить &amp;формулу</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Вставить подмножество</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>Вставить &amp;проекцию</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Откат</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Сохранить снапшот</value>
+  </data>
+  <data name="MENU_SVS_WIZARD" xml:space="preserve">
+    <value>Mастер сервера наблюдения</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Откат на шаг назад</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Активировать локальный кэш</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Всего элементов: %1Всего числовых элементов: %2Всего строковых элементов: %3Всего консолидированных элементов: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Код:%1Имя:	%2Кол-во измерений:%3Измерения:%4Кол-во ячеек:	%5Кол-во непустых основных и строковых ячеек:	%6Статус:	%7Тип:	%8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Элемент %1 был удален из %2, но используется в других структурах ипоэтому он не будет отображен в запрашиваемых данных.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>Выбранная проекция содержит более %1 (=%3) ячеек. Ограничить проекцию %2 строками (рекомендуется)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>Данный лист Excel содержит объединенные ячейки,которые необходимо удалить, перед тем как вставить формулу.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>Выделенное в кубе было очищено.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>Куб был полностью очищен</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>Это действие может занять много времени. Пожалуйста, ждите.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>Куб не найден!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>недопустимый тип элемента</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Элемент не найден!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Недопустимый аргумент!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Недопустимый формат!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Несоответствие типов! Попытка записи строковых данных в числовую ячейку.</value>
+  </data>
+  <data name="PaloOnlineAdvancedHelp" xml:space="preserve">
+    <value>MyPalo</value>
+  </data>
+  <data name="PaloOnlineBasicHelp" xml:space="preserve">
+    <value>Первые шаги с Palo</value>
+  </data>
+  <data name="PaloOnlineLogin" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="PaloOnlineLogOut" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="PaloOnlineMenu" xml:space="preserve">
+    <value>Palo в интернете</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Редактировать таблицу Palo</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Веб Мастер</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Выбор полей</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Названия колонок</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Названия строк</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Подсказка: выбор элементов осуществляется двойным щелчком по измерению</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Вставить проекцию</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Определение непустых ячеек. Подождите...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>Соединение по умолчанию не задано. Используйте мастер Palo для Web для настройки соединения.</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>Соединение отсутствует</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>Управление соединениями</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>Выберите соединение</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>Соединение</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>Редактировать соединение</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>Этот мастер позволяет добавлять, удалять и обновлять соединения с web-серверами Palo</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>Новое соединение</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>Удалить соединение</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>Управление соединениями</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>На этом шаге возможно изменить данные для существующего соединения</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>Секретный вопрос</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Мастер Palo для Web</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Выйти без сохранения?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>Действие может удалить %1 ячеек.Это может занять длительное время.Все равно продолжить?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Вы действительно хотите полностью удалить БД %1 с сервера?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Удалить БД</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>Это действие может занять много времени. Продолжить?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Вы действительно хотите отменить регистрацию сервера %1?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Отменить регистрацию сервера</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Вы хотите удалить все существующие правила перед импортом?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Вы уверены в том, что хотите удалить правило(а)?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Применить к:</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Консолидированные элементы</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Базовые элементы</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Все элементы</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Переименовать подмножество</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Правило</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Обновлено</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Вверху</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>При включении этой опции, фильтр иерархии выберет элементы, расположенные выше указанного элемента в иерархии измерения. Стандартное поведение для фильтра иерархии - ниже.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Включить этот фильтр</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Добавить новое подмножество</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>Поле первого псевдонима</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Выберите псевдоним, к которому Вы хотите применить фильтр (текстовый или сортировка). Если поле псевдонима пустое, фильтры будут применены к именам элементов.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Поле второго псевдонима</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Выберите поле второго псевдонима, к которому Вы хотите применить фильтр (текстовый или сортировка).</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>Все элементы</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>Показывать элементы, если все элементы среза удовлетворяет условию</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Все элементы</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Сортировать все элементы списка</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>Любой элемент</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>Показывать элементы, если какой-либо элемент среза удовлетворяет условию</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Перечислять согласно атрибутам</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Примеры:- "&gt;0"- "&lt;=1000"- "&lt;&gt;10"- "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Фильтры атрибутов</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>Перечислять согласно фильтру атрибутов</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Автоматически</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Включить автообновление предпросмотра</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Не показывать снова</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Учтите, что автообновление будет выключено при выборе фильтра данных</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>Среднее по элементам</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>Показывать элементы, если среднее по срезу удовлетворяет условию</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>Добавить список выбора элементов в конец списка</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Только базовые элементы</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Сортировать только базовые элементы</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Ниже</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Показывать только элементы, которые расположены ниже указанного в иерархии</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>По псевдониму</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>Сортировать список по псевдониму</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>По атрибуту</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Сортировать список по атрибутам</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>По определению</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>Сортировать список согласно списку определений в конструкторе</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>По имени элемента</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>Сортировать список по имени элемента</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>По значению</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>Сортировать список по значению</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>[Все элементы]</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Условие:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>Выберите условие</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Выбранные элементы:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Закрыть редактор подмножеств</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>Соединение</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Консолидированный</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Показывать только консолидированные элементы</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Только консолидированные элементы</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Сортировать только консолидированные элементы</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Выберите куб:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Определение</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Удалить хранимое подмножество</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>Высший уровень иерархии имеет номер 0, следующий за ним - номер 1 и т.д.</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Измерение</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Содержание измерения</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>Измерение</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Редактировать имя подмножества</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Фильтровать элементы иерархически</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Выбранный элемент в иерархии измерения.</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Исключающий</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Выбранный элемент должен быть исключен из результатов.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Расширенный</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Общий</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Иерархия</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Список выбора</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Текстовый</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Плоский</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>Отображение непрерывного списка</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Формула подмножества</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>Добавить список выбора элементов в начало списка</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Общий</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Глобальные подмножества</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>Общий</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Повернуть</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Фильтровать элементы по типу</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Фильтровать элементы по типу.</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Скрыть опцию 1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Скрыть опцию 2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Скрыть опцию 3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Иерархия</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Иерархическое отображение</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Нумерация иерархии</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Отступ</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Отступ высшего уровня иерархии имеет значение 1, следующего за ним - номер 2 и т.д.</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Компоновка</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Нумерация глубины</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Нумерация отступа</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Нумерация уровней</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Базовые элементы</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Показывать только базовые элементы</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Уровень базовых элементов имеет значение 0, для каждого следующего уровня увеличивается на 1</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Фильтровать элементы по уровню</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Фильтровать элементы по уровню</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>Конец уровня</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Остановить фильтрацию на этом уровне.</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Начало уровня</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Начать фильтровать элементы с этого уровня</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Локальные подмножества</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Низший процент</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>Нижняя процентная область</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>Максимум по элементам</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>Показывать элементы, если максимум по срезу удовлетворяет условию</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Применить подмножество</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Отменить подмножество</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>Этот текст был записан в буфер обмена</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Вы действительно хотите удалить подмножество '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Внутренняя ошибка - баг в управлении. Сообщите разработчику!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Выбранный файл не содержит допустимое подмножество</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>Вы не можете скрыть панель параметров, если существуют активные параметры.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Невозможно вставить результаты подмножества. Причина:</value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>Этот параметр обязателен в фильтре и не может быть отменен!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Желаете сохранить изменения для подмножества:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Подмножество удалено</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>Объединение</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>Сортировать элементы списка выбора внутри списка</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>Минимум по элементам</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>Показывать элементы, если минимум по срезу удовлетворяет условию</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Поименованные параметры</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Нет правил</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>Данные будут взяты в фильтр без изменений через расширенный редактор правил</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>Без редактора правил опции 1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>Без редактора правил опции 2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>Числовой</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Дополнительные установки</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Параметр</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Параметр</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Вставить функцию подмножества в таблицу Excel</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Обновить предпросмотр</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Регулярные выражения (* и ? как групповые символы)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Примеры регулярных выражений PERL: - "Янв|Фев|Ноя" соответствует "Янв", "Фев" и "Ноя"- "J.*" соответствует всем элементам, начинающимся с "J"- "[s,d]" соответствует всем элементам с "s" или "d" в имени элемента- "n$" соответствует всем элементам, заканчивающимся на "n"</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Укажите регулярные выражения, которые соответствуют элементам в подмножестве. Каждое имя элемента или имя псевдонима (если он используется), не соответствующее хотя бы одному регулярному выражению, будет исключено из подмножества.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>Регулярные выражения PERL</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>При использовании регулярных выражений PERL такие символы, как "[" или "$" интерпретируются как функциинапример, X$ выбирает все элементы, заканчивающиеся на X</value>
+  </data>
+  <data name="SB_REMOVE_DUPLICATES" xml:space="preserve">
+    <value>Удалить дубликаты</value>
+  </data>
+  <data name="SB_REMOVE_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>@@@Remove Duplicates Desc Long</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Противоположный</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>Сортировка происходит в обратном порядке</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Показывать родительские вершины после потомков</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Показывать родительские вершины после потомков, например суммы ниже слагаемых</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Изменение опции 1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Изменение опции 2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Изменение опции 3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Обратный порядок</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Упорядочивание элементов на уровне</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Обратный порядок внутри каждого уровня иерархии</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Всего (агрегированные значения после детализированных)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>Обратный порядок по всем уровням иерархии</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Вернуть сумму</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>Повторения добавляются</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Длина списка:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>Длина списка:</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Циклический список</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Создать список элементов, начиная с указанного.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Сохранить подмножество</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Выберите и задайте поля атрибутов</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>Выберите первый псевдоним</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Укажите как вставить выбранные элементы:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>Выберите второй псевдоним</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Выбор сервера/БД</value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Показать потомков</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Показывать дубликаты</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Показывать дубликаты в списке</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Показывать потомков скрытых элементов</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>Показывать скрытых потомков</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Не показывать</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Операции среза</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Сортировать на уровне</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Сортировать список внутри выбранного уровня иерархии</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Опции сортировки</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Условие сортировки</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>Условие сортировки</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Исходный куб</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>Первоначальный кубик</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Хранимые подмножества</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>Строковый</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>Строковый</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>Вычитание</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Подкуб</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Фильтр атрибутов подмножества</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Фильтр подмножества</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Редактор подмножества</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Основные опции подмножества</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Фильтр иерархии подмножества</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Имя подмножества</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Имя подмножества</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Список выбора фильтра подмножества</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Сортировка подмножества</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Текстовый фильтр подмножества</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>Вычесть</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>Удалить все элементы из списка, за исключением элементов из списка выбора</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>Сумма элементов</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>Показывать элементы, если сумма по срезу удовлетворяет условию</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Увеличить все детализированные элементы на %:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>Увеличивать все элементы с наименьшим значением до тех пор, пока добавленная величина не превзойдет x%</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Выбрать наивысшие элементы:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>Выбрать n наивысших элементов с наибольшим значением</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Увеличить все агрегированные элементы на %:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>Увеличивать элементы с наибольшим значением до тех пор, пока добавленная величина не превзойдет x%</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>Имя элемента (строка)</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Вершина</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Ограничение типа</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>Выбор уровня</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>Граница типа опции 1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>Граница типа опции 2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>Граница типа опции 3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Высший процент</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>Верхняя процентная область</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Использовать</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Использовать фильтр</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Целый</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>все</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Поиск элементов</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Вы можете использовать групповые символы для поиска в списке элементов</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Создается проекция ...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>Загружается XLL ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>Поиск сервера %1. Подождите...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Чтение *.csv файла ...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Чтение куба. Подождите ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Чтение БД. Подождите ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Чтение элементов с сервера %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Сканирование выделения ...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Сканирование листа ...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Запуск службы локального сервера PALO...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Правило удалено</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Ошибка при экспорте правил!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Правила экспортированы успешно!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Ошибка в правиле #%1. Правило: %2. Сообщение сервера: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Правила импортированы успешно!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Правило сохранено</value>
+  </data>
+  <data name="strPaloOnlineTitle" xml:space="preserve">
+    <value>Palo в интернете</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_DESCRIPTION" xml:space="preserve">
+    <value>Сообщают закрытие сервера Palo, завершение процесса Сервера наблюдения и хранения базы данных.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON1_TEXT" xml:space="preserve">
+    <value>Стандартное наблюдение</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_DESCRIPTION" xml:space="preserve">
+    <value>Контроль изменений в ячейках для определения диапазона ячеек.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON2_TEXT" xml:space="preserve">
+    <value>Наблюдение куба</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_DESCRIPTION" xml:space="preserve">
+    <value>Контроль начала и завершения сеансов пользователя.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON3_TEXT" xml:space="preserve">
+    <value>Наблюдение логина</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_DESCRIPTION" xml:space="preserve">
+    <value>Контроль происхождения данных совместно с сервером ETL.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON4_TEXT" xml:space="preserve">
+    <value>Получить наиболее детальные данные</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_DESCRIPTION" xml:space="preserve">
+    <value>Возвращается истина или ложь в результате идентификации пользователя.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON5_TEXT" xml:space="preserve">
+    <value>Аутентификация</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_DESCRIPTION" xml:space="preserve">
+    <value>Возвращается истина или ложь в результате идентификации пользователя и его участия в группах.</value>
+  </data>
+  <data name="SVS_RADIOBUTTON6_TEXT" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="SVS_SAVE_TEXT" xml:space="preserve">
+    <value>Сохраните скрипт и сконфигурируйте SVS соответствующим образом.</value>
+  </data>
+  <data name="SVS_SETP1_TEXT" xml:space="preserve">
+    <value>Пожалуйста, выберите тип наблюдения:</value>
+  </data>
+  <data name="SVS_SETP2_TEXT" xml:space="preserve">
+    <value>Пожалуйста, выберите тип идентификации:</value>
+  </data>
+  <data name="SVS_SETP3_TEXT" xml:space="preserve">
+    <value>Пожалуйста, укажите ячейки для наблюдения^</value>
+  </data>
+  <data name="SVS_SETP4_TEXT" xml:space="preserve">
+    <value>Измените сгенерированный типовой скрипт в соответствии со своими потребностями:</value>
+  </data>
+  <data name="SVS_SETP5_TEXT" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>псевдоним</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>формат псевдонима</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Добавить в конец файла</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>атрибут</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Кубы атрибутов</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>Изменено</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Выбор куба:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Выбрать элемент</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Выбор сервера/БД:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>Выберите стиль:</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Вы действительно хотите очистить куб %1?Примечание: структура куба не будет затронута.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Очистить куб</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>Соединение</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Смена типа элемента с консолидированного на числовой может привести к потере данных.Изменить тип на числовой?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Изменение типа на числовой</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Смена типа элемента с консолидированного на строковый может привести к потере данных.Изменить тип на строковый?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Изменение типа на строковый</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Удалить элементы</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Данный элемент используется в кубе. Смена типа элемента с числового или строкового на консолидированный может привести к потере данных.Все равно продолжить?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Изменение типа на консолидированный</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Данный элемент используется в кубе. Смена типа элемента на числовой может привести к потере данных.Все равно продолжить?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Изменение типа на числовой</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Данный элемент используется в кубе. Смена типа элемента на строковый может привести к потере данных.Все равно продолжить?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Изменение типа на строковый</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>Имя куба</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>Кубы</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Вы пытаетесь удалить измерение %1, которое используется кубом(-ами) %2.Сначала удалите куб(-ы), а только потом используемое измерение.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Измерение используется</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>БД</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>элементы БД</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Вы действительно хотите удалить измерение %1 с сервера?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Удаление измерения</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Вы действительно хотите полностью удалить куб %1 с сервера?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Удаление куба</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Вы действительно хотите полностью удалить следующий(-ие) элемент(-ы):%1с сервера?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Удаление элементов</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>элементы измерения</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Элемент %1 не найден в измерении %2!</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>имена измерений</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>измерения</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>имя элемента</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>элементы</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Список выбора:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Раскрыть все</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>формат</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Угадывать аргументы</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Нажмите Enter для добавления элементов</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Добавить подчиненные элементы по двойному щелчку элементов из списка</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Нажмите на кнопку "Создать куб", чтобы добавить куб</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Нажмите Enter для добавления измерения</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>Загружено</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>мета</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>Вхождений %1 не найдено!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>&lt;пусто&gt;</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>обычный</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Вы действительно хотите заменить все элементы в измерении %1 на содержимое буфера обмена?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Вставить элементы</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Ограничить вставку выделенной областью?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Правило</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Расширенный редактор правил</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Выберите DSN из списка</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Выбрать элементы</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>сервер</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Показать fnhb,ens</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Показать все инструменты для выбора</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>подмножество</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>cистема</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Подсказка: удерживайте SHIFT для расширения области выделения</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>неизвестно</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>не загружено</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Информация пользователя</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>вставить %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[без шаблона]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Использовать автоформатирование при вставке данных</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Создать куб</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Создать измерение</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Создать элемент</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Принять изменения</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Отменить изменения</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Выйти из редактора проекций</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Завершить работу мастера</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Консолидировать элементы</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Вернуться к странице БД</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Удалить куб</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Удалить измерение</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Удалить элемент(-ы)</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Редактировать измерение</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Закрыть редактор</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Переместить измерение вниз</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Переместить элемент вниз</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Удалить выбранный(-е) элемент(-ы) из списка исходных элементов</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Добавить выбранный(-е) элемент(-ы) в список исходных элементов</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Переместить элемент выше</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Удалить измерение(-я) из куба</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Добавить измерение(-я) в куб</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Введите имя нового куба</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Нажмите, чтобы создать куб</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Запуск мастера Palo</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Вставить текущую проекцию данных в Excel</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Переименовать измерение</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Переименовать элемент</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Подключение</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Переключить соединение (подключение/отключение)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Отключение</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Переключить отображение коэффициента (слева/справа)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Переключить отображение элементов списком/иерархией</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Выбрать куб</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Нажмите для выбора БД</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Нажмите для выбора элементов</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Нажмите для выбора сервера</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Нажмите для выбора сервера или БД</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Выберите тип функции данных Palo</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Назад к предыдущему шагу</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Вперед к следующему шагу</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Это список всех доступных измерений</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Это список всех кубов в текущей базе данных</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Это список всех измерений в текущей базе данных</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Это список всех элементов в данном измерении</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Это список всех подчиненных элементов для данного консолидированного элемента</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Это список всех выбранных измерений</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>В порядке создания</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Сортировка по возрастанию</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Сортировка по убыванию</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Настройки БД</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>Маркер изменяется после каждого запроса для принудительной отмены кэша.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>Маркер изменяется после добавления, обновления или удаления ячейки</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>Признак изменяется после добавления, обновления или удаления ячейки</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Кубы атрибутов</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Кубы данных</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Кубы управления пользователями</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Управление атрибутами</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Управление метаданными</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Управление пользователями</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Закрыть редактор правил</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Удалить выбранное правило</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Экспортировать правила в CSV</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Импортировать правила из CSV</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Переместить описание правила вниз</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Переместить описание правила вверх</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Сохранить введенное правило</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Редактор правил</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Работает только с Supervision Server</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Выбрать элемент</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Выбрать элемент для %1</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Мастер создания кубов</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Редактировать текстовое значение</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Экспорт данных измерения</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Экспорт данных куба</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Мастер импорта данных</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Конструктор</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Вставить формулу</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD" xml:space="preserve">
+    <value>Мастер наблюдения</value>
+  </data>
+  <data name="TITLE_SVS_WIZARD2" xml:space="preserve">
+    <value>Mастер сервера наблюдения 2</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Измерение из шаблона</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Редактор правил</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>Ошибка в правиле</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Показать системные кубы</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Показать список глобальных подмножеств для этого измерения</value>
+  </data>
+  <data name="txtPaloOnline" xml:space="preserve">
+    <value>"MyPalo Community" - это онлайн-ресурс для пользователей Palo. "MyPalo" содержит дополнительную документацию, поддержку, статьи от экспертов, а также позволяет оставаться на связи с другими пользователями Palo. Участвуя в "MyPalo Community", Вы присоединитесь к пользователям Palo по всему миру. Лучший способ начать - создать учетную запись MyPalo. Если Вы уже зарегистрированы, используйте свою учетную запись для автоматического входа.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>'There is a new version of Palo Suite. Do you want to download it?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL пуст</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL задан неправильно</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Предупреждение: Выбранный файл будет безвозвратно удален! Продолжить?Все равно продолжить?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>Данный мастер проводит аутентификацию пользователей и позволяет добавлять/удалять БД и сервера.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Введите уникальное имя для новой БД.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>На этом шаге Вы создадите новую БД на выбранном сервере.</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>На этом шаге Вы удалите БД на выбранном сервере.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Выберите БД для удаления:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>БД:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Выберите сервер</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Порт:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Пользователь:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Учетная запись:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Управление БД</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Управление серверами</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>На этом шаге Вы зарегистрируете существующий сервер на этом клиенте.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>На этом шаге Вы будете редактировать существующий сервер на этом клиенте.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Введите имя или IP адрес регистрируемого сервера</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Введите IP адрес сервера</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Создать новую БД</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Создать БД на основе шаблона</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Удалить существующую БД</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Зарегистрировать новый сервер</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Отменить регистрацию сервера</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>Редактировать сервер</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Мастер Palo</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Мастер серверов и БД</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Использовать аутентификацию Palo</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Использовать аутентификацию Windows</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>Ошибка Palo</value>
+  </data>
+</root>

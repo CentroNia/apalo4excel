@@ -1,0 +1,2611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIVATE_UPDATE_SEARCH" xml:space="preserve">
+    <value>activate update search</value>
+  </data>
+  <data name="AddSubset" xml:space="preserve">
+    <value>Tilføj delsæt...</value>
+  </data>
+  <data name="BUTTON_ALL" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="BUTTON_BACK" xml:space="preserve">
+    <value>&lt; &amp;Tilbage</value>
+  </data>
+  <data name="BUTTON_BROWSE" xml:space="preserve">
+    <value>Søg...</value>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>&amp;Annuller</value>
+  </data>
+  <data name="BUTTON_CLEAR_LIST" xml:space="preserve">
+    <value>Slet liste</value>
+  </data>
+  <data name="BUTTON_CLOSE" xml:space="preserve">
+    <value>&amp;Luk</value>
+  </data>
+  <data name="BUTTON_COLLAPSE_ALL" xml:space="preserve">
+    <value>Sammenfold alle</value>
+  </data>
+  <data name="BUTTON_CON_STRING" xml:space="preserve">
+    <value>Klik for at indsætte forbindelsesinformationer</value>
+  </data>
+  <data name="BUTTON_CONNECT" xml:space="preserve">
+    <value>Forbind</value>
+  </data>
+  <data name="BUTTON_CUBE_STRING" xml:space="preserve">
+    <value>Klik for at indsætte kubetekst</value>
+  </data>
+  <data name="BUTTON_DATABASE" xml:space="preserve">
+    <value>&lt;&lt; Database</value>
+  </data>
+  <data name="BUTTON_DELETE" xml:space="preserve">
+    <value>Slet...</value>
+  </data>
+  <data name="BUTTON_DIM_STRING" xml:space="preserve">
+    <value>Klik for at indsætte dimensionstekst</value>
+  </data>
+  <data name="BUTTON_DISCONNECT" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="BUTTON_EXPAND_ALL" xml:space="preserve">
+    <value>Udfold alle</value>
+  </data>
+  <data name="BUTTON_FINISH" xml:space="preserve">
+    <value>&amp;Udfør &gt;&gt;</value>
+  </data>
+  <data name="BUTTON_HIDECOMMENT" xml:space="preserve">
+    <value>Skjul kommentar</value>
+  </data>
+  <data name="BUTTON_HPASTE" xml:space="preserve">
+    <value>Indsæt vandret</value>
+  </data>
+  <data name="BUTTON_MAXIMIZE" xml:space="preserve">
+    <value>Maksimer</value>
+  </data>
+  <data name="BUTTON_NEXT" xml:space="preserve">
+    <value>&amp;Næste &gt;</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="BUTTON_PARSE" xml:space="preserve">
+    <value>Fortolk</value>
+  </data>
+  <data name="BUTTON_PASTE" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="BUTTON_PASTE_HEAD" xml:space="preserve">
+    <value>indsæt hoved</value>
+  </data>
+  <data name="BUTTON_REFRESH_LIST" xml:space="preserve">
+    <value>Refresh list</value>
+  </data>
+  <data name="BUTTON_SAVE" xml:space="preserve">
+    <value>Gem...</value>
+  </data>
+  <data name="BUTTON_SEARCH_SELECT" xml:space="preserve">
+    <value>Søg &amp;&amp; marker</value>
+  </data>
+  <data name="BUTTON_SELECT_ALL" xml:space="preserve">
+    <value>Marker alle</value>
+  </data>
+  <data name="BUTTON_SELECT_BRANCH" xml:space="preserve">
+    <value>Vælg gren</value>
+  </data>
+  <data name="BUTTON_SELECT_INVERT" xml:space="preserve">
+    <value>Inverter markering</value>
+  </data>
+  <data name="BUTTON_SELECT_NONE" xml:space="preserve">
+    <value>Fjern markering</value>
+  </data>
+  <data name="BUTTON_SELECTED" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="BUTTON_SHOWCOMMENT" xml:space="preserve">
+    <value>Vis kommentar</value>
+  </data>
+  <data name="BUTTON_SORT_DOWN" xml:space="preserve">
+    <value>Faldende</value>
+  </data>
+  <data name="BUTTON_SORT_UP" xml:space="preserve">
+    <value>Stigende</value>
+  </data>
+  <data name="BUTTON_TEST_CONNECTION" xml:space="preserve">
+    <value>&amp;Test forbindelse</value>
+  </data>
+  <data name="BUTTON_VPASTE" xml:space="preserve">
+    <value>Indsæt lodret</value>
+  </data>
+  <data name="ButtonClearCube" xml:space="preserve">
+    <value>Slet data</value>
+  </data>
+  <data name="ButtonClearCubeTip" xml:space="preserve">
+    <value>Slet det valgte udsnit af data i kuben</value>
+  </data>
+  <data name="ButtonClearWholeCube" xml:space="preserve">
+    <value>Slet alle data</value>
+  </data>
+  <data name="ButtonClearWholeCubeTip" xml:space="preserve">
+    <value>Slet alle data i kuben (hvis du har valgt et udsnit af kuben ignoreres dette og alle data i kuben slettes)</value>
+  </data>
+  <data name="ButtonRuleDelete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="ButtonRuleExit" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="ButtonRuleSave" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="ButtonSearch" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="CacheDialogCaption" xml:space="preserve">
+    <value>Cache-indstillinger</value>
+  </data>
+  <data name="CacheDialogGroupCaption" xml:space="preserve">
+    <value>Cache-indstillinger</value>
+  </data>
+  <data name="CacheRadio1Label" xml:space="preserve">
+    <value>Ingen klient-cache</value>
+  </data>
+  <data name="CacheRadio2Label" xml:space="preserve">
+    <value>Anvend klient-cache</value>
+  </data>
+  <data name="CacheRadio3Label" xml:space="preserve">
+    <value>Anvend klient-cache for kuber uden enterprise-regler</value>
+  </data>
+  <data name="ClearCubeCaption" xml:space="preserve">
+    <value>Slet data i kube</value>
+  </data>
+  <data name="ClearCubeStatus" xml:space="preserve">
+    <value>Sletter data i kuben. Vent venligst...</value>
+  </data>
+  <data name="CMD_ADD_CHILD" xml:space="preserve">
+    <value>Indsæt som barn</value>
+  </data>
+  <data name="CMD_ADD_CUBE" xml:space="preserve">
+    <value>Tilføj kube...</value>
+  </data>
+  <data name="CMD_ADD_DIMENSION" xml:space="preserve">
+    <value>Ny dimension</value>
+  </data>
+  <data name="CMD_ADD_ELEMENT" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="CMD_ADD_SIBLING" xml:space="preserve">
+    <value>Indsæt som søskende</value>
+  </data>
+  <data name="CMD_CLEAR_CUBE" xml:space="preserve">
+    <value>Slet data i kube...</value>
+  </data>
+  <data name="CMD_CONVERT_CUBE" xml:space="preserve">
+    <value>convert cube (CPU/GPU)</value>
+  </data>
+  <data name="CMD_COPY_CHILD" xml:space="preserve">
+    <value>Kopier og indsæt som barn</value>
+  </data>
+  <data name="CMD_COPY_ELEMENT" xml:space="preserve">
+    <value>Kopier elementer</value>
+  </data>
+  <data name="CMD_COPY_SIBLING" xml:space="preserve">
+    <value>Kopier og indsæt som søskende</value>
+  </data>
+  <data name="CMD_COUNT_ELEMENT" xml:space="preserve">
+    <value>Tæl elementer</value>
+  </data>
+  <data name="CMD_CUBE_INFO" xml:space="preserve">
+    <value>Kube-egenskaber...</value>
+  </data>
+  <data name="CMD_DELETE_CUBE" xml:space="preserve">
+    <value>Slet kube...</value>
+  </data>
+  <data name="CMD_DELETE_DIMENSION" xml:space="preserve">
+    <value>Slet dimension...</value>
+  </data>
+  <data name="CMD_DELETE_ELEMENT" xml:space="preserve">
+    <value>Slet...</value>
+  </data>
+  <data name="CMD_DELETE_SOURCE_ELEMENT" xml:space="preserve">
+    <value>Fjern fra konsoliderede elementer</value>
+  </data>
+  <data name="CMD_EDIT_DIMENSION" xml:space="preserve">
+    <value>Rediger dimension</value>
+  </data>
+  <data name="CMD_EDIT_ELEMENT" xml:space="preserve">
+    <value>Konsolider...</value>
+  </data>
+  <data name="CMD_EXPORT_CUBE" xml:space="preserve">
+    <value>Eksporter data...</value>
+  </data>
+  <data name="CMD_EXPORT_DIM" xml:space="preserve">
+    <value>Exporter dimension...</value>
+  </data>
+  <data name="CMD_FACTOR" xml:space="preserve">
+    <value>Konsolideringsfaktor...</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_BEGINNING" xml:space="preserve">
+    <value>Flyt element til toppen</value>
+  </data>
+  <data name="CMD_MOVE_ELEMENT_TO_END" xml:space="preserve">
+    <value>Flyt element til bunden</value>
+  </data>
+  <data name="CMD_NUMERIC_ELEMENT" xml:space="preserve">
+    <value>Numerisk</value>
+  </data>
+  <data name="CMD_PASTE_ELEMENT" xml:space="preserve">
+    <value>Indsæt elementer</value>
+  </data>
+  <data name="CMD_REMOVE_ELEMENT" xml:space="preserve">
+    <value>Fjern element fra hierarki</value>
+  </data>
+  <data name="CMD_RENAME_DIMENSION" xml:space="preserve">
+    <value>Omdøb dimension</value>
+  </data>
+  <data name="CMD_RENAME_ELEMENT" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="CMD_SELECTALL_ELEMENT" xml:space="preserve">
+    <value>Marker alle</value>
+  </data>
+  <data name="CMD_SHOW_PARENTS" xml:space="preserve">
+    <value>show parents</value>
+  </data>
+  <data name="CMD_STRING_ELEMENT" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="CMD_SVS_WIZARD" xml:space="preserve">
+    <value>Supervision Server</value>
+  </data>
+  <data name="CmdDimensionExport" xml:space="preserve">
+    <value>Eksporter dimension...</value>
+  </data>
+  <data name="CmdMeasure" xml:space="preserve">
+    <value>Treat as Measure dimension(MDX)</value>
+  </data>
+  <data name="CmdRuleAdd" xml:space="preserve">
+    <value>Tilføj...</value>
+  </data>
+  <data name="CmdRuleChangeStatus" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="CmdRuleDelete" xml:space="preserve">
+    <value>Slet...</value>
+  </data>
+  <data name="CmdRuleEdit" xml:space="preserve">
+    <value>Rediger...</value>
+  </data>
+  <data name="CmdRuleEditor" xml:space="preserve">
+    <value>Regelbehandler...</value>
+  </data>
+  <data name="CmdRuleInfo" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CmdRuleMoveDown" xml:space="preserve">
+    <value>Flyt ned</value>
+  </data>
+  <data name="CmdRuleMoveUp" xml:space="preserve">
+    <value>Flyt op</value>
+  </data>
+  <data name="CmdruleToggleActivity" xml:space="preserve">
+    <value>Aktiv/inaktiv</value>
+  </data>
+  <data name="CmdTime" xml:space="preserve">
+    <value>Treat as Time dimension(MDX)</value>
+  </data>
+  <data name="CommandCubeRename" xml:space="preserve">
+    <value>Omdøb kube...</value>
+  </data>
+  <data name="CommandDimensionInfo" xml:space="preserve">
+    <value>Dimensions-egenskaber...</value>
+  </data>
+  <data name="CommandSearchElement" xml:space="preserve">
+    <value>Søg efter element</value>
+  </data>
+  <data name="COMMITING_CHANGES" xml:space="preserve">
+    <value>Palo gemmer ændringer...</value>
+  </data>
+  <data name="CubeInfoDimensions" xml:space="preserve">
+    <value>Dimensioner</value>
+  </data>
+  <data name="CubeInfoFillRatio" xml:space="preserve">
+    <value>Andel anvendte celler %</value>
+  </data>
+  <data name="CubeInfoIdentifier" xml:space="preserve">
+    <value>Identifikator</value>
+  </data>
+  <data name="CubeInfoName" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="CubeInfoNumberCells" xml:space="preserve">
+    <value>Antal celler</value>
+  </data>
+  <data name="CubeInfoNumberDimensions" xml:space="preserve">
+    <value>Antal dimensioner</value>
+  </data>
+  <data name="CubeInfoNumberFilledCells" xml:space="preserve">
+    <value>Antal anvendte celler</value>
+  </data>
+  <data name="CubeInfoStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CubeInfoTitle" xml:space="preserve">
+    <value>Kube-egenskaber</value>
+  </data>
+  <data name="CubeInfoType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DeleteSubset" xml:space="preserve">
+    <value>Slet delsæt...</value>
+  </data>
+  <data name="DimensionInfoAttributeCube" xml:space="preserve">
+    <value>Attribut-kube</value>
+  </data>
+  <data name="DimensionInfoCElements" xml:space="preserve">
+    <value>Konsoliderede elementer</value>
+  </data>
+  <data name="DimensionInfoElements" xml:space="preserve">
+    <value>Elementer</value>
+  </data>
+  <data name="DimensionInfoIdentifier" xml:space="preserve">
+    <value>Identifikator</value>
+  </data>
+  <data name="DimensionInfoMaximumDepth" xml:space="preserve">
+    <value>Maks dybde (top=0)</value>
+  </data>
+  <data name="DimensionInfoMaximumIndent" xml:space="preserve">
+    <value>Maks indryk (top=1)</value>
+  </data>
+  <data name="DimensionInfoMaximumLevel" xml:space="preserve">
+    <value>Maks niveau (bund=0)</value>
+  </data>
+  <data name="DimensionInfoName" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="DimensionInfoNElements" xml:space="preserve">
+    <value>Numeriske elementer</value>
+  </data>
+  <data name="DimensionInfoNumberElements" xml:space="preserve">
+    <value>Antal elementer</value>
+  </data>
+  <data name="DimensionInfoSElements" xml:space="preserve">
+    <value>Tekstelementer</value>
+  </data>
+  <data name="DimensionInfoTitle" xml:space="preserve">
+    <value>Dimensions-egenskaber</value>
+  </data>
+  <data name="DimensionInfoType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ERROR_CIRCULAR" xml:space="preserve">
+    <value>Fejl pga. cirkulær reference!
+Et af de konsoliderede elementer indeholder allerede det valgte element.</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE" xml:space="preserve">
+    <value>Indsættelse af dimensionselementer kunne ikke gennemføres. Der opstod fejl ved:
+'%1'</value>
+  </data>
+  <data name="ERROR_CLIPBOARD_PASTE_TITLE" xml:space="preserve">
+    <value>Fejl ved indsættelse af dimensionselementer</value>
+  </data>
+  <data name="ERROR_CONNECTING" xml:space="preserve">
+    <value>Der kunne ikke opnås forbindelse til serveren!</value>
+  </data>
+  <data name="ERROR_COPY_ARGS_NOT_UNIQUE" xml:space="preserve">
+    <value>Elementet &lt;%1&gt; er ikke unikt!
+Du kan angive dimensionen, der skal anvendes ved at skrive dimensionsnavnet før navnet på elementet adskilt 
+af et kolon: f.eks. Måned:Januar</value>
+  </data>
+  <data name="ERROR_CUBE_EXISTS" xml:space="preserve">
+    <value>Kuben %1 eksisterer allerede i databasen %2!
+Indtast et andet navn for den nye kube.</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_EMPTY" xml:space="preserve">
+    <value>Der er ikke angivet et navn for kuben!</value>
+  </data>
+  <data name="ERROR_CUBE_NAME_INVALID" xml:space="preserve">
+    <value>Navnet på kuben indeholder et eller flere ugyldige tegn!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_CUBE_NO_DIMENSION" xml:space="preserve">
+    <value>Ingen dimensioner er valgt!</value>
+  </data>
+  <data name="ERROR_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Ingen data blev fundet</value>
+  </data>
+  <data name="ERROR_DATABASE_EXISTS" xml:space="preserve">
+    <value>En database med dette navn eksisterer allerede!</value>
+  </data>
+  <data name="ERROR_DATABASE_INVALID_NAME" xml:space="preserve">
+    <value>Navnet på databasen indeholder et eller flere ugyldige tegn!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_DIMENSION_EXISTS" xml:space="preserve">
+    <value>Dimensionen eksisterer allerede!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_EMPTY" xml:space="preserve">
+    <value>Dimension name empty!</value>
+  </data>
+  <data name="ERROR_DIMENSION_NAME_INVALID" xml:space="preserve">
+    <value>Navnet på dimensionen indeholder et eller flere ugyldige tegn!
+( \ / ? * : | &lt; &gt; " " )</value>
+  </data>
+  <data name="ERROR_ELEMENT_EXISTS" xml:space="preserve">
+    <value>Elementet eksisterer allerede!</value>
+  </data>
+  <data name="ERROR_ELEMENT_NAME_INVALID" xml:space="preserve">
+    <value>Navnet på elementet indeholder et eller flere ugyldige tegn!</value>
+  </data>
+  <data name="ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Filen %1 blev ikke fundet.</value>
+  </data>
+  <data name="ERROR_INSUFFICIENT_RIGTHS" xml:space="preserve">
+    <value>Utilstrækkelige rettigheder</value>
+  </data>
+  <data name="ERROR_INVALID_DATA" xml:space="preserve">
+    <value>Forbindelsesfejl: De angivne data er ikke korrekte!</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE1" xml:space="preserve">
+    <value>Fejl ved indlæsning af XLL-fil!
+Mulig årsag: XLL-filen er flyttet eller slettet (Søgte efter: "%1"). Forsøg evt. at geninstallere Palo.
+Når XLL-filen ikke er indlæst vil dele af af dette tilføjelsesprogram ikke virke korrekt.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE2" xml:space="preserve">
+    <value>Fejl ved start af Palo tilføjelsesprogram:
+Excel kommunikationsfejl!
+Dele af dette tilføjelsesprogram vil ikke virke korrekt. Prøv at geninstallere Palo.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE3" xml:space="preserve">
+    <value>Fejl ved start af Palo tilføjelsesprogram:
+Den lokale Palo servertjeneste kunne ikke startes!
+Tjenesten er måske deaktiveret. Aktiver/start tjenesten og prøv at starte Palo Designer igen.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE4" xml:space="preserve">
+    <value>Fejl ved start af Palo tilføjelsesprogram:
+Fejl i kommunikation med den lokale Palo servertjeneste! Palo serveren er ikke installeret lokalt eller den virker ikke korrekt.</value>
+  </data>
+  <data name="ERROR_LOADING_MESSAGE5" xml:space="preserve">
+    <value>Fejl ved start af Palo tilføjelsesprogram:
+Du har ikke de nødvendige rettigheder til at starte tilføjelsesprogrammet!
+Dele af dette tilføjelsesprogram vil ikke virke korrekt. Prøv at geninstallere Palo.</value>
+  </data>
+  <data name="ERROR_READING_FROM_DATABASE" xml:space="preserve">
+    <value>Fejl ved læsning fra database:</value>
+  </data>
+  <data name="ERROR_REGISTER_SERVER" xml:space="preserve">
+    <value>Fejl ved oprettelse af forbindelse til server!
+Kontroller de angivne forbindelsesdata.</value>
+  </data>
+  <data name="ErrorNoFormulaB1" xml:space="preserve">
+    <value>Der er ingen formel i cellen B1 til at stoppe løkken.</value>
+  </data>
+  <data name="ErrorUsername" xml:space="preserve">
+    <value>Username must not contain @.</value>
+  </data>
+  <data name="EXCEL_CHARS_MESSAGE" xml:space="preserve">
+    <value>Det indtastede navn indeholder tegn som måske ikke virker korrekt i Excel (‘, “, etc.). Palo server og andre klienter end Excel vil sandsynligvis understøtte disse.
+Vil du fortsætte?</value>
+  </data>
+  <data name="EXCEL_CHARS_TITLE" xml:space="preserve">
+    <value>Advarsel ang. kompatibilitet med Excel</value>
+  </data>
+  <data name="FILE_WRITTEN_SUCCESS" xml:space="preserve">
+    <value>Filen blev gemt korrekt</value>
+  </data>
+  <data name="HintNewRule" xml:space="preserve">
+    <value>Indtast regel her</value>
+  </data>
+  <data name="INFO_DATABASE_CREATED" xml:space="preserve">
+    <value>Databasen er oprettet.</value>
+  </data>
+  <data name="INFO_DATABASE_DELETED" xml:space="preserve">
+    <value>Databasen er slettet.</value>
+  </data>
+  <data name="INFO_SERVER_REGISTERED" xml:space="preserve">
+    <value>Forbindelse til serveren er oprettet.</value>
+  </data>
+  <data name="INFO_SERVER_UNREGISTERED" xml:space="preserve">
+    <value>Serverforbindelsen er slettet.</value>
+  </data>
+  <data name="INFO_TEST_OK" xml:space="preserve">
+    <value>Testen var succesfuld!</value>
+  </data>
+  <data name="InfoBox_adTitle" xml:space="preserve">
+    <value>Congratulations! Palo for Excel was successfully installed.</value>
+  </data>
+  <data name="InfoBox_adTitleLogo" xml:space="preserve">
+    <value>Optimize Excel with Palo: Open Source BI for Planning, Analysis and Reporting</value>
+  </data>
+  <data name="InfoBox_bntAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="InfoBox_btnAdvancedManual" xml:space="preserve">
+    <value>MyPalo login and advanced manual</value>
+  </data>
+  <data name="InfoBox_btnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="InfoBox_btnDemoApp" xml:space="preserve">
+    <value>Open Excel workbook with Palo Demo Application</value>
+  </data>
+  <data name="InfoBox_btnFirstSteps" xml:space="preserve">
+    <value>Open "First Steps with Palo for Excel"</value>
+  </data>
+  <data name="InfoBox_btnTraining" xml:space="preserve">
+    <value>Apply for free training</value>
+  </data>
+  <data name="InfoBox_chkAnnoyBox" xml:space="preserve">
+    <value>Show this dialog when starting Excel</value>
+  </data>
+  <data name="InfoBox_lblDemoApp" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="InfoBox_lblFirstSteps" xml:space="preserve">
+    <value>Our sample manual helps you...</value>
+  </data>
+  <data name="InfoBox_lblMyPalo" xml:space="preserve">
+    <value>Log into MyPalo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu1" xml:space="preserve">
+    <value>Or start immediatly using Palo...</value>
+  </data>
+  <data name="InfoBox_lblPaloMenu2" xml:space="preserve">
+    <value>With "Paste View"...</value>
+  </data>
+  <data name="ItemAttributes" xml:space="preserve">
+    <value>Attributter</value>
+  </data>
+  <data name="ItemElements" xml:space="preserve">
+    <value>Elementer</value>
+  </data>
+  <data name="ItemSubsets" xml:space="preserve">
+    <value>Delsæt</value>
+  </data>
+  <data name="LABEL_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Tilgængelige dimensioner:</value>
+  </data>
+  <data name="LABEL_CHARS_NUMBER" xml:space="preserve">
+    <value>Antal tegn:</value>
+  </data>
+  <data name="LABEL_CHECK_AUTOFIT" xml:space="preserve">
+    <value>Kolonnebredde:</value>
+  </data>
+  <data name="LABEL_CHECK_DISABLE_USER_MNG" xml:space="preserve">
+    <value>Rediger brugerrettigheder</value>
+  </data>
+  <data name="LABEL_CHECK_ELEMENT_SELECTOR" xml:space="preserve">
+    <value>Vis elementvælger ved dobbeltklik</value>
+  </data>
+  <data name="LABEL_CHECK_FACTOR" xml:space="preserve">
+    <value>Vis konsolideringsfaktor i venstre side</value>
+  </data>
+  <data name="LABEL_CHECK_INDENT" xml:space="preserve">
+    <value>Indryk navne på børn</value>
+  </data>
+  <data name="LABEL_CHECK_SHOW_ATTRIB" xml:space="preserve">
+    <value>Vis dimensionsattributter</value>
+  </data>
+  <data name="LABEL_CHECK_TREE" xml:space="preserve">
+    <value>Vis som hierarki</value>
+  </data>
+  <data name="LABEL_CHECK_WITHHEADER" xml:space="preserve">
+    <value>with header</value>
+  </data>
+  <data name="LABEL_CHECK_WORDWRAP" xml:space="preserve">
+    <value>Ombryd titler</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION" xml:space="preserve">
+    <value>Udelad nulværdier</value>
+  </data>
+  <data name="LABEL_CHECK_ZERO_SUPPRESSION_ALSO_CALULATED_NULL" xml:space="preserve">
+    <value>supress calculated null</value>
+  </data>
+  <data name="LABEL_CSV_FILTER" xml:space="preserve">
+    <value>Tekstfiler (*.txt)|*.txt|Kommaseparerede filer (*.csv)|*.csv|Alle filer (*.*)|*.*</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_1" xml:space="preserve">
+    <value>Denne guide opretter en ny kube.</value>
+  </data>
+  <data name="LABEL_CUBE_WIZARD_2" xml:space="preserve">
+    <value>Navn:</value>
+  </data>
+  <data name="LABEL_CUBES" xml:space="preserve">
+    <value>Kuber:</value>
+  </data>
+  <data name="LABEL_DIMENSIONS" xml:space="preserve">
+    <value>Dimensioner:</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE" xml:space="preserve">
+    <value>Indtast tekst. Kun de første 255 tegn vil være synlige pga. en begrænsning i Excel. Palo kan dog gemme lige så mange tegn i hver celle som dit system tillader.</value>
+  </data>
+  <data name="LABEL_EDIT_VALUE_2007" xml:space="preserve">
+    <value>Indtast tekst.</value>
+  </data>
+  <data name="LABEL_ELEMENTS" xml:space="preserve">
+    <value>Elementer:</value>
+  </data>
+  <data name="LABEL_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Konsoliderede elementer:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE_3_1" xml:space="preserve">
+    <value>Definer ny eller vælg eksisterende CSV-fil der skal eksporteres til:</value>
+  </data>
+  <data name="LABEL_EXPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Vælg destinationsfil (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_EXPORT_USE_RULES" xml:space="preserve">
+    <value>Eksporter også regelbaserede celleværdier</value>
+  </data>
+  <data name="LABEL_HEADER_FACTOR" xml:space="preserve">
+    <value>Faktor</value>
+  </data>
+  <data name="LABEL_HEADER_NAME" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="LABEL_IMPORT_BLANK_LINE" xml:space="preserve">
+    <value>Ryd værdierne i den første linie efter import</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_1" xml:space="preserve">
+    <value>Denne guide anvendes til at definere en datakilde, hvorfra hver postering vil blive vist sekventielt i den første række i det aktive ark.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_2" xml:space="preserve">
+    <value>Vælg datakilde</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_3" xml:space="preserve">
+    <value>Flad tekstfil (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_4" xml:space="preserve">
+    <value>ODBC-forespørgsel</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_5" xml:space="preserve">
+    <value>Kube</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_6" xml:space="preserve">
+    <value>Opdater skærmbillede løbende</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE1_7" xml:space="preserve">
+    <value>Intern løkke (tal øges i A1 indtil fejl forekommer i B1)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_1" xml:space="preserve">
+    <value>I dette trin defineres den tekstfil der skal importeres data fra.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE2_2" xml:space="preserve">
+    <value>1. Vælg kildefil (*.txt;*.csv)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_1" xml:space="preserve">
+    <value>I dette trin defineres ODBC-forespørgslen der henter data.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_2" xml:space="preserve">
+    <value>1. Vælg ODBC-forbindelse (DSN)</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_3" xml:space="preserve">
+    <value>DSN:</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE3_4" xml:space="preserve">
+    <value>2. Indtast SQL-forespørgsel</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE4_1" xml:space="preserve">
+    <value>Tryk på Næste for at se den følgende postering eller tryk på Udfør for at løbe igennem alle resterende rækker.</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_1" xml:space="preserve">
+    <value>Forespørgsel</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_2" xml:space="preserve">
+    <value>Ignorer tomme celler</value>
+  </data>
+  <data name="LABEL_IMPORT_PAGE5_3" xml:space="preserve">
+    <value>Kun basiselementer</value>
+  </data>
+  <data name="LABEL_LOGON_DATA" xml:space="preserve">
+    <value>Gem navn og kode</value>
+  </data>
+  <data name="LABEL_NEW" xml:space="preserve">
+    <value>Ny forespørgsel...</value>
+  </data>
+  <data name="LABEL_NEW_ATTRIBUTE" xml:space="preserve">
+    <value>New attribute</value>
+  </data>
+  <data name="LABEL_NEW_DIMENSION" xml:space="preserve">
+    <value>Ny dimension</value>
+  </data>
+  <data name="LABEL_NEW_ELEMENT" xml:space="preserve">
+    <value>Nyt element</value>
+  </data>
+  <data name="LABEL_NEW_SUBSET" xml:space="preserve">
+    <value>New subset</value>
+  </data>
+  <data name="LABEL_NEWLINE" xml:space="preserve">
+    <value>Ny linie</value>
+  </data>
+  <data name="LABEL_OPTION_BLANK" xml:space="preserve">
+    <value>Mellemrum</value>
+  </data>
+  <data name="LABEL_OPTION_COMMA" xml:space="preserve">
+    <value>Komma</value>
+  </data>
+  <data name="LABEL_OPTION_DECIMALPOINT" xml:space="preserve">
+    <value>Decimaltegn</value>
+  </data>
+  <data name="LABEL_OPTION_SEMICOLON" xml:space="preserve">
+    <value>Semikolon</value>
+  </data>
+  <data name="LABEL_OPTION_TAB" xml:space="preserve">
+    <value>Tabulator</value>
+  </data>
+  <data name="LABEL_OPTION_USERDEFINED" xml:space="preserve">
+    <value>Brugerdefineret</value>
+  </data>
+  <data name="LABEL_SELECT_ACTION" xml:space="preserve">
+    <value>Vælg handling fra listen...</value>
+  </data>
+  <data name="LABEL_SELECT_ALL_ELEMENTS" xml:space="preserve">
+    <value>Alle elementer</value>
+  </data>
+  <data name="LABEL_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Valgte dimensioner:</value>
+  </data>
+  <data name="LABEL_SQL_FILTER" xml:space="preserve">
+    <value>SQL-filer (*.sql)|*.sql</value>
+  </data>
+  <data name="LabelButtonEdit" xml:space="preserve">
+    <value>Rediger...</value>
+  </data>
+  <data name="LabelButtonNewRule" xml:space="preserve">
+    <value>Ny...</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Søg efter opdateringer...</value>
+  </data>
+  <data name="LabelDimExportCaption" xml:space="preserve">
+    <value>Vælg CSV-fil, afgrænsningstegn, og hvordan hierarkiet skal formateres:</value>
+  </data>
+  <data name="LabelDimExportHierarchy" xml:space="preserve">
+    <value>3. Vælg format for hierarki</value>
+  </data>
+  <data name="LabelDimExportNCFormat" xml:space="preserve">
+    <value>N-C-format (Alea, TM1)</value>
+  </data>
+  <data name="LabelDimExportOneRow" xml:space="preserve">
+    <value>Forældre-barn-relation i en række</value>
+  </data>
+  <data name="LabelDimExportSeparator" xml:space="preserve">
+    <value>2. Vælg afgrænsningstegn</value>
+  </data>
+  <data name="LabelDimName" xml:space="preserve">
+    <value>Dimension name:</value>
+  </data>
+  <data name="LabelDimTemplateCaption" xml:space="preserve">
+    <value>Please choose the dimension name and the template:</value>
+  </data>
+  <data name="LabelNewRule" xml:space="preserve">
+    <value>Klik her for at redigere den nye regel</value>
+  </data>
+  <data name="LabelRuleDefinition" xml:space="preserve">
+    <value>Regeldefinition</value>
+  </data>
+  <data name="LabelRuleEditor" xml:space="preserve">
+    <value>Nuværende regler</value>
+  </data>
+  <data name="LabelRuleError" xml:space="preserve">
+    <value>Der er fejl i reglen. Serveren svarede:
+</value>
+  </data>
+  <data name="LabelSubsetElements" xml:space="preserve">
+    <value>Elementer i delsæt:</value>
+  </data>
+  <data name="LabelTemplate" xml:space="preserve">
+    <value>Template:</value>
+  </data>
+  <data name="LicenseBox_btnCEDownload" xml:space="preserve">
+    <value>Download CE Version</value>
+  </data>
+  <data name="LicenseBox_btnCompare" xml:space="preserve">
+    <value>Compare CE vs Premium</value>
+  </data>
+  <data name="LicenseBox_btnContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="LicenseBox_btnQuote" xml:space="preserve">
+    <value>Generate quote</value>
+  </data>
+  <data name="LicenseBox_lblCommunity" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="LicenseBox_lblComparison" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="LicenseBox_lblLicense" xml:space="preserve">
+    <value>License will expire in %1 days.</value>
+  </data>
+  <data name="LicenseBox_lblLicenseExpired" xml:space="preserve">
+    <value>Premium license expired</value>
+  </data>
+  <data name="LicenseBox_lblQuote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="LOADING_MESSAGE1" xml:space="preserve">
+    <value>Status for den lokale Palo servertjeneste er nu sat til </value>
+  </data>
+  <data name="MENU_ABOUT" xml:space="preserve">
+    <value>Om &amp;Palo...</value>
+  </data>
+  <data name="MENU_BEGIN_UNDO" xml:space="preserve">
+    <value>Set reference for undo</value>
+  </data>
+  <data name="MENU_COMMIT" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="MENU_DATA_IMPORT" xml:space="preserve">
+    <value>&amp;Importer data...</value>
+  </data>
+  <data name="MENU_MODELLER" xml:space="preserve">
+    <value>&amp;Designer...</value>
+  </data>
+  <data name="MENU_PALO_WIZARD" xml:space="preserve">
+    <value>&amp;Server- og databaseguide...</value>
+  </data>
+  <data name="MENU_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Indsæt dimensions&amp;elementer...</value>
+  </data>
+  <data name="MENU_PASTE_FUNCTION" xml:space="preserve">
+    <value>Indsæt data&amp;funktion...</value>
+  </data>
+  <data name="MENU_PASTE_SUBSET" xml:space="preserve">
+    <value>Indsæt de&amp;lsæt...</value>
+  </data>
+  <data name="MENU_PASTE_VIEW" xml:space="preserve">
+    <value>Indsæt &amp;udsnit af kube...</value>
+  </data>
+  <data name="MENU_ROLLBACK" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="MENU_SAVE_SNAPSHOT" xml:space="preserve">
+    <value>Gem øjebliks&amp;billede af data...</value>
+  </data>
+  <data name="MENU_TITLE" xml:space="preserve">
+    <value>&amp;Palo</value>
+  </data>
+  <data name="MENU_UNDO" xml:space="preserve">
+    <value>Go one step back</value>
+  </data>
+  <data name="MenuClientCache" xml:space="preserve">
+    <value>Aktiver klient-cache</value>
+  </data>
+  <data name="MESSAGE_COUNT_ELEMENTS" xml:space="preserve">
+    <value>Samlet antal elementer: %1
+Antal numeriske elementer: %2
+Antal tekstelementer: %3
+Antal konsoliderede elementer: %4</value>
+  </data>
+  <data name="MESSAGE_CUBE_INFO" xml:space="preserve">
+    <value>Identifikator                               %1
+Navn                                        %2
+Antal dimensioner                     %3
+Dimensioner                             %4
+Antal celler                               %5
+Antal anvendte celler                 %6
+Status                                     %7
+Type                                        %8</value>
+  </data>
+  <data name="MESSAGE_ELEMENT_DROP" xml:space="preserve">
+    <value>Elementet %1 blev fjernet fra det konsoliderede element %2, men anvendes stadig
+i andre strukturerer, og det vil derfor ikke blive indsat i det valgte mål.</value>
+  </data>
+  <data name="MESSAGE_LIMIT_VIEW_SIZE" xml:space="preserve">
+    <value>Det valgte udsnit indeholder mere end %1 (=%3) celler. Vil du begrænse udsnittet til %2 rækker (anbefalet)?</value>
+  </data>
+  <data name="MESSAGE_MERGED_CELLS" xml:space="preserve">
+    <value>Arket, som du forsøger at indsætte data i, indeholder flettede celler.
+Disse celler skal fjernes, før du kan indsætte data.</value>
+  </data>
+  <data name="MessageClearCube" xml:space="preserve">
+    <value>De valgte data i kuben er slettet.</value>
+  </data>
+  <data name="MessageWholeClearCube" xml:space="preserve">
+    <value>Alle data i kuben er slettet.</value>
+  </data>
+  <data name="MSG_LONG_ACTION" xml:space="preserve">
+    <value>This action may take long. Please Wait.</value>
+  </data>
+  <data name="PALO_ERR_CUBE_NOT_FOUND" xml:space="preserve">
+    <value>Kuben blev ikke fundet!</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_INV_TYPE" xml:space="preserve">
+    <value>invalid type of element</value>
+  </data>
+  <data name="PALO_ERR_DIM_ELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Element blev ikke fundet!</value>
+  </data>
+  <data name="PALO_ERR_INV_ARG" xml:space="preserve">
+    <value>Ugyldigt argument!</value>
+  </data>
+  <data name="PALO_ERR_INV_FORMAT" xml:space="preserve">
+    <value>Ugyldigt format!</value>
+  </data>
+  <data name="PALO_ERR_TYPE" xml:space="preserve">
+    <value>Forkert datatype! Du forsøger at skrive en tekst i en numerisk celle.</value>
+  </data>
+  <data name="PaloWebMenu" xml:space="preserve">
+    <value>Palo Web</value>
+  </data>
+  <data name="PaloWebOpen" xml:space="preserve">
+    <value>Open from repositroy...</value>
+  </data>
+  <data name="PaloWebSaveAs" xml:space="preserve">
+    <value>Publish to repository...</value>
+  </data>
+  <data name="PaloWebWizard" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL3" xml:space="preserve">
+    <value>Sideelementer</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL4" xml:space="preserve">
+    <value>Kolonner</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL5" xml:space="preserve">
+    <value>Rækker</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL6" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PASTE_VIEW_LABEL7" xml:space="preserve">
+    <value>Tip: Dobbeltlik på dimension for at vælge elementer</value>
+  </data>
+  <data name="PASTE_VIEW_TITLE" xml:space="preserve">
+    <value>Indsæt udsnit af kube</value>
+  </data>
+  <data name="PASTE_VIEW_WAIT" xml:space="preserve">
+    <value>Determing wich cells are not empty. Please wait...</value>
+  </data>
+  <data name="PWW_DefaultConnectionMsg" xml:space="preserve">
+    <value>PWW_DefaultConnectionMsg</value>
+  </data>
+  <data name="PWW_DefaultConnectionTitle" xml:space="preserve">
+    <value>PWW_DefaultConnectionTitle</value>
+  </data>
+  <data name="PWW_T1ConnectionAction" xml:space="preserve">
+    <value>PWW_T1ConnectionAction</value>
+  </data>
+  <data name="PWW_T1ConnectionHeading" xml:space="preserve">
+    <value>PWW_T1ConnectionHeading</value>
+  </data>
+  <data name="PWW_T1ConnectionLabel" xml:space="preserve">
+    <value>PWW_T1ConnectionLabel</value>
+  </data>
+  <data name="PWW_T1ConnectionMarkDefault" xml:space="preserve">
+    <value>PWW_T1ConnectionMarkDefault</value>
+  </data>
+  <data name="PWW_T1Edit" xml:space="preserve">
+    <value>PWW_T1Edit</value>
+  </data>
+  <data name="PWW_T1Heading" xml:space="preserve">
+    <value>PWW_T1Heading</value>
+  </data>
+  <data name="PWW_T1New" xml:space="preserve">
+    <value>PWW_T1New</value>
+  </data>
+  <data name="PWW_T1Remove" xml:space="preserve">
+    <value>PWW_T1Remove</value>
+  </data>
+  <data name="PWW_T2ConnectionHeading" xml:space="preserve">
+    <value>PWW_T2ConnectionHeading</value>
+  </data>
+  <data name="PWW_T2ConnectionName" xml:space="preserve">
+    <value>PWW_T2ConnectionName</value>
+  </data>
+  <data name="PWW_T2ConnectionURL" xml:space="preserve">
+    <value>PWW_T2ConnectionURL</value>
+  </data>
+  <data name="PWW_T2Heading" xml:space="preserve">
+    <value>PWW_T2Heading</value>
+  </data>
+  <data name="PWW_T2Password" xml:space="preserve">
+    <value>PWW_T2Password</value>
+  </data>
+  <data name="PWW_T2Secret" xml:space="preserve">
+    <value>PWW_T2Secret</value>
+  </data>
+  <data name="PWW_T2Username" xml:space="preserve">
+    <value>PWW_T2Username</value>
+  </data>
+  <data name="PWW_Title" xml:space="preserve">
+    <value>Palo Web Wizard</value>
+  </data>
+  <data name="QUESTION_CUBE_WIZARD" xml:space="preserve">
+    <value>Vil du afslutte uden at gemme?</value>
+  </data>
+  <data name="QUESTION_DELETE_CELLS" xml:space="preserve">
+    <value>Denne handling vil slette %1 celler.
+Dette kan tage lang tid.
+Vil du fortsætte?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE" xml:space="preserve">
+    <value>Er du sikker på at du vil slette databasen %1 fra serveren?</value>
+  </data>
+  <data name="QUESTION_DELETE_DATABASE_TITLE" xml:space="preserve">
+    <value>Slet database</value>
+  </data>
+  <data name="QUESTION_LONG_ACTION" xml:space="preserve">
+    <value>This action may take long.
+Do you want to proceed ?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_SERVER" xml:space="preserve">
+    <value>Er du sikker på at du vil slette forbindelsen til serveren %1?</value>
+  </data>
+  <data name="QUESTION_UNREGISTER_TITLE" xml:space="preserve">
+    <value>Slet forbindelse til server</value>
+  </data>
+  <data name="QuestionDeleteExistingRules" xml:space="preserve">
+    <value>Vil du slette alle eksisterende regler før import?</value>
+  </data>
+  <data name="QuestionDeleteRules" xml:space="preserve">
+    <value>Vil du slette reglen/reglerne?</value>
+  </data>
+  <data name="RB_CONSOLIDATION_PRIORITY" xml:space="preserve">
+    <value>Konsoliderings-rækkefølge</value>
+  </data>
+  <data name="RB_PRIORITY_C" xml:space="preserve">
+    <value>Konsoliderede elementer</value>
+  </data>
+  <data name="RB_PRIORITY_N" xml:space="preserve">
+    <value>Basiselementer</value>
+  </data>
+  <data name="RB_PRIORITY_NONE" xml:space="preserve">
+    <value>Alle elementer</value>
+  </data>
+  <data name="RenameSubset" xml:space="preserve">
+    <value>Omdøb delsæt...</value>
+  </data>
+  <data name="RuleInfoRule" xml:space="preserve">
+    <value>Regel</value>
+  </data>
+  <data name="RuleInfoUpdated" xml:space="preserve">
+    <value>Opdateret</value>
+  </data>
+  <data name="SB_ABOVE" xml:space="preserve">
+    <value>Ovenover</value>
+  </data>
+  <data name="SB_ABOVE_DESC_LONG" xml:space="preserve">
+    <value>Ved aktivering vil hierarki-filteret vælge alle elementer som er placeret ovenover det valgte element i dimensionens hierarki.</value>
+  </data>
+  <data name="SB_ACTIVATE_FILTER" xml:space="preserve">
+    <value>Aktiver dette filter</value>
+  </data>
+  <data name="SB_ADD" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="SB_ADD_DESC_LONG" xml:space="preserve">
+    <value>Tilføj nyt delsæt</value>
+  </data>
+  <data name="SB_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_ALIAS1" xml:space="preserve">
+    <value>Første alias</value>
+  </data>
+  <data name="SB_ALIAS1_DESC_LONG" xml:space="preserve">
+    <value>Vælg hvilket alias, som filtre (tekst eller sortering) skal anvendes på. Hvis aliasfeltet er tomt, vil filtre blive anvendt på elementnavnene.</value>
+  </data>
+  <data name="SB_ALIAS2" xml:space="preserve">
+    <value>Andet alias</value>
+  </data>
+  <data name="SB_ALIAS2_DESC_LONG" xml:space="preserve">
+    <value>Vælg sekundært alias, som filtre (tekst eller sortering) skal anvendes på.</value>
+  </data>
+  <data name="SB_ALL" xml:space="preserve">
+    <value>ALLE ELEMENTER</value>
+  </data>
+  <data name="SB_ALL_DESC_LONG" xml:space="preserve">
+    <value>Viser elementerne, når alle elementer i udsnittet opfylder kriterierne</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Alle elementer</value>
+  </data>
+  <data name="SB_ALL_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorter alle elementer i listen</value>
+  </data>
+  <data name="SB_AND" xml:space="preserve">
+    <value>OG</value>
+  </data>
+  <data name="SB_ANY" xml:space="preserve">
+    <value>VILKÅRLIG ELEMENT</value>
+  </data>
+  <data name="SB_ANY_DESC_LONG" xml:space="preserve">
+    <value>Viser elementerne, når bare et vilkårligt element i udsnittet opfylder kriterierne</value>
+  </data>
+  <data name="SB_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="SB_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Liste pba. attributter</value>
+  </data>
+  <data name="SB_ATTRIBUTE_EXAMPLES" xml:space="preserve">
+    <value>Eksempler:
+    -  "&gt;0"
+    -  "&lt;=1000"
+    -  "&lt;&gt;10"
+    -  "=10"</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS" xml:space="preserve">
+    <value>Attributfiltre</value>
+  </data>
+  <data name="SB_ATTRIBUTE_FILTERS_DESC_LONG" xml:space="preserve">
+    <value>Liste pba. attributfilter</value>
+  </data>
+  <data name="SB_AUTO_REFRESH" xml:space="preserve">
+    <value>Opdater automatisk</value>
+  </data>
+  <data name="SB_AUTO_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Automatisk opdatering af testvisning</value>
+  </data>
+  <data name="SB_AUTOREFRESH_DONT_SHOW" xml:space="preserve">
+    <value>Vis ikke dette igen</value>
+  </data>
+  <data name="SB_AUTOREFRESH_WARNING" xml:space="preserve">
+    <value>Bemærk at automatisk opdatering fravælges, når du vælger datafilter.</value>
+  </data>
+  <data name="SB_AVERAGE" xml:space="preserve">
+    <value>GENNEMSNIT AF ELEMENTERNE</value>
+  </data>
+  <data name="SB_AVERAGE_DESC_LONG" xml:space="preserve">
+    <value>Viser elementerne, når gennemsnittet af i udsnittet opfylder kriterierne</value>
+  </data>
+  <data name="SB_BACK" xml:space="preserve">
+    <value>SIDST</value>
+  </data>
+  <data name="SB_BACK_DESC_LONG" xml:space="preserve">
+    <value>Tilføj elementer sidst i listen</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS" xml:space="preserve">
+    <value>Kun basiselementer</value>
+  </data>
+  <data name="SB_BASE_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorter kun basiselementer</value>
+  </data>
+  <data name="SB_BEHAVIOUR" xml:space="preserve">
+    <value>Opførsel</value>
+  </data>
+  <data name="SB_BELOW" xml:space="preserve">
+    <value>Nedenunder</value>
+  </data>
+  <data name="SB_BELOW_DESC_LONG" xml:space="preserve">
+    <value>Vis kun elementer der er placeret nedenunder referenceelementet i dimensionens hierarki.</value>
+  </data>
+  <data name="SB_BY_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_BY_ALIAS_DESC_LONG" xml:space="preserve">
+    <value>Sorter listen udfra alias</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="SB_BY_ATTRIBUTE_DESC_LONG" xml:space="preserve">
+    <value>Sorter listen udfra den valgte attribut</value>
+  </data>
+  <data name="SB_BY_DEFINITION" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="SB_BY_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>Sorter listen udfra hvordan de oprindelig er defineret i dimensionen</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME" xml:space="preserve">
+    <value>Elementnavn</value>
+  </data>
+  <data name="SB_BY_ELEMENT_NAME_DESC_LONG" xml:space="preserve">
+    <value>Sorter listen udfra elementnavn</value>
+  </data>
+  <data name="SB_BY_VALUE" xml:space="preserve">
+    <value>Værdi</value>
+  </data>
+  <data name="SB_BY_VALUE_DESC_LONG" xml:space="preserve">
+    <value>Sorter listen udfra værdi</value>
+  </data>
+  <data name="SB_CB_ALL_ELEMENTS" xml:space="preserve">
+    <value>Alle elementer</value>
+  </data>
+  <data name="SB_CELL_OPERATOR" xml:space="preserve">
+    <value>Funktion:</value>
+  </data>
+  <data name="SB_CELL_OPERATOR_DESC_LONG" xml:space="preserve">
+    <value>Vælg cellefunktion/-beregning</value>
+  </data>
+  <data name="SB_CHOSEN_ELEMENTS" xml:space="preserve">
+    <value>Valgte elementer:</value>
+  </data>
+  <data name="SB_CLOSE" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="SB_CLOSE_DESC_LONG" xml:space="preserve">
+    <value>Luk Delsæt-redigering</value>
+  </data>
+  <data name="SB_CONNECTION_DESC_LONG" xml:space="preserve">
+    <value>Forbindelse</value>
+  </data>
+  <data name="SB_CONSOLIDATED" xml:space="preserve">
+    <value>Konsoliderede</value>
+  </data>
+  <data name="SB_CONSOLIDATED_DESC_LONG" xml:space="preserve">
+    <value>Vis kun konsoliderede elementer</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS" xml:space="preserve">
+    <value>Kun konsoliderede elementer</value>
+  </data>
+  <data name="SB_CONSOLIDATED_ELEMENTS_DESC_LONG" xml:space="preserve">
+    <value>Sorter kun konsoliderede elementer i listen</value>
+  </data>
+  <data name="SB_COPY_DESC_LONG" xml:space="preserve">
+    <value>Kopier</value>
+  </data>
+  <data name="SB_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Kopier til udklipsholder</value>
+  </data>
+  <data name="SB_CRITERIA" xml:space="preserve">
+    <value>Kriterier</value>
+  </data>
+  <data name="SB_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>SB_CRITERIA Desc Long</value>
+  </data>
+  <data name="SB_CUBE" xml:space="preserve">
+    <value>Vælg kube:</value>
+  </data>
+  <data name="SB_DEFINITION" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="SB_DEFINITION_DESC_LONG" xml:space="preserve">
+    <value>SB_DEFINITION Desc Long</value>
+  </data>
+  <data name="SB_DELETE" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="SB_DELETE_DESC_LONG" xml:space="preserve">
+    <value>Slet delsæt</value>
+  </data>
+  <data name="SB_DEPTH" xml:space="preserve">
+    <value>Øverste niveau lig 0</value>
+  </data>
+  <data name="SB_DEPTH_DESC_LONG" xml:space="preserve">
+    <value>Det øverste niveau i hierarkiet får værdien 0, det næst-øverste niveau værdien 1 osv.</value>
+  </data>
+  <data name="SB_DESCRIPTION" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="SB_DETAILS" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="SB_DIMENSION" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="SB_DIMENSION_CONTENTS" xml:space="preserve">
+    <value>Indhold af dimension</value>
+  </data>
+  <data name="SB_DIMENSION_DESC_LONG" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="SB_EDIT" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="SB_EDIT_DESC_LONG" xml:space="preserve">
+    <value>Ændre navn på delsæt</value>
+  </data>
+  <data name="SB_ELEMENT" xml:space="preserve">
+    <value>Filtrer elementer hierarkisk</value>
+  </data>
+  <data name="SB_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Reference-element i dimensionens hierarki</value>
+  </data>
+  <data name="SB_EXCLUSIVE" xml:space="preserve">
+    <value>Fravælg</value>
+  </data>
+  <data name="SB_EXCLUSIVE_DESC_LONG" xml:space="preserve">
+    <value>Bestem om reference-elementet skal fravælges i resultatet.</value>
+  </data>
+  <data name="SB_EXTENDED" xml:space="preserve">
+    <value>Udvidet</value>
+  </data>
+  <data name="SB_EXTENDED_DESC_LONG" xml:space="preserve">
+    <value>SB_EXTENDED Desc Long</value>
+  </data>
+  <data name="SB_FILTER_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="SB_FILTER_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="SB_FILTER_DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="SB_FILTER_GENERAL" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="SB_FILTER_HIERARCHY" xml:space="preserve">
+    <value>Hierarki</value>
+  </data>
+  <data name="SB_FILTER_PICKLIST" xml:space="preserve">
+    <value>Valgliste</value>
+  </data>
+  <data name="SB_FILTER_SORT" xml:space="preserve">
+    <value>Sortering</value>
+  </data>
+  <data name="SB_FILTER_TEXT" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="SB_FLAT" xml:space="preserve">
+    <value>Fortløbende liste</value>
+  </data>
+  <data name="SB_FLAT_DESC_LONG" xml:space="preserve">
+    <value>Vis fortløbende liste</value>
+  </data>
+  <data name="SB_FORMULA_SUBSET" xml:space="preserve">
+    <value>Formel delsæt</value>
+  </data>
+  <data name="SB_FRONT" xml:space="preserve">
+    <value>FØRST</value>
+  </data>
+  <data name="SB_FRONT_DESC_LONG" xml:space="preserve">
+    <value>Tilføj elementer først i listen</value>
+  </data>
+  <data name="SB_GENERAL" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="SB_GLOBAL_SUBSETS" xml:space="preserve">
+    <value>Globale delsæt</value>
+  </data>
+  <data name="SB_GROUP_GENERAL" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="SB_GROUP_LEVEL" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="SB_GROUP_REVOLVE" xml:space="preserve">
+    <value>Fortløbende elementer</value>
+  </data>
+  <data name="SB_HIDE" xml:space="preserve">
+    <value>Filtrer elementer efter type</value>
+  </data>
+  <data name="SB_HIDE_DESC_LONG" xml:space="preserve">
+    <value>Filtrer elementer efter type</value>
+  </data>
+  <data name="SB_HIDE_OPT1" xml:space="preserve">
+    <value>Skjul mulighed1</value>
+  </data>
+  <data name="SB_HIDE_OPT2" xml:space="preserve">
+    <value>Skjul mulighed2</value>
+  </data>
+  <data name="SB_HIDE_OPT3" xml:space="preserve">
+    <value>Skjul mulighed3</value>
+  </data>
+  <data name="SB_HIERARCHY" xml:space="preserve">
+    <value>Hierarki</value>
+  </data>
+  <data name="SB_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Hierarkisk visning</value>
+  </data>
+  <data name="SB_HIERARCHY_ENUMERATION" xml:space="preserve">
+    <value>Hierarki-optælling</value>
+  </data>
+  <data name="SB_INDENT" xml:space="preserve">
+    <value>Øverste niveau lig 1</value>
+  </data>
+  <data name="SB_INDENT_DESC_LONG" xml:space="preserve">
+    <value>Det øverste niveau i hierarkiet får værdien 1, det næst-øverste niveau værdien 2 osv.</value>
+  </data>
+  <data name="SB_LAYOUT" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_DEPTH" xml:space="preserve">
+    <value>Det øverste niveau er lig 0</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_INDENT" xml:space="preserve">
+    <value>Det øverste niveau er lig 1</value>
+  </data>
+  <data name="SB_LB_HIERARCHY_LEVEL" xml:space="preserve">
+    <value>Det nederste niveau er lig 0</value>
+  </data>
+  <data name="SB_LEAVES" xml:space="preserve">
+    <value>Basiselementer</value>
+  </data>
+  <data name="SB_LEAVES_DESC_LONG" xml:space="preserve">
+    <value>Vis kun basiselementer</value>
+  </data>
+  <data name="SB_LEVEL" xml:space="preserve">
+    <value>Nederste niveau lig 0</value>
+  </data>
+  <data name="SB_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Elementer i det laveste niveau (basiselementer) får værdien 0, hvert niveau over lægger 1 til.</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT" xml:space="preserve">
+    <value>Filtrer elementer efter niveau i hierarkiet</value>
+  </data>
+  <data name="SB_LEVEL_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Filtrer elementer efter niveau i hierarkiet</value>
+  </data>
+  <data name="SB_LEVEL_END" xml:space="preserve">
+    <value>Niveau slut</value>
+  </data>
+  <data name="SB_LEVEL_END_DESC_LONG" xml:space="preserve">
+    <value>Afslut filter på dette niveau</value>
+  </data>
+  <data name="SB_LEVEL_START" xml:space="preserve">
+    <value>Niveau start</value>
+  </data>
+  <data name="SB_LEVEL_START_DESC_LONG" xml:space="preserve">
+    <value>Start filter på dette niveau</value>
+  </data>
+  <data name="SB_LOAD" xml:space="preserve">
+    <value>Hent</value>
+  </data>
+  <data name="SB_LOCAL_SUBSETS" xml:space="preserve">
+    <value>Lokale delsæt</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE" xml:space="preserve">
+    <value>Nedre procentgrænse</value>
+  </data>
+  <data name="SB_LOWER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>Nedre procentgrænse</value>
+  </data>
+  <data name="SB_MAX" xml:space="preserve">
+    <value>MAKSIMUM AF ELEMENTERNE</value>
+  </data>
+  <data name="SB_MAX_DESC_LONG" xml:space="preserve">
+    <value>Viser elementerne, når maksimum af udsnittet opfylder kriterierne</value>
+  </data>
+  <data name="SB_MB_APPLY_SUBSET" xml:space="preserve">
+    <value>Anvend delsæt</value>
+  </data>
+  <data name="SB_MB_CANCEL_SUBSET" xml:space="preserve">
+    <value>Annuller delsæt</value>
+  </data>
+  <data name="SB_MB_CLIPBOARD" xml:space="preserve">
+    <value>Denne tekst er gemt i udklipsholderen</value>
+  </data>
+  <data name="SB_MB_CONFIRM_DELETE" xml:space="preserve">
+    <value>Do you really want to delete subset '{0}'?</value>
+  </data>
+  <data name="SB_MB_ERROR" xml:space="preserve">
+    <value>Fejl</value>
+  </data>
+  <data name="SB_MB_INFO" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SB_MB_INTERNAL_ERROR" xml:space="preserve">
+    <value>Intern fejl, der ikke burde ske, og som indikere en fejl i programmet. Informer venligst udviklerne!</value>
+  </data>
+  <data name="SB_MB_INVALID_SUBSET" xml:space="preserve">
+    <value>Den valgte fil udgør ikke et gyldigt delsæt</value>
+  </data>
+  <data name="SB_MB_NP_HIDE_DISABLED" xml:space="preserve">
+    <value>Panelet med variabler kan ikke skjules, når der er aktive navngivne variabler.</value>
+  </data>
+  <data name="SB_MB_PASTE_ERROR" xml:space="preserve">
+    <value>Delsættet kan ikke indsættes. Årsag: </value>
+  </data>
+  <data name="SB_MB_REQUIRED_PARAM" xml:space="preserve">
+    <value>Denne variabel er påkrævet i dette filter og kan derfor ikke fravælges!</value>
+  </data>
+  <data name="SB_MB_SAVE_QUESTION" xml:space="preserve">
+    <value>Vil du gemme ændringerne i delsættet:</value>
+  </data>
+  <data name="SB_MB_SAVE_SUBSET" xml:space="preserve">
+    <value>Gem ændringer</value>
+  </data>
+  <data name="SB_MB_SUBSET_DELETED" xml:space="preserve">
+    <value>Delsættet er slettet</value>
+  </data>
+  <data name="SB_MERGE" xml:space="preserve">
+    <value>SAMMENSÆT</value>
+  </data>
+  <data name="SB_MERGE_DESC_LONG" xml:space="preserve">
+    <value>Elementer fra valglisten sorteres ind i den fulde liste</value>
+  </data>
+  <data name="SB_MIN" xml:space="preserve">
+    <value>MINIMUM AF ELEMENTERNE</value>
+  </data>
+  <data name="SB_MIN_DESC_LONG" xml:space="preserve">
+    <value>Viser elementerne, når minimum af udsnittet opfylder kriterierne</value>
+  </data>
+  <data name="SB_NAMED_PARAMETERS" xml:space="preserve">
+    <value>Navngivne variabler</value>
+  </data>
+  <data name="SB_NEW" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="SB_NO_RULES" xml:space="preserve">
+    <value>Ingen regler</value>
+  </data>
+  <data name="SB_NO_RULES_DESC_LONG" xml:space="preserve">
+    <value>Der anvendes ingen regler på datasættet, når filteret aktiveres</value>
+  </data>
+  <data name="SB_NORULES_OPT_1" xml:space="preserve">
+    <value>Ingen regler mulighed1</value>
+  </data>
+  <data name="SB_NORULES_OPT_2" xml:space="preserve">
+    <value>Ingen regler mulighed2</value>
+  </data>
+  <data name="SB_NUMERIC" xml:space="preserve">
+    <value>NUMERISK</value>
+  </data>
+  <data name="SB_OPTIONAL_SETTINGS" xml:space="preserve">
+    <value>Valgfri indstillinger</value>
+  </data>
+  <data name="SB_PARAM" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="SB_PARAMETER" xml:space="preserve">
+    <value>Variabel</value>
+  </data>
+  <data name="SB_PASTE" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="SB_PASTE_DESC_LONG" xml:space="preserve">
+    <value>Indsætter delsæt-funktionen i regnearket.</value>
+  </data>
+  <data name="SB_PREVIEW" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="SB_REFRESH" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="SB_REFRESH_DESC_LONG" xml:space="preserve">
+    <value>Opdater testvisningen</value>
+  </data>
+  <data name="SB_REGEXES" xml:space="preserve">
+    <value>Tekstmønstre (* og ? som jokertegn)</value>
+  </data>
+  <data name="SB_REGEXEXAMPLES" xml:space="preserve">
+    <value>Eksempler:
+    -  "Jan|Feb|Nov" for at vælge "Jan", "Feb" og "Nov"
+    -  "J.*" for at vælge alle elementer der starter med "J"
+    - "[s,d]" for at vælge alle elementer med "s" og "d" i navnet
+    - "n$" for at vælge alle elementer, der slutter med "n"
+</value>
+  </data>
+  <data name="SB_REGEXTITLE" xml:space="preserve">
+    <value>Definer regulære udtryk til at vælge elementer i dette delsæt. Alle elementer eller aliaser (hvis disse anvendes), der ikke fanges af mindst en af de regulære udtryk vil ikke blive medtaget i delsættet.</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS" xml:space="preserve">
+    <value>PERL - Regulære udtryk</value>
+  </data>
+  <data name="SB_REGULAR_EXPRESSIONS_DESC_LONG" xml:space="preserve">
+    <value>PERL - regulære udtryk anvendes
+   Derfor får tegn som "[" og "$" en funktion
+   f.eks. vil X$ vælge alle elementer der slutter med X</value>
+  </data>
+  <data name="SB_RENAME" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="SB_REVERSE" xml:space="preserve">
+    <value>Modsat rækkefølge</value>
+  </data>
+  <data name="SB_REVERSE_DESC_LONG" xml:space="preserve">
+    <value>Sortering foretages i modsat rækkefølge</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY" xml:space="preserve">
+    <value>Forældre under børn</value>
+  </data>
+  <data name="SB_REVERSE_HIERARCHY_DESC_LONG" xml:space="preserve">
+    <value>Vis forældre under børn - dvs totaler under de individuelle værdier</value>
+  </data>
+  <data name="SB_REVERSE_OPT1" xml:space="preserve">
+    <value>Modsat mulighed1</value>
+  </data>
+  <data name="SB_REVERSE_OPT2" xml:space="preserve">
+    <value>Modsat mulighed2</value>
+  </data>
+  <data name="SB_REVERSE_OPT3" xml:space="preserve">
+    <value>Modsat mulighed3</value>
+  </data>
+  <data name="SB_REVERSE_ORDER" xml:space="preserve">
+    <value>Modsat rækkefølge</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL" xml:space="preserve">
+    <value>Rækkefølge af elementer i hvert niveau</value>
+  </data>
+  <data name="SB_REVERSE_PER_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Sortering i modsat rækkefølge indenfor hvert niveau i hierarkiet</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL" xml:space="preserve">
+    <value>Totaler (summerede værdier under detaljerne)</value>
+  </data>
+  <data name="SB_REVERSE_TOTAL_DESC_LONG" xml:space="preserve">
+    <value>Sortering i modsat rækkefølge over hele dimensionen</value>
+  </data>
+  <data name="SB_REVOLVE_ADD" xml:space="preserve">
+    <value>Forløbende tilføj</value>
+  </data>
+  <data name="SB_REVOLVE_ADD_DESC_LONG" xml:space="preserve">
+    <value>SB_REVOLVE_ADD Desc Long</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT" xml:space="preserve">
+    <value>Listens længde:</value>
+  </data>
+  <data name="SB_REVOLVE_COUNT_DESC_LONG" xml:space="preserve">
+    <value>Antal elementer, der skal medtages i listen</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT" xml:space="preserve">
+    <value>Fortløbende liste</value>
+  </data>
+  <data name="SB_REVOLVE_ELEMENT_DESC_LONG" xml:space="preserve">
+    <value>Opret en liste af elementer, der starter fra et reference-element.</value>
+  </data>
+  <data name="SB_SAVE" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="SB_SAVE_DESC_LONG" xml:space="preserve">
+    <value>Gem delsæt</value>
+  </data>
+  <data name="SB_SELECT_ATTRIBUTE_FIELDS" xml:space="preserve">
+    <value>Vælg attribut-felter:
+</value>
+  </data>
+  <data name="SB_SELECT_FIRST_ALIAS" xml:space="preserve">
+    <value>Første alias</value>
+  </data>
+  <data name="SB_SELECT_INSERTION" xml:space="preserve">
+    <value>Vælg hvordan de valgte elementer skal indsættes:</value>
+  </data>
+  <data name="SB_SELECT_SECOND_ALIAS" xml:space="preserve">
+    <value>Andet alias</value>
+  </data>
+  <data name="SB_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="SB_SERVER_SELECTION" xml:space="preserve">
+    <value>Server / Database </value>
+  </data>
+  <data name="SB_SETTINGS" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="SB_SHOW_CHILDREN" xml:space="preserve">
+    <value>Vis børn</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES" xml:space="preserve">
+    <value>Vis duplikater</value>
+  </data>
+  <data name="SB_SHOW_DUPLICATES_DESC_LONG" xml:space="preserve">
+    <value>Vis duplikater i listen</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN" xml:space="preserve">
+    <value>Vis børn af skjulte elementer</value>
+  </data>
+  <data name="SB_SHOW_HIDDEN_CHILDREN_DESC_LONG" xml:space="preserve">
+    <value>Vis børn af skjulte elementer</value>
+  </data>
+  <data name="SB_SHOW_NONE" xml:space="preserve">
+    <value>Vis ingen</value>
+  </data>
+  <data name="SB_SLICE_OPERATORS" xml:space="preserve">
+    <value>Udvælgelses-operatorer</value>
+  </data>
+  <data name="SB_SORT_LEVEL" xml:space="preserve">
+    <value>Sorter indenfor niveau</value>
+  </data>
+  <data name="SB_SORT_LEVEL_DESC_LONG" xml:space="preserve">
+    <value>Sorter listen indenfor det valgte hierarki-niveau</value>
+  </data>
+  <data name="SB_SORTING_BEHAVIOUR" xml:space="preserve">
+    <value>Sorter efter:</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA" xml:space="preserve">
+    <value>Sorteringskriterier</value>
+  </data>
+  <data name="SB_SORTING_CRITERIA_DESC_LONG" xml:space="preserve">
+    <value>Sorteringskriterier</value>
+  </data>
+  <data name="SB_SOURCE_CUBE" xml:space="preserve">
+    <value>Kildekube</value>
+  </data>
+  <data name="SB_SOURCE_CUBE_DESC_LONG" xml:space="preserve">
+    <value>Kildekube</value>
+  </data>
+  <data name="SB_STORED_SUBSETS" xml:space="preserve">
+    <value>Gemte delsæt</value>
+  </data>
+  <data name="SB_STRING" xml:space="preserve">
+    <value>TEKST</value>
+  </data>
+  <data name="SB_STRING_DESC_LONG" xml:space="preserve">
+    <value>@@@String Desc Long</value>
+  </data>
+  <data name="SB_SUB" xml:space="preserve">
+    <value>DEL</value>
+  </data>
+  <data name="SB_SUBCUBE" xml:space="preserve">
+    <value>Delkube</value>
+  </data>
+  <data name="SB_SUBCUBE_DESC_LONG" xml:space="preserve">
+    <value>SB_SUBCUBE Desc Long</value>
+  </data>
+  <data name="SB_SUBSET_ATTRIBUTE_FILTER" xml:space="preserve">
+    <value>Delsæt: attributfilter</value>
+  </data>
+  <data name="SB_SUBSET_DATA_FILTER" xml:space="preserve">
+    <value>Delsæt: datafilter</value>
+  </data>
+  <data name="SB_SUBSET_EDITOR" xml:space="preserve">
+    <value>Delsæt-redigering</value>
+  </data>
+  <data name="SB_SUBSET_GENERAL_SETTINGS" xml:space="preserve">
+    <value>Delsæt: generelle indstillinger</value>
+  </data>
+  <data name="SB_SUBSET_HIERARCHY_FILTER" xml:space="preserve">
+    <value>Delsæt: hierarkifilter</value>
+  </data>
+  <data name="SB_SUBSET_NAME" xml:space="preserve">
+    <value>Delsæt: navn</value>
+  </data>
+  <data name="SB_SUBSET_NAME_DESC_LONG" xml:space="preserve">
+    <value>Navn på delsættet</value>
+  </data>
+  <data name="SB_SUBSET_PICKLIST_FILTER" xml:space="preserve">
+    <value>Delsæt: valgliste-filter</value>
+  </data>
+  <data name="SB_SUBSET_SORTING" xml:space="preserve">
+    <value>Delsæt: sortering</value>
+  </data>
+  <data name="SB_SUBSET_TEXT_FILTER" xml:space="preserve">
+    <value>Delsæt: tekstfilter</value>
+  </data>
+  <data name="SB_SUBTRACT" xml:space="preserve">
+    <value>KUN  UDVALGTE</value>
+  </data>
+  <data name="SB_SUBTRACT_DESC_LONG" xml:space="preserve">
+    <value>Fjern alle elementer fra listen undtagen dem som er med i valglisten</value>
+  </data>
+  <data name="SB_SUM" xml:space="preserve">
+    <value>SUMMEN AF ELEMENTERNE</value>
+  </data>
+  <data name="SB_SUM_DESC_LONG" xml:space="preserve">
+    <value>Viser elementerne, når summen af udsnittet opfylder kriterierne</value>
+  </data>
+  <data name="SB_TAKE_LOWER" xml:space="preserve">
+    <value>Medtag mindste elementer indtil sum-%:</value>
+  </data>
+  <data name="SB_TAKE_LOWER_DESC_LONG" xml:space="preserve">
+    <value>Medtag elementer med de laveste værdier indtil summen overskrider den procentangivne grænse</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST" xml:space="preserve">
+    <value>Medtag top-X udfra deres værdi:</value>
+  </data>
+  <data name="SB_TAKE_TOPMOST_DESC_LONG" xml:space="preserve">
+    <value>Medtag det angivne antal elementer med de største værdier.</value>
+  </data>
+  <data name="SB_TAKE_UPPER" xml:space="preserve">
+    <value>Medtag største elementer indtil sum-%:</value>
+  </data>
+  <data name="SB_TAKE_UPPER_DESC_LONG" xml:space="preserve">
+    <value>Medtag elementer med de største værdier indtil summen overskrider den procentangivne grænse</value>
+  </data>
+  <data name="SB_TEXT" xml:space="preserve">
+    <value>ELEMENTETS NAVN</value>
+  </data>
+  <data name="SB_TOP" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SB_TOP_DESC_LONG" xml:space="preserve">
+    <value>SB_TOP Desc Long</value>
+  </data>
+  <data name="SB_TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SB_TYPE_DESC_LONG" xml:space="preserve">
+    <value>SB_TYPE Desc Long</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION" xml:space="preserve">
+    <value>Afgrænsning på elementtype</value>
+  </data>
+  <data name="SB_TYPE_LIMITATION_DESC_LONG" xml:space="preserve">
+    <value>Afgrænsning på elementtype</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT1" xml:space="preserve">
+    <value>Typebegrænsning mulighed1</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT2" xml:space="preserve">
+    <value>Typebegrænsning mulighed2</value>
+  </data>
+  <data name="SB_TYPELIMIT_OPT3" xml:space="preserve">
+    <value>Typebegrænsning mulighed3</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE" xml:space="preserve">
+    <value>Øvre procentgrænse</value>
+  </data>
+  <data name="SB_UPPER_PERCENTAGE_DESC_LONG" xml:space="preserve">
+    <value>Øvre procentgrænse</value>
+  </data>
+  <data name="SB_USE" xml:space="preserve">
+    <value>Anvend</value>
+  </data>
+  <data name="SB_USE_FILTER" xml:space="preserve">
+    <value>Anvend filter</value>
+  </data>
+  <data name="SB_VALUE" xml:space="preserve">
+    <value>Værdi</value>
+  </data>
+  <data name="SB_WHOLE" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="SB_WHOLE_DESC_LONG" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="SearchElementCaption" xml:space="preserve">
+    <value>Søg på elementer</value>
+  </data>
+  <data name="SearchElementTip" xml:space="preserve">
+    <value>Du kan anvende jokertegn i forbindelse med søgning på elementer</value>
+  </data>
+  <data name="ServerDNSNameOrIP" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="STATUS_GENERATE_VIEW" xml:space="preserve">
+    <value>Indsætter udsnit af kube...</value>
+  </data>
+  <data name="STATUS_LOAD_XLL" xml:space="preserve">
+    <value>Indlæser XLL ...</value>
+  </data>
+  <data name="STATUS_LOOKING4SERVER_WAIT" xml:space="preserve">
+    <value>Søger efter serveren %1...</value>
+  </data>
+  <data name="STATUS_READ_CSV" xml:space="preserve">
+    <value>Indlæser csv-fil...</value>
+  </data>
+  <data name="STATUS_READ_CUBE_WAIT" xml:space="preserve">
+    <value>Læser data fra kube. Vent venligst ...</value>
+  </data>
+  <data name="STATUS_READ_SQL_WAIT" xml:space="preserve">
+    <value>Læser data fra database. Vent venligst ...</value>
+  </data>
+  <data name="STATUS_READING_ELEMENTS_SERVER" xml:space="preserve">
+    <value>Læser elementer fra serveren %1 ...</value>
+  </data>
+  <data name="STATUS_SCAN_SELECTION" xml:space="preserve">
+    <value>Undersøger markering...</value>
+  </data>
+  <data name="STATUS_SCAN_SHEET" xml:space="preserve">
+    <value>Undersøger ark...</value>
+  </data>
+  <data name="STATUS_STARTING_PALO" xml:space="preserve">
+    <value>Starter den lokale Palo servertjeneste...</value>
+  </data>
+  <data name="StatusRuleDeleted" xml:space="preserve">
+    <value>Reglen blev slettet</value>
+  </data>
+  <data name="StatusRuleExportError" xml:space="preserve">
+    <value>Fejl ved eksport af regler!</value>
+  </data>
+  <data name="StatusRuleExportSuccess" xml:space="preserve">
+    <value>Reglerne blev eksporteret korrekt!</value>
+  </data>
+  <data name="StatusRuleImportError" xml:space="preserve">
+    <value>Fejl i regel #%1. Regel: %2. Serverbesked: %3.</value>
+  </data>
+  <data name="StatusRuleImportSuccess" xml:space="preserve">
+    <value>Reglerne blev importeret korrekt!</value>
+  </data>
+  <data name="StatusRuleSaved" xml:space="preserve">
+    <value>Reglen blev gemt</value>
+  </data>
+  <data name="TEXT_ALIAS" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="TEXT_ALIAS_FORMAT" xml:space="preserve">
+    <value>Alias-format</value>
+  </data>
+  <data name="TEXT_APPEND2CSV" xml:space="preserve">
+    <value>Tilføj data til sidst i eksisterende fil</value>
+  </data>
+  <data name="TEXT_ATTRIBUT" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_CUBES" xml:space="preserve">
+    <value>Attribut-kuber</value>
+  </data>
+  <data name="TEXT_CHANGED" xml:space="preserve">
+    <value>Ændret</value>
+  </data>
+  <data name="TEXT_CHOOSE_CUBE" xml:space="preserve">
+    <value>Vælg kube:</value>
+  </data>
+  <data name="TEXT_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Vælg element...</value>
+  </data>
+  <data name="TEXT_CHOOSE_SERVER_DB" xml:space="preserve">
+    <value>Vælg server/database:</value>
+  </data>
+  <data name="TEXT_CHOOSE_STYLE" xml:space="preserve">
+    <value>choose style :</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE" xml:space="preserve">
+    <value>Er du sikker på at du vil slette alle data i kuben %1?
+Bemærk: Kubens struktur vil forblive intakt.</value>
+  </data>
+  <data name="TEXT_CLEAR_CUBE_TITLE" xml:space="preserve">
+    <value>Slet data i kube</value>
+  </data>
+  <data name="TEXT_COLLAPSE_ALL" xml:space="preserve">
+    <value>Sammenfold alle</value>
+  </data>
+  <data name="TEXT_COMMENT" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="TEXT_CONNECTION" xml:space="preserve">
+    <value>forbindelse</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC" xml:space="preserve">
+    <value>Hvis du skifter elementtypen fra et konsolideret element til numerisk kan det føre til tab af data.
+Vil du fortsætte med at ændre elementtypen til numerisk?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Skifter elementtype til numerisk</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING" xml:space="preserve">
+    <value>Hvis du skifter elementtypen fra et konsolideret element til tekstelement kan det føre til tab af data.
+Vil du fortsætte med at ændre elementtypen til tekst?</value>
+  </data>
+  <data name="TEXT_CONVERT_CONS_TO_STRING_TITLE" xml:space="preserve">
+    <value>Skifter elementtype til tekst</value>
+  </data>
+  <data name="TEXT_CONVERT_DELETE_TITLE" xml:space="preserve">
+    <value>Slet elementer</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS" xml:space="preserve">
+    <value>Dette element anvendes i en kube. Hvis du skifter elementtypen fra numerisk eller tekst
+til et konsolideret element vil dette føre til tab af data.
+Vil du fortsætte med at ændre til et konsolideret element?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_CONS_TITLE" xml:space="preserve">
+    <value>Skifter elementtype til konsolideret</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC" xml:space="preserve">
+    <value>Dette element anvendes i en kube. Hvis du skifter elementtypen til numerisk kan det føre til tab af data.
+Vil du fortsætte med at ændre elementtypen til numerisk?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_NUMERIC_TITLE" xml:space="preserve">
+    <value>Skifter elementtype til numerisk</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING" xml:space="preserve">
+    <value>Dette element anvendes i en kube. Hvis du skifter elementtypen til tekst kan det føre til tab af data.
+Vil du fortsætte med at ændre elementtypen til tekst?</value>
+  </data>
+  <data name="TEXT_CONVERT_TO_STRING_TITLE" xml:space="preserve">
+    <value>Skifter elementtype til tekst</value>
+  </data>
+  <data name="TEXT_CUBE_NAME" xml:space="preserve">
+    <value>Kubenavn</value>
+  </data>
+  <data name="TEXT_CUBES" xml:space="preserve">
+    <value>Kuber</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE" xml:space="preserve">
+    <value>Du forsøger at slette dimensionen %1 som anvendes i %2 kube(r).
+Du skal slette disse kuber før du kan slette dimensionen.</value>
+  </data>
+  <data name="TEXT_DATAAXIS_INUSE_TITLE" xml:space="preserve">
+    <value>Dimensioner der anvendes</value>
+  </data>
+  <data name="TEXT_DATABASE" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="TEXT_DATABASE_ELEMENTS" xml:space="preserve">
+    <value>databasedefinitioner</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS" xml:space="preserve">
+    <value>Er du sikker på at du vil slette dimensionen %1 fra databasen?</value>
+  </data>
+  <data name="TEXT_DELETE_DATAAXIS_TITLE" xml:space="preserve">
+    <value>Slet dimension</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE" xml:space="preserve">
+    <value>Er du sikker på at du vil slette kuben %1 fra databasen?</value>
+  </data>
+  <data name="TEXT_DELETE_DATASTORE_TITLE" xml:space="preserve">
+    <value>Slet kube</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS" xml:space="preserve">
+    <value>Er du sikker på at du vil slette følgende element(er):
+%1
+fra serveren?</value>
+  </data>
+  <data name="TEXT_DELETE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Slet elementer</value>
+  </data>
+  <data name="TEXT_DIM_ELEMENTS" xml:space="preserve">
+    <value>Elementer i dimension</value>
+  </data>
+  <data name="TEXT_DIMELEMENT_NOT_FOUND" xml:space="preserve">
+    <value>Elementet %1 eksisterer ikke i dimensionen %2 !</value>
+  </data>
+  <data name="TEXT_DIMENSION_NAMES" xml:space="preserve">
+    <value>Dimensionsnavne</value>
+  </data>
+  <data name="TEXT_DIMENSIONS" xml:space="preserve">
+    <value>Dimensioner</value>
+  </data>
+  <data name="TEXT_ELEMENT_NAME" xml:space="preserve">
+    <value>Elementnavn</value>
+  </data>
+  <data name="TEXT_ELEMENTS" xml:space="preserve">
+    <value>Elementer</value>
+  </data>
+  <data name="TEXT_ELEMENTS2PASTED" xml:space="preserve">
+    <value>Valgte elementer:</value>
+  </data>
+  <data name="TEXT_EXPAND_ALL" xml:space="preserve">
+    <value>Udfold alle</value>
+  </data>
+  <data name="TEXT_FORMAT" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="TEXT_GUESS_ARG" xml:space="preserve">
+    <value>Gæt argumenter</value>
+  </data>
+  <data name="TEXT_HAS_HEADER" xml:space="preserve">
+    <value>Spring over første række (kolonneoverskrift)</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ATTRIBUTES" xml:space="preserve">
+    <value>Hit RETURN to add attributes...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_ELEMENTS" xml:space="preserve">
+    <value>Tryk RETUR for at tilføje elementer...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SOURCEELEMENTS" xml:space="preserve">
+    <value>Dobbeltklik på elementerne for at tilføje dem til listen</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_SUBSETS" xml:space="preserve">
+    <value>Hit RETURN to add subsets...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWCUBES" xml:space="preserve">
+    <value>Klik på knappen "Ny kube" for at tilføje en kube...</value>
+  </data>
+  <data name="TEXT_HIT_RETURN_VIEWDIMS" xml:space="preserve">
+    <value>Tryk RETUR for at tilføje en dimension...</value>
+  </data>
+  <data name="TEXT_LOADED" xml:space="preserve">
+    <value>Indlæst</value>
+  </data>
+  <data name="TEXT_META" xml:space="preserve">
+    <value>Meta</value>
+  </data>
+  <data name="TEXT_NO_FURTHER_DIMELEMENT" xml:space="preserve">
+    <value>No further occurrence of %1 was found!</value>
+  </data>
+  <data name="TEXT_NONE" xml:space="preserve">
+    <value>ingen</value>
+  </data>
+  <data name="TEXT_NORMAL" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS" xml:space="preserve">
+    <value>Er du sikker på at du vil erstatte alle elementer i dimensionen %1 med indholdet af udklipsholderen?</value>
+  </data>
+  <data name="TEXT_PASTE_ELEMENTS_TITLE" xml:space="preserve">
+    <value>Indsæt dimensionselementer</value>
+  </data>
+  <data name="TEXT_RESTRICT_PASTE2CURR_SELECTION" xml:space="preserve">
+    <value>Afgræns til at indsætte de valgte elementer?</value>
+  </data>
+  <data name="TEXT_RULE" xml:space="preserve">
+    <value>Regel</value>
+  </data>
+  <data name="TEXT_RULEEDITOR_ADVANCED" xml:space="preserve">
+    <value>Regelbehandler (Avanceret)</value>
+  </data>
+  <data name="TEXT_SELECT_DSN" xml:space="preserve">
+    <value>Vælg DSN fra listen...</value>
+  </data>
+  <data name="TEXT_SELECT_ELEMENTS" xml:space="preserve">
+    <value>Vælg elementer...</value>
+  </data>
+  <data name="TEXT_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="TEXT_SHOW_ATTRIBUTES" xml:space="preserve">
+    <value>Vis attributter</value>
+  </data>
+  <data name="TEXT_SHOW_SEL_TOOL" xml:space="preserve">
+    <value>Vis alle markeringsværktøjer</value>
+  </data>
+  <data name="TEXT_SUBSET" xml:space="preserve">
+    <value>Delsæt</value>
+  </data>
+  <data name="TEXT_SYSTEM" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="TEXT_TIP_SHIFT" xml:space="preserve">
+    <value>Tip: Hold SKIFT nede for at markere flere elementer</value>
+  </data>
+  <data name="TEXT_UNKNOWN" xml:space="preserve">
+    <value>Ukendt</value>
+  </data>
+  <data name="TEXT_UNLOADED" xml:space="preserve">
+    <value>Ikke indlæst</value>
+  </data>
+  <data name="TEXT_USER_INFO" xml:space="preserve">
+    <value>Brugerinformation</value>
+  </data>
+  <data name="TEXT_VAR_INSERT" xml:space="preserve">
+    <value>indsæt %1</value>
+  </data>
+  <data name="TextWithoutTemplate" xml:space="preserve">
+    <value>[without template]</value>
+  </data>
+  <data name="TIP_AUTOFIT" xml:space="preserve">
+    <value>Afkryds dette felt, hvis bredden af kolonnerne skal tilpasse sig de data der indsættes. </value>
+  </data>
+  <data name="TIP_BUTTON_ADD_CUBE" xml:space="preserve">
+    <value>Ny kube...</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_DIMENSION" xml:space="preserve">
+    <value>Ny dimension</value>
+  </data>
+  <data name="TIP_BUTTON_ADD_ELEMENT" xml:space="preserve">
+    <value>Nyt element</value>
+  </data>
+  <data name="TIP_BUTTON_APPLY_CHANGES" xml:space="preserve">
+    <value>Udfør ændringer</value>
+  </data>
+  <data name="TIP_BUTTON_CANCEL_CHANGES" xml:space="preserve">
+    <value>Fortryd ændringer</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_PASTE_VIEW" xml:space="preserve">
+    <value>Luk dette vindue</value>
+  </data>
+  <data name="TIP_BUTTON_CLOSE_WIZARD" xml:space="preserve">
+    <value>Klik her for at afslutte guiden</value>
+  </data>
+  <data name="TIP_BUTTON_CONSOLIDATE_ELEMENT" xml:space="preserve">
+    <value>Konsolider elementer...</value>
+  </data>
+  <data name="TIP_BUTTON_DATABASE" xml:space="preserve">
+    <value>Gå tilbage til databaseoversigten</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_CUBE" xml:space="preserve">
+    <value>Slet kube...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_DIMENSION" xml:space="preserve">
+    <value>Slet dimension...</value>
+  </data>
+  <data name="TIP_BUTTON_DELETE_ELEMENT" xml:space="preserve">
+    <value>Slet element(er)...</value>
+  </data>
+  <data name="TIP_BUTTON_EDIT_DIMENSION" xml:space="preserve">
+    <value>Rediger dimension</value>
+  </data>
+  <data name="TIP_BUTTON_MODELLER_CLOSE" xml:space="preserve">
+    <value>Luk Designer</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_DOWN_DIMENSION" xml:space="preserve">
+    <value>Flyt dimension ned</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_DOWN" xml:space="preserve">
+    <value>Flyt element ned</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_LEFT" xml:space="preserve">
+    <value>Fjern valgte element(er) fra listen over konsoliderede elementer</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_RIGHT" xml:space="preserve">
+    <value>Tilføj valgte element(er) til listen over konsoliderede elementer</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_ELEMENT_UP" xml:space="preserve">
+    <value>Flyt element op</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_LEFT_DIMENSION" xml:space="preserve">
+    <value>Fjern dimension(er) fra kuben</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_RIGHT_DIMENSION" xml:space="preserve">
+    <value>Indsæt dimension(er) i kuben</value>
+  </data>
+  <data name="TIP_BUTTON_MOVE_UP_DIMENSION" xml:space="preserve">
+    <value>Flyt dimension op</value>
+  </data>
+  <data name="TIP_BUTTON_OK_CUBE_WIZARD" xml:space="preserve">
+    <value>Klik her for at oprette kube</value>
+  </data>
+  <data name="TIP_BUTTON_PALO_WIZARD" xml:space="preserve">
+    <value>Start server og databaseguide...</value>
+  </data>
+  <data name="TIP_BUTTON_PASTE_VIEW" xml:space="preserve">
+    <value>Indsæt udsnit af kube i Excel-arket</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_DIMENSION" xml:space="preserve">
+    <value>Omdøb dimension</value>
+  </data>
+  <data name="TIP_BUTTON_RENAME_ELEMENT" xml:space="preserve">
+    <value>Omdøb element</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECT" xml:space="preserve">
+    <value>Opret forbindelse til serveren</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_CONNECTION" xml:space="preserve">
+    <value>Skift forbindelse (tilslut/afbryd)</value>
+  </data>
+  <data name="TIP_BUTTON_TOGGLE_DISCONNECT" xml:space="preserve">
+    <value>Afbryd forbindelse til serveren</value>
+  </data>
+  <data name="TIP_CHECK_FACTOR" xml:space="preserve">
+    <value>Skift visning af konsolideringsfaktor (venstre/højre)</value>
+  </data>
+  <data name="TIP_CHECK_TREE" xml:space="preserve">
+    <value>Skift mellem at vise elementer i en liste eller i et hierarkisk træ</value>
+  </data>
+  <data name="TIP_CHOOSE_CUBE" xml:space="preserve">
+    <value>Vælg kube</value>
+  </data>
+  <data name="TIP_CHOOSE_DATABASE" xml:space="preserve">
+    <value>Klik her for at vælge databasen</value>
+  </data>
+  <data name="TIP_CHOOSE_ELEMENTS" xml:space="preserve">
+    <value>Klik her for at vælge elementer</value>
+  </data>
+  <data name="TIP_CHOOSE_SERVER" xml:space="preserve">
+    <value>Klik her for at vælge serveren</value>
+  </data>
+  <data name="TIP_COMBO_CONNECTIONS" xml:space="preserve">
+    <value>Klik her for at vælge server og database...</value>
+  </data>
+  <data name="TIP_FUCTION_TYPE" xml:space="preserve">
+    <value>Vælg den Palo datafunktion du vil anvende</value>
+  </data>
+  <data name="TIP_STEP_BACK" xml:space="preserve">
+    <value>Gå tilbage til forrige trin</value>
+  </data>
+  <data name="TIP_STEP_NEXT" xml:space="preserve">
+    <value>Fortsæt til næste trin</value>
+  </data>
+  <data name="TIP_TREE_AVAILABLE_DIMENSIONS" xml:space="preserve">
+    <value>Tilgængelige dimensioner i databasen</value>
+  </data>
+  <data name="TIP_TREE_CUBES" xml:space="preserve">
+    <value>Kuber i den valgte database</value>
+  </data>
+  <data name="TIP_TREE_DIMENSIONS" xml:space="preserve">
+    <value>Dimensioner i den valgte database</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS" xml:space="preserve">
+    <value>Elementer i den valgte dimension</value>
+  </data>
+  <data name="TIP_TREE_ELEMENTS_CONSOLIDATED" xml:space="preserve">
+    <value>Elementer der indgår i det konsoliderede element.</value>
+  </data>
+  <data name="TIP_TREE_SELECTED_DIMENSIONS" xml:space="preserve">
+    <value>Dimensioner som skal anvendes i kuben</value>
+  </data>
+  <data name="TipButtonCreationOrder" xml:space="preserve">
+    <value>In order of creation</value>
+  </data>
+  <data name="TipButtonSortAscending" xml:space="preserve">
+    <value>Sort ascending</value>
+  </data>
+  <data name="TipButtonSortDescending" xml:space="preserve">
+    <value>Sort descending</value>
+  </data>
+  <data name="TipCacheDialog" xml:space="preserve">
+    <value>Cache-indstillinger</value>
+  </data>
+  <data name="TipCacheRadio1" xml:space="preserve">
+    <value>Symbolet ændrer sig efter hver forespørgsel for at tvinge hver klient til gøre deres cache ugyldig.</value>
+  </data>
+  <data name="TipCacheRadio2" xml:space="preserve">
+    <value>Symbolet ændrer sig efter hver indtastning, opdatering eller sletning af en celle.</value>
+  </data>
+  <data name="TipCacheRadio3" xml:space="preserve">
+    <value>Symbolet ændrer sig efter hver indtastning, opdatering eller sletning af en celle.</value>
+  </data>
+  <data name="TipCubeFilterAttribute" xml:space="preserve">
+    <value>Kuber til dimensionsattributter</value>
+  </data>
+  <data name="TipCubeFilterData" xml:space="preserve">
+    <value>Datakuber</value>
+  </data>
+  <data name="TipCubeFilterUser" xml:space="preserve">
+    <value>Kuber til brugerstyring</value>
+  </data>
+  <data name="TipFilterAttribute" xml:space="preserve">
+    <value>Kuber til dimensionsattributter</value>
+  </data>
+  <data name="TipFilterData" xml:space="preserve">
+    <value>Datakuber</value>
+  </data>
+  <data name="TipFilterUser" xml:space="preserve">
+    <value>Brugerstyring</value>
+  </data>
+  <data name="TipRuleBtnClose" xml:space="preserve">
+    <value>Luk regelbehandler</value>
+  </data>
+  <data name="TipRuleBtnDelete" xml:space="preserve">
+    <value>Slet regel</value>
+  </data>
+  <data name="TipRuleBtnExport" xml:space="preserve">
+    <value>Eksporter regler til tekstfil...</value>
+  </data>
+  <data name="TipRuleBtnImport" xml:space="preserve">
+    <value>Indlæs eksporterede regler fra tekstfil...</value>
+  </data>
+  <data name="TipRuleBtnMoveDown" xml:space="preserve">
+    <value>Flyt regel ned</value>
+  </data>
+  <data name="TipRuleBtnMoveUp" xml:space="preserve">
+    <value>Flyt regel op</value>
+  </data>
+  <data name="TipRuleBtnSave" xml:space="preserve">
+    <value>Gem regel</value>
+  </data>
+  <data name="TipRuleEditor" xml:space="preserve">
+    <value>Regelbehandler ...</value>
+  </data>
+  <data name="TipSVS" xml:space="preserve">
+    <value>Only works with Supervisionserver</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT" xml:space="preserve">
+    <value>Vælg element(er)</value>
+  </data>
+  <data name="TITLE_CHOOSE_ELEMENT2" xml:space="preserve">
+    <value>Vælg element til %1</value>
+  </data>
+  <data name="TITLE_CUBE_WIZARD" xml:space="preserve">
+    <value>Guide til oprettelse af kube</value>
+  </data>
+  <data name="TITLE_DELETE" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="TITLE_EDIT_VALUE" xml:space="preserve">
+    <value>Rediger tekst</value>
+  </data>
+  <data name="TITLE_EXPORT_DIMENSION" xml:space="preserve">
+    <value>Eksporter dimensionsdata</value>
+  </data>
+  <data name="TITLE_EXPORT_WIZARD" xml:space="preserve">
+    <value>Eksporter data fra kuben</value>
+  </data>
+  <data name="TITLE_IMPORT_WIZARD" xml:space="preserve">
+    <value>Guide til import af data</value>
+  </data>
+  <data name="TITLE_MODELLER" xml:space="preserve">
+    <value>Designer</value>
+  </data>
+  <data name="TITLE_PASTE_FUNCTION" xml:space="preserve">
+    <value>Indsæt datafunktion</value>
+  </data>
+  <data name="TitleDimTemplate" xml:space="preserve">
+    <value>Dimension from template</value>
+  </data>
+  <data name="TitleRuleEditor" xml:space="preserve">
+    <value>Regelbehandler</value>
+  </data>
+  <data name="TitleRuleError" xml:space="preserve">
+    <value>Fejl i reglen</value>
+  </data>
+  <data name="ToolTipShowSystemCubes" xml:space="preserve">
+    <value>Show system cubes</value>
+  </data>
+  <data name="TooltipSubsetElements" xml:space="preserve">
+    <value>Vis globale delsæt i denne dimension</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="updateCheckText" xml:space="preserve">
+    <value>'There is a new version of Palo Suite. Do you want to download it?</value>
+  </data>
+  <data name="updateCheckTitle" xml:space="preserve">
+    <value>Update Check</value>
+  </data>
+  <data name="URL_EMPTY" xml:space="preserve">
+    <value>URL is empty</value>
+  </data>
+  <data name="URL_NOT_WELLFOMED" xml:space="preserve">
+    <value>URL is not wellformed</value>
+  </data>
+  <data name="WARNING_DELETE_SQL_FILE" xml:space="preserve">
+    <value>Advarsel: Dette vil slette den valgte fil permanent!
+Vil du fortsætte?</value>
+  </data>
+  <data name="WIZARD_LABEL1" xml:space="preserve">
+    <value>Denne guide giver mulighed for at forbinde til samt oprette/slette databaser og serverer.</value>
+  </data>
+  <data name="WIZARD_LABEL12" xml:space="preserve">
+    <value>Indtast et unikt navn for den nye database.</value>
+  </data>
+  <data name="WIZARD_LABEL13" xml:space="preserve">
+    <value>I dette trin oprettes en ny database på den valgte server.</value>
+  </data>
+  <data name="WIZARD_LABEL16" xml:space="preserve">
+    <value>I dette trin slettes en database fra den valgte server.</value>
+  </data>
+  <data name="WIZARD_LABEL18" xml:space="preserve">
+    <value>Vælg databasen der skal slettes:</value>
+  </data>
+  <data name="WIZARD_LABEL19" xml:space="preserve">
+    <value>Database:</value>
+  </data>
+  <data name="WIZARD_LABEL2" xml:space="preserve">
+    <value>Vælg server</value>
+  </data>
+  <data name="WIZARD_LABEL29" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="WIZARD_LABEL3" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="WIZARD_LABEL30" xml:space="preserve">
+    <value>Brugernavn:</value>
+  </data>
+  <data name="WIZARD_LABEL31" xml:space="preserve">
+    <value>Kodeord:</value>
+  </data>
+  <data name="WIZARD_LABEL32" xml:space="preserve">
+    <value>Forbindelsens navn:</value>
+  </data>
+  <data name="WIZARD_LABEL4" xml:space="preserve">
+    <value>Databaseadministration</value>
+  </data>
+  <data name="WIZARD_LABEL5" xml:space="preserve">
+    <value>Serveradministration</value>
+  </data>
+  <data name="WIZARD_LABEL7" xml:space="preserve">
+    <value>I dette trin registreres en ny forbindelse til en eksisterende server.</value>
+  </data>
+  <data name="WIZARD_LABEL7E" xml:space="preserve">
+    <value>I dette trin redigeres en eksisterende server på denne klient.</value>
+  </data>
+  <data name="WIZARD_LABEL8" xml:space="preserve">
+    <value>Indtast forbindelsesdata til serveren</value>
+  </data>
+  <data name="WIZARD_LABEL8E" xml:space="preserve">
+    <value>Indtast navn eller IP-adresse på serveren</value>
+  </data>
+  <data name="WIZARD_OPTION1" xml:space="preserve">
+    <value>Opret ny database</value>
+  </data>
+  <data name="WIZARD_OPTION2" xml:space="preserve">
+    <value>Opret ny database pba. en databaseskabelon</value>
+  </data>
+  <data name="WIZARD_OPTION3" xml:space="preserve">
+    <value>Slet eksisterende database</value>
+  </data>
+  <data name="WIZARD_OPTION4" xml:space="preserve">
+    <value>Registrer ny forbindelse til en server</value>
+  </data>
+  <data name="WIZARD_OPTION5" xml:space="preserve">
+    <value>Slet forbindelsen til den valgte server</value>
+  </data>
+  <data name="WIZARD_OPTION6" xml:space="preserve">
+    <value>Rediger den valgte server</value>
+  </data>
+  <data name="WIZARD_PAGE_TITLE" xml:space="preserve">
+    <value>Server- og databaseguide</value>
+  </data>
+  <data name="WIZARD_TITLE" xml:space="preserve">
+    <value>Server- og databaseguide</value>
+  </data>
+  <data name="WizardPaloAuthentication" xml:space="preserve">
+    <value>Use Palo Authentication</value>
+  </data>
+  <data name="WizardWindowsAuthentication" xml:space="preserve">
+    <value>Use Windows Authentication</value>
+  </data>
+  <data name="XLL_ERROR_TITLE" xml:space="preserve">
+    <value>Palo-fejl</value>
+  </data>
+</root>
