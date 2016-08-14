@@ -6,7 +6,7 @@ A forked version of the original palo community excel addin updated for version 
 
 This project is licensed under the GNU General Public License version 3, see the file "LICENSE"
 
-The original source was licensed under the GNU General Public License version 2, see the file "LICENSE.JEDOX"
+The original source was licensed under the GNU General Public License version 2, see the file "LICENSE.PALO"
 
 This is a work in progress.
 
